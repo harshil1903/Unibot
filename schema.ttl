@@ -1,0 +1,75 @@
+@base <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix dbo: <http://www.dbpedia.org/ontology/>.
+@prefix dbr: <http://www.dbpedia.org/resource/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<Concordia>
+	dbo:type dbr:Public_university;
+	foaf:name "Concordia University";
+	rdfs:seeAlso dbr:Concordia_University.
+
+focu:Student
+	a rdfs:Class;
+	rdfs:subClassOf foaf:Person;
+	rdfs:label "Student"@en;
+	rdfs:comment "A person enrolled in one or more courses at a academic institution or other place of academic learning"@en.
+
+focu:Record
+	a dbo:document;
+	rdfs:label "Record"@en;
+	rdfs:comment "Information about single student's participation in a single course in a particular semester"@en .
+
+focu:hasRecord
+	a rdf:Property;
+	rdfs:domain <Student>;
+	rdfs:range <Record>;
+	rdfs:label "Has record"@en;
+	rdfs:comment "A property describing the relationship between a single student and a single record"@en.
+
+focu:subject
+	a rdf:Property;
+	rdfs:domain dbr:Course_\(education\);
+	rdfs:range xsd:string;
+	rdfs:label "Discipline of course"@en;
+	rdfs:comment "An abbreviation for the discipline or department under which an academic course falls"@en.
+
+focu:catalog
+	a rdf:Property;
+	rdfs:domain dbr:Course_\(education\);
+	rdfs:range xsd:string;
+	rdfs:label "Course number"@en;
+	rdfs:comment "An integer number which uniquely identifies a course within a particular discipline."@en.
+
+focu:subject_catalog
+	a rdf:Property;
+	rdfs:domain <Record>;
+	rdfs:range xsd:string;
+	rdfs:label "Unique identifier for a course"@en;
+	rdfs:comment "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en.
+
+focu:grade
+	a rdf:Property;
+	rdfs:domain <Record>;
+	rdfs:range xsd:string;
+	rdfs:label "Letter grade"@en;
+	rdfs:comment "A single letter measuring the performance in the course of the associated Record."@en.
+
+#Not needed
+focu:semester
+	a rdf:Property;
+	rdfs:domain <Record>;
+	rdfs:range xsd:string;
+	rdfs:label "Semester"@en;
+	rdfs:comment "The year in which the course associated to the Record took place."@en.
+
+focu:offeredAt
+	a rdf:Property;
+	rdfs:domain dbr:Course_\(education\);
+	rdfs:range dbr:Public_university;
+	rdfs:label "Offered At"@en;
+	rdfs:comment "A university course is offered at the associated university."@en.
+
