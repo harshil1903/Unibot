@@ -26,7 +26,7 @@ concordia_university = URIRef('https://dbpedia.org/resource/Concordia_University
 
 
 #Read csv data
-course_data = pd.read_csv('data/dataset.csv')
+course_data = pd.read_csv('data/dataset.csv', encoding='cp1252')
 lecture_data = pd.read_csv('data/lecture_data.csv')
 content_data = pd.read_csv('data/content_data.csv')
 
