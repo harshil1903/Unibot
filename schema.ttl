@@ -18,6 +18,13 @@ focu:Student
 	rdfs:label "Student"@en;
 	rdfs:comment "A person enrolled in one or more courses at a academic institution or other place of academic learning"@en.
 
+focu:competencies
+	a rdf:Property;
+	rdfs:domain <Student>;
+	rdfs:range xsd:string;
+	rdfs:label "Competencies"@en;
+	rdfs:comment "Competencies, defined as a set of topics, based on the courses a student successfully passed"@en.
+
 focu:Record
 	a dbo:document;
 	rdfs:label "Record"@en;

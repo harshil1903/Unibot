@@ -269,20 +269,20 @@ lastNames = ["Jordi", "Jordon", "Jordy", "Jordyn", "Jorge", "Joris", "Jorryn", "
              "Zidane", "Zijie", "Zinedine", "Zion", "Zishan", "Ziya", "Ziyaan", "Zohaib", "Zohair", "Zoubaeir",
              "Zubair", "Zubayr", "Zuriel"]
 
-courses = ["COMP6741", "COMP6721", "COMP6651", "SOEN6481", "COMP6481", "COMP6461", "SOEN6192", "SOEN6291", "COMP6641",
-           "SOEN6011"]
+courses = ["ACCO220", "ACCO230", "ACCO240", "ACCO310", "ACCO330", "ACCO340", "ACCO350", "ACCO400", "ACCO440",
+           "ACCO465"]
 
 competencies = {
-    "COMP6741": {"P01", "P02", "P03", "P04", "P05"},
-    "COMP6721": {"P11", "P12", "P13", "P14", "P15"},
-    "COMP6651": {"P21", "P22", "P23", "P24", "P25"},
-    "SOEN6481": {"P31", "P32", "P33", "P34", "P35"},
-    "COMP6481": {"P41", "P42", "P43", "P44", "P45"},
-    "COMP6461": {"P51", "P52", "P53", "P54", "P55"},
-    "SOEN6192": {"P61", "P62", "P63", "P64", "P65"},
-    "SOEN6291": {"P71", "P72", "P73", "P74", "P75"},
-    "COMP6641": {"P81", "P82", "P83", "P84", "P85"},
-    "SOEN6011": {"P91", "P92", "P93", "P94", "P95"},
+    "ACCO220": {"P01", "P02", "P03", "P04", "P05"},
+    "ACCO230": {"P11", "P12", "P13", "P14", "P15"},
+    "ACCO240": {"P21", "P22", "P23", "P24", "P25"},
+    "ACCO310": {"P31", "P32", "P33", "P34", "P35"},
+    "ACCO330": {"P41", "P42", "P43", "P44", "P45"},
+    "ACCO340": {"P51", "P52", "P53", "P54", "P55"},
+    "ACCO350": {"P61", "P62", "P63", "P64", "P65"},
+    "ACCO400": {"P71", "P72", "P73", "P74", "P75"},
+    "ACCO440": {"P81", "P82", "P83", "P84", "P85"},
+    "ACCO465": {"P91", "P92", "P93", "P94", "P95"},
 }
 
 grades=["A+","A","A-","B+","B","B-"]
@@ -335,12 +335,16 @@ def getStudentData():
     for subject in subjects:
         stdCompetencies.extend(competencies[subject])
 
-    return [firstName, lastName, studentID,email, subjects, subjectsGrades,stdCompetencies]
+    return [studentID, firstName, lastName, email, subjects, subjectsGrades, stdCompetencies]
 
+def getStudents():
+    students = []
+    for i in range(100):
+        students.append(getStudentData())
 
-students = []
-for i in range(100):
-    students.append(getStudentData())
+    # for student in students:
+    #     print(student)
 
-for student in students:
-    print(student)
+    return students
+
+getStudents()

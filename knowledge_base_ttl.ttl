@@ -12,71 +12,1801 @@ focu:Student a rdfs:Class ;
     rdfs:comment "A person enrolled in one or more courses at a academic institution or other place of academic learning"@en ;
     rdfs:subClassOf foaf:Person .
 
-ex:ACCO220 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Financial and Managerial Accounting" ;
-    focu:catalog "220" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course provides an introduction to accounting principles underlying the preparation of financial reports with an emphasis on the relationship between accounting information and production decisions. It examines the relationship between costs, production volume, and profit, as well as the practical benefits of standard costs for planning and control purposes. The role of accounting information in various manufacturing decisions is also highlighted.
-
-NOTE: This course would be useful to Engineering students.
-NOTE: JMSB students may not take this course for credit.
-NOTE: Students who have received credit for ACCO 230, 240 may not take this course for credit.""" ;
-    rdfs:seeAlso "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
+ex:40149784 a focu:student ;
+    focu:competencies "ACCO",
         "Managerial Accounting",
-        "accounting" .
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_40149784_0,
+        ex:record_40149784_1,
+        ex:record_40149784_2,
+        ex:record_40149784_3,
+        ex:record_40149784_4,
+        ex:record_40149784_5 ;
+    foaf:mbox "calin.momooreoluwa@mail.concordia.ca" ;
+    foaf:name "Calin" .
 
-ex:ACCO230 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Introduction to Financial Accounting" ;
-    focu:catalog "230" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course provides an introduction to accounting concepts underlying financial statements of organizations. It focuses on the analysis, measurement, and reporting of business transactions to users of financial statements. It also examines the uses and limitations of accounting information for investment and credit decisions.
+ex:40191304 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "financial reporting",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_40191304_0,
+        ex:record_40191304_1,
+        ex:record_40191304_2,
+        ex:record_40191304_3,
+        ex:record_40191304_4,
+        ex:record_40191304_5,
+        ex:record_40191304_6,
+        ex:record_40191304_7 ;
+    foaf:mbox "ailin.ridley@mail.concordia.ca" ;
+    foaf:name "Ailin" .
 
-NOTE: JMSB students may not take this course for credit.
-"NOTE: Students who receive a grade of ""C"" or better may be exempt from COMM 217."
-NOTE: Students who have received credit for ACCO 220 may not take this course for credit.""" ;
-    rdfs:seeAlso "('Accounting', 'http://dbpedia.org/resource/Accounting')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
+ex:40203395 a focu:student ;
+    focu:course ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_40203395_0,
+        ex:record_40203395_1,
+        ex:record_40203395_2,
+        ex:record_40203395_3 ;
+    foaf:mbox "humza.rayane@mail.concordia.ca" ;
+    foaf:name "Humza" .
+
+ex:40283792 a focu:student ;
+    focu:competencies "ACCO",
         "Accounting",
         "accounting",
-        "financial statements" .
+        "financial statements" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_40283792_0,
+        ex:record_40283792_1,
+        ex:record_40283792_2,
+        ex:record_40283792_3,
+        ex:record_40283792_4,
+        ex:record_40283792_5,
+        ex:record_40283792_6,
+        ex:record_40283792_7 ;
+    foaf:mbox "eagann.sami-ullah@mail.concordia.ca" ;
+    foaf:name "Eagann" .
 
-ex:ACCO240 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Introduction to Managerial Accounting" ;
-    focu:catalog "240" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the role of accounting information for decision making, and focuses on concepts and techniques used in planning operations, controlling activities, and evaluating managerial performance. New developments are addressed with a focus on contemporary business issues and real-world applicability of management accounting concepts and techniques.
-Prerequisite: ACCO 230.
-NOTE: JMSB students may not take this course for credit.
-NOTE: Students who receive a passing grade may be exempt from COMM 305.
-NOTE: Students who have received credit for ACCO 220 may not take this course for credit.""" ;
-    rdfs:seeAlso "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
+ex:40636793 a focu:student ;
+    focu:course ex:ACCO230,
+        ex:ACCO350,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_40636793_0,
+        ex:record_40636793_1,
+        ex:record_40636793_2 ;
+    foaf:mbox "ardal.pearse@mail.concordia.ca" ;
+    foaf:name "Ardal" .
+
+ex:40730730 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO350 ;
+    focu:hasRecord ex:record_40730730_0 ;
+    foaf:mbox "zainedin.justin@mail.concordia.ca" ;
+    foaf:name "Zainedin" .
+
+ex:40979065 a focu:student ;
+    focu:competencies "ACCO",
+        "Canada",
+        "Canadian",
         "Managerial Accounting",
         "accounting",
-        "decision making" .
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO340 ;
+    focu:hasRecord ex:record_40979065_0,
+        ex:record_40979065_1 ;
+    foaf:mbox "athon.krish@mail.concordia.ca" ;
+    foaf:name "Athon" .
 
-ex:ACCO310 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Financial Reporting I" ;
-    focu:catalog "310" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment """Intensive study is made of the theory and practice of external financial reporting by business organizations, focusing on concepts and procedures underlying the measurement of assets and the determination of income.
-Prerequisite: COMM 305 previously or concurrently.""" ;
-    foaf:topic "financial reporting" .
+ex:41234468 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240 ;
+    focu:hasRecord ex:record_41234468_0,
+        ex:record_41234468_1 ;
+    foaf:mbox "hagun.morgyn@mail.concordia.ca" ;
+    foaf:name "Hagun" .
+
+ex:41333698 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO330,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_41333698_0,
+        ex:record_41333698_1,
+        ex:record_41333698_2,
+        ex:record_41333698_3,
+        ex:record_41333698_4 ;
+    foaf:mbox "jeffrey.omri@mail.concordia.ca" ;
+    foaf:name "Jeffrey" .
+
+ex:41333889 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_41333889_0,
+        ex:record_41333889_1,
+        ex:record_41333889_2,
+        ex:record_41333889_3,
+        ex:record_41333889_4,
+        ex:record_41333889_5,
+        ex:record_41333889_6,
+        ex:record_41333889_7 ;
+    foaf:mbox "dagon.kier@mail.concordia.ca" ;
+    foaf:name "Dagon" .
+
+ex:41500510 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial statements" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_41500510_0,
+        ex:record_41500510_1,
+        ex:record_41500510_2 ;
+    foaf:mbox "davie.stanislaw@mail.concordia.ca" ;
+    foaf:name "Davie" .
+
+ex:41509993 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "Information Technology",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "computer",
+        "decision making",
+        "e-business",
+        "federal income tax",
+        "financial reporting",
+        "fraud",
+        "goods",
+        "process costing",
+        "property income",
+        "systems analysis",
+        "tax",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350 ;
+    focu:hasRecord ex:record_41509993_0,
+        ex:record_41509993_1,
+        ex:record_41509993_2,
+        ex:record_41509993_3,
+        ex:record_41509993_4,
+        ex:record_41509993_5 ;
+    foaf:mbox "gregory.russel@mail.concordia.ca" ;
+    foaf:name "Gregory" .
+
+ex:41635500 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_41635500_0,
+        ex:record_41635500_1,
+        ex:record_41635500_2,
+        ex:record_41635500_3 ;
+    foaf:mbox "brandon.tait@mail.concordia.ca" ;
+    foaf:name "Brandon" .
+
+ex:41668292 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "computer",
+        "decision making",
+        "e-business",
+        "federal income tax",
+        "financial reporting",
+        "fraud",
+        "goods",
+        "property income",
+        "systems analysis",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_41668292_0,
+        ex:record_41668292_1,
+        ex:record_41668292_2,
+        ex:record_41668292_3,
+        ex:record_41668292_4,
+        ex:record_41668292_5,
+        ex:record_41668292_6,
+        ex:record_41668292_7 ;
+    foaf:mbox "jac.trai@mail.concordia.ca" ;
+    foaf:name "Jac" .
+
+ex:41677538 a focu:student ;
+    focu:course ex:ACCO230,
+        ex:ACCO330,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_41677538_0,
+        ex:record_41677538_1,
+        ex:record_41677538_2 ;
+    foaf:mbox "ari.vinnie@mail.concordia.ca" ;
+    foaf:name "Ari" .
+
+ex:41726877 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "financial reporting",
+        "financial statements",
+        "fraud",
+        "process costing",
+        "systems analysis",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350 ;
+    focu:hasRecord ex:record_41726877_0,
+        ex:record_41726877_1,
+        ex:record_41726877_2,
+        ex:record_41726877_3,
+        ex:record_41726877_4,
+        ex:record_41726877_5 ;
+    foaf:mbox "awwal.vladimir@mail.concordia.ca" ;
+    foaf:name "Awwal" .
+
+ex:41832896 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220 ;
+    focu:hasRecord ex:record_41832896_0 ;
+    foaf:mbox "athol.shai@mail.concordia.ca" ;
+    foaf:name "Athol" .
+
+ex:41844933 a focu:student ;
+    focu:competencies "ACCO",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO240,
+        ex:ACCO330 ;
+    focu:hasRecord ex:record_41844933_0,
+        ex:record_41844933_1 ;
+    foaf:mbox "christie.raith@mail.concordia.ca" ;
+    foaf:name "Christie" .
+
+ex:42015705 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO340,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_42015705_0,
+        ex:record_42015705_1,
+        ex:record_42015705_2 ;
+    foaf:mbox "gary.kacey@mail.concordia.ca" ;
+    foaf:name "Gary" .
+
+ex:42136662 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "financial reporting",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO310,
+        ex:ACCO340 ;
+    focu:hasRecord ex:record_42136662_0,
+        ex:record_42136662_1 ;
+    foaf:mbox "aziz.rajan@mail.concordia.ca" ;
+    foaf:name "Aziz" .
+
+ex:42181641 a focu:student ;
+    focu:competencies "ACCO",
+        "Canada",
+        "Canadian",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "federal income tax",
+        "financial reporting",
+        "goods",
+        "process costing",
+        "property income",
+        "tax",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340 ;
+    focu:hasRecord ex:record_42181641_0,
+        ex:record_42181641_1,
+        ex:record_42181641_2,
+        ex:record_42181641_3 ;
+    foaf:mbox "darryn.kyle-derek@mail.concordia.ca" ;
+    foaf:name "Darryn" .
+
+ex:42526820 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_42526820_0,
+        ex:record_42526820_1,
+        ex:record_42526820_2,
+        ex:record_42526820_3,
+        ex:record_42526820_4,
+        ex:record_42526820_5,
+        ex:record_42526820_6,
+        ex:record_42526820_7,
+        ex:record_42526820_8 ;
+    foaf:mbox "douglas.malo@mail.concordia.ca" ;
+    foaf:name "Douglas" .
+
+ex:42622701 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial reporting",
+        "financial statements" ;
+    focu:course ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_42622701_0,
+        ex:record_42622701_1,
+        ex:record_42622701_2 ;
+    foaf:mbox "arun.josese@mail.concordia.ca" ;
+    foaf:name "Arun" .
+
+ex:42751211 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "financial reporting",
+        "fraud",
+        "process costing",
+        "systems analysis",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350 ;
+    focu:hasRecord ex:record_42751211_0,
+        ex:record_42751211_1,
+        ex:record_42751211_2,
+        ex:record_42751211_3 ;
+    foaf:mbox "alphonse.liam-stephen@mail.concordia.ca" ;
+    foaf:name "Alphonse" .
+
+ex:42943789 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_42943789_0,
+        ex:record_42943789_1,
+        ex:record_42943789_2,
+        ex:record_42943789_3,
+        ex:record_42943789_4,
+        ex:record_42943789_5 ;
+    foaf:mbox "cobi.zendel@mail.concordia.ca" ;
+    foaf:name "Cobi" .
+
+ex:42997966 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_42997966_0,
+        ex:record_42997966_1,
+        ex:record_42997966_2,
+        ex:record_42997966_3,
+        ex:record_42997966_4,
+        ex:record_42997966_5,
+        ex:record_42997966_6 ;
+    foaf:mbox "fawkes.lenin@mail.concordia.ca" ;
+    foaf:name "Fawkes" .
+
+ex:43012498 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial statements" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43012498_0,
+        ex:record_43012498_1,
+        ex:record_43012498_2,
+        ex:record_43012498_3,
+        ex:record_43012498_4,
+        ex:record_43012498_5,
+        ex:record_43012498_6,
+        ex:record_43012498_7,
+        ex:record_43012498_8 ;
+    foaf:mbox "callin.kameron@mail.concordia.ca" ;
+    foaf:name "Callin" .
+
+ex:43036740 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO230 ;
+    focu:hasRecord ex:record_43036740_0 ;
+    foaf:mbox "ciann.zishan@mail.concordia.ca" ;
+    foaf:name "Ciann" .
+
+ex:43066623 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "financial reporting",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43066623_0,
+        ex:record_43066623_1,
+        ex:record_43066623_2,
+        ex:record_43066623_3,
+        ex:record_43066623_4,
+        ex:record_43066623_5 ;
+    foaf:mbox "jarvi.luic@mail.concordia.ca" ;
+    foaf:name "Jarvi" .
+
+ex:43142723 a focu:student ;
+    focu:course ex:ACCO465 ;
+    focu:hasRecord ex:record_43142723_0 ;
+    foaf:mbox "caelan.junior@mail.concordia.ca" ;
+    foaf:name "Caelan" .
+
+ex:43202145 a focu:student ;
+    focu:competencies "financial reporting" ;
+    focu:course ex:ACCO310,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_43202145_0,
+        ex:record_43202145_1 ;
+    foaf:mbox "arthur.jostelle@mail.concordia.ca" ;
+    foaf:name "Arthur" .
+
+ex:43387139 a focu:student ;
+    focu:course ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43387139_0,
+        ex:record_43387139_1,
+        ex:record_43387139_2,
+        ex:record_43387139_3 ;
+    foaf:mbox "alessio.kaelan@mail.concordia.ca" ;
+    foaf:name "Alessio" .
+
+ex:43393692 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_43393692_0,
+        ex:record_43393692_1,
+        ex:record_43393692_2,
+        ex:record_43393692_3,
+        ex:record_43393692_4,
+        ex:record_43393692_5 ;
+    foaf:mbox "fawkes.pranav@mail.concordia.ca" ;
+    foaf:name "Fawkes" .
+
+ex:43460394 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO330 ;
+    focu:hasRecord ex:record_43460394_0 ;
+    foaf:mbox "etinosa.russel@mail.concordia.ca" ;
+    foaf:name "Etinosa" .
+
+ex:43544999 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_43544999_0,
+        ex:record_43544999_1,
+        ex:record_43544999_2,
+        ex:record_43544999_3 ;
+    foaf:mbox "caedyn.ravin@mail.concordia.ca" ;
+    foaf:name "Caedyn" .
+
+ex:43668178 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43668178_0,
+        ex:record_43668178_1,
+        ex:record_43668178_2,
+        ex:record_43668178_3 ;
+    foaf:mbox "ciann.ossian@mail.concordia.ca" ;
+    foaf:name "Ciann" .
+
+ex:43759136 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43759136_0,
+        ex:record_43759136_1,
+        ex:record_43759136_2,
+        ex:record_43759136_3,
+        ex:record_43759136_4,
+        ex:record_43759136_5,
+        ex:record_43759136_6 ;
+    foaf:mbox "conlan.kal-el@mail.concordia.ca" ;
+    foaf:name "Conlan" .
+
+ex:43790291 a focu:student ;
+    focu:competencies "financial reporting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_43790291_0,
+        ex:record_43790291_1,
+        ex:record_43790291_2,
+        ex:record_43790291_3,
+        ex:record_43790291_4,
+        ex:record_43790291_5,
+        ex:record_43790291_6,
+        ex:record_43790291_7 ;
+    foaf:mbox "bryan.meyzhward@mail.concordia.ca" ;
+    foaf:name "Bryan" .
+
+ex:43862395 a focu:student ;
+    focu:course ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_43862395_0,
+        ex:record_43862395_1,
+        ex:record_43862395_2,
+        ex:record_43862395_3,
+        ex:record_43862395_4 ;
+    foaf:mbox "cade.nawfal@mail.concordia.ca" ;
+    foaf:name "Cade" .
+
+ex:44100143 a focu:student ;
+    focu:course ex:ACCO400 ;
+    focu:hasRecord ex:record_44100143_0 ;
+    foaf:mbox "jayden-lee.kehinde@mail.concordia.ca" ;
+    foaf:name "Jayden-Lee" .
+
+ex:44118617 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "financial reporting",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO310,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_44118617_0,
+        ex:record_44118617_1,
+        ex:record_44118617_2,
+        ex:record_44118617_3,
+        ex:record_44118617_4 ;
+    foaf:mbox "haydon.samarjit@mail.concordia.ca" ;
+    foaf:name "Haydon" .
+
+ex:44340713 a focu:student ;
+    focu:competencies "ACCO",
+        "Canada",
+        "Canadian",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44340713_0,
+        ex:record_44340713_1,
+        ex:record_44340713_2,
+        ex:record_44340713_3,
+        ex:record_44340713_4,
+        ex:record_44340713_5,
+        ex:record_44340713_6,
+        ex:record_44340713_7,
+        ex:record_44340713_8 ;
+    foaf:mbox "abaan.meftah@mail.concordia.ca" ;
+    foaf:name "Abaan" .
+
+ex:44517355 a focu:student ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44517355_0,
+        ex:record_44517355_1,
+        ex:record_44517355_2,
+        ex:record_44517355_3,
+        ex:record_44517355_4 ;
+    foaf:mbox "bevin.milos@mail.concordia.ca" ;
+    foaf:name "Bevin" .
+
+ex:44537709 a focu:student ;
+    focu:course ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44537709_0,
+        ex:record_44537709_1,
+        ex:record_44537709_2 ;
+    foaf:mbox "aj.roger@mail.concordia.ca" ;
+    foaf:name "AJ" .
+
+ex:44562602 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_44562602_0,
+        ex:record_44562602_1,
+        ex:record_44562602_2,
+        ex:record_44562602_3,
+        ex:record_44562602_4 ;
+    foaf:mbox "aaryn.reean@mail.concordia.ca" ;
+    foaf:name "Aaryn" .
+
+ex:44873938 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44873938_0,
+        ex:record_44873938_1,
+        ex:record_44873938_2,
+        ex:record_44873938_3,
+        ex:record_44873938_4,
+        ex:record_44873938_5,
+        ex:record_44873938_6,
+        ex:record_44873938_7 ;
+    foaf:mbox "dre.kade@mail.concordia.ca" ;
+    foaf:name "Dre" .
+
+ex:44880148 a focu:student ;
+    focu:course ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_44880148_0,
+        ex:record_44880148_1 ;
+    foaf:mbox "aryian.sofian@mail.concordia.ca" ;
+    foaf:name "Aryian" .
+
+ex:44941962 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44941962_0,
+        ex:record_44941962_1,
+        ex:record_44941962_2,
+        ex:record_44941962_3,
+        ex:record_44941962_4,
+        ex:record_44941962_5,
+        ex:record_44941962_6,
+        ex:record_44941962_7,
+        ex:record_44941962_8 ;
+    foaf:mbox "john-michael.yannick@mail.concordia.ca" ;
+    foaf:name "John-Michael" .
+
+ex:44959364 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44959364_0,
+        ex:record_44959364_1,
+        ex:record_44959364_2,
+        ex:record_44959364_3,
+        ex:record_44959364_4,
+        ex:record_44959364_5,
+        ex:record_44959364_6,
+        ex:record_44959364_7 ;
+    foaf:mbox "cadyn.yorgos@mail.concordia.ca" ;
+    foaf:name "Cadyn" .
+
+ex:44961035 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO230 ;
+    focu:hasRecord ex:record_44961035_0 ;
+    foaf:mbox "benjamin.subhaan@mail.concordia.ca" ;
+    foaf:name "Benjamin" .
+
+ex:44976089 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_44976089_0,
+        ex:record_44976089_1,
+        ex:record_44976089_2,
+        ex:record_44976089_3,
+        ex:record_44976089_4 ;
+    foaf:mbox "eidhan.tokinaga@mail.concordia.ca" ;
+    foaf:name "Eidhan" .
+
+ex:44978832 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_44978832_0,
+        ex:record_44978832_1,
+        ex:record_44978832_2,
+        ex:record_44978832_3,
+        ex:record_44978832_4,
+        ex:record_44978832_5,
+        ex:record_44978832_6,
+        ex:record_44978832_7,
+        ex:record_44978832_8 ;
+    foaf:mbox "jae.orin@mail.concordia.ca" ;
+    foaf:name "Jae" .
+
+ex:45193098 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO340 ;
+    focu:hasRecord ex:record_45193098_0 ;
+    foaf:mbox "garren.oliwier@mail.concordia.ca" ;
+    foaf:name "Garren" .
+
+ex:45241745 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Management Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "financial statements",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45241745_0,
+        ex:record_45241745_1,
+        ex:record_45241745_2,
+        ex:record_45241745_3,
+        ex:record_45241745_4,
+        ex:record_45241745_5,
+        ex:record_45241745_6,
+        ex:record_45241745_7 ;
+    foaf:mbox "inan.layne@mail.concordia.ca" ;
+    foaf:name "Inan" .
+
+ex:45365942 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial statements" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45365942_0,
+        ex:record_45365942_1,
+        ex:record_45365942_2,
+        ex:record_45365942_3,
+        ex:record_45365942_4,
+        ex:record_45365942_5,
+        ex:record_45365942_6,
+        ex:record_45365942_7,
+        ex:record_45365942_8 ;
+    foaf:mbox "hamid.rahman@mail.concordia.ca" ;
+    foaf:name "Hamid" .
+
+ex:45402729 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO330 ;
+    focu:hasRecord ex:record_45402729_0 ;
+    foaf:mbox "cillian.kareem@mail.concordia.ca" ;
+    foaf:name "Cillian" .
+
+ex:45435335 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "financial reporting",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO350,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_45435335_0,
+        ex:record_45435335_1,
+        ex:record_45435335_2,
+        ex:record_45435335_3 ;
+    foaf:mbox "ardal.nicholas@mail.concordia.ca" ;
+    foaf:name "Ardal" .
+
+ex:45477183 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45477183_0,
+        ex:record_45477183_1,
+        ex:record_45477183_2,
+        ex:record_45477183_3,
+        ex:record_45477183_4,
+        ex:record_45477183_5,
+        ex:record_45477183_6,
+        ex:record_45477183_7 ;
+    foaf:mbox "alec.valo@mail.concordia.ca" ;
+    foaf:name "Alec" .
+
+ex:45698426 a focu:student ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45698426_0,
+        ex:record_45698426_1,
+        ex:record_45698426_2,
+        ex:record_45698426_3,
+        ex:record_45698426_4,
+        ex:record_45698426_5,
+        ex:record_45698426_6,
+        ex:record_45698426_7 ;
+    foaf:mbox "husnain.lawlyn@mail.concordia.ca" ;
+    foaf:name "Husnain" .
+
+ex:45754105 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "computer",
+        "decision making",
+        "e-business",
+        "federal income tax",
+        "financial statements",
+        "fraud",
+        "goods",
+        "property income",
+        "systems analysis",
+        "tax" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45754105_0,
+        ex:record_45754105_1,
+        ex:record_45754105_2,
+        ex:record_45754105_3,
+        ex:record_45754105_4,
+        ex:record_45754105_5,
+        ex:record_45754105_6,
+        ex:record_45754105_7 ;
+    foaf:mbox "ameer.salahudin@mail.concordia.ca" ;
+    foaf:name "Ameer" .
+
+ex:45867519 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO230 ;
+    focu:hasRecord ex:record_45867519_0 ;
+    foaf:mbox "cormak.stanislaw@mail.concordia.ca" ;
+    foaf:name "Cormak" .
+
+ex:45989648 a focu:student ;
+    focu:course ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_45989648_0,
+        ex:record_45989648_1 ;
+    foaf:mbox "airen.kole@mail.concordia.ca" ;
+    foaf:name "Airen" .
+
+ex:46075812 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial reporting" ;
+    focu:course ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_46075812_0,
+        ex:record_46075812_1,
+        ex:record_46075812_2 ;
+    foaf:mbox "emile.melville@mail.concordia.ca" ;
+    foaf:name "Emile" .
+
+ex:46322507 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO350,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_46322507_0,
+        ex:record_46322507_1,
+        ex:record_46322507_2,
+        ex:record_46322507_3 ;
+    foaf:mbox "ceilan.leilan@mail.concordia.ca" ;
+    foaf:name "Ceilan" .
+
+ex:46406680 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_46406680_0,
+        ex:record_46406680_1,
+        ex:record_46406680_2,
+        ex:record_46406680_3,
+        ex:record_46406680_4,
+        ex:record_46406680_5,
+        ex:record_46406680_6,
+        ex:record_46406680_7,
+        ex:record_46406680_8 ;
+    foaf:mbox "allister.ricco@mail.concordia.ca" ;
+    foaf:name "Allister" .
+
+ex:46483071 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial statements" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_46483071_0,
+        ex:record_46483071_1,
+        ex:record_46483071_2,
+        ex:record_46483071_3,
+        ex:record_46483071_4 ;
+    foaf:mbox "avraham.nickson@mail.concordia.ca" ;
+    foaf:name "Avraham" .
+
+ex:46600342 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO240 ;
+    focu:hasRecord ex:record_46600342_0 ;
+    foaf:mbox "geomer.karol@mail.concordia.ca" ;
+    foaf:name "Geomer" .
+
+ex:46679565 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_46679565_0,
+        ex:record_46679565_1,
+        ex:record_46679565_2,
+        ex:record_46679565_3,
+        ex:record_46679565_4,
+        ex:record_46679565_5,
+        ex:record_46679565_6,
+        ex:record_46679565_7,
+        ex:record_46679565_8 ;
+    foaf:mbox "boyd.saunders@mail.concordia.ca" ;
+    foaf:name "Boyd" .
+
+ex:46796441 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "decision making",
+        "federal income tax",
+        "financial statements",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO340 ;
+    focu:hasRecord ex:record_46796441_0,
+        ex:record_46796441_1,
+        ex:record_46796441_2 ;
+    foaf:mbox "bernard.joynul@mail.concordia.ca" ;
+    foaf:name "Bernard" .
+
+ex:46880707 a focu:student ;
+    focu:competencies "ACCO",
+        "Canada",
+        "Canadian",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "decision making",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO340,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_46880707_0,
+        ex:record_46880707_1,
+        ex:record_46880707_2,
+        ex:record_46880707_3 ;
+    foaf:mbox "andrejs.justin@mail.concordia.ca" ;
+    foaf:name "Andrejs" .
+
+ex:47036155 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO340,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_47036155_0,
+        ex:record_47036155_1 ;
+    foaf:mbox "brady.keiran@mail.concordia.ca" ;
+    foaf:name "Brady" .
+
+ex:47305751 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220 ;
+    focu:hasRecord ex:record_47305751_0 ;
+    foaf:mbox "boyd.keaton@mail.concordia.ca" ;
+    foaf:name "Boyd" .
+
+ex:47339150 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO330 ;
+    focu:hasRecord ex:record_47339150_0 ;
+    foaf:mbox "fruin.zhuo@mail.concordia.ca" ;
+    foaf:name "Fruin" .
+
+ex:47552660 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO240 ;
+    focu:hasRecord ex:record_47552660_0 ;
+    foaf:mbox "hope.trai@mail.concordia.ca" ;
+    foaf:name "Hope" .
+
+ex:47607347 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_47607347_0,
+        ex:record_47607347_1,
+        ex:record_47607347_2,
+        ex:record_47607347_3,
+        ex:record_47607347_4,
+        ex:record_47607347_5,
+        ex:record_47607347_6,
+        ex:record_47607347_7 ;
+    foaf:mbox "bret.lyle@mail.concordia.ca" ;
+    foaf:name "Bret" .
+
+ex:47790049 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO330,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_47790049_0,
+        ex:record_47790049_1,
+        ex:record_47790049_2,
+        ex:record_47790049_3,
+        ex:record_47790049_4 ;
+    foaf:mbox "abdulkarem.rhuan@mail.concordia.ca" ;
+    foaf:name "Abdulkarem" .
+
+ex:47890635 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_47890635_0,
+        ex:record_47890635_1,
+        ex:record_47890635_2,
+        ex:record_47890635_3,
+        ex:record_47890635_4 ;
+    foaf:mbox "charlie.malachi@mail.concordia.ca" ;
+    foaf:name "Charlie" .
+
+ex:47912937 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_47912937_0,
+        ex:record_47912937_1,
+        ex:record_47912937_2 ;
+    foaf:mbox "altyiab.zhi@mail.concordia.ca" ;
+    foaf:name "Altyiab" .
+
+ex:48006829 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" ;
+    focu:course ex:ACCO230,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48006829_0,
+        ex:record_48006829_1,
+        ex:record_48006829_2,
+        ex:record_48006829_3 ;
+    foaf:mbox "fawaz.mahan@mail.concordia.ca" ;
+    foaf:name "Fawaz" .
+
+ex:48108531 a focu:student ;
+    focu:course ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48108531_0,
+        ex:record_48108531_1,
+        ex:record_48108531_2 ;
+    foaf:mbox "bohbi.marius@mail.concordia.ca" ;
+    foaf:name "Bohbi" .
+
+ex:48135223 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO240,
+        ex:ACCO350,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_48135223_0,
+        ex:record_48135223_1,
+        ex:record_48135223_2 ;
+    foaf:mbox "baillie.marcous@mail.concordia.ca" ;
+    foaf:name "Baillie" .
+
+ex:48145835 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48145835_0,
+        ex:record_48145835_1,
+        ex:record_48145835_2,
+        ex:record_48145835_3,
+        ex:record_48145835_4,
+        ex:record_48145835_5,
+        ex:record_48145835_6,
+        ex:record_48145835_7 ;
+    foaf:mbox "cillin.ray@mail.concordia.ca" ;
+    foaf:name "Cillin" .
+
+ex:48273948 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making",
+        "financial reporting" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48273948_0,
+        ex:record_48273948_1,
+        ex:record_48273948_2,
+        ex:record_48273948_3,
+        ex:record_48273948_4 ;
+    foaf:mbox "ivar.samuela@mail.concordia.ca" ;
+    foaf:name "Ivar" .
+
+ex:48355208 a focu:student ;
+    focu:course ex:ACCO230,
+        ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO400,
+        ex:ACCO440 ;
+    focu:hasRecord ex:record_48355208_0,
+        ex:record_48355208_1,
+        ex:record_48355208_2,
+        ex:record_48355208_3,
+        ex:record_48355208_4 ;
+    foaf:mbox "ahtasham.ruaridh@mail.concordia.ca" ;
+    foaf:name "Ahtasham" .
+
+ex:48548814 a focu:student ;
+    focu:competencies "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" ;
+    focu:course ex:ACCO330 ;
+    focu:hasRecord ex:record_48548814_0 ;
+    foaf:mbox "aidian.zhen@mail.concordia.ca" ;
+    foaf:name "Aidian" .
+
+ex:48777741 a focu:student ;
+    focu:competencies "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" ;
+    focu:course ex:ACCO240 ;
+    focu:hasRecord ex:record_48777741_0 ;
+    foaf:mbox "ibrahim.seamas@mail.concordia.ca" ;
+    foaf:name "Ibrahim" .
+
+ex:48820415 a focu:student ;
+    focu:course ex:ACCO465 ;
+    focu:hasRecord ex:record_48820415_0 ;
+    foaf:mbox "cori.maros@mail.concordia.ca" ;
+    foaf:name "Cori" .
+
+ex:48855046 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO350,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48855046_0,
+        ex:record_48855046_1,
+        ex:record_48855046_2,
+        ex:record_48855046_3,
+        ex:record_48855046_4 ;
+    foaf:mbox "alister.rhuaridh@mail.concordia.ca" ;
+    foaf:name "Alister" .
+
+ex:48893702 a focu:student ;
+    focu:competencies "ACCO",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "accounting",
+        "capital gains",
+        "federal income tax",
+        "financial statements",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO230,
+        ex:ACCO340,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48893702_0,
+        ex:record_48893702_1,
+        ex:record_48893702_2 ;
+    foaf:mbox "dafydd.rossi@mail.concordia.ca" ;
+    foaf:name "Dafydd" .
+
+ex:48900935 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48900935_0,
+        ex:record_48900935_1,
+        ex:record_48900935_2,
+        ex:record_48900935_3,
+        ex:record_48900935_4 ;
+    foaf:mbox "fergie.sebastian@mail.concordia.ca" ;
+    foaf:name "Fergie" .
+
+ex:48955184 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO310,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48955184_0,
+        ex:record_48955184_1,
+        ex:record_48955184_2,
+        ex:record_48955184_3,
+        ex:record_48955184_4,
+        ex:record_48955184_5 ;
+    foaf:mbox "ciar.robertjohn@mail.concordia.ca" ;
+    foaf:name "Ciar" .
+
+ex:48969494 a focu:student ;
+    focu:competencies "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" ;
+    focu:course ex:ACCO240,
+        ex:ACCO340,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_48969494_0,
+        ex:record_48969494_1,
+        ex:record_48969494_2 ;
+    foaf:mbox "eiddon.obosa@mail.concordia.ca" ;
+    foaf:name "Eiddon" .
+
+ex:49049270 a focu:student ;
+    focu:competencies "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_49049270_0,
+        ex:record_49049270_1,
+        ex:record_49049270_2,
+        ex:record_49049270_3 ;
+    foaf:mbox "aon.justin@mail.concordia.ca" ;
+    foaf:name "Aon" .
+
+ex:49101866 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Canada",
+        "Canadian",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "capital gains",
+        "computer",
+        "decision making",
+        "e-business",
+        "federal income tax",
+        "financial reporting",
+        "fraud",
+        "goods",
+        "property income",
+        "systems analysis",
+        "tax" ;
+    focu:course ex:ACCO220,
+        ex:ACCO240,
+        ex:ACCO310,
+        ex:ACCO340,
+        ex:ACCO350 ;
+    focu:hasRecord ex:record_49101866_0,
+        ex:record_49101866_1,
+        ex:record_49101866_2,
+        ex:record_49101866_3,
+        ex:record_49101866_4 ;
+    foaf:mbox "conan.rajab-ali@mail.concordia.ca" ;
+    foaf:name "Conan" .
+
+ex:49148297 a focu:student ;
+    focu:course ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_49148297_0,
+        ex:record_49148297_1 ;
+    foaf:mbox "jayson.shawn@mail.concordia.ca" ;
+    foaf:name "Jayson" .
+
+ex:49254300 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_49254300_0,
+        ex:record_49254300_1,
+        ex:record_49254300_2,
+        ex:record_49254300_3 ;
+    foaf:mbox "bradley.zachariah@mail.concordia.ca" ;
+    foaf:name "Bradley" .
+
+ex:49581573 a focu:student ;
+    focu:competencies "ACCO",
+        "AIS",
+        "Accounting",
+        "Information Technology",
+        "Managerial Accounting",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" ;
+    focu:course ex:ACCO220,
+        ex:ACCO350 ;
+    focu:hasRecord ex:record_49581573_0,
+        ex:record_49581573_1 ;
+    foaf:mbox "emile.zayne@mail.concordia.ca" ;
+    foaf:name "Emile" .
+
+ex:49602519 a focu:student ;
+    focu:course ex:ACCO220,
+        ex:ACCO400 ;
+    focu:hasRecord ex:record_49602519_0,
+        ex:record_49602519_1 ;
+    foaf:mbox "indy.maddox@mail.concordia.ca" ;
+    foaf:name "Indy" .
+
+ex:49773086 a focu:student ;
+    focu:course ex:ACCO310,
+        ex:ACCO400,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_49773086_0,
+        ex:record_49773086_1,
+        ex:record_49773086_2 ;
+    foaf:mbox "cillin.sephiroth@mail.concordia.ca" ;
+    foaf:name "Cillin" .
+
+ex:49802395 a focu:student ;
+    focu:course ex:ACCO240,
+        ex:ACCO330,
+        ex:ACCO340,
+        ex:ACCO350,
+        ex:ACCO400,
+        ex:ACCO440,
+        ex:ACCO465 ;
+    focu:hasRecord ex:record_49802395_0,
+        ex:record_49802395_1,
+        ex:record_49802395_2,
+        ex:record_49802395_3,
+        ex:record_49802395_4,
+        ex:record_49802395_5,
+        ex:record_49802395_6 ;
+    foaf:mbox "benoit.troy@mail.concordia.ca" ;
+    foaf:name "Benoit" .
 
 ex:ACCO320 a <http://www.dbpedia.org/resource/Course_(education)> ;
     rdfs:label "Financial Reporting II" ;
@@ -96,57 +1826,6 @@ Prerequisite: ACCO 310.""" ;
         "pension",
         "shareholders' equity" .
 
-ex:ACCO330 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Cost and Management Accounting" ;
-    focu:catalog "330" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course provides an examination of the techniques, systems, and procedures applicable to the managerial use of accounting information for planning, decision-making, and control. Topics include cost accumulation and allocation, product and process costing, flexible budgeting and variance analysis, evaluation of managerial performance, and transfer pricing.
-Prerequisite: COMM 305.""" ;
-    rdfs:seeAlso "('Management Accounting', 'http://dbpedia.org/resource/Management_accounting')" ;
-    foaf:topic "Management Accounting",
-        "accounting",
-        "process costing",
-        "transfer pricing",
-        "variance analysis" .
-
-ex:ACCO340 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Income Taxation in Canada" ;
-    focu:catalog "340" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course provides core knowledge regarding the federal income tax structure and the Canadian goods and services tax system. It examines the taxation of employment, business, property income, capital gains and other sources of income for an individual.
-Prerequisite: COMM 217.""" ;
-    rdfs:seeAlso "('Canada', 'http://dbpedia.org/resource/Canada')" ;
-    foaf:topic "Canada",
-        "Canadian",
-        "capital gains",
-        "federal income tax",
-        "goods",
-        "property income",
-        "tax" .
-
-ex:ACCO350 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Accounting and Information Technology" ;
-    focu:catalog "350" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the role of computerized accounting information systems (AIS) in organizations. Students learn how to justify, design, and utilize AIS to provide pertinent information to managers for decision making. The course helps to identify appropriate usage of information technology in specific accounting contexts. Topics include e-business, computer fraud, information systems security and controls, systems analysis, and management of information technology.
-Prerequisite: COMM 226 or 301, COMM 305""" ;
-    rdfs:seeAlso "('Information Technology', 'http://dbpedia.org/resource/Information_technology')" ;
-    foaf:topic "AIS",
-        "Accounting",
-        "Information Technology",
-        "accounting",
-        "computer",
-        "decision making",
-        "e-business",
-        "fraud",
-        "systems analysis" .
-
 ex:ACCO355 a <http://www.dbpedia.org/resource/Course_(education)> ;
     rdfs:label "Analysis of Financial Statements" ;
     focu:catalog "355" ;
@@ -160,495 +1839,8 @@ NOTE: This course would be useful for students in Finance and Management.""" ;
     foaf:topic "financial statement analysis",
         "financial statements" .
 
-ex:ACCO365 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "U.S. Federal Taxation" ;
-    focu:catalog "365" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course familiarizes the student with individual and corporate taxation in the U.S. The use of professional judgment in the application of tax planning recommendations is also addressed in this course.
-Prerequisite: COMM 217 or ACCO 230.
-NOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit.""" ;
-    rdfs:seeAlso "('U.S.', 'http://dbpedia.org/resource/United_States')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "U.S.",
-        "corporate taxation",
-        "tax planning" .
-
-ex:ACCO400 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Accounting Theory" ;
-    focu:catalog "400" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the theoretical foundations of the contemporary approach to financial reporting, and the political and pragmatic considerations in the development of the conceptual framework underlying current accounting standards. Alternative theories of accounting are discussed and controversial areas are emphasized.
-Prerequisite: ACCO 320.""" ;
-    rdfs:seeAlso "('Accounting', 'http://dbpedia.org/resource/Accounting')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "Accounting",
-        "accounting",
-        "conceptual framework",
-        "financial reporting" .
-
-ex:ACCO420 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Financial Reporting III" ;
-    focu:catalog "420" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the theory and practice of accounting for intercorporate investments, business combinations, consolidation of financial statements, and foreign currency transactions and operations.
-Prerequisite: ACCO 320.""" ;
-    rdfs:seeAlso "('III', 'http://dbpedia.org/resource/NCAA_Division_III')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "accounting",
-        "currency",
-        "financial statements" .
-
-ex:ACCO425 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "FINANCIAL REPORTING IV" ;
-    focu:catalog "425" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see UGRD Calendar" ;
-    rdfs:seeAlso "('IV', 'http://dbpedia.org/resource/Intravenous_therapy')" ;
-    foaf:topic "IV" .
-
-ex:ACCO430 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Advanced Management Accounting" ;
-    focu:catalog "430" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """The course examines the integrative and interdisciplinary role of management accounting and its contribution to the complex management process. The course focuses on cases that deal with strategic issues in management accounting and management's need for both quantitative and qualitative information for planning, control, performance evaluation and decision making.
-Prerequisite: ACCO 330.""" ;
-    rdfs:seeAlso "('Management Accounting', 'http://dbpedia.org/resource/Management_accounting')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "Management Accounting",
-        "accounting",
-        "decision making",
-        "interdisciplinary",
-        "qualitative" .
-
-ex:ACCO435 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "STRAT ACCTNG CASE ANALYSIS" ;
-    focu:catalog "435" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see UGRD Calendar" ;
-    rdfs:seeAlso "('CASE', 'http://dbpedia.org/resource/Computer-aided_software_engineering')" ;
-    foaf:topic "CASE" .
-
-ex:ACCO440 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Advanced Taxation" ;
-    focu:catalog "440" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course provides core knowledge regarding the federal taxation of corporations, partnerships, and trusts. It introduces analytical skills needed to make decisions regarding various business transfers, combinations, incorporation and estate planning issues for corporations and shareholders.
-Prerequisite: ACCO 340.""" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "estate planning" .
-
-ex:ACCO450 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Assurance Services" ;
-    focu:catalog "450" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the concepts and current standards of various assurance services, especially the audit of financial statements. It emphasizes the audit process and the role of the public accountant in expressing an opinion on the financial statements of an organization.
-Prerequisite: ACCO 320 previously or concurrently.""" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "accountant",
-        "assurance services",
-        "audit",
-        "financial statements" .
-
-ex:ACCO455 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Fraud Prevention and Investigation" ;
-    focu:catalog "455" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course examines the principles of and methodology used in fraud detection and deterrence. Topics covered may include skimming, cash larceny, cheque tampering, billing, payroll and expense reimbursement schemes, non-cash misappropriations, corruption, fraudulent financial statements, conducting investigations and interviewing witnesses. This course may also examine auditors' legal responsibilities towards fraud, the evaluation of internal controls and important pieces of legislation such as the Sarbanes-Oxley Act and the Criminal Code. Finally, the ethical aspects associated with fraud are discussed. Class sessions consist of lectures, real-life fraud case discussions and the presentation of DVDs from the Association of Certified Fraud Examiners.
-Prerequisite: COMM 217, 315.
-NOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit.""" ;
-    rdfs:seeAlso "('Fraud', 'http://dbpedia.org/resource/Fraud')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "Criminal Code",
-        "Fraud",
-        "Sarbanes-Oxley Act",
-        "cheque",
-        "corruption",
-        "deterrence",
-        "financial statements",
-        "fraud",
-        "fraud detection",
-        "larceny",
-        "skimming" .
-
-ex:ACCO465 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Advanced Assurance Services" ;
-    focu:catalog "465" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment """This course covers important topics and concepts in auditing and assurance services. It builds on audit principles covered in previous courses and introduces specialized and advanced topics that are of particular importance to professional accountants. In covering topics and their application, the course focuses on decision-making processes followed by auditors. The course embraces the requirements of the CA Student Competency Map for assurance and the CGA Modules and Readings AU2.
-Prerequisite: ACCO 320, 360; or ACCO 450.
-NOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit.""" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "CA",
-        "CGA",
-        "assurance services",
-        "audit",
-        "auditing" .
-
-ex:ACCO470 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SPECIAL TOPICS IN ACCOUNTING" ;
-    focu:catalog "470" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see UGRD Calendar" ;
-    rdfs:seeAlso "('IN', 'http://dbpedia.org/resource/Indiana')" ;
-    foaf:topic "IN" .
-
-ex:ACCO471 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "ACCOUNTING SEMINAR" ;
-    focu:catalog "471" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see UGRD Calendar" ;
-    foaf:topic "No topics for this course" .
-
-ex:ACCO590 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SPECIAL SEMINAR/ACCOUNTING" ;
-    focu:catalog "590" ;
-    focu:credits 1.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    foaf:topic "GRAD" .
-
-ex:ACCO595 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SPECIAL TOPICS IN ACCO" ;
-    focu:catalog "595" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('ACCO', 'http://dbpedia.org/resource/Acre,_Israel')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "GRAD",
-        "IN" .
-
-ex:ACCO631 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "BUSINESS ADVISORY SERVICES" ;
-    focu:catalog "631" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    foaf:topic "GRAD" .
-
-ex:ACCO631T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUT/BSNSS ADVISORY SERVICES" ;
-    focu:catalog "631T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('TUT', 'http://dbpedia.org/resource/Tulip_Television')" ;
-    foaf:topic "GRAD",
-        "TUT" .
-
-ex:ACCO635 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "INTEGRATED APPROACH TO AUDIT" ;
-    focu:catalog "635" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    foaf:topic "GRAD" .
-
-ex:ACCO635T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUT/INTEGRATED APPRO/AUDIT G" ;
-    focu:catalog "635T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('TUT', 'http://dbpedia.org/resource/Tulip_Television')" ;
-    foaf:topic "GRAD",
-        "TUT" .
-
-ex:ACCO643X a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SP TUTORIAL-INCOME TAXATION" ;
-    focu:catalog "643X" ;
-    focu:credits 1.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('SP', 'http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland')" ;
-    foaf:topic "GRAD",
-        "SP" .
-
-ex:ACCO650 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "FINA REPORTING IN PRACTICE" ;
-    focu:catalog "650" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('FINA', 'http://dbpedia.org/resource/FINA')" ;
-    foaf:topic "FINA",
-        "GRAD",
-        "IN" .
-
-ex:ACCO650T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUTORIAL IN FINA REP/PRACTICE" ;
-    focu:catalog "650T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('FINA', 'http://dbpedia.org/resource/FINA')" ;
-    foaf:topic "FINA",
-        "GRAD",
-        "IN",
-        "REP" .
-
-ex:ACCO651 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "FINANCIAL REPORTING:COMP APP" ;
-    focu:catalog "651" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('APP', 'http://dbpedia.org/resource/Application_software')" ;
-    foaf:topic "APP",
-        "COMP",
-        "GRAD" .
-
-ex:ACCO651T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUTORIAL IN FINA REP/COM APP" ;
-    focu:catalog "651T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('FINA', 'http://dbpedia.org/resource/FINA')" ;
-    foaf:topic "APP",
-        "FINA",
-        "GRAD",
-        "IN",
-        "REP" .
-
-ex:ACCO652 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "BUSINESS ADVISORY SERVICES" ;
-    focu:catalog "652" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    foaf:topic "GRAD" .
-
-ex:ACCO652T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUTORIAL IN BUSINESS ADV SER" ;
-    focu:catalog "652T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('SER', 'http://dbpedia.org/resource/Cadena_SER')" ;
-    foaf:topic "ADV",
-        "GRAD",
-        "SER" .
-
-ex:ACCO653 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "INFO SYS/INTERNAL CONTROL" ;
-    focu:catalog "653" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('SYS', 'http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls')" ;
-    foaf:topic "CONTROL",
-        "GRAD",
-        "SYS" .
-
-ex:ACCO653T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "TUTORIAL IN INF SYS/INT.CONT" ;
-    focu:catalog "653T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('SYS', 'http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls')" ;
-    foaf:topic "GRAD",
-        "IN",
-        "INF",
-        "SYS" .
-
-ex:ACCO655 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Taxation and Decision-Making" ;
-    focu:catalog "655" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see Graduate Calendar" ;
-    foaf:topic "No topics for this course" .
-
-ex:ACCO655T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Tutorial in Taxation/Decision making" ;
-    focu:catalog "655T" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see Graduate Calendar" ;
-    rdfs:seeAlso "('Decision making', 'http://dbpedia.org/resource/Decision-making')" ;
-    foaf:topic "Decision making" .
-
-ex:ACCO658 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Capstone I Seminar" ;
-    focu:catalog "658" ;
-    focu:credits 2.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see Graduate Calendar" ;
-    foaf:topic "No topics for this course" .
-
-ex:ACCO658T a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Tutorial in Capstone I Seminar" ;
-    focu:catalog "658T" ;
-    focu:credits 2.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see Graduate Calendar" ;
-    foaf:topic "No topics for this course" .
-
-ex:ACCO659 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "Capstone II Examination Preparation" ;
-    focu:catalog "659" ;
-    focu:credits 4.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see Graduate Calendar" ;
-    rdfs:seeAlso "('II', 'http://dbpedia.org/resource/World_War_II')" ;
-    foaf:topic "II" .
-
-ex:ACCO672 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "MANAGEMENT ACCOUNTING II" ;
-    focu:catalog "672" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('II', 'http://dbpedia.org/resource/World_War_II')" ;
-    foaf:topic "GRAD",
-        "II" .
-
-ex:ACCO681 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "FINAN L ACCO G/REPORT G III" ;
-    focu:catalog "681" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:provenance "Concordia Open Data" ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('III', 'http://dbpedia.org/resource/NCAA_Division_III')",
-        "http://dbpedia.org/resource/Acre,_Israel" ;
-    foaf:topic "ACCO",
-        "FINAN",
-        "GRAD" .
-
-ex:ACCO682 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "COMPREHENSIVE CASE ANALYSIS" ;
-    focu:catalog "682" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('CASE', 'http://dbpedia.org/resource/Computer-aided_software_engineering')" ;
-    foaf:topic "CASE",
-        "GRAD" .
-
-ex:ACCO685 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "CASE ANALY/INTEG/EXAM PREP" ;
-    focu:catalog "685" ;
-    focu:credits 6.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('PREP', 'http://dbpedia.org/resource/PowerPC_Reference_Platform')" ;
-    foaf:topic "CASE",
-        "GRAD",
-        "PREP" .
-
-ex:ACCO690B a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "ADV EXAM WRITING TECHNIQUES" ;
-    focu:catalog "690B" ;
-    focu:credits 1.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('ADV', 'http://dbpedia.org/resource/A.D._Vision')" ;
-    foaf:topic "ADV",
-        "GRAD" .
-
-ex:ACCO691 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SEMINAR-BUSINESS VALUATIONS" ;
-    focu:catalog "691" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    foaf:topic "GRAD" .
-
-ex:ACCO695 a <http://www.dbpedia.org/resource/Course_(education)> ;
-    rdfs:label "SEMINAR IN SPECIAL TOPICS" ;
-    focu:catalog "695" ;
-    focu:credits 3.0 ;
-    focu:offeredAt ex:Concordia ;
-    focu:subject "ACCO" ;
-    rdfs:comment "Please see GRAD Calendar" ;
-    rdfs:seeAlso "('IN', 'http://dbpedia.org/resource/Indiana')" ;
-    foaf:topic "GRAD" .
-
-ex:ADV652T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/A.D._Vision" .
-
-ex:ADV690B focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/A.D._Vision" .
-
 ex:AIS350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Association_for_Information_Systems" .
-
-ex:APP651 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Application_software" .
-
-ex:APP651T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Application_software" .
 
 ex:Accounting230 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
@@ -656,155 +1848,14 @@ ex:Accounting230 focu:provenance "Concordia Open Data" ;
 ex:Accounting350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
 
-ex:Accounting400 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
-
-ex:CA465 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Chartered_accountant" .
-
-ex:CASE435 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Computer-aided_software_engineering" .
-
-ex:CASE682 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Computer-aided_software_engineering" .
-
-ex:CASE685 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Computer-aided_software_engineering" .
-
-ex:CGA465 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Certified_General_Accountant" .
-
-ex:COMP651 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein" .
-
-ex:CONTROL653 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Get_Smart" .
-
 ex:Canada340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Canada" .
 
 ex:Canadian340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Canada" .
 
-ex:Criminal_Code455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Criminal_code" .
-
-ex:Decision_making655T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Decision-making" .
-
-ex:FINA650 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/FINA" .
-
-ex:FINA650T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/FINA" .
-
-ex:FINA651T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/FINA" .
-
-ex:FINAN681 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Finan_of_Lindisfarne" .
-
-ex:Fraud455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Fraud" .
-
-ex:GRAD590 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD595 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD631 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD631T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD635 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD635T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD643X focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD650 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD650T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD651 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD651T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD652 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD652T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD653 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD653T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD672 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD681 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD682 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD685 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD690B focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD691 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
-ex:GRAD695 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/BM-21_Grad" .
-
 ex:II320 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/World_War_II" .
-
-ex:II659 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/World_War_II" .
-
-ex:II672 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/World_War_II" .
-
-ex:IN470 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:IN595 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:IN650 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:IN650T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:IN651T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:IN653T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Indiana" .
-
-ex:INF653T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/INF_file" .
-
-ex:IV425 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Intravenous_therapy" .
 
 ex:Information_Technology350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Information_technology" .
@@ -812,49 +1863,10 @@ ex:Information_Technology350 focu:provenance "Concordia Open Data" ;
 ex:Management_Accounting330 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Management_accounting" .
 
-ex:Management_Accounting430 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Management_accounting" .
-
 ex:Managerial_Accounting220 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Management_accounting" .
 
 ex:Managerial_Accounting240 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Management_accounting" .
-
-ex:PREP685 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/PowerPC_Reference_Platform" .
-
-ex:REP650T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Robert_Esnault-Pelterie" .
-
-ex:REP651T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Robert_Esnault-Pelterie" .
-
-ex:SER652T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Cadena_SER" .
-
-ex:SP643X focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland" .
-
-ex:SYS653 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls" .
-
-ex:SYS653T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls" .
-
-ex:Sarbanes-Oxley_Act455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Sarbanes–Oxley_Act" .
-
-ex:TUT631T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Tulip_Television" .
-
-ex:TUT635T focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Tulip_Television" .
-
-ex:U.S.365 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/United_States" .
-
-ex:accountant450 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Management_accounting" .
 
 ex:accounting220 focu:provenance "Concordia Open Data" ;
@@ -875,50 +1887,11 @@ ex:accounting330 focu:provenance "Concordia Open Data" ;
 ex:accounting350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
 
-ex:accounting400 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
-
-ex:accounting420 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
-
-ex:accounting430 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Accounting" .
-
-ex:assurance_services450 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Assurance_services" .
-
-ex:assurance_services465 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Assurance_services" .
-
-ex:audit450 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Audit" .
-
-ex:audit465 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Audit" .
-
-ex:auditing465 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Audit" .
-
 ex:capital_gains340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Capital_gain" .
 
-ex:cheque455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Cheque" .
-
 ex:computer350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Computer" .
-
-ex:conceptual_framework400 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Conceptual_framework" .
-
-ex:corporate_taxation365 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Corporate_tax" .
-
-ex:corruption455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Political_corruption" .
-
-ex:currency420 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Currency" .
 
 ex:decision_making240 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Decision-making" .
@@ -926,25 +1899,13 @@ ex:decision_making240 focu:provenance "Concordia Open Data" ;
 ex:decision_making350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Decision-making" .
 
-ex:decision_making430 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Decision-making" .
-
-ex:deterrence455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Deterrence_theory" .
-
 ex:e-business350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Electronic_business" .
-
-ex:estate_planning440 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Estate_planning" .
 
 ex:federal_income_tax340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Income_tax_in_the_United_States" .
 
 ex:financial_reporting310 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
-
-ex:financial_reporting400 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
 
 ex:financial_statement_analysis355 focu:provenance "Concordia Open Data" ;
@@ -956,32 +1917,11 @@ ex:financial_statements230 focu:provenance "Concordia Open Data" ;
 ex:financial_statements355 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
 
-ex:financial_statements420 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
-
-ex:financial_statements450 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
-
-ex:financial_statements455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Financial_statement" .
-
 ex:fraud350 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Fraud" .
-
-ex:fraud455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Fraud" .
-
-ex:fraud_detection455 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Fraud" .
 
 ex:goods340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Goods" .
-
-ex:interdisciplinary430 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Interdisciplinarity" .
-
-ex:larceny455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Larceny" .
 
 ex:liabilities320 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Asset" .
@@ -995,23 +1935,14 @@ ex:process_costing330 focu:provenance "Concordia Open Data" ;
 ex:property_income340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Property_income" .
 
-ex:qualitative430 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Qualitative_research" .
-
 <http://example.org/shareholders'_equity320> focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Equity_(finance)" .
-
-ex:skimming455 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Credit_card_fraud" .
 
 ex:systems_analysis350 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Systems_analysis" .
 
 ex:tax340 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Tax" .
-
-ex:tax_planning365 focu:provenance "Concordia Open Data" ;
-    rdfs:seeAlso "http://dbpedia.org/resource/Tax_avoidance" .
 
 ex:transfer_pricing330 focu:provenance "Concordia Open Data" ;
     rdfs:seeAlso "http://dbpedia.org/resource/Transfer_pricing" .
@@ -1027,6 +1958,12 @@ focu:catalog a rdf:Property ;
     rdfs:label "Course number"@en ;
     rdfs:comment "An integer number which uniquely identifies a course within a particular discipline."@en ;
     rdfs:domain <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:range xsd:string .
+
+focu:competencies a rdf:Property ;
+    rdfs:label "Competencies"@en ;
+    rdfs:comment "Competencies, defined as a set of topics, based on the courses a student successfully passed"@en ;
+    rdfs:domain ex:Student ;
     rdfs:range xsd:string .
 
 focu:course a rdf:Property ;
@@ -1077,7 +2014,1450 @@ focu:subject a rdf:Property ;
     rdfs:domain <http://www.dbpedia.org/resource/Course_(education)> ;
     rdfs:range xsd:string .
 
+ex:record_40149784_0 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_40149784_1 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_40149784_2 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_40149784_3 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_40149784_4 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_40149784_5 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_40191304_0 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_40191304_1 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_40191304_2 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_40191304_3 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_40191304_4 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_40191304_5 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_40191304_6 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_40191304_7 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_40203395_0 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_40203395_1 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_40203395_2 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_40203395_3 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_40283792_0 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_40283792_1 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_40283792_2 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_40283792_3 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_40283792_4 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_40283792_5 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_40283792_6 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_40283792_7 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_40636793_0 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_40636793_1 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_40636793_2 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_40730730_0 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_40979065_0 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_40979065_1 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_41234468_0 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_41234468_1 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_41333698_0 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_41333698_1 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_41333698_2 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_41333698_3 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_41333698_4 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_41333889_0 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_41333889_1 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_41333889_2 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_41333889_3 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_41333889_4 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_41333889_5 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_41333889_6 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_41333889_7 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_41500510_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_41500510_1 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_41500510_2 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_41509993_0 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_41509993_1 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_41509993_2 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_41509993_3 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_41509993_4 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_41509993_5 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_41635500_0 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_41635500_1 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_41635500_2 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_41635500_3 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_41668292_0 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_41668292_1 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_41668292_2 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_41668292_3 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_41668292_4 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_41668292_5 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_41668292_6 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_41668292_7 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_41677538_0 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_41677538_1 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_41677538_2 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_41726877_0 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_41726877_1 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_41726877_2 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_41726877_3 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_41726877_4 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_41726877_5 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_41832896_0 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_41844933_0 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_41844933_1 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_42015705_0 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_42015705_1 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_42015705_2 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_42136662_0 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_42136662_1 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_42181641_0 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_42181641_1 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_42181641_2 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_42181641_3 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_42526820_0 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_42526820_1 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_42526820_2 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_42526820_3 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_42526820_4 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_42526820_5 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_42526820_6 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_42526820_7 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_42526820_8 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_42622701_0 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_42622701_1 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_42622701_2 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_42751211_0 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_42751211_1 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_42751211_2 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_42751211_3 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_42943789_0 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_42943789_1 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_42943789_2 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_42943789_3 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_42943789_4 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_42943789_5 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_42997966_0 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_42997966_1 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_42997966_2 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_42997966_3 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_42997966_4 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_42997966_5 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_42997966_6 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_43012498_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_43012498_1 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_43012498_2 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_43012498_3 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_43012498_4 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_43012498_5 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_43012498_6 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_43012498_7 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_43012498_8 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_43036740_0 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_43066623_0 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_43066623_1 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_43066623_2 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_43066623_3 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_43066623_4 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_43066623_5 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_43142723_0 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_43202145_0 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_43202145_1 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_43387139_0 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_43387139_1 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_43387139_2 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_43387139_3 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_43393692_0 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_43393692_1 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_43393692_2 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_43393692_3 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_43393692_4 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_43393692_5 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_43460394_0 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_43544999_0 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_43544999_1 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_43544999_2 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_43544999_3 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_43668178_0 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_43668178_1 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_43668178_2 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_43668178_3 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_43759136_0 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_43759136_1 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_43759136_2 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_43759136_3 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_43759136_4 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_43759136_5 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_43759136_6 focu:course ex:ACCO350 ;
+    focu:grade "A" .
+
+ex:record_43790291_0 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_43790291_1 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_43790291_2 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_43790291_3 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_43790291_4 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_43790291_5 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_43790291_6 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_43790291_7 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_43862395_0 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_43862395_1 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_43862395_2 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_43862395_3 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_43862395_4 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_44100143_0 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_44118617_0 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_44118617_1 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_44118617_2 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_44118617_3 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_44118617_4 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_44340713_0 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_44340713_1 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_44340713_2 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_44340713_3 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_44340713_4 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_44340713_5 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_44340713_6 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_44340713_7 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_44340713_8 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_44517355_0 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_44517355_1 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_44517355_2 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_44517355_3 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_44517355_4 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_44537709_0 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_44537709_1 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_44537709_2 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_44562602_0 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_44562602_1 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_44562602_2 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_44562602_3 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_44562602_4 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_44873938_0 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_44873938_1 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_44873938_2 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_44873938_3 focu:course ex:ACCO330 ;
+    focu:grade "B+" .
+
+ex:record_44873938_4 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_44873938_5 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_44873938_6 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_44873938_7 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_44880148_0 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_44880148_1 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_44941962_0 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_44941962_1 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_44941962_2 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_44941962_3 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_44941962_4 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_44941962_5 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_44941962_6 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_44941962_7 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_44941962_8 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_44959364_0 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_44959364_1 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_44959364_2 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_44959364_3 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_44959364_4 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_44959364_5 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_44959364_6 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_44959364_7 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_44961035_0 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_44976089_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_44976089_1 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_44976089_2 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_44976089_3 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_44976089_4 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_44978832_0 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_44978832_1 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_44978832_2 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_44978832_3 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_44978832_4 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_44978832_5 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_44978832_6 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_44978832_7 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_44978832_8 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_45193098_0 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_45241745_0 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_45241745_1 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_45241745_2 focu:course ex:ACCO330 ;
+    focu:grade "B+" .
+
+ex:record_45241745_3 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_45241745_4 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_45241745_5 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_45241745_6 focu:course ex:ACCO350 ;
+    focu:grade "A" .
+
+ex:record_45241745_7 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_45365942_0 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_45365942_1 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_45365942_2 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_45365942_3 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_45365942_4 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_45365942_5 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_45365942_6 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_45365942_7 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_45365942_8 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_45402729_0 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_45435335_0 focu:course ex:ACCO350 ;
+    focu:grade "A" .
+
+ex:record_45435335_1 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_45435335_2 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_45435335_3 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_45477183_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_45477183_1 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_45477183_2 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_45477183_3 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_45477183_4 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_45477183_5 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_45477183_6 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_45477183_7 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_45698426_0 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_45698426_1 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_45698426_2 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_45698426_3 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_45698426_4 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_45698426_5 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_45698426_6 focu:course ex:ACCO330 ;
+    focu:grade "A" .
+
+ex:record_45698426_7 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_45754105_0 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_45754105_1 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_45754105_2 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_45754105_3 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_45754105_4 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_45754105_5 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_45754105_6 focu:course ex:ACCO310 ;
+    focu:grade "B+" .
+
+ex:record_45754105_7 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_45867519_0 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_45989648_0 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_45989648_1 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_46075812_0 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_46075812_1 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_46075812_2 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_46322507_0 focu:course ex:ACCO350 ;
+    focu:grade "B-" .
+
+ex:record_46322507_1 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_46322507_2 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_46322507_3 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_46406680_0 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_46406680_1 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_46406680_2 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_46406680_3 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_46406680_4 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_46406680_5 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_46406680_6 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_46406680_7 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_46406680_8 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_46483071_0 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_46483071_1 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_46483071_2 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_46483071_3 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_46483071_4 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_46600342_0 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_46679565_0 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_46679565_1 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_46679565_2 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_46679565_3 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_46679565_4 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_46679565_5 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_46679565_6 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_46679565_7 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_46679565_8 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_46796441_0 focu:course ex:ACCO230 ;
+    focu:grade "B-" .
+
+ex:record_46796441_1 focu:course ex:ACCO340 ;
+    focu:grade "B" .
+
+ex:record_46796441_2 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_46880707_0 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_46880707_1 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_46880707_2 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_46880707_3 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_47036155_0 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_47036155_1 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_47305751_0 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_47339150_0 focu:course ex:ACCO330 ;
+    focu:grade "B" .
+
+ex:record_47552660_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_47607347_0 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_47607347_1 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_47607347_2 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_47607347_3 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_47607347_4 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_47607347_5 focu:course ex:ACCO440 ;
+    focu:grade "B+" .
+
+ex:record_47607347_6 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_47607347_7 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_47790049_0 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_47790049_1 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_47790049_2 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_47790049_3 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_47790049_4 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_47890635_0 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_47890635_1 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_47890635_2 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_47890635_3 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_47890635_4 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_47912937_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_47912937_1 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_47912937_2 focu:course ex:ACCO230 ;
+    focu:grade "A-" .
+
+ex:record_48006829_0 focu:course ex:ACCO230 ;
+    focu:grade "A" .
+
+ex:record_48006829_1 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_48006829_2 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_48006829_3 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_48108531_0 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_48108531_1 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_48108531_2 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_48135223_0 focu:course ex:ACCO350 ;
+    focu:grade "B" .
+
+ex:record_48135223_1 focu:course ex:ACCO440 ;
+    focu:grade "B" .
+
+ex:record_48135223_2 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_48145835_0 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_48145835_1 focu:course ex:ACCO310 ;
+    focu:grade "A-" .
+
+ex:record_48145835_2 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_48145835_3 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_48145835_4 focu:course ex:ACCO220 ;
+    focu:grade "B-" .
+
+ex:record_48145835_5 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_48145835_6 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_48145835_7 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_48273948_0 focu:course ex:ACCO240 ;
+    focu:grade "B" .
+
+ex:record_48273948_1 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_48273948_2 focu:course ex:ACCO400 ;
+    focu:grade "A" .
+
+ex:record_48273948_3 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_48273948_4 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_48355208_0 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_48355208_1 focu:course ex:ACCO240 ;
+    focu:grade "B-" .
+
+ex:record_48355208_2 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_48355208_3 focu:course ex:ACCO230 ;
+    focu:grade "B+" .
+
+ex:record_48355208_4 focu:course ex:ACCO330 ;
+    focu:grade "B+" .
+
+ex:record_48548814_0 focu:course ex:ACCO330 ;
+    focu:grade "A-" .
+
+ex:record_48777741_0 focu:course ex:ACCO240 ;
+    focu:grade "A-" .
+
+ex:record_48820415_0 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_48855046_0 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_48855046_1 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
+ex:record_48855046_2 focu:course ex:ACCO350 ;
+    focu:grade "A" .
+
+ex:record_48855046_3 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_48855046_4 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_48893702_0 focu:course ex:ACCO340 ;
+    focu:grade "A" .
+
+ex:record_48893702_1 focu:course ex:ACCO230 ;
+    focu:grade "B" .
+
+ex:record_48893702_2 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_48900935_0 focu:course ex:ACCO440 ;
+    focu:grade "B-" .
+
+ex:record_48900935_1 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_48900935_2 focu:course ex:ACCO310 ;
+    focu:grade "A" .
+
+ex:record_48900935_3 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_48900935_4 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_48955184_0 focu:course ex:ACCO400 ;
+    focu:grade "B" .
+
+ex:record_48955184_1 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_48955184_2 focu:course ex:ACCO340 ;
+    focu:grade "A-" .
+
+ex:record_48955184_3 focu:course ex:ACCO465 ;
+    focu:grade "A" .
+
+ex:record_48955184_4 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_48955184_5 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_48969494_0 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_48969494_1 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_48969494_2 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_49049270_0 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_49049270_1 focu:course ex:ACCO400 ;
+    focu:grade "B-" .
+
+ex:record_49049270_2 focu:course ex:ACCO220 ;
+    focu:grade "B+" .
+
+ex:record_49049270_3 focu:course ex:ACCO465 ;
+    focu:grade "A-" .
+
+ex:record_49101866_0 focu:course ex:ACCO240 ;
+    focu:grade "B+" .
+
+ex:record_49101866_1 focu:course ex:ACCO220 ;
+    focu:grade "A" .
+
+ex:record_49101866_2 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_49101866_3 focu:course ex:ACCO340 ;
+    focu:grade "B-" .
+
+ex:record_49101866_4 focu:course ex:ACCO350 ;
+    focu:grade "B+" .
+
+ex:record_49148297_0 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_49148297_1 focu:course ex:ACCO440 ;
+    focu:grade "A" .
+
+ex:record_49254300_0 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_49254300_1 focu:course ex:ACCO220 ;
+    focu:grade "A-" .
+
+ex:record_49254300_2 focu:course ex:ACCO465 ;
+    focu:grade "B" .
+
+ex:record_49254300_3 focu:course ex:ACCO310 ;
+    focu:grade "B-" .
+
+ex:record_49581573_0 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_49581573_1 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_49602519_0 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_49602519_1 focu:course ex:ACCO220 ;
+    focu:grade "B" .
+
+ex:record_49773086_0 focu:course ex:ACCO400 ;
+    focu:grade "A-" .
+
+ex:record_49773086_1 focu:course ex:ACCO310 ;
+    focu:grade "B" .
+
+ex:record_49773086_2 focu:course ex:ACCO465 ;
+    focu:grade "B-" .
+
+ex:record_49802395_0 focu:course ex:ACCO400 ;
+    focu:grade "B+" .
+
+ex:record_49802395_1 focu:course ex:ACCO340 ;
+    focu:grade "B+" .
+
+ex:record_49802395_2 focu:course ex:ACCO440 ;
+    focu:grade "A-" .
+
+ex:record_49802395_3 focu:course ex:ACCO330 ;
+    focu:grade "B-" .
+
+ex:record_49802395_4 focu:course ex:ACCO465 ;
+    focu:grade "B+" .
+
+ex:record_49802395_5 focu:course ex:ACCO350 ;
+    focu:grade "A-" .
+
+ex:record_49802395_6 focu:course ex:ACCO240 ;
+    focu:grade "A" .
+
 ex:Concordia dbo:type dbr:Public_university ;
     rdfs:seeAlso dbr:Concordia_University ;
     foaf:name "Concordia University" .
+
+ex:ACCO330 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Cost and Management Accounting" ;
+    focu:catalog "330" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course provides an examination of the techniques, systems, and procedures applicable to the managerial use of accounting information for planning, decision-making, and control. Topics include cost accumulation and allocation, product and process costing, flexible budgeting and variance analysis, evaluation of managerial performance, and transfer pricing.
+Prerequisite: COMM 305.""" ;
+    rdfs:seeAlso "('Management Accounting', 'http://dbpedia.org/resource/Management_accounting')" ;
+    foaf:topic "Management Accounting",
+        "accounting",
+        "process costing",
+        "transfer pricing",
+        "variance analysis" .
+
+ex:ACCO350 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Accounting and Information Technology" ;
+    focu:catalog "350" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course examines the role of computerized accounting information systems (AIS) in organizations. Students learn how to justify, design, and utilize AIS to provide pertinent information to managers for decision making. The course helps to identify appropriate usage of information technology in specific accounting contexts. Topics include e-business, computer fraud, information systems security and controls, systems analysis, and management of information technology.
+Prerequisite: COMM 226 or 301, COMM 305""" ;
+    rdfs:seeAlso "('Accounting', 'http://dbpedia.org/resource/Accounting')" ;
+    foaf:topic "AIS",
+        "Accounting",
+        "Information Technology",
+        "accounting",
+        "computer",
+        "decision making",
+        "e-business",
+        "fraud",
+        "systems analysis" .
+
+ex:ACCO230 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Introduction to Financial Accounting" ;
+    focu:catalog "230" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:provenance "Concordia Open Data" ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course provides an introduction to accounting concepts underlying financial statements of organizations. It focuses on the analysis, measurement, and reporting of business transactions to users of financial statements. It also examines the uses and limitations of accounting information for investment and credit decisions.
+
+NOTE: JMSB students may not take this course for credit.
+"NOTE: Students who receive a grade of ""C"" or better may be exempt from COMM 217."
+NOTE: Students who have received credit for ACCO 220 may not take this course for credit.""" ;
+    rdfs:seeAlso "('Accounting', 'http://dbpedia.org/resource/Accounting')",
+        "http://dbpedia.org/resource/Acre,_Israel" ;
+    foaf:topic "ACCO",
+        "Accounting",
+        "accounting",
+        "financial statements" .
+
+ex:ACCO340 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Income Taxation in Canada" ;
+    focu:catalog "340" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course provides core knowledge regarding the federal income tax structure and the Canadian goods and services tax system. It examines the taxation of employment, business, property income, capital gains and other sources of income for an individual.
+Prerequisite: COMM 217.""" ;
+    rdfs:seeAlso "('Canada', 'http://dbpedia.org/resource/Canada')" ;
+    foaf:topic "Canada",
+        "Canadian",
+        "capital gains",
+        "federal income tax",
+        "goods",
+        "property income",
+        "tax" .
+
+ex:ACCO310 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Financial Reporting I" ;
+    focu:catalog "310" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:subject "ACCO" ;
+    rdfs:comment """Intensive study is made of the theory and practice of external financial reporting by business organizations, focusing on concepts and procedures underlying the measurement of assets and the determination of income.
+Prerequisite: COMM 305 previously or concurrently.""" ;
+    foaf:topic "financial reporting" .
+
+ex:ACCO220 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Financial and Managerial Accounting" ;
+    focu:catalog "220" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:provenance "Concordia Open Data" ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course provides an introduction to accounting principles underlying the preparation of financial reports with an emphasis on the relationship between accounting information and production decisions. It examines the relationship between costs, production volume, and profit, as well as the practical benefits of standard costs for planning and control purposes. The role of accounting information in various manufacturing decisions is also highlighted.
+
+NOTE: This course would be useful to Engineering students.
+NOTE: JMSB students may not take this course for credit.
+NOTE: Students who have received credit for ACCO 230, 240 may not take this course for credit.""" ;
+    rdfs:seeAlso "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')",
+        "http://dbpedia.org/resource/Acre,_Israel" ;
+    foaf:topic "ACCO",
+        "Managerial Accounting",
+        "accounting" .
+
+ex:ACCO240 a <http://www.dbpedia.org/resource/Course_(education)> ;
+    rdfs:label "Introduction to Managerial Accounting" ;
+    focu:catalog "240" ;
+    focu:credits 3.0 ;
+    focu:offeredAt ex:Concordia ;
+    focu:provenance "Concordia Open Data" ;
+    focu:subject "ACCO" ;
+    rdfs:comment """This course examines the role of accounting information for decision making, and focuses on concepts and techniques used in planning operations, controlling activities, and evaluating managerial performance. New developments are addressed with a focus on contemporary business issues and real-world applicability of management accounting concepts and techniques.
+Prerequisite: ACCO 230.
+NOTE: JMSB students may not take this course for credit.
+NOTE: Students who receive a passing grade may be exempt from COMM 305.
+NOTE: Students who have received credit for ACCO 220 may not take this course for credit.""" ;
+    rdfs:seeAlso "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')",
+        "http://dbpedia.org/resource/Acre,_Israel" ;
+    foaf:topic "ACCO",
+        "Managerial Accounting",
+        "accounting",
+        "decision making" .
 
