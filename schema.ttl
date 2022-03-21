@@ -6,6 +6,8 @@
 @prefix dbo: <http://www.dbpedia.org/ontology/>.
 @prefix dbr: <http://www.dbpedia.org/resource/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
 
 <Concordia>
 	dbo:type dbr:Public_university;
@@ -17,6 +19,20 @@ focu:Student
 	rdfs:subClassOf foaf:Person;
 	rdfs:label "Student"@en;
 	rdfs:comment "A person enrolled in one or more courses at a academic institution or other place of academic learning"@en.
+
+focu:Lecture
+	a rdfs:Class;
+	rdfs:subClassOf dcmitype:Event;
+	rdfs:label "Lecture"@en;
+	rdfs:comment "Information about lectures in a course"@en.
+
+focu:hasContent
+    a rdf:property ;
+    rdfs:subClassOf dcterms:relation ;
+	rdfs:domain <Lecture> ;
+	rdfs:range xsd:string;
+    rdfs:label "Content"@en ;
+    rdfs:comment "Content associated with a course, lecture"@en .
 
 focu:competencies
 	a rdf:Property;

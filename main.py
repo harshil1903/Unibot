@@ -1,5 +1,5 @@
 from rdflib import Graph, RDFS, URIRef, Literal
-from rdflib.namespace import RDF, FOAF, Namespace, NamespaceManager, XSD
+from rdflib.namespace import RDF, DCTERMS, FOAF, Namespace, NamespaceManager, XSD
 import pandas as pd
 import spacy
 
@@ -8,7 +8,9 @@ from rdflib.util import from_n3
 
 import StudentData
 
-dbp = Namespace("http://dbpedia.org/resource/")
+DCMITYPE = Namespace("http://purl.org/dc/dcmitype/")
+LOCAL = Namespace("http://localhost:3030")
+#dbp = Namespace("http://dbpedia.org/resource/")
 g = Graph()
 result = g.parse("schema.ttl", format="turtle")
 nsm = NamespaceManager(g)
@@ -26,7 +28,8 @@ concordia_university = URIRef('http://example.org/Concordia')
 
 #Read csv data
 course_data = pd.read_csv('data/output.csv')
-
+lecture_data = pd.read_csv('data/lecture_data.csv')
+content_data = pd.read_csv('data/content_data.csv')
 
 cd = course_data.values.tolist()
 counter = 0
@@ -86,13 +89,44 @@ for line in cd:
             t = topic[0]
             t = t.replace(' ','_')
             #print("T : ",t)
-            t = from_n3('ex:' + t + str(course_number), nsm=nsm)
+            t = from_n3('dbr:' + t, nsm=nsm)
             #print(t)
-            g.add((_course, FOAF.topic, Literal(topic[0])))
+            g.add((_course, FOAF.topic, t))
             g.add((t, RDFS.seeAlso, Literal(topic[1])))
             g.add((t, from_n3('focu:provenance', nsm=nsm), Literal("Concordia Open Data")))
     else:
         g.add((_course, FOAF.topic, Literal("No topics for this course")))
+
+
+
+    #Adding lecture data
+    courseLectures = lecture_data[lecture_data['CourseId'] == course_id].values.tolist()
+    for lecture in courseLectures:
+        lecture_number = lecture[1]
+        lecture_name = lecture[2]
+        lecture_link = lecture[3]
+
+        _lecture_id = from_n3('ex:' + course_subject + str(course_number) + "_Lec" + str(lecture_number), nsm=nsm)
+
+        g.add((_lecture_id, RDF.type, from_n3('focu:Lecture', nsm=nsm)))
+        g.add((_lecture_id, DCMITYPE.identifier, Literal("Lecture " + str(lecture_number))))
+        g.add((_lecture_id, RDFS.label, Literal(lecture_name)))
+        g.add((_lecture_id, RDFS.seeAlso, URIRef(lecture_link)))
+        g.add((_lecture_id, DCTERMS.ispartOf, _course))
+
+        #Content of lecture
+        lecture_contents = content_data[(content_data['CourseId'] == course_id) & (content_data['Identifier'] == lecture_number)].values.tolist()
+        cnt = 0
+        for content in lecture_contents:
+            _content_id = from_n3('ex:content_' + course_subject + str(course_number) + "_Lec" + str(lecture_number) + "_" + str(cnt), nsm=nsm)
+            cnt += 1
+
+            g.add((_lecture_id, from_n3('focu:hasContent', nsm=nsm), _content_id))
+            g.add((_content_id, DCTERMS.type, Literal(content[2])))
+            g.add((_content_id, RDF.type, DCTERMS.BibliographicResource))
+            g.add((_content_id, DCTERMS.resource, LOCAL[content[3]]))
+
+
 
 #Add student info
 #print(coursewise_topics)
@@ -103,7 +137,7 @@ for student in students:
     _student = from_n3('ex:' + str(student[0]), nsm=nsm)
     #print(student[1])
     g.add((_student, RDF.type, from_n3('focu:student', nsm=nsm)))
-    g.add((_student, FOAF.name, Literal(student[1])))
+    g.add((_student, FOAF.name, Literal(student[1] + student[2])))
     #g.add((_student, FOAF.lastName, Literal(student[2])))
     g.add((_student, FOAF.mbox, Literal(student[3])))
 
@@ -127,6 +161,12 @@ for student in students:
         for topic in topics:
             #print(topic[0])
             g.add((_student, from_n3('focu:competencies', nsm=nsm), Literal(topic[0])))
+
+
+
+
+#Add lecture data
+
 
 
 
