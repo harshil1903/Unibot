@@ -287,6 +287,7 @@ competencies = {
 
 grades=["A+","A","A-","B+","B","B-"]
 
+studentIds=[]
 
 def getFirstName():
     i = random.randrange(1, len(firstNames))
@@ -304,6 +305,10 @@ def getGrade():
     item = grades[i]
     return item
 
+def getStudentID():
+    id = random.randint(40000000, 50000000)
+    return id
+
 
 def getSubject():
     i = len(courses)
@@ -316,8 +321,10 @@ def getSubject():
 def getStudentData():
     firstName = getFirstName()
     lastName = getLastName()
+    studentID=getStudentID()
     email = firstName.lower() + "." + lastName.lower() + "@mail.concordia.ca"
     subjects = getSubject()
+
     subjectsGrades=[]
 
     stdCompetencies = []
@@ -328,11 +335,11 @@ def getStudentData():
     for subject in subjects:
         stdCompetencies.extend(competencies[subject])
 
-    return [firstName, lastName, email, subjects, subjectsGrades,stdCompetencies]
+    return [firstName, lastName, studentID,email, subjects, subjectsGrades,stdCompetencies]
 
 
 students = []
-for i in range(10):
+for i in range(100):
     students.append(getStudentData())
 
 for student in students:
