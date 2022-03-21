@@ -10,7 +10,6 @@ import StudentData
 
 DCMITYPE = Namespace("http://purl.org/dc/dcmitype/")
 LOCAL = Namespace("http://localhost:3030")
-#dbp = Namespace("http://dbpedia.org/resource/")
 g = Graph()
 result = g.parse("schema.ttl", format="turtle")
 nsm = NamespaceManager(g)
@@ -73,7 +72,7 @@ for line in cd:
     print(course_subject + str(course_number))
 
     _course = from_n3('ex:' + course_subject + str(course_number), nsm=nsm)
-    g.add((_course, RDF.type, from_n3('dbr:Course_(education)', nsm=nsm)))
+    g.add((_course, RDF.type, from_n3('focu:Course', nsm=nsm)))
     g.add((_course, RDFS.label, Literal(course_title)))
     g.add((_course, from_n3('focu:subject', nsm=nsm), Literal(course_subject)))
     g.add((_course, from_n3('focu:catalog', nsm=nsm), Literal(course_number)))
@@ -136,20 +135,20 @@ students = StudentData.getStudents()
 for student in students:
     _student = from_n3('ex:' + str(student[0]), nsm=nsm)
     #print(student[1])
-    g.add((_student, RDF.type, from_n3('focu:student', nsm=nsm)))
+    g.add((_student, RDF.type, from_n3('focu:Student', nsm=nsm)))
     g.add((_student, FOAF.name, Literal(student[1] + student[2])))
     #g.add((_student, FOAF.lastName, Literal(student[2])))
     g.add((_student, FOAF.mbox, Literal(student[3])))
 
     for c in student[4]:
-        g.add((_student, from_n3('focu:course', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
+        g.add((_student, from_n3('focu:Course', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
 
     rc = 0
     for crs in student[5]:
         #print(crs)
         _record = from_n3('ex:record' + "_" + str(student[0]) + "_" + str(rc), nsm=nsm)
         g.add((_student, from_n3('focu:hasRecord', nsm=nsm), _record))
-        g.add((_record, from_n3('focu:course', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
+        g.add((_record, from_n3('focu:Course', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
         g.add((_record, from_n3('focu:grade', nsm=nsm), Literal(crs[1])))
         rc += 1
 
@@ -161,11 +160,6 @@ for student in students:
         for topic in topics:
             #print(topic[0])
             g.add((_student, from_n3('focu:competencies', nsm=nsm), Literal(topic[0])))
-
-
-
-
-#Add lecture data
 
 
 

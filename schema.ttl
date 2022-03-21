@@ -26,6 +26,12 @@ focu:Lecture
 	rdfs:label "Lecture"@en;
 	rdfs:comment "Information about lectures in a course"@en.
 
+focu:Course
+	a rdfs:Class;
+	rdfs:subClassOf  dbr:Course_\(education\);
+	rdfs:label "Unique identifier for a course"@en;
+	rdfs:comment "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en.
+
 focu:hasContent
     a rdf:property ;
     rdfs:subClassOf dcterms:relation ;
@@ -55,28 +61,21 @@ focu:hasRecord
 
 focu:subject
 	a rdf:Property;
-	rdfs:domain dbr:Course_\(education\);
+	rdfs:domain <course>;
 	rdfs:range xsd:string;
 	rdfs:label "Discipline of course"@en;
 	rdfs:comment "An abbreviation for the discipline or department under which an academic course falls"@en.
 
 focu:catalog
 	a rdf:Property;
-	rdfs:domain dbr:Course_\(education\);
+	rdfs:domain <course>;
 	rdfs:range xsd:string;
 	rdfs:label "Course number"@en;
 	rdfs:comment "An integer number which uniquely identifies a course within a particular discipline."@en.
 
-focu:course
-	a rdf:Property;
-	rdfs:domain <Record>;
-	rdfs:range xsd:string;
-	rdfs:label "Unique identifier for a course"@en;
-	rdfs:comment "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en.
-
 focu:credits
 	a rdf:Property;
-	rdfs:domain dbr:Course_\(education\);
+	rdfs:domain <course>;
 	rdfs:range xsd:int;
 	rdfs:label "Letter grade"@en;
 	rdfs:comment "A single letter measuring the performance in the course of the associated Record."@en.
