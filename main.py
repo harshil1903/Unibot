@@ -20,7 +20,7 @@ nsm.bind('focu', 'http://focu.io/schema#')
 course_counter = 0
 list_of_indexes_of_resourceless_courses = []
 list_of_valid_graph_entries = []
-concordia_university = URIRef('http://example.org/Concordia')
+concordia_university = URIRef('https://dbpedia.org/resource/Concordia_University')
 
 #End of variable and namespace declaration
 
@@ -53,6 +53,7 @@ for line in cd:
     #DBPedia Spotlight to find links to add as topics
     nlp = spacy.blank('en')
     nlp.add_pipe('dbpedia_spotlight', config={'confidence': 0.4}) #change confidence back to 0.5
+    #course_title = course_title.replace(" ", "_")
     doc_link = nlp(course_title)
     doc_topics = nlp(course_title + " " + course_description)
     #print(doc_topics)
@@ -113,7 +114,7 @@ for line in cd:
         g.add((_lecture_id, RDFS.label, Literal(lecture_name)))
         g.add((_lecture_id, RDFS.seeAlso, URIRef(lecture_link)))
         g.add((_lecture_id, FOAF.topic, Literal(lecture_topic)))
-        g.add((_lecture_id, DCTERMS.ispartOf, _course))
+        g.add((_lecture_id, DCTERMS.isPartOf, _course))
 
         #Content of lecture
         lecture_contents = content_data[(content_data['CourseId'] == course_id) & (content_data['Identifier'] == lecture_number)].values.tolist()
@@ -142,8 +143,9 @@ for student in students:
     _student = from_n3('ex:' + str(student[0]), nsm=nsm)
     #print(student[1])
     g.add((_student, RDF.type, from_n3('focu:Student', nsm=nsm)))
-    g.add((_student, FOAF.name, Literal(student[1] + student[2])))
-    #g.add((_student, FOAF.lastName, Literal(student[2])))
+    #g.add((_student, FOAF.name, Literal(student[1] + " " + student[2])))
+    g.add((_student, from_n3('focu:firstName', nsm=nsm), Literal(student[1])))
+    g.add((_student, from_n3('focu:lastName', nsm=nsm), Literal(student[2])))
     g.add((_student, FOAF.mbox, Literal(student[3])))
 
     for c in student[4]:

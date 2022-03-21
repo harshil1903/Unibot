@@ -94,18 +94,23 @@ focu:provenance
 	rdfs:label "Provenance"@en;
 	rdfs:comment "Record of where the topic was identified as being covered in the course"@en.
 
-#Not needed
-focu:semester
+focu:firstName
 	a rdf:Property;
-	rdfs:domain <Record>;
+	rdfs:domain <Student>;
 	rdfs:range xsd:string;
-	rdfs:label "Semester"@en;
-	rdfs:comment "The year in which the course associated to the Record took place."@en.
+	rdfs:label "First Name"@en;
+	rdfs:comment "First Name of a student"@en.
 
-#Not needed
+focu:lastName
+	a rdf:Property;
+	rdfs:domain <Student>;
+	rdfs:range xsd:string;
+	rdfs:label "Last Name"@en;
+	rdfs:comment "Last Name of a student"@en.
+
 focu:offeredAt
 	a rdf:Property;
-	rdfs:domain dbr:Course_\(education\);
+	rdfs:domain focu:Course;
 	rdfs:range dbr:Public_university;
 	rdfs:label "Offered At"@en;
 	rdfs:comment "A university course is offered at the associated university."@en.
