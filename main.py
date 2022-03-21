@@ -9,7 +9,7 @@ from rdflib.util import from_n3
 import StudentData
 
 DCMITYPE = Namespace("http://purl.org/dc/dcmitype/")
-LOCAL = Namespace("http://localhost:3030")
+LOCAL = Namespace("file:///unibot/")
 g = Graph()
 result = g.parse("schema.ttl", format="turtle")
 nsm = NamespaceManager(g)
@@ -125,7 +125,11 @@ for line in cd:
             g.add((_lecture_id, from_n3('focu:hasContent', nsm=nsm), _content_id))
             g.add((_content_id, DCTERMS.type, Literal(content[2])))
             g.add((_content_id, RDF.type, DCTERMS.BibliographicResource))
-            g.add((_content_id, DCTERMS.resource, LOCAL[content[3]]))
+            if('https' not in content[3] and 'http' not in content[3]):
+                g.add((_content_id, DCTERMS.resource, LOCAL[content[3]]))
+            else:
+                g.add((_content_id, DCTERMS.resource, URIRef(content[3])))
+
 
 
 
