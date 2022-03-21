@@ -1,0 +1,95 @@
+Q2
+SELECT ?des  WHERE {
+  ?sub focu:subject "ACCO" .
+  ?sub focu:catalog "220".
+  ?sub rdfs:comment ?des.
+} LIMIT 45
+
+
+
+Q3
+SELECT ?comt  WHERE {
+  ?sub a focu:student.
+  ?sub foaf:name "BraidenSyed".
+  ?sub focu:competencies ?comt.
+} LIMIT 45
+
+Q4
+SELECT ?sub  WHERE {
+  ?sub foaf:topic dbr:Accounting.
+} LIMIT 45
+
+
+Q5
+SELECT ?x ?y
+WHERE {
+	?x a focu:Course.
+  	?x focu:subject "ACCO".
+  	?x focu:catalog "220".
+  	?x rdfs:seeAlso ?y.
+ }
+
+Q7 
+SELECT ?grade  WHERE {
+  ?x a focu:student.
+  ?x foaf:name "DaraLincoln".
+  ?x focu:hasRecord ?y.
+  ?y focu:courseTaken ex:ACCO330.
+  ?y focu:grade ?grade
+} LIMIT 45
+
+Q8
+SELECT ?x ?y
+WHERE {
+	?x a focu:Course.
+  	?x focu:subject "ACCO".
+  	?x focu:catalog "220".
+  	?x focu:credits ?y.
+ }
+
+
+Q10
+SELECT ?x
+WHERE {
+	?x a focu:Course.
+  	?x focu:subject "ACCO".
+ }
+
+Q11
+SELECT ?x ?y
+WHERE {
+	?x a focu:Course.
+  	?x focu:subject "ACCO".
+  	?x focu:catalog "220".
+  	?y a focu:Lecture.
+  	?y dcterms:ispartOf ?x.
+  	?y foaf:topic "Knowledge_Graph".
+ }
+
+
+
+
+
+Q12
+SELECT ?t 
+WHERE {
+	?x a focu:Course.
+  	?x focu:subject "ACCO".
+  	?x focu:catalog "230".
+  	?x foaf:topic ?t.
+  	?x1 a focu:Course.
+  	?x1 focu:subject "ACCO".
+  	?x1 focu:catalog "350".
+  	?x1 foaf:topic ?t.
+  	
+  	
+ }
+Q13
+SELECT ?z  WHERE {
+  ?x a focu:Student.
+  ?x focu:firstName ?z.
+  ?y a focu:Course.
+  ?y focu:subject "ACCO".
+  ?y focu:catalog "220".
+  ?x focu:Course ?y.
+} 

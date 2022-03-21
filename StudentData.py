@@ -1,5 +1,9 @@
 import random
 
+import csv
+
+
+
 firstNames = ["Aaran", "Aaren", "Aarez", "Aarman", "Aaron", "Aaron-James", "Aarron", "Aaryan", "Aaryn", "Aayan",
               "Aazaan", "Abaan", "Abbas", "Abdallah", "Abdalroof", "Abdihakim", "Abdirahman", "Abdisalam", "Abdul",
               "Abdul-Aziz", "Abdulbasir", "Abdulkadir", "Abdulkarem", "Abdulkhader", "Abdullah", "Abdul-Majeed",
@@ -338,9 +342,17 @@ def getStudentData():
     return [studentID, firstName, lastName, email, subjects, subjectsGrades, stdCompetencies]
 
 def getStudents():
-    students = []
-    for i in range(100):
-        students.append(getStudentData())
+
+    with open('data/students.csv', 'w', encoding='UTF8', newline='') as f:
+        writer = csv.writer(f)
+        header = ['studentID', 'firstName', 'lastName', 'Email', 'Subjects', 'SubjectsGrades', 'Competencies']
+        writer.writerow(header)
+        students = []
+        for i in range(100):
+            studentData=getStudentData()
+            students.append(studentData)
+            writer.writerow(studentData)
+
 
     # for student in students:
     #     print(student)
