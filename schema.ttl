@@ -32,6 +32,13 @@ focu:Course
 	rdfs:label "Unique identifier for a course"@en;
 	rdfs:comment "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en.
 
+focu:courseTaken
+	a rdf:property ;
+	rdfs:domain <Student> ;
+	rdfs:range <Course>;
+    rdfs:label "Courses Taken"@en ;
+    rdfs:comment "Courses enrolled into by a student"@en .
+
 focu:hasContent
     a rdf:property ;
     rdfs:subClassOf dcterms:relation ;

@@ -149,14 +149,14 @@ for student in students:
     g.add((_student, FOAF.mbox, Literal(student[3])))
 
     for c in student[4]:
-        g.add((_student, from_n3('focu:Course', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
+        g.add((_student, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
 
     rc = 0
     for crs in student[5]:
         #print(crs)
         _record = from_n3('ex:record' + "_" + str(student[0]) + "_" + str(rc), nsm=nsm)
         g.add((_student, from_n3('focu:hasRecord', nsm=nsm), _record))
-        g.add((_record, from_n3('focu:Course', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
+        g.add((_record, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
         g.add((_record, from_n3('focu:grade', nsm=nsm), Literal(crs[1])))
         rc += 1
 
