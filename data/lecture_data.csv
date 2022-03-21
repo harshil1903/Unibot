@@ -1,0 +1,27 @@
+﻿CourseId,Identifier,Title,seeAlso,Topic
+40355,1,Introduction to Intelligent Systems,http://dbpedia.org/resource/Intelligent_system,Intelligent_Systems
+40355,2,Introduction to Knowledge Graphs (RDF),http://dbpedia.org/resource/Knowledge_Graph,Knowledge_Graph
+40355,3,"Knowledge Graphs: Vocabularies & Ontologies (RDFS, OWL)",http://dbpedia.org/resource/RDF_Schema,RDF_Schema
+40355,4,Knowledge Base Queries (SPARQL),http://dbpedia.org/resource/SPARQL,SPARQL
+40355,5,Linked Open Data (LOD) & Applications,http://dbpedia.org/resource/Linked_data,Linked_data
+40355,6,Personalization & Recommender Systems,http://dbpedia.org/resource/Recommender_system,Recommender_system
+40355,7,Introduction to Machine Learning for Intelligent Systems,http://dbpedia.org/resource/Machine_learning,Machine_learning
+40355,8,Intelligent Agents: Chatbots & Introduction to Natural Language Processing (NLP),http://dbpedia.org/resource/Intelligent_agent,Intelligent_agent
+40355,9,NLP Applications & Text Mining,http://dbpedia.org/resource/Natural_language_processing,Natural_language_processing
+40355,10,Introduction to Artificial Neural Networks,http://dbpedia.org/resource/Artificial_neural_network,Artificial_neural_network
+40355,11,Deep Learning for Intelligent Systems,http://dbpedia.org/resource/Deep_learning,Deep_learning
+40355,12,Intelligent System Architectures and Applications,http://dbpedia.org/resource/Agent_architecture,Agent_architecture
+40355,13,Conclusions,http://dbpedia.org/resource/Intelligent_system,Intelligent_Systems
+40353,1,Introduction to AI: Overview & History,http://dbpedia.org/resource/Artificial_intelligence,Artificial_intelligence
+40353,2,State-Space Search: Uninformed & Heuristic Search,http://dbpedia.org/resource/State_space_search,State_space_search
+40353,3,Adversarial Search: Mini-Max & Alpha-Beta Pruning,http://dbpedia.org/resource/Adversarial_search,Adversarial_search
+40353,4,"Introduction to Machine Learning (ML), Naïve Bayes Classification",http://dbpedia.org/resource/Naive_Bayes_classifier,Naive_Bayes_classifier
+40353,5,"ML: Decision Trees, Evaluation & Unsupervised Learning",http://dbpedia.org/resource/Machine_learning,Machine_learning
+40353,6,Introduction to Artificial Neural Networks (ANN),http://dbpedia.org/resource/Artificial_neural_network,Artificial_neural_network
+40353,7,Introduction to Deep Learning,http://dbpedia.org/resource/Deep_learning,Deep_learning
+40353,8,Knowledge Graphs & Intelligent Agents (I),http://dbpedia.org/resource/Knowledge_Graph,Knowledge_Graph
+40353,9,Knowledge Graphs & Intelligent Agents (II),http://dbpedia.org/resource/Intelligent_agent,Intelligent_agent
+40353,10,Introduction to Natural Language Processing (NLP),http://dbpedia.org/resource/Natural_language_processing,Natural_language_processing
+40353,11,"NLP: Applications, Vector Space Models",http://dbpedia.org/resource/Vector_space_model,Vector_space_model
+40353,12,Deep Learning for NLP,http://dbpedia.org/resource/Deep_learning,Deep_learning
+40353,13,Conclusions,http://dbpedia.org/resource/Artificial_intelligence,Artificial_intelligence
