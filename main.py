@@ -104,6 +104,7 @@ for line in cd:
         lecture_number = lecture[1]
         lecture_name = lecture[2]
         lecture_link = lecture[3]
+        lecture_topic = lecture[4]
 
         _lecture_id = from_n3('ex:' + course_subject + str(course_number) + "_Lec" + str(lecture_number), nsm=nsm)
 
@@ -111,6 +112,7 @@ for line in cd:
         g.add((_lecture_id, DCMITYPE.identifier, Literal("Lecture " + str(lecture_number))))
         g.add((_lecture_id, RDFS.label, Literal(lecture_name)))
         g.add((_lecture_id, RDFS.seeAlso, URIRef(lecture_link)))
+        g.add((_lecture_id, FOAF.topic, Literal(lecture_topic)))
         g.add((_lecture_id, DCTERMS.ispartOf, _course))
 
         #Content of lecture
