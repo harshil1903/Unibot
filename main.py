@@ -1,9 +1,7 @@
-from rdflib import Graph, Literal, Namespace, RDFS, URIRef, Literal
-from rdflib.namespace import RDF, FOAF, DC, DCTERMS, Namespace, NamespaceManager
+from rdflib import Graph, RDFS, URIRef, Literal
+from rdflib.namespace import RDF, FOAF, Namespace, NamespaceManager, XSD
 import pandas as pd
-import spacy_dbpedia_spotlight
 import spacy
-from uuid import uuid4
 
 #Knowledge Graph variable and namespace declaration
 from rdflib.util import from_n3
@@ -34,7 +32,7 @@ counter = 0
 for line in cd:
     counter += 1
 
-    if counter == 100:
+    if counter == 50:
         break
     print(line)
     course_id = line[0]
@@ -42,7 +40,7 @@ for line in cd:
     course_number = line[2]
     course_title = line[3]
     course_credit = line[4]
-    course_description = line[5]
+    course_description = line[5].strip()
     #link = []
     #topics = []
 
@@ -64,24 +62,25 @@ for line in cd:
 
     print(course_subject + str(course_number))
 
-
-    g.add((Literal(course_id), RDF.type, from_n3('dbr:Course_(education)', nsm=nsm)))
-    g.add((Literal(course_id), RDFS.label, Literal(course_title)))
-    g.add((Literal(course_id), from_n3('focu:subject', nsm=nsm), Literal(course_subject)))
-    g.add((Literal(course_id), from_n3('focu:catalog', nsm=nsm), Literal(course_number)))
-    g.add((Literal(course_id), RDFS.comment, Literal(course_description)))
-    g.add((Literal(course_id), from_n3('focu:offeredAt', nsm=nsm), concordia_university))
+    course = from_n3('ex:' + course_subject + str(course_number), nsm=nsm)
+    g.add((course, RDF.type, from_n3('dbr:Course_(education)', nsm=nsm)))
+    g.add((course, RDFS.label, Literal(course_title)))
+    g.add((course, from_n3('focu:subject', nsm=nsm), Literal(course_subject)))
+    g.add((course, from_n3('focu:catalog', nsm=nsm), Literal(course_number)))
+    g.add((course, from_n3('focu:credits', nsm=nsm), Literal(course_credit, datatype=XSD.integer)))
+    g.add((course, from_n3('focu:offeredAt', nsm=nsm), concordia_university))
+    g.add((course, RDFS.comment, Literal(course_description)))
 
     if(len(course_link) != 0):
-        g.add((Literal(course_id), RDFS.seeAlso, Literal(course_link[0])))
+        g.add((course, RDFS.seeAlso, Literal(course_link[0])))
 
     if(len(course_topics) != 0):
         for topic in course_topics:
-            g.add((Literal(course_id), FOAF.topic, Literal(topic[0])))
+            g.add((course, FOAF.topic, Literal(topic[0])))
             g.add((Literal(topic[0]), RDFS.seeAlso, Literal(topic[1])))
             g.add((Literal(topic[0]), from_n3('focu:provenance', nsm=nsm), Literal("Concordia Open Data")))
     else:
-        g.add((Literal(course_id), FOAF.topic, Literal("No topics for this course")))
+        g.add((course, FOAF.topic, Literal("No topics for this course")))
 
 
 
