@@ -1,0 +1,856 @@
+<http://example.org/ACCO440> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/FINA650T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO230> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/CA465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/APP651> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO690B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO455> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO650> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO690B> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "tax" .
+<http://focu.io/schema#catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Course number"@en .
+<http://example.org/ACCO651> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO643X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO220> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO465> <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Assurance Services" .
+<http://example.org/Information_Technology350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Information_technology" .
+<http://example.org/accounting350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://focu.io/schema#subject> <http://www.w3.org/2000/01/rdf-schema#label> "Discipline of course"@en .
+<http://example.org/currency420> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/SP643X> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland" .
+<http://example.org/PREP685> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO430> <http://www.w3.org/2000/01/rdf-schema#comment> "The course examines the integrative and interdisciplinary role of management accounting and its contribution to the complex management process. The course focuses on cases that deal with strategic issues in management accounting and management's need for both quantitative and qualitative information for planning, control, performance evaluation and decision making.\nPrerequisite: ACCO 330." .
+<http://focu.io/schema#Record> <http://www.w3.org/2000/01/rdf-schema#label> "Record"@en .
+<http://example.org/ACCO631> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://focu.io/schema#credits> <http://www.w3.org/2000/01/rdf-schema#label> "Letter grade"@en .
+<http://example.org/COMP651> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Cartilage_oligomeric_matrix_protein" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "fraud detection" .
+<http://focu.io/schema#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student"@en .
+<http://example.org/ACCO220> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO455> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the principles of and methodology used in fraud detection and deterrence. Topics covered may include skimming, cash larceny, cheque tampering, billing, payroll and expense reimbursement schemes, non-cash misappropriations, corruption, fraudulent financial statements, conducting investigations and interviewing witnesses. This course may also examine auditors' legal responsibilities towards fraud, the evaluation of internal controls and important pieces of legislation such as the Sarbanes-Oxley Act and the Criminal Code. Finally, the ethical aspects associated with fraud are discussed. Class sessions consist of lectures, real-life fraud case discussions and the presentation of DVDs from the Association of Certified Fraud Examiners.\nPrerequisite: COMM 217, 315.\nNOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit." .
+<http://example.org/ACCO652T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO658> <http://focu.io/schema#credits> "2.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO652> <http://www.w3.org/2000/01/rdf-schema#label> "BUSINESS ADVISORY SERVICES" .
+<http://example.org/ACCO470> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see UGRD Calendar" .
+<http://example.org/GRAD681> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/skimming455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Credit_card_fraud" .
+<http://example.org/SYS653> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO310> <http://focu.io/schema#catalog> "310" .
+<http://example.org/ACCO659> <http://focu.io/schema#catalog> "659" .
+<http://example.org/II672> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/World_War_II" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "skimming" .
+<http://example.org/liabilities320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO685> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO365> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO650> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('FINA', 'http://dbpedia.org/resource/FINA')" .
+<http://example.org/ACCO425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO631T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/accounting330> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO220> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')" .
+<http://example.org/ACCO653T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/accountant450> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651T> <http://www.w3.org/2000/01/rdf-schema#label> "TUTORIAL IN FINA REP/COM APP" .
+<http://example.org/ACCO635T> <http://www.w3.org/2000/01/rdf-schema#label> "TUT/INTEGRATED APPRO/AUDIT G" .
+<http://example.org/ACCO655T> <http://xmlns.com/foaf/0.1/topic> "Decision making" .
+<http://example.org/CASE682> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD691> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO631T> <http://www.w3.org/2000/01/rdf-schema#label> "TUT/BSNSS ADVISORY SERVICES" .
+<http://example.org/ACCO220> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://focu.io/schema#catalog> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/PREP685> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/PowerPC_Reference_Platform" .
+<http://example.org/financial_statements455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/financial_statements230> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/ACCO682> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/GRAD653T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "assurance services" .
+<http://example.org/IN650> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/ACCO320> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Reporting II" .
+<http://example.org/ACCO672> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('II', 'http://dbpedia.org/resource/World_War_II')" .
+<http://example.org/ADV652T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO635T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO655> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see Graduate Calendar" .
+<http://example.org/CONTROL653> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Get_Smart" .
+<http://example.org/ACCO690B> <http://focu.io/schema#credits> "1.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/systems_analysis350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO450> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO440> <http://focu.io/schema#catalog> "440" .
+<http://focu.io/schema#hasRecord> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Student> .
+<http://example.org/ACCO230> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/decision_making240> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO355> <http://www.w3.org/2000/01/rdf-schema#label> "Analysis of Financial Statements" .
+<http://example.org/ACCO430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD651> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/REP651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Robert_Esnault-Pelterie" .
+<http://example.org/ACCO652T> <http://xmlns.com/foaf/0.1/topic> "ADV" .
+<http://example.org/IN650T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/shareholders'_equity320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Equity_(finance)" .
+<http://example.org/ACCO691> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO435> <http://www.w3.org/2000/01/rdf-schema#label> "STRAT ACCTNG CASE ANALYSIS" .
+<http://example.org/ACCO470> <http://www.w3.org/2000/01/rdf-schema#label> "SPECIAL TOPICS IN ACCOUNTING" .
+<http://example.org/Managerial_Accounting240> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO365> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/decision_making430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO643X> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/GRAD652> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/accounting330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO690B> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('ADV', 'http://dbpedia.org/resource/A.D._Vision')" .
+<http://example.org/ACCO320> <http://focu.io/schema#catalog> "320" .
+<http://example.org/ACCO651> <http://xmlns.com/foaf/0.1/topic> "APP" .
+<http://example.org/ACCO240> <http://xmlns.com/foaf/0.1/topic> "Managerial Accounting" .
+<http://example.org/ACCO350> <http://www.w3.org/2000/01/rdf-schema#label> "Accounting and Information Technology" .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "systems analysis" .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "e-business" .
+<http://example.org/ACCO631> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "pension" .
+<http://example.org/assurance_services450> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658T> <http://focu.io/schema#credits> "2.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO420> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO650T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Information Technology', 'http://dbpedia.org/resource/Information_technology')" .
+<http://example.org/GRAD595> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/Concordia> <http://www.dbpedia.org/ontology/type> <http://www.dbpedia.org/resource/Public_university> .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "goods" .
+<http://example.org/ACCO340> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/decision_making430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Decision-making" .
+<http://example.org/ACCO435> <http://focu.io/schema#catalog> "435" .
+<http://example.org/federal_income_tax340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO470> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/ACCO320> <http://www.w3.org/2000/01/rdf-schema#comment> "This course continues the intensive study of ACCO 310, with particular emphasis on accounting for liabilities, shareholders' equity, and other related topics such as earnings per share, pension accounting, and accounting for income taxes.\nPrerequisite: ACCO 310." .
+<http://example.org/ACCO652T> <http://www.w3.org/2000/01/rdf-schema#label> "TUTORIAL IN BUSINESS ADV SER" .
+<http://example.org/ACCO350> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/deterrence455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Deterrence_theory" .
+<http://example.org/ACCO435> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/GRAD651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://focu.io/schema#offeredAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO635T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/pension320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Pension" .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "federal income tax" .
+<http://example.org/computer350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/Concordia> <http://xmlns.com/foaf/0.1/name> "Concordia University" .
+<http://focu.io/schema#catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "An integer number which uniquely identifies a course within a particular discipline."@en .
+<http://example.org/II659> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/World_War_II" .
+<http://example.org/ACCO652T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/variance_analysis330> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658T> <http://focu.io/schema#catalog> "658T" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "qualitative" .
+<http://example.org/Management_Accounting430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO220> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO455> <http://www.w3.org/2000/01/rdf-schema#label> "Fraud Prevention and Investigation" .
+<http://example.org/CGA465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Certified_General_Accountant" .
+<http://example.org/ACCO310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO400> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO635> <http://focu.io/schema#catalog> "635" .
+<http://example.org/ACCO653> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO220> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO681> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('III', 'http://dbpedia.org/resource/NCAA_Division_III')" .
+<http://example.org/ACCO653> <http://www.w3.org/2000/01/rdf-schema#label> "INFO SYS/INTERNAL CONTROL" .
+<http://example.org/ACCO310> <http://www.w3.org/2000/01/rdf-schema#comment> "Intensive study is made of the theory and practice of external financial reporting by business organizations, focusing on concepts and procedures underlying the measurement of assets and the determination of income.\nPrerequisite: COMM 305 previously or concurrently." .
+<http://example.org/cheque455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO240> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/GRAD635> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/accounting220> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO635> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO340> <http://focu.io/schema#catalog> "340" .
+<http://example.org/ACCO653> <http://focu.io/schema#catalog> "653" .
+<http://example.org/goods340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://focu.io/schema#catalog> "465" .
+<http://example.org/ACCO655T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/Accounting230> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/fraud350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO450> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO643X> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO420> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO650T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/GRAD653> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO635> <http://www.w3.org/2000/01/rdf-schema#label> "INTEGRATED APPROACH TO AUDIT" .
+<http://example.org/ADV690B> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD652T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/Managerial_Accounting220> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO672> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/Concordia> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.dbpedia.org/resource/Concordia_University> .
+<http://example.org/ACCO685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/IV425> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO240> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO655> <http://focu.io/schema#catalog> "655" .
+<http://example.org/ACCO651T> <http://xmlns.com/foaf/0.1/topic> "FINA" .
+<http://example.org/ACCO659> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO690B> <http://focu.io/schema#catalog> "690B" .
+<http://example.org/transfer_pricing330> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/U.S.365> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/assurance_services465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Assurance_services" .
+<http://example.org/ACCO355> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/CGA465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#grade> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ACCO653> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO450> <http://xmlns.com/foaf/0.1/topic> "accountant" .
+<http://example.org/financial_statements455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/ACCO650T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('FINA', 'http://dbpedia.org/resource/FINA')" .
+<http://example.org/ACCO465> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Management Accounting', 'http://dbpedia.org/resource/Management_accounting')" .
+<http://example.org/ACCO450> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/shareholders'_equity320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO420> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Reporting III" .
+<http://example.org/ACCO330> <http://xmlns.com/foaf/0.1/topic> "Management Accounting" .
+<http://example.org/ACCO590> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/APP651> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Application_software" .
+<http://example.org/ACCO650T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO595> <http://focu.io/schema#catalog> "595" .
+<http://example.org/ACCO470> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/interdisciplinary430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO440> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/assurance_services465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('II', 'http://dbpedia.org/resource/World_War_II')" .
+<http://example.org/ACCO310> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Reporting I" .
+<http://example.org/ACCO659> <http://xmlns.com/foaf/0.1/topic> "II" .
+<http://example.org/deterrence455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO435> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO651T> <http://xmlns.com/foaf/0.1/topic> "REP" .
+<http://example.org/accounting430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO425> <http://www.w3.org/2000/01/rdf-schema#label> "FINANCIAL REPORTING IV" .
+<http://example.org/COMP651> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO631T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('TUT', 'http://dbpedia.org/resource/Tulip_Television')" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "Criminal Code" .
+<http://example.org/TUT631T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "corruption" .
+<http://focu.io/schema#course> <http://www.w3.org/2000/01/rdf-schema#label> "Unique identifier for a course"@en .
+<http://focu.io/schema#Record> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about single student's participation in a single course in a particular semester"@en .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "Fraud" .
+<http://example.org/financial_statements355> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO655> <http://xmlns.com/foaf/0.1/topic> "No topics for this course" .
+<http://example.org/ACCO455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Fraud', 'http://dbpedia.org/resource/Fraud')" .
+<http://example.org/REP650T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "shareholders' equity" .
+<http://example.org/ACCO691> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO220> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO685> <http://focu.io/schema#catalog> "685" .
+<http://example.org/ADV690B> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/A.D._Vision" .
+<http://example.org/ACCO435> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO240> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/APP651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Application_software" .
+<http://example.org/ACCO465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#grade> <http://www.w3.org/2000/01/rdf-schema#comment> "A single letter measuring the performance in the course of the associated Record."@en .
+<http://example.org/ACCO440> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://focu.io/schema#course> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/Information_Technology350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD643X> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/GRAD690B> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO330> <http://xmlns.com/foaf/0.1/topic> "process costing" .
+<http://example.org/financial_statements450> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO450> <http://focu.io/schema#catalog> "450" .
+<http://example.org/GRAD631T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO471> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO330> <http://www.w3.org/2000/01/rdf-schema#label> "Cost and Management Accounting" .
+<http://example.org/ACCO635> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO590> <http://www.w3.org/2000/01/rdf-schema#label> "SPECIAL SEMINAR/ACCOUNTING" .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "liabilities" .
+<http://focu.io/schema#semester> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Record> .
+<http://example.org/decision_making240> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Decision-making" .
+<http://example.org/ACCO330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "property income" .
+<http://example.org/ACCO400> <http://xmlns.com/foaf/0.1/topic> "Accounting" .
+<http://example.org/ACCO655T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Decision making', 'http://dbpedia.org/resource/Decision-making')" .
+<http://example.org/conceptual_framework400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Conceptual_framework" .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "auditing" .
+<http://example.org/corporate_taxation365> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/GRAD653> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/financial_reporting310> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/GRAD682> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/accounting420> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO695> <http://focu.io/schema#catalog> "695" .
+<http://example.org/Accounting350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "audit" .
+<http://example.org/ACCO690B> <http://xmlns.com/foaf/0.1/topic> "ADV" .
+<http://example.org/ACCO672> <http://focu.io/schema#catalog> "672" .
+<http://example.org/accounting430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/qualitative430> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO682> <http://www.w3.org/2000/01/rdf-schema#label> "COMPREHENSIVE CASE ANALYSIS" .
+<http://example.org/ACCO653T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "CGA" .
+<http://example.org/tax_planning365> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Tax_avoidance" .
+<http://example.org/ACCO455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO425> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('IV', 'http://dbpedia.org/resource/Intravenous_therapy')" .
+<http://example.org/ACCO635T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/financial_reporting400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/Decision_making655T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/estate_planning440> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO635> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/cheque455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Cheque" .
+<http://example.org/ACCO595> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://focu.io/schema#provenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Record of where the topic was identified as being covered in the course"@en .
+<http://focu.io/schema#credits> <http://www.w3.org/2000/01/rdf-schema#comment> "A single letter measuring the performance in the course of the associated Record."@en .
+<http://example.org/ACCO653T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO350> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO650T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/financial_statement_analysis355> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement_analysis" .
+<http://example.org/ACCO420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "computer" .
+<http://example.org/ACCO652T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/fraud350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Fraud" .
+<http://example.org/e-business350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#semester> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ACCO682> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO655T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO465> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO635T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO595> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/ACCO230> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO471> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see UGRD Calendar" .
+<http://example.org/ACCO650> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO595> <http://www.w3.org/2000/01/rdf-schema#label> "SPECIAL TOPICS IN ACCO" .
+<http://example.org/ACCO340> <http://www.w3.org/2000/01/rdf-schema#label> "Income Taxation in Canada" .
+<http://example.org/ACCO652T> <http://focu.io/schema#catalog> "652T" .
+<http://example.org/accounting350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO631> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/GRAD681> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/FINA650> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/FINA" .
+<http://example.org/ACCO631T> <http://xmlns.com/foaf/0.1/topic> "TUT" .
+<http://example.org/GRAD682> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/FINAN681> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO650> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/ACCO330> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/Managerial_Accounting220> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Management_accounting" .
+<http://example.org/ACCO631T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/GRAD652T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/systems_analysis350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Systems_analysis" .
+<http://focu.io/schema#credits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.org/accounting220> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651> <http://www.w3.org/2000/01/rdf-schema#label> "FINANCIAL REPORTING:COMP APP" .
+<http://example.org/ACCO651> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO685> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('PREP', 'http://dbpedia.org/resource/PowerPC_Reference_Platform')" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "larceny" .
+<http://example.org/GRAD650T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO471> <http://xmlns.com/foaf/0.1/topic> "No topics for this course" .
+<http://focu.io/schema#catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO230> <http://xmlns.com/foaf/0.1/topic> "Accounting" .
+<http://example.org/ACCO365> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/fraud_detection455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Fraud" .
+<http://example.org/ACCO240> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction to Managerial Accounting" .
+<http://example.org/ACCO240> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Managerial Accounting', 'http://dbpedia.org/resource/Management_accounting')" .
+<http://example.org/corruption455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD643X> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO240> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO650> <http://xmlns.com/foaf/0.1/topic> "FINA" .
+<http://example.org/CASE685> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/transfer_pricing330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Transfer_pricing" .
+<http://example.org/ACCO631T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://focu.io/schema#offeredAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.dbpedia.org/resource/Public_university> .
+<http://example.org/e-business350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Electronic_business" .
+<http://example.org/ACCO659> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see Graduate Calendar" .
+<http://focu.io/schema#semester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "fraud" .
+<http://focu.io/schema#offeredAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO691> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO595> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/larceny455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Larceny" .
+<http://example.org/GRAD690B> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO400> <http://xmlns.com/foaf/0.1/topic> "conceptual framework" .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO651T> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/ACCO420> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('III', 'http://dbpedia.org/resource/NCAA_Division_III')" .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "capital gains" .
+<http://example.org/ACCO682> <http://focu.io/schema#catalog> "682" .
+<http://example.org/accounting320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO650T> <http://xmlns.com/foaf/0.1/topic> "REP" .
+<http://example.org/ACCO230> <http://focu.io/schema#catalog> "230" .
+<http://example.org/ACCO400> <http://focu.io/schema#catalog> "400" .
+<http://focu.io/schema#Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/ACCO365> <http://xmlns.com/foaf/0.1/topic> "U.S." .
+<http://example.org/Canada340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Canada" .
+<http://example.org/ACCO365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/GRAD631T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658T> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorial in Capstone I Seminar" .
+<http://focu.io/schema#grade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO672> <http://xmlns.com/foaf/0.1/topic> "II" .
+<http://example.org/CASE682> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Computer-aided_software_engineering" .
+<http://example.org/ACCO220> <http://focu.io/schema#catalog> "220" .
+<http://example.org/ACCO650T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://focu.io/schema#grade> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Record> .
+<http://focu.io/schema#catalog> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/IN470> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/ACCO430> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/Canadian340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Canada" .
+<http://example.org/ACCO310> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO653> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "decision making" .
+<http://example.org/GRAD695> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO595> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/IN595> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/ACCO230> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction to Financial Accounting" .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "Canada" .
+<http://example.org/ACCO365> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO310> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO653> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO470> <http://focu.io/schema#catalog> "470" .
+<http://example.org/FINA650T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/FINA" .
+<http://example.org/FINA650> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO653> <http://xmlns.com/foaf/0.1/topic> "CONTROL" .
+<http://example.org/TUT631T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Tulip_Television" .
+<http://example.org/Accounting400> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see Graduate Calendar" .
+<http://example.org/ACCO590> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/variance_analysis330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Analysis_of_variance" .
+<http://example.org/ACCO430> <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Management Accounting" .
+<http://example.org/ACCO651> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/Managerial_Accounting240> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Management_accounting" .
+<http://focu.io/schema#hasRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Has record"@en .
+<http://example.org/ACCO590> <http://focu.io/schema#subject> "ACCO" .
+<http://focu.io/schema#credits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO651> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO681> <http://www.w3.org/2000/01/rdf-schema#label> "FINAN L ACCO G/REPORT G III" .
+<http://example.org/ACCO652T> <http://xmlns.com/foaf/0.1/topic> "SER" .
+<http://example.org/ACCO653T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO420> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO471> <http://www.w3.org/2000/01/rdf-schema#label> "ACCOUNTING SEMINAR" .
+<http://example.org/decision_making350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Decision-making" .
+<http://example.org/ACCO658> <http://focu.io/schema#catalog> "658" .
+<http://example.org/ACCO365> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/REP651T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO653> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/CASE435> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Computer-aided_software_engineering" .
+<http://example.org/ACCO682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/goods340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Goods" .
+<http://example.org/GRAD635T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO681> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO682> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "fraud" .
+<http://example.org/ACCO455> <http://focu.io/schema#catalog> "455" .
+<http://example.org/ACCO430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Management Accounting', 'http://dbpedia.org/resource/Management_accounting')" .
+<http://example.org/ACCO672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO450> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO650> <http://www.w3.org/2000/01/rdf-schema#label> "FINA REPORTING IN PRACTICE" .
+<http://example.org/GRAD652> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO355> <http://focu.io/schema#catalog> "355" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "interdisciplinary" .
+<http://example.org/IN653T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/ACCO470> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO658T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://focu.io/schema#provenance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/topic> .
+<http://example.org/ACCO655T> <http://focu.io/schema#catalog> "655T" .
+<http://example.org/ACCO635T> <http://xmlns.com/foaf/0.1/topic> "TUT" .
+<http://example.org/GRAD651T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO681> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO240> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the role of accounting information for decision making, and focuses on concepts and techniques used in planning operations, controlling activities, and evaluating managerial performance. New developments are addressed with a focus on contemporary business issues and real-world applicability of management accounting concepts and techniques.\nPrerequisite: ACCO 230.\nNOTE: JMSB students may not take this course for credit.\nNOTE: Students who receive a passing grade may be exempt from COMM 305.\nNOTE: Students who have received credit for ACCO 220 may not take this course for credit." .
+<http://example.org/ACCO650> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO691> <http://focu.io/schema#catalog> "691" .
+<http://example.org/IN470> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO590> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO631> <http://www.w3.org/2000/01/rdf-schema#label> "BUSINESS ADVISORY SERVICES" .
+<http://example.org/pension320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO681> <http://focu.io/schema#catalog> "681" .
+<http://example.org/ACCO681> <http://xmlns.com/foaf/0.1/topic> "FINAN" .
+<http://example.org/Canada340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO685> <http://focu.io/schema#credits> "6.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO635> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "Information Technology" .
+<http://example.org/ACCO659> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('II', 'http://dbpedia.org/resource/World_War_II')" .
+<http://example.org/ACCO695> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO652> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO465> <http://xmlns.com/foaf/0.1/topic> "CA" .
+<http://example.org/ACCO365> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('U.S.', 'http://dbpedia.org/resource/United_States')" .
+<http://example.org/ACCO440> <http://www.w3.org/2000/01/rdf-schema#comment> "This course provides core knowledge regarding the federal taxation of corporations, partnerships, and trusts. It introduces analytical skills needed to make decisions regarding various business transfers, combinations, incorporation and estate planning issues for corporations and shareholders.\nPrerequisite: ACCO 340." .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "AIS" .
+<http://example.org/ACCO420> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "financial statements" .
+<http://example.org/ACCO590> <http://focu.io/schema#catalog> "590" .
+<http://example.org/FINA651T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#offeredAt> <http://www.w3.org/2000/01/rdf-schema#label> "Offered At"@en .
+<http://example.org/ACCO653T> <http://xmlns.com/foaf/0.1/topic> "INF" .
+<http://example.org/ACCO310> <http://xmlns.com/foaf/0.1/topic> "financial reporting" .
+<http://example.org/ACCO365> <http://www.w3.org/2000/01/rdf-schema#label> "U.S. Federal Taxation" .
+<http://example.org/ACCO650> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/capital_gains340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/financial_statements355> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "Accounting" .
+<http://example.org/ACCO440> <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Taxation" .
+<http://example.org/ACCO655T> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorial in Taxation/Decision making" .
+<http://focu.io/schema#provenance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/FINAN681> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Finan_of_Lindisfarne" .
+<http://example.org/ACCO595> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://focu.io/schema#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/accounting400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/INF653T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/INF_file" .
+<http://example.org/ACCO631T> <http://focu.io/schema#catalog> "631T" .
+<http://example.org/GRAD595> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO435> <http://xmlns.com/foaf/0.1/topic> "CASE" .
+<http://example.org/IV425> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Intravenous_therapy" .
+<http://example.org/REP650T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Robert_Esnault-Pelterie" .
+<http://focu.io/schema#provenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO659> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO330> <http://www.w3.org/2000/01/rdf-schema#comment> "This course provides an examination of the techniques, systems, and procedures applicable to the managerial use of accounting information for planning, decision-making, and control. Topics include cost accumulation and allocation, product and process costing, flexible budgeting and variance analysis, evaluation of managerial performance, and transfer pricing.\nPrerequisite: COMM 305." .
+<http://example.org/U.S.365> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/United_States" .
+<http://example.org/ACCO450> <http://xmlns.com/foaf/0.1/topic> "assurance services" .
+<http://example.org/property_income340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Property_income" .
+<http://example.org/ACCO230> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Accounting', 'http://dbpedia.org/resource/Accounting')" .
+<http://example.org/ACCO691> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO691> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO650T> <http://www.w3.org/2000/01/rdf-schema#label> "TUTORIAL IN FINA REP/PRACTICE" .
+<http://example.org/assurance_services450> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Assurance_services" .
+<http://example.org/SYS653T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls" .
+<http://example.org/ACCO220> <http://www.w3.org/2000/01/rdf-schema#comment> "This course provides an introduction to accounting principles underlying the preparation of financial reports with an emphasis on the relationship between accounting information and production decisions. It examines the relationship between costs, production volume, and profit, as well as the practical benefits of standard costs for planning and control purposes. The role of accounting information in various manufacturing decisions is also highlighted.\n\nNOTE: This course would be useful to Engineering students.\nNOTE: JMSB students may not take this course for credit.\nNOTE: Students who have received credit for ACCO 230, 240 may not take this course for credit." .
+<http://focu.io/schema#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "A person enrolled in one or more courses at a academic institution or other place of academic learning"@en .
+<http://example.org/ACCO658T> <http://xmlns.com/foaf/0.1/topic> "No topics for this course" .
+<http://example.org/ACCO685> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO400> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO651> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO651> <http://focu.io/schema#catalog> "651" .
+<http://example.org/financial_statements450> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/larceny455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD672> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO653> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('SYS', 'http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls')" .
+<http://example.org/ACCO230> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/financial_statement_analysis355> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO330> <http://xmlns.com/foaf/0.1/topic> "variance analysis" .
+<http://example.org/AIS350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#hasRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/GRAD650T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/Management_Accounting430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Management_accounting" .
+<http://example.org/GRAD691> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO653T> <http://xmlns.com/foaf/0.1/topic> "SYS" .
+<http://example.org/ACCO651T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "deterrence" .
+<http://example.org/ACCO590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/Sarbanes-Oxley_Act455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/skimming455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO651> <http://xmlns.com/foaf/0.1/topic> "COMP" .
+<http://example.org/ACCO430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://focu.io/schema#grade> <http://www.w3.org/2000/01/rdf-schema#label> "Letter grade"@en .
+<http://example.org/ACCO320> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO650T> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/ACCO658> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see Graduate Calendar" .
+<http://example.org/conceptual_framework400> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/accounting230> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO340> <http://xmlns.com/foaf/0.1/topic> "Canadian" .
+<http://focu.io/schema#course> <http://www.w3.org/2000/01/rdf-schema#comment> "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en .
+<http://example.org/accounting420> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO631> <http://focu.io/schema#catalog> "631" .
+<http://example.org/accounting400> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/Accounting230> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/ACCO430> <http://focu.io/schema#catalog> "430" .
+<http://example.org/ACCO631T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO320> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/Criminal_Code455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Criminal_code" .
+<http://example.org/financial_statements230> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO695> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO652> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO681> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO635> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/TUT635T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Tulip_Television" .
+<http://example.org/SER652T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Cadena_SER" .
+<http://example.org/ACCO400> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/CONTROL653> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO230> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO420> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO350> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/audit450> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/fraud_detection455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO643X> <http://xmlns.com/foaf/0.1/topic> "SP" .
+<http://example.org/IN650T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO435> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('CASE', 'http://dbpedia.org/resource/Computer-aided_software_engineering')" .
+<http://example.org/property_income340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO425> <http://xmlns.com/foaf/0.1/topic> "IV" .
+<http://example.org/ACCO320> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/capital_gains340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Capital_gain" .
+<http://example.org/ACCO685> <http://xmlns.com/foaf/0.1/topic> "PREP" .
+<http://example.org/ACCO220> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO695> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO658> <http://focu.io/schema#subject> "ACCO" .
+<http://focu.io/schema#subject> <http://www.w3.org/2000/01/rdf-schema#comment> "An abbreviation for the discipline or department under which an academic course falls"@en .
+<http://example.org/SYS653T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO471> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "cheque" .
+<http://example.org/ACCO425> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/tax340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Tax" .
+<http://example.org/ACCO430> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO330> <http://xmlns.com/foaf/0.1/topic> "transfer pricing" .
+<http://example.org/ACCO672> <http://www.w3.org/2000/01/rdf-schema#label> "MANAGEMENT ACCOUNTING II" .
+<http://example.org/ACCO595> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO365> <http://xmlns.com/foaf/0.1/topic> "tax planning" .
+<http://example.org/ACCO340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Canada', 'http://dbpedia.org/resource/Canada')" .
+<http://example.org/ACCO400> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/liabilities320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Asset" .
+<http://example.org/ACCO682> <http://xmlns.com/foaf/0.1/topic> "CASE" .
+<http://example.org/accounting230> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO650> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO230> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO425> <http://focu.io/schema#catalog> "425" .
+<http://example.org/ACCO682> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('CASE', 'http://dbpedia.org/resource/Computer-aided_software_engineering')" .
+<http://example.org/ACCO643X> <http://focu.io/schema#catalog> "643X" .
+<http://example.org/ACCO650T> <http://xmlns.com/foaf/0.1/topic> "FINA" .
+<http://example.org/ACCO590> <http://focu.io/schema#credits> "1.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://focu.io/schema#subject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO440> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO652> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO470> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/process_costing330> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ADV652T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/A.D._Vision" .
+<http://example.org/ACCO635T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/financial_reporting310> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/estate_planning440> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Estate_planning" .
+<http://example.org/ACCO635T> <http://focu.io/schema#catalog> "635T" .
+<http://example.org/IN651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Indiana" .
+<http://example.org/ACCO653T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/qualitative430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Qualitative_research" .
+<http://example.org/auditing465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO681> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO681> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/Sarbanes-Oxley_Act455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Sarbanes\u2013Oxley_Act" .
+<http://example.org/ACCO685> <http://www.w3.org/2000/01/rdf-schema#label> "CASE ANALY/INTEG/EXAM PREP" .
+<http://example.org/GRAD695> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO440> <http://xmlns.com/foaf/0.1/topic> "estate planning" .
+<http://example.org/ACCO310> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO230> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO240> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO425> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see UGRD Calendar" .
+<http://example.org/II320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/World_War_II" .
+<http://example.org/Fraud455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Fraud" .
+<http://example.org/ACCO690B> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/CASE685> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Computer-aided_software_engineering" .
+<http://example.org/SP643X> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO595> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO643X> <http://focu.io/schema#credits> "1.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/IN651T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO400> <http://xmlns.com/foaf/0.1/topic> "financial reporting" .
+<http://example.org/auditing465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Audit" .
+<http://example.org/ACCO682> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO595> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/GRAD685> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO340> <http://www.w3.org/2000/01/rdf-schema#comment> "This course provides core knowledge regarding the federal income tax structure and the Canadian goods and services tax system. It examines the taxation of employment, business, property income, capital gains and other sources of income for an individual.\nPrerequisite: COMM 217." .
+<http://example.org/ACCO631> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO365> <http://www.w3.org/2000/01/rdf-schema#comment> "This course familiarizes the student with individual and corporate taxation in the U.S. The use of professional judgment in the application of tax planning recommendations is also addressed in this course.\nPrerequisite: COMM 217 or ACCO 230.\nNOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit." .
+<http://example.org/financial_reporting400> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO450> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO672> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO672> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO455> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO653T> <http://www.w3.org/2000/01/rdf-schema#label> "TUTORIAL IN INF SYS/INT.CONT" .
+<http://example.org/tax_planning365> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO653> <http://xmlns.com/foaf/0.1/topic> "SYS" .
+<http://example.org/ACCO400> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD651> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/SER652T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/FINA651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/FINA" .
+<http://example.org/ACCO655T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/INF653T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO365> <http://focu.io/schema#catalog> "365" .
+<http://example.org/ACCO450> <http://www.w3.org/2000/01/rdf-schema#label> "Assurance Services" .
+<http://example.org/ACCO330> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/Criminal_Code455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO450> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the concepts and current standards of various assurance services, especially the audit of financial statements. It emphasizes the audit process and the role of the public accountant in expressing an opinion on the financial statements of an organization.\nPrerequisite: ACCO 320 previously or concurrently." .
+<http://focu.io/schema#course> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/Record> .
+<http://example.org/ACCO658T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO652> <http://focu.io/schema#catalog> "652" .
+<http://example.org/ACCO240> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO220> <http://xmlns.com/foaf/0.1/topic> "Managerial Accounting" .
+<http://example.org/Canadian340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO355> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://focu.io/schema#Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/ontology/document> .
+<http://example.org/computer350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Computer" .
+<http://example.org/ACCO450> <http://xmlns.com/foaf/0.1/topic> "audit" .
+<http://example.org/ACCO652T> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/Management_Accounting330> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO653T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/federal_income_tax340> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Income_tax_in_the_United_States" .
+<http://example.org/GRAD631> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO695> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO652> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO653T> <http://focu.io/schema#catalog> "653T" .
+<http://example.org/ACCO400> <http://www.w3.org/2000/01/rdf-schema#label> "Accounting Theory" .
+<http://example.org/IN595> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/II320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO455> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO420> <http://focu.io/schema#catalog> "420" .
+<http://example.org/fraud455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Fraud" .
+<http://example.org/ACCO631T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/APP651T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO652T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('SER', 'http://dbpedia.org/resource/Cadena_SER')" .
+<http://example.org/ACCO365> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO655T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see Graduate Calendar" .
+<http://example.org/ACCO651T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO595> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/TUT635T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO330> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/GRAD631> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO470> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('IN', 'http://dbpedia.org/resource/Indiana')" .
+<http://example.org/ACCO690B> <http://www.w3.org/2000/01/rdf-schema#label> "ADV EXAM WRITING TECHNIQUES" .
+<http://example.org/GRAD590> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "II" .
+<http://example.org/ACCO230> <http://www.w3.org/2000/01/rdf-schema#comment> "This course provides an introduction to accounting concepts underlying financial statements of organizations. It focuses on the analysis, measurement, and reporting of business transactions to users of financial statements. It also examines the uses and limitations of accounting information for investment and credit decisions.\n\nNOTE: JMSB students may not take this course for credit.\n\"NOTE: Students who receive a grade of \"\"C\"\" or better may be exempt from COMM 217.\"\nNOTE: Students who have received credit for ACCO 220 may not take this course for credit." .
+<http://example.org/ACCO651T> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO220> <http://www.w3.org/2000/01/rdf-schema#label> "Financial and Managerial Accounting" .
+<http://example.org/ACCO340> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/Decision_making655T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Decision-making" .
+<http://example.org/ACCO400> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the theoretical foundations of the contemporary approach to financial reporting, and the political and pragmatic considerations in the development of the conceptual framework underlying current accounting standards. Alternative theories of accounting are discussed and controversial areas are emphasized.\nPrerequisite: ACCO 320." .
+<http://focu.io/schema#hasRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A property describing the relationship between a single student and a single record"@en .
+<http://example.org/ACCO440> <http://xmlns.com/foaf/0.1/topic> "ACCO" .
+<http://example.org/ACCO355> <http://xmlns.com/foaf/0.1/topic> "financial statement analysis" .
+<http://example.org/ACCO420> <http://xmlns.com/foaf/0.1/topic> "currency" .
+<http://example.org/ACCO685> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/accountant450> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Management_accounting" .
+<http://example.org/Accounting350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/currency420> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Currency" .
+<http://example.org/CASE435> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/GRAD672> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO240> <http://focu.io/schema#catalog> "240" .
+<http://example.org/fraud455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO695> <http://www.w3.org/2000/01/rdf-schema#label> "SEMINAR IN SPECIAL TOPICS" .
+<http://example.org/ACCO425> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO450> <http://xmlns.com/foaf/0.1/topic> "financial statements" .
+<http://example.org/ACCO635T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('TUT', 'http://dbpedia.org/resource/Tulip_Television')" .
+<http://example.org/IN653T> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#offeredAt> <http://www.w3.org/2000/01/rdf-schema#comment> "A university course is offered at the associated university."@en .
+<http://example.org/ACCO653T> <http://xmlns.com/foaf/0.1/topic> "IN" .
+<http://example.org/GRAD590> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO471> <http://focu.io/schema#catalog> "471" .
+<http://example.org/ACCO685> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO650T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO631T> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO355> <http://xmlns.com/foaf/0.1/topic> "financial statements" .
+<http://example.org/ACCO471> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/GRAD685> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://www.w3.org/2000/01/rdf-schema#comment> "This course covers important topics and concepts in auditing and assurance services. It builds on audit principles covered in previous courses and introduces specialized and advanced topics that are of particular importance to professional accountants. In covering topics and their application, the course focuses on decision-making processes followed by auditors. The course embraces the requirements of the CA Student Competency Map for assurance and the CGA Modules and Readings AU2.\nPrerequisite: ACCO 320, 360; or ACCO 450.\nNOTE: Students who have received credit for this topic under an ACCO 470 number may not take this course for credit." .
+<http://example.org/ACCO653T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('SYS', 'http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls')" .
+<http://example.org/ACCO350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO655T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/audit465> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/financial_statements420> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO455> <http://xmlns.com/foaf/0.1/topic> "Sarbanes-Oxley Act" .
+<http://example.org/process_costing330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Process_costing" .
+<http://example.org/GRAD650> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/accounting240> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO595> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO655> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO651T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO425> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/CA465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Chartered_accountant" .
+<http://example.org/ACCO659> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO430> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/AIS350> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Association_for_Information_Systems" .
+<http://focu.io/schema#hasRecord> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/Record> .
+<http://example.org/ACCO320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+<http://example.org/ACCO695> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('IN', 'http://dbpedia.org/resource/Indiana')" .
+<http://example.org/ACCO653> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/Accounting400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/accounting240> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Accounting" .
+<http://example.org/Fraud455> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/SYS653> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Sta._Elena_Construction_Wrecking_Balls" .
+<http://example.org/tax340> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO340> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO350> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the role of computerized accounting information systems (AIS) in organizations. Students learn how to justify, design, and utilize AIS to provide pertinent information to managers for decision making. The course helps to identify appropriate usage of information technology in specific accounting contexts. Topics include e-business, computer fraud, information systems security and controls, systems analysis, and management of information technology.\nPrerequisite: COMM 226 or 301, COMM 305" .
+<http://example.org/ACCO430> <http://xmlns.com/foaf/0.1/topic> "Management Accounting" .
+<http://example.org/ACCO652T> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO240> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO465> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO631> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/audit450> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Audit" .
+<http://example.org/audit465> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Audit" .
+<http://example.org/ACCO685> <http://xmlns.com/foaf/0.1/topic> "CASE" .
+<http://example.org/ACCO420> <http://xmlns.com/foaf/0.1/topic> "financial statements" .
+<http://example.org/GRAD653T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO230> <http://xmlns.com/foaf/0.1/topic> "financial statements" .
+<http://example.org/ACCO655> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/II659> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/IN650> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO658> <http://www.w3.org/2000/01/rdf-schema#label> "Capstone I Seminar" .
+<http://example.org/ACCO400> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('Accounting', 'http://dbpedia.org/resource/Accounting')" .
+<http://example.org/ACCO672> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO643X> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('SP', 'http://dbpedia.org/resource/Social_Democratic_Party_of_Switzerland')" .
+<http://example.org/ACCO420> <http://www.w3.org/2000/01/rdf-schema#comment> "This course examines the theory and practice of accounting for intercorporate investments, business combinations, consolidation of financial statements, and foreign currency transactions and operations.\nPrerequisite: ACCO 320." .
+<http://example.org/corruption455> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Political_corruption" .
+<http://example.org/ACCO650> <http://focu.io/schema#catalog> "650" .
+<http://example.org/ACCO635T> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO320> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/ACCO690B> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO440> <http://focu.io/schema#credits> "3.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO658> <http://xmlns.com/foaf/0.1/topic> "No topics for this course" .
+<http://example.org/decision_making350> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO643X> <http://www.w3.org/2000/01/rdf-schema#label> "SP TUTORIAL-INCOME TAXATION" .
+<http://example.org/ACCO682> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO681> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/GRAD650> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO650T> <http://focu.io/schema#catalog> "650T" .
+<http://example.org/ACCO690B> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO681> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see GRAD Calendar" .
+<http://example.org/ACCO651T> <http://xmlns.com/foaf/0.1/topic> "APP" .
+<http://example.org/ACCO695> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO635> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO652> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO400> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO681> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO350> <http://focu.io/schema#catalog> "350" .
+<http://example.org/ACCO350> <http://xmlns.com/foaf/0.1/topic> "decision making" .
+<http://example.org/ACCO355> <http://www.w3.org/2000/01/rdf-schema#comment> "This course explores the usefulness and limitations of financial statements for investment and credit decisions. It focuses on the interpretation of the information contained in financial statements which reflect the economic characteristics of the firm and its strategic business decisions. Instruments and techniques for financial statement analysis are discussed and applied to case studies and actual companies.\nPrerequisite: COMM 305, 308.\n\nNOTE: This course would be useful for students in Finance and Management." .
+<http://example.org/accounting320> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO643X> <http://xmlns.com/foaf/0.1/topic> "GRAD" .
+<http://example.org/ACCO330> <http://focu.io/schema#catalog> "330" .
+<http://example.org/ACCO659> <http://www.w3.org/2000/01/rdf-schema#label> "Capstone II Examination Preparation" .
+<http://example.org/ACCO450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO420> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO651T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('FINA', 'http://dbpedia.org/resource/FINA')" .
+<http://example.org/ACCO655> <http://focu.io/schema#credits> "4.0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/ACCO595> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('ACCO', 'http://dbpedia.org/resource/Acre,_Israel')" .
+<http://example.org/ACCO330> <http://xmlns.com/foaf/0.1/topic> "accounting" .
+<http://example.org/II672> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://focu.io/schema#semester> <http://www.w3.org/2000/01/rdf-schema#label> "Semester"@en .
+<http://example.org/ACCO643X> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/GRAD635> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO651T> <http://focu.io/schema#catalog> "651T" .
+<http://example.org/Management_Accounting330> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Management_accounting" .
+<http://example.org/interdisciplinary430> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Interdisciplinarity" .
+<http://example.org/ACCO672> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO652T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://focu.io/schema#subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/ACCO365> <http://xmlns.com/foaf/0.1/topic> "corporate taxation" .
+<http://example.org/ACCO658> <http://focu.io/schema#offeredAt> <http://example.org/Concordia> .
+<http://example.org/ACCO355> <http://focu.io/schema#subject> "ACCO" .
+<http://example.org/ACCO655> <http://www.w3.org/2000/01/rdf-schema#label> "Taxation and Decision-Making" .
+<http://example.org/GRAD635T> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/BM-21_Grad" .
+<http://example.org/ACCO471> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.dbpedia.org/resource/Course_(education)> .
+<http://example.org/ACCO420> <http://focu.io/schema#provenance> "Concordia Open Data" .
+<http://example.org/ACCO240> <http://xmlns.com/foaf/0.1/topic> "decision making" .
+<http://example.org/corporate_taxation365> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Corporate_tax" .
+<http://focu.io/schema#credits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/financial_statements420> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Financial_statement" .
+<http://example.org/ACCO651> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "('APP', 'http://dbpedia.org/resource/Application_software')" .
+<http://focu.io/schema#course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://example.org/ACCO691> <http://www.w3.org/2000/01/rdf-schema#label> "SEMINAR-BUSINESS VALUATIONS" .
+<http://focu.io/schema#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://focu.io/schema#provenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance"@en .
+<http://focu.io/schema#semester> <http://www.w3.org/2000/01/rdf-schema#comment> "The year in which the course associated to the Record took place."@en .
+<http://example.org/ACCO435> <http://www.w3.org/2000/01/rdf-schema#comment> "Please see UGRD Calendar" .
+<http://example.org/ACCO450> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://dbpedia.org/resource/Acre,_Israel" .
+

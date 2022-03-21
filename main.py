@@ -76,14 +76,19 @@ for line in cd:
 
     if(len(course_topics) != 0):
         for topic in course_topics:
+            t = topic[0]
+            t = t.replace(' ','_')
+            #print("T : ",t)
+            t = from_n3('ex:' + t + str(course_number), nsm=nsm)
+            #print(t)
             g.add((course, FOAF.topic, Literal(topic[0])))
-            g.add((Literal(topic[0]), RDFS.seeAlso, Literal(topic[1])))
-            g.add((Literal(topic[0]), from_n3('focu:provenance', nsm=nsm), Literal("Concordia Open Data")))
+            g.add((t, RDFS.seeAlso, Literal(topic[1])))
+            g.add((t, from_n3('focu:provenance', nsm=nsm), Literal("Concordia Open Data")))
     else:
         g.add((course, FOAF.topic, Literal("No topics for this course")))
 
 
 
 #Save data in N-Triple format
-g.serialize('knowledge_base_n3.txt',format='nt')
-g.serialize('knowledge_base_ttl.txt',format='turtle')
+g.serialize('knowledge_base_n3.nt',format='nt')
+g.serialize('knowledge_base_ttl.ttl',format='turtle')
