@@ -1,0 +1,23 @@
+PREFIX unidata: <http://uni.io/data#> 
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcmitype: <http://purl.org/dc/dcmitype/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://uni.io/schema#> 
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX dbr: <http://dbpedia.org/resource/> 
+PREFIX un: <http://www.w3.org/2007/ont/unit#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Question 5
+# What are the recommended reading materials for [subject][number] by lecture?
+# What are the recommended reading materials for [COMP][6741] by lecture?
+SELECT ?number ?source
+WHERE {
+  	?course dcmitype:subject "COMP" .
+    ?course dcmitype:identifier "6741" .
+	?lecture uni:hasContent ?content .
+    ?lecture dcterms:isPartOf ?course .
+  	?lecture dcmitype:identifier ?number .
+    ?content dcterms:type "READING" .
+    ?content dcterms:source ?source . 
+} order by ?number

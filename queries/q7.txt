@@ -1,0 +1,27 @@
+PREFIX unidata: <http://uni.io/data#> 
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcmitype: <http://purl.org/dc/dcmitype/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://uni.io/schema#> 
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX dbr: <http://dbpedia.org/resource/> 
+PREFIX un: <http://www.w3.org/2007/ont/unit#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Question 7
+# Does [subject][number] and [subject][number] cover similar topic?
+# Does COMP 6741 and comp 6721 cover similar topic?
+ASK
+{
+  	?course1 dcmitype:subject "COMP" .
+    ?course1 dcmitype:identifier "6741" .
+    ?course1 uni:topic ?topic1 .
+    ?lecture1 dcterms:isPartOf ?course1 .
+    ?lecture1  uni:topic ?topic3 .
+    ?course2 dcmitype:subject "COMP" .
+    ?course2 dcmitype:identifier "6721" .
+    ?course2 uni:topic ?topic2 .
+    ?lecture2 dcterms:isPartOf ?course2 .
+    ?lecture1  uni:topic ?topic4 .
+    FILTER(?topic1 = ?topic2 || ?topic3 = ?topic4 ) .
+}

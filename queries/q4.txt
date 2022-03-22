@@ -1,0 +1,16 @@
+PREFIX unidata: <http://uni.io/data#> 
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcmitype: <http://purl.org/dc/dcmitype/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uni: <http://uni.io/schema#> 
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX dbr: <http://dbpedia.org/resource/> 
+PREFIX un: <http://www.w3.org/2007/ont/unit#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Question 4
+# How many courses are offered at Concordia University?
+SELECT (count(?courseId) as ?CourseCount)
+WHERE{
+    ?courseId rdf:type uni:Course
+}
