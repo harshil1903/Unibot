@@ -18,12 +18,8 @@ nsm.bind('dbr', 'http://dbpedia.org/resource/')
 nsm.bind('ex', 'http://example.org/')
 nsm.bind('focu', 'http://focu.io/schema#')
 
-course_counter = 0
-list_of_indexes_of_resourceless_courses = []
-list_of_valid_graph_entries = []
 concordia_university = URIRef('https://dbpedia.org/resource/Concordia_University')
 
-#End of variable and namespace declaration
 
 
 #Read csv data
