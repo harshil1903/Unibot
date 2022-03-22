@@ -76,12 +76,7 @@ for line in cd:
             course_link = list(set([(ent.text, ent.kb_id_) for ent in doc_link.ents]))
         except:
             pass
-    #print(course_topics)
-    #print(course_link)
-
     coursewise_topics[course_subject + str(course_number)] = course_topics
-    # for k,v in coursewise_topics.items():
-    #     print(k,v)
 
     #Add triples to the graph
 
@@ -103,9 +98,7 @@ for line in cd:
         for topic in course_topics:
             t = topic[0]
             t = t.replace(' ','_')
-            #print("T : ",t)
             t = from_n3('dbr:' + t, nsm=nsm)
-            #print(t)
             g.add((_course, FOAF.topic, t))
             g.add((t, RDFS.seeAlso, Literal(topic[1])))
             g.add((t, from_n3('focu:provenance', nsm=nsm), Literal("Concordia Open Data")))
@@ -150,13 +143,10 @@ for line in cd:
 
 
 #Add student info
-#print(coursewise_topics)
-
 students = StudentData.getStudents()
 
 for student in students:
     _student = from_n3('ex:' + str(student[0]), nsm=nsm)
-    #print(student[1])
     g.add((_student, RDF.type, from_n3('focu:Student', nsm=nsm)))
     #g.add((_student, FOAF.name, Literal(student[1] + " " + student[2])))
     g.add((_student, from_n3('focu:firstName', nsm=nsm), Literal(student[1])))
@@ -168,7 +158,6 @@ for student in students:
 
     rc = 0
     for crs in student[5]:
-        #print(crs)
         _record = from_n3('ex:record' + "_" + str(student[0]) + "_" + str(rc), nsm=nsm)
         g.add((_student, from_n3('focu:hasRecord', nsm=nsm), _record))
         g.add((_record, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
@@ -176,12 +165,10 @@ for student in students:
         rc += 1
 
     for coursesTaken in student[4]:
-        #print(coursesTaken)
         topics = coursewise_topics.get(coursesTaken)
         if topics is None:
             break
         for topic in topics:
-            #print(topic[0])
             g.add((_student, from_n3('focu:competencies', nsm=nsm), Literal(topic[0])))
 
 

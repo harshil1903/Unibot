@@ -273,18 +273,18 @@ lastNames = ["Jordi", "Jordon", "Jordy", "Jordyn", "Jorge", "Joris", "Jorryn", "
              "Zidane", "Zijie", "Zinedine", "Zion", "Zishan", "Ziya", "Ziyaan", "Zohaib", "Zohair", "Zoubaeir",
              "Zubair", "Zubayr", "Zuriel"]
 
-courses = ["ACCO220", "ACCO230", "ACCO240", "ACCO310", "ACCO330", "ACCO340", "ACCO350", "ACCO400", "ACCO440",
+courses = ["COMP6741", "COMP6721", "COMP6481", "SOEN6441", "SOEN6011", "INSE6250", "ENCS6931", "COMP6461", "ACCO440",
            "ACCO465"]
 
 competencies = {
-    "ACCO220": {"P01", "P02", "P03", "P04", "P05"},
-    "ACCO230": {"P11", "P12", "P13", "P14", "P15"},
-    "ACCO240": {"P21", "P22", "P23", "P24", "P25"},
-    "ACCO310": {"P31", "P32", "P33", "P34", "P35"},
-    "ACCO330": {"P41", "P42", "P43", "P44", "P45"},
-    "ACCO340": {"P51", "P52", "P53", "P54", "P55"},
-    "ACCO350": {"P61", "P62", "P63", "P64", "P65"},
-    "ACCO400": {"P71", "P72", "P73", "P74", "P75"},
+    "COMP6741": {"P01", "P02", "P03", "P04", "P05"},
+    "COMP6721": {"P11", "P12", "P13", "P14", "P15"},
+    "COMP6481": {"P21", "P22", "P23", "P24", "P25"},
+    "SOEN6441": {"P31", "P32", "P33", "P34", "P35"},
+    "SOEN6011": {"P41", "P42", "P43", "P44", "P45"},
+    "INSE6250": {"P51", "P52", "P53", "P54", "P55"},
+    "ENCS6931": {"P61", "P62", "P63", "P64", "P65"},
+    "COMP6461": {"P71", "P72", "P73", "P74", "P75"},
     "ACCO440": {"P81", "P82", "P83", "P84", "P85"},
     "ACCO465": {"P91", "P92", "P93", "P94", "P95"},
 }
@@ -353,9 +353,6 @@ def getStudents():
             students.append(studentData)
             writer.writerow(studentData)
 
-
-    # for student in students:
-    #     print(student)
 
     return students
 
