@@ -2,6 +2,7 @@ from rdflib import Graph, RDFS, URIRef, Literal
 from rdflib.namespace import RDF, DCTERMS, FOAF, Namespace, NamespaceManager, XSD
 import pandas as pd
 import spacy
+from spacy.util import filter_spans
 
 #Knowledge Graph variable and namespace declaration
 from rdflib.util import from_n3
@@ -34,33 +35,47 @@ cd = course_data.values.tolist()
 counter = 0
 coursewise_topics = {}
 
+skiplist = ["Please see Graduate Calendar" , "Please see GRAD Calendar", "Please see UGRD Calendar",
+            "*VRD*", "*BNR*"]
+
+
 #Process csv data and add it to graph
 for line in cd:
     counter += 1
+    flag = True
 
-    if counter == 10:
-        break
+
     print(line)
     course_id = line[0]
     course_subject = line[1]
     course_number = line[2]
     course_title = line[3]
     course_credit = line[4]
-    course_description = line[5].strip()
-    #link = []
-    #topics = []
+    course_description = str(line[5]).strip()
+    course_topics = []
+    course_link = []
+
+
+    if(course_description in skiplist):
+        flag = False
 
     #DBPedia Spotlight to find links to add as topics
-    nlp = spacy.blank('en')
-    nlp.add_pipe('dbpedia_spotlight', config={'confidence': 0.4}) #change confidence back to 0.5
-    #course_title = course_title.replace(" ", "_")
-    doc_link = nlp(course_title)
-    doc_topics = nlp(course_title + " " + course_description)
-    #print(doc_topics)
+    if flag:
+        try:
+            nlp = spacy.load("en_core_web_sm")
+            #nlp = spacy.blank('en')
+            nlp.add_pipe('dbpedia_spotlight', config={'confidence': 0.5}) #change confidence back to 0.5
+            doc_link = nlp(course_title)
+            doc_topics = nlp(course_title + " " + course_description)
 
-    course_topics = list(set([(ent.text, ent.kb_id_) for ent in doc_topics.ents]))
-    course_link = list(set([(ent.text, ent.kb_id_) for ent in doc_link.ents]))
+            topic_ents = doc_topics.ents
+            topic_ents = filter_spans(topic_ents)
 
+            #course_topics = list(set([(ent.text, ent.kb_id_) for ent in doc_topics.ents]))
+            course_topics = list(set([(ent.text, ent.kb_id_) for ent in topic_ents]))
+            course_link = list(set([(ent.text, ent.kb_id_) for ent in doc_link.ents]))
+        except:
+            pass
     #print(course_topics)
     #print(course_link)
 
