@@ -57,7 +57,7 @@ focu:competencies
 focu:Record
 	a dbo:document;
 	rdfs:label "Record"@en;
-	rdfs:comment "Information about single student's participation in a single course in a particular semester"@en .
+	rdfs:comment "Information about single student's participation in a single course"@en .
 
 focu:hasRecord
 	a rdf:Property;
