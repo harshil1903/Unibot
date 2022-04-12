@@ -1,41 +1,41 @@
 
-Again, assume U is the goal state. Note that open is a stack:
+Best-First Search. Next, we try a best-first (greedy) search. We have a heuristic h(n) that estimates the cost for
+5. open = [ ], closed = [ ]
+Algorithm A. Compute the next step of the Algorithm A on the 8-puzzle:
+], closed = [ ]
+7. open = [ ], closed = [ ]
 10. open = [ ], closed = [ ]
 each path. The goal is P. At each step, expand the node with the lowest cost (as predicted by the heuristic):
-8. open = [ ], closed = [ ]
-6. ???
-2. open = [BA CA DA], closed = [A]
-1. open = [A5
-Finally, extract the path to the solution from the search result:
-2. and compute the next possible search states, including the new values of f (n), g(n) and h(n).
-B F
-3. open = [C 4A E
-COMP6721 Worksheet: Solving Problems by Searching Winter 2022
-3. open = [CA DA EB FB ], closed = [B A]
-null
 Assume U is the goal state. Note that open is a queue:
-6
-Breadth-First Search. Let’s apply the BFS algorithm discussed in the lecture on an example:
+A], closed = [B A]
+5
+B D
 3. open = [EB FB CA DA], closed = [B A]
-Best-First Search. Next, we try a best-first (greedy) search. We have a heuristic h(n) that estimates the cost for
-7. open = [ ], closed = [ ]
+2. open = [BA CA DA], closed = [A]
 A D
-COMP 6721 Applied Artificial Intelligence (Winter 2022)
-4. open = [ ], closed = [ ]
-5. open = [ ], closed = [ ]
-], closed = [ ]
-5. open = [SK LE FB CA DA], closed = [K E B A]
-Depth-First Search. Now we do the same for the DFS algorithm:
+3. open = [C 4A E
+null
 2. open = [B4A C
 6. open = [ ], closed = [ ]
-4
-4. open = [KE LE FB CA DA], closed = [E B A]
-Worksheet #1: Solving Problems by Searching
-5
-9. open = [ ], closed = [ ]
-Algorithm A. Compute the next step of the Algorithm A on the 8-puzzle:
-1. Pick the state with the lowest total cost f (n)
-B D
-1. open = [Anull], closed = [ ]
-A], closed = [B A]
 A] (random choice), closed = [A]
+B F
+Breadth-First Search. Let’s apply the BFS algorithm discussed in the lecture on an example:
+5. open = [SK LE FB CA DA], closed = [K E B A]
+1. open = [Anull], closed = [ ]
+8. open = [ ], closed = [ ]
+COMP6721 Worksheet: Solving Problems by Searching Winter 2022
+Worksheet #1: Solving Problems by Searching
+4. open = [ ], closed = [ ]
+3. open = [CA DA EB FB ], closed = [B A]
+Depth-First Search. Now we do the same for the DFS algorithm:
+2. and compute the next possible search states, including the new values of f (n), g(n) and h(n).
+9. open = [ ], closed = [ ]
+1. open = [A5
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
+Finally, extract the path to the solution from the search result:
+Again, assume U is the goal state. Note that open is a stack:
+1. Pick the state with the lowest total cost f (n)
+6
+4. open = [KE LE FB CA DA], closed = [E B A]
+4
+6. ???

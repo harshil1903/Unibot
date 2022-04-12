@@ -1,829 +1,829 @@
 
-= P(A)    x P(B) (by independence)
-A+C
-grow from there. By 2020, it is estimated that 1.7MB of data will be created every
-Ham
-…
-ether_and_B_togcount_of_A
-15
-• for DTs: pruning level
- In real life:
-Slide 72
-Remember…
-3. Apply learning algorithm to training set to learn the parameters
-nb of instances that the
-X1  X1 
-yes)YoungyeseP(Toothach
-6
- Sum Rule
-defined class
-Slide 29
-Standard Methodology
-yes) Youngyes hacheyes | TootP(Cavity
-(that should have
-new email 2 1 0 1 1 2 ?
- A simple probabilistic classifier based on Bayes' theorem
- gives confidence in its class predictions (i.e., the scores)
-17
-Parameters:
-Getting the Probabilities
-Slide 30
-Association Rule Mining
-ii
-Example 2
-1. TRAIN:
- Ex. with 16 binary variables, we would need 216 entries
- P(the|COOKING) =    P(the|SPORTS) =
-51
-Popular
-Ex. Application: Spam Filtering
- So
- H1: weather will be nice P(H1) = 0.2
-
-Example
- i.e. infer new knowledge from observed evidence
- ex: out of all people who have red spots… how many have meningitis?
-60.05/3)noPlayTennis|sunnyOut(P
-P(A1, A2, A3, A4, ..., An)
-64
-person
- value = number of times that word appears in the e-mail
-Day2 Sunny Hot High Strong No
-smoothing,
 :Rule Bayes with
-high school students
-X500  X500  X500  X500 
- Times, the probability that C occurs, assuming that A and B have
-yes)P(spots
-ML is widely used in Data Mining
- predict the weather that maximizes the probability
- there are 28x28 = 784 features
- when one class is more important than the others
-n
-2. TEST:
-Machine Learning Process
-Day9 Sunny Cool Normal Weak Yes
-Day11 Sunny Mild Normal Strong Yes
-Slide 4
-Why Machine Learning?
- With n events, we can generalize to the Chain rule:
-evidence
-67
- P(A,B) = P(A) x P(B)
-a3.
-yes) P(Youngyes) eP(Toothach
-Image Classification
-• for ANNs: weights
-X4  X4  X4  X4 
- so if a text contains the word "dumbo", the class SPAM is
-Reinforcement Learning
-B)P(A,
-Slide 62
-4.05/2)noPlayTennis|rainOut(P
-used to set up the ML model. eg.
- Training – Unsmoothed  / Smoothed  probs:
-Slide 31
-
-13
-)H|P(E x )P(H  argmax  E)|P(H argmax  H ii
-)H|P(E x )P(H argmax
-Slide 28
- should it be classified as HAM or SPAM?
- If A and B are independent, then:
-Slide 57
- P(Cavity | Young) = 0.18
-Naive Bayes Classification
-
- then P("dumbo"| SPAM) = 0
-)P(E
-48
-Metrics
-Toothache ~Toothache
-Recall=
- P(A|B) = 0.8 P(rain today| cloudy) = 0.8
- ∑i P(Ai) = 1 ⇒ one of the events Ai will take place
-model labelled as class C
- P(A) = 1 ⇒ the event A must take place
-no)yyes| CavitP(Youngno)yyes| CaviteP(Toothachno)P(Cavity
-po
-A BA∩B
-model. eg.
-Supervised
-conditionally independent
-yes )Youngyes ) x P(eP(Toothach
-temp
-Slide 46
-yes)ityyes)xP(Cavyes|CavityYoungyeseP(Toothach
-39
-1j
-cannot change our belief about A
-Slide 12
-independent given C:
- ex: log(0.01) + log(0.02) + log(0.05) + …
-56
- that is often incorrect
-doc1:  "cheap meds for sale"
-Conditional Independent Events
- Question: how will be the weather tomorrow?
- ex: out of all people who have the meningitis … how many have red
- P(ball|COOKING) =       P(ball|SPORTS) =
-second for every person on earth.
- P(meningitis=yes) = 0.00003
-email 2 1 1 0 5 4 3 HAM
-instance is NOT in class C C D
-events A1,...,An takes place
-Type of data Labelled data Unlabelled data No pre-defined data
-Supervised
- Image processing: P(face_person | image features)
- Rolling two dice (together):
-Slide 51
- feature = actual words in the e-mail
-tasks T and performance measure P if its
-)H|P(E x )P(H  )H|P(E x )P(H )H|P(E x )P(H  )P(E 3232221212
-Day Outlook Temperature Humidity Wind Play Tennis
-• for NB: value of delta for
- when one class C is more important than the others
-19
-Learning
-4
-nb of instances that
-Association Clustering
- Assume now 2 pieces of evidence:
- 28 x 28 grayscale images
-Target system 1 system 2 system 3
- H2: weather will be bad P(H2) = 0.5
-
-X500  X500 
-)H|a(P ij
-Conditional Probability (con’t)
- So we choose the Hi with the largest P(Hi|E)
-40
- Given that C is true, then any evidence about B
-64.014/9)yesPlayTennis(P
-Spam
-Slide 16
-22
-B)P(A,  A)|P(B 
-Slide 25
-COMP 6721
- N sets of training texts (1 set for each class)
-12
- some variables are not independent…
-identified as class C
-The machine is trained
-Combining Evidence
-doc75000:   goal… injury …
- E1: today, there's a beautiful sunset
-Independent Events
-33.09/3)yesPlayTennis|strongWind(P
-Slide 10
- with strong (naive) independence assumption
- P(A,B) = P(A|B) x P(B) (by chain rule)
- e1 = <sunset:beautiful, clouds:no, temp:high, summer:yes>
-i2i
-Day14 Rain Mild High Strong No
-Logistic Regression, KNN,
- ex: Text Categorization (spam filtering)
- But how do we get the data ?
-X4  X4 
-)H|P(E x )P(H
-occurrence of the other
-vocabulary of size c in words of number total
-→ Worksheet #3 (“Machine Learning System Evaluation”)
- Score(SPORTS)= log() + log(P(the|SPORTS)) + log(P(referee|SPORTS)) +
-P(Ex|Hi) E1 E2 E3
-All instances that
-?
-Be Careful: Use Logs
-been assigned)
-C4 0 1 3 94 2 0  100
-for all classes ci   // ex. ham or spam
- what is P(Cavity | Toothache ∩ Young) ?
-Slide 17
- so often represented as a feature/attribute vector
- P(A) = 0 ⇒ the event A will never take place
-category.
-X5  X5 
-correct class
-Slide 56
-is
-X3  X3 
-→ If you have spots… you are more likely to have
-)H(P estimate i
- ex: customer email  order, complaint, support request, ...→
-yes)  Youngyes cheno| ToothaP(Cavity
-Slide 65
- P(Cause | Side Effect)… P(misaligned brakes| squeaky wheels)
-• for DTs: features to split
-Slide 43
-ML outside of AI
-?yes)Youngyescheyes|ToothaP(Cavity 
- How do you know if what you learned is correct?
-basic values learned by the ML
- we soon have numerical underflow…
- BUT:
- Prior (or unconditional) probability
-42
-correctly?
- Split data set into 3 sub-sets
- Where did the learner go wrong ?
-90% !
-Types of Machine Learning
-A1,...,An take place
- Spam filter: P(spam_message | words in e-mail)
-p(w1|c1) p(w2|c1) p(w3|c1) p(w4|c1) p(w5|c1) p(w6|c1)
-iji
-Example 3
-yes)ityyes)xP(Cavyyes| CavitYoungyeseP(Toothach
-doc5:   "here is the book for you"
- is the same for all possible Hi  (and is hard to gather anyways)
-Slide 27
-of the 10 classes
- Suppose, we know that
-performance at tasks in T, as measured by
- A patient complains about Toothache and is Young…
- Naïve Bayes: Assumes that the attributes/features are
-Slide 9
-41
-smaller pieces…
-69
-Strictly speaking, what we will see is called a Multinomial Naïve Bayes
-discover output
-digits from the American Census
- With 2 events, the probability that A and B occur is:
-log(P(hit|COOKING)) + log(P(the|COOKING))
-Hyper-parameters:  parameters
- H3: weather will be mixed P(H3) = 0.3
-Postal Code Recognition
- You run your classifier on a data set of unseen examples (that
-and rewards
-2
-55
-Day12 Overcast Mild High Strong Yes
-30
- basis of many spam filters
-X2  X2 
-25
- doc6:  “the cheap book”
-you did not use for training) for which you know the correct
-possible combinations of variables
- what if we have a P(wi|cj) = 0…?
-21
-Machine Learning
-yes)vityyes)x P(Cayes|CavityYoungyes )  xP(yes|CavityeP(Toothach
-Be Careful: Smooth Probabilities
- if the occurrence of one of them does not influence the
- E2: today, there's a average sunset
-• for ANNs: nb of hidden layers, nb
- Diagnostic systems: P(Disease | Symptoms)
- e1 = <a1, … , an>
-61
- argmaxcj log(P(cj)) + Σ log(P(wi|c))
-26
-COOKiNG SPORTS
-Follow trail and error
-doc2:   … the… referee… player…
-
-33.09/3)yesPlayTennis|rainOut(P
- Probability of an event before any evidence is
-Slide 24
-Slide 7
- problem:
-→ Worksheet #3 (“Joint Probabilities”)
- Assume we have 3 hypothesis...
-
-Day8 Sunny Mild High Weak No
- ex: sports, recreation, politics, war, economy,…
-P(Toothache ∩ Cavity ∩ Young)
-1
-score(ci) = score(ci) x P(wj | ci)
-C5 0 0 3 2 92 3  100
- ex: living in Montreal & wearing boots
-So?
- Recall: What proportion of the instances in class C are labelled
-email 3 0 3 2 1 0 1 SPAM
-email 1 3 2 5 1 0 1 SPAM
-Slide 40
-Slide 38
-Slide 21
-2. Naïve Bayes Classifier
-without any guidance
-argmaxH
-for all classes ci // ex. ham or spam
- each feature = 256 greyscale value
-Slide 39
-= 99%
-Slide 61
-yes yes yes?  or no?
-)H|P(a x )P(H argmax  )H|a,...,a,a,aP( x )P(H argmax)H|P(E x )P(H argmax
 Day7 Overcast Cool Normal Strong Yes
-45
-...
-18
-Accuracy
- |V| = 100     vocabulary = {ball, heat, kitchen, referee, stove, the, ... }
- c2: HAM
-
-
- Goal: Given a new instance X=<a1,…, an>, classify as Yes/No
- so instead, we add the log of the probs
-In reality, the instance is…
-Slide 66
-prior probabilities P(Hi)
-36
-Conditional Probability
-P(E2 |H1)
-:assumption ceindependen with
-Machine Learning History
-05.0
-Example 1
-using labelled data
-feature so:
-Slide 34
-Bayes’ Reasoning
-Training External supervision No supervision No supervision
- Out of n hypothesis…
-71
-X7  X7 
-C1 C2 C3 C4 C5 C6 … Total
- to solve this: we assume that every word always appears at
-
- i.e.  A is independent of B if P(A) = P(A|B)
-Slide 19
-~Cavity 0.016 0.064 0.144 0.576
-Algorithms
-H
-10
- when all classes are equally important and represented
-Application of Bayesian Reasoning
- Probability of an event given that you know that B is
-)c|P(w
-Slide 15
-method
- some variables are independent…
-no][yes,H
-Day3 Overcast Hot High Weak Yes
- Each set is already tagged by the class name
-are in  class C and that
-Slide 69
-environment)
- denoted P(A∩B) or P(A,B)
-…
-word accident given the class SPORTS
-e1 beautiful no high yes  Nice
-)noPlayTennis(P )2
-Day6 Rain Cool Normal Strong No
-7
-(task-driven)
-)c in mentscount(docu
- Makes a strong assumption of conditional independence
- each e-mail in the training set is tagged with the correct
-0.31  .12  .15  .04  .3x.4 .5x.3  .2x.2
-doc3:  "book your trip"
- Joint probability distribution:
-spots
- P(A)  = 0.1 P(rain today) = 0.1
- i.e. the features/attributes are conditionally independent
-1. Collect a large set of examples (all with correct classifications)
-)H|P(E x )P(H argmaxH ii
- Fast, easy to apply
-attributes/features
-66
-sunset
- Predict the weather tomorrow based on tonight‘s sunset...
-)H|P(X x )P(H  argmaxH
-meningitis than if we don’t know about you having
-…
- ex: 0.01 x 0.02 x 0.05 x …
- we want to find the most probable Hi given the evidence E
-Slide 64
-Cavity 0.04 0.06
-using binary values for the presence/absence of words…
- 75,000 docs in Sports
-
- in most applications, you just count from a set of
-:assumption ceindependen lconditiona with
-iii
-that events are independent
-Representing the Evidence
-class C
-yes)Youngyes ) x P(eP(Toothach
-etc
-classify the new case: X=(Outlook: Sunny, Temp: Cool, Hum: High, Wind: Strong)
- normally:
- fast, simple
- And 1 piece of evidence with 3 possible values
-• for NB: prior & conditional
-Slide 36
-Slide 54
- Task: classify e-mails (documents) into a pre-
-Slide 33
-P, improves with experience E.”
-(learns by reacting to
- Question:
-0206.0
-)c,count(w
-5
-activities.
- But Naïve Bayes works very well in many applications
-Unsupervised Learning
-Understand patterns and
-0053.0
-52
-C2 0 93 3 4 0 0  100
-Slide 11
-00003.04.0
-nb of instances that are in
-Slide 52
-H3 0.4 0.4 0.2
-P(A)
-H2 0.3 0.3 0.4
- ex. the word "dumbo" never appeared in the class SPAM?
- given:
-Slide 63
-Digit Recognition
-2. Divide collection into training, validation and test set
-the measles
- then:
-Classification Regression
-C6 0 0 5 0 10 85  100
-yes)yyes| CavitP(Youngyes)yyes| CaviteP(Toothachyes)P(Cavity
-ll_Bcount_of_a
-ij
-29
- often used as a baseline algorithm before trying other methods
-for all classes ci
-Slide 18
-observations
-compute
-= P (∩Ai)
-
-X5  X5  X5  X5 
-Slide 5
-
-= P(A1) × P(A2|A1) × P(A3|A1,A2) × ... × P(An|A1,A2,A3,…,An-1)
- …
-)noPlayTennis|strongWind(xP)noPlayTennis|highHum(xP)noPlayTennis|coolTemp(xP)noPlayTennis|sunnyOutlook(P x
-)H|a(P estimate ij
- Speech recognition: P(words | acoustic signal)
- c1: SPAM
- eg. when data set is unbalanced  Target system 1
- This e-mail is most likely spam
-1st estimate the probabilities from the training examples:
-
- P(stove|COOKING) =    P(stove|SPORTS) =
-
- Rolling two dice one after the other, first dice rolled 1:
- These 2 pictures are very likely of the same
-So what?
-no)X(PlayTennis:answer 
-A∩B
- P(Montreal, boots) ≠ P(Montreal) * P(boots)
- E3: today, there's no sunset
-Slide 32
-)P(Evidence
-doc2:  "click here for the best meds"
- Score(COOKING)= log() + log(P(the|COOKING)) + log(P(referee|COOKING)) +
-60
-)yesPlayTennis|strongWind(xP)yesPlayTennis|highHum(xP)yesPlayTennis|coolTemp(xP)yesPlayTennis|sunnyOutlook(P x
- I can’t read this character, but it looks like a “B”
- P(Cavity | Toothache) = 0.12
-Bayes’ Theorem
-2. Validation set (~20%)
-offer money viagra laptop exam study category
-documents) count(all
-50
- when all classes are equally important and represented
-Example 4 evidence
-Loop:
-Reward Based
-C3 0 1 94 2 1 2  100
-tomorrow
-X2  X2  X2  X2 
-C1 94 3 0 0 3 0  100
-hy
-)c|P(w 
-Supervised Learning
-Reinforcement
-Motivation
-Day13 Overcast Hot Normal Weak Yes
-Linear Regression,
- However P(Evidence | Hypothesis) is easier to gather
-j
-Bureau employees and American
-16
-P(B) x B)|P(A  B)P(A,  so
-b) For each attribute value aj  of each instance (evidence)
-46
-score(ci) = P(ci)
- argmaxcj P(cj) P P(wi|cj)
-68
-in class C Is not in class C
-Slide 50
-
-doc1:   … stove… kitchen… the… heat
-// 2. testing a new document D
-
- if we really do the product of probabilities…
-65
- In reality, we may have dozens, hundreds of variables
-Assume we only have 1 hypothesis
- Given
-completely ruled out !
-Slide 1
-Types of problems Regression &Classification Association & Clustering Reward based
-Slide 49
-11
-actions & discovers errors
-for all words wj in the D
- Recall, Precision & F-measure
-is)P(Hypothes)Hypothesis|P(Evidence
-31
- beautiful sunset? clouds? temperature? summer?, …
-count_of_AP(A) 
- Dataset
-59
- surprisingly very effective on real-world tasks
-ji c in words of number total
- P(heat|COOKING) =    P(heat|SPORTS) =
-58
- probability of 2 heads in a row:
-43
-X1  X1  X1  X1 
-3
-Unsupervised
-yes)isP(meningit x yes)meningitis|yesP(spots
-Cavity 0.108 0.012 0.072 0.008
- Observation: average sunset (E2)
- 0 ≤ P(A) ≤ 1
-Learning
- Two events A and B are conditionally
-2i 
- So Bayesian reasoning:
-
-compute
-P(A|B) x P(B) = P(B|A) x P(A)
-“A computer program is said to learn from
-Evidence)|isP(Hypothes
-Definition The machine learns by
- i.e. Your belief about A given that you have no
- a.k.a. Knowledge Discovery in Databases (KDD)
-~Cavity 0.01 0.89
-classifies
-…  … …  … 
- 500,000 words in Cooking
-choose c* = with the greatest score(ci)
-Accuracy                        = 495/500
-ll_eventscount_of_a
- task: correctly tag a new e-mail
-a1
-)H|P(a x )P(H  argmax
- P(kitchen|COOKING) =    P(kitchen|SPORTS) =
-Comments on Naïve Bayes Classification
-Types of ML Problems
- Text classification: P(sports_news | text)
-of nodes per layer…
-Slide 2
-experience E with respect to some class of
 Young ~ Young Young ~ Young
-62
- The probability that A occurs
-B)P(AB)|P(A 
-Day1 Sunny Hot High Weak No
- ex: the word ambulance is not conditionally independent of the
-classification
-Accuracy  450/500 =
- Features: each pixel is used as a
- P(Hi | E2) ?
- P(A) + P(~A) = 1
-Slide 22
-P(E)
-(data analytics)
-Slide 68
-Slide 44
-Error Analysis
-
-
-14
-Artificial Intelligence:
-Slide 71
-probabilities
-P(B)
-occurred
-classes assigned by the learner
- To make things work in real applications, we often assume
- Testing: “the referee hit the blue bird”
-28
-In 1959, Arthur Samuel first proposed
- Use a confusion matrix / contingency table
-8
-c2 : HAM
-Model says…
-https://en.wikipedia.org/wiki/MNIST_database
-Another Application:
-44
-A
- With 3 events, the probability that A, B and C occur is:
-Naive Bayes Classifier
-environment by producing
- test set: 10,000 examples.
-)H|P(E x )P(H  )E|P(H
-Day4 Rain Mild High Weak Yes
-not hold…
-Slide 47
- 300,000 words in Sports
-in321i
- % of instances of the test set the algorithm correctly
-Now we have decomposed the joint probability distribution into much
-Accuracy  450/500 = 90% ! 498/500 = 99.6% 498/500 = 99.6%
-ji
- denoted P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
-Approach Map labelled input to
-true       (B = some evidence)
- MNIST dataset
- % of instances of the test set the algorithm correctly
-instance is in class C A B
-Slide 59
-Slide 58
-B)P(A,  B)|P(A 
-offer money viagra laptop exam study category
-c1 : SPAM
-1. Actual training set (~80%)
-data
-K-means, C-means, etc Q-learning, etc
-Slide 20
  P(COOKING) = P(SPORTS) =
-P(A) x A)|P(B  B)P(A,  so
-toothache young cavity
-
-Chain Rule
-doc2:   … kitchen… pasta… stove…
- Posterior (or conditional) probability
- i.e. Your belief about A given that you know B
-summer
-classifier, because we will count the number of words, as opposed to just
-32
-https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
- The evidence is typically represented by many
-Slide 45
-Evaluation of Learning Model
-least once (or a smaller value)
-H1 0.7 0.2 0.1
- Example: predict if a customer is likely to purchase
-log(P(hit|SPORTS)) + log(P(the| SPORTS))
-)P(c ii 
-conditional probabilities
-3. Test set ~20%
- training set: 60,000 examples
- But… P(E)
-the model identified as
- We cannot have a table with the probability of all
-i
- Categorization: P(Category | Features of Object)
+Toothache ~Toothache
+Example 2
 doc100000:  … stove…heat… ball…
- Two events A and B are independent:
- P(spots=yes) = 0.05
-4. Measure performance with the validation set, and adjust hyper-
-p(w1|c2) p(w2|c2) p(w3|c2) p(w4|c2) p(w5|c2) p(w6|c2)
- P is a probability function:
-Types of ML Algorithms
- P(head, head) = 1/2 * 1/2 = 1/4
-Naïve Bayes Algorithm
- so we can drop it
-22.09/2)yesPlayTennis|sunnyOut(P
- 100,000 docs in Cooking
-c1: COOKING c2: SPORTS
-e-mail Representation
-iiii
-
-Recall, Precision
+Slide 72
  intersection A1 ∩ ...∩ An is an event that takes place if all the events
-B)P(A  B)|P(A 
-X6  X6  X6  X6 
-A+B
-Assume:
-weather
-Slide 8
- P(A, B |  C) = P(A | C) x P(B | C).
- P(referee|COOKING) =    P(referee|SPORTS) =
-Slide 55
-certain goods according to history of shopping
-Combining Evidence
-Over 2.5 quintillion bytes of data are created every single day, and it is only going to
-38
-54
- DO NOT LOOK AT THE TEST SET  until step 5.
-→ Worksheet #3 (“Bayes’ Theorem”)
-)H|P(a x )P(H argmax H
-)H|strongP(Wind x )H|highP(Humidity x
-// 1. training
-)H|coolP(Temp x )H|sunnyP(Outlook x )P(H argmax
-Today
-1. Introduction to ML
-→ Worksheet #3 (“Email Spam Detection”)
- ex: living in Montreal & tossing a coin
- If you have red spots on your face, you might have
-instance
-→ Worksheet #3 (“AI Weather Prediction”)
- select Hi such that P(Hi | E2) is the greatest
-C are actually correct?
-yes)P(Youngyes) eP(Toothach
- P(Montreal, head) = P(Montreal) * P(head)
- Assume:
-the concept Machine Learning:
-w1 w2 w3 w4 w5 w6
- We typically want to know: P(Hypothesis | Evidence)
-Slide 48
-Day5 Rain Cool Normal Weak Yes
-00024.0
-anyways!
-are in class C
- The assumption of conditional independence, often does
-known output
-non-factual knowledge?
-es
-27
-72
- How do we represent and reason about
- P(Disease | Symptoms)… P(meningitis | red spots)
-
-a2
-parameters* to improve performance
-Day10 Rain Mild Normal Weak Yes
- Task: classify new digits into one
- ex: spam / ham
-Slide 6
-Slide 67
-But since we only care about ranking the hypothesis…
-Slide 42
-P(Toothache ∩ Cavity)
-spots?
-49
-a4
- e.g. Clustering, Anomaly Detection,
-E)H P(E)|P(H 
- each e-mail is represented by a vector of feature/value:
-Example 4
-class C and that the model
-features / evidence / X f(X)
- But P(Hypothesis| Evidence) is hard to gather
- union A1∪...∪ An is an event that takes place if at least one of the
- ex: add-1 smoothing:
-~80%
-
- It might rain tonight
-36.014/5)noPlayTennis(P
-clouds
-Slide 41
- data set contains handwritten
-)yesPlayTennis(P )1
- ex: Medical Diagnosis
-57
-3. Evaluation
-5. Measure performance with the test set
- P(spots=yes | meningitis=yes) = 0.4
-th
-1 )c in w of (frequency
-Slide 3
-Remember this slide…
-X7  X7  X7  X7 
-Precision =
-obtained
-X3  X3  X3  X3 
- Joint probability
-63
-on unlabeled data
- we can do probabilistic inference
-24
-→ Worksheet #3 (“AI Fraud Detection”)
-34
- compute the probabilities from the training set
-for all words wj in the vocabulary
- Precision: What proportion of instances labeled with the class
- and:
-20
-NB
-doc4:   "cheap book sale, not meds"
- …
-Slide 14
-yes yes ?
- Character recognition: P(character | bitmap)
-An agent interacts with its
-a) For each hypothesis Hi
-doc1:   … ball… heat…
-Slide 60
-X6  X6 
-9
- Times, the probability that B occurs, assuming that A occurred
-60.05/3)noPlayTennis|strongWind(P
-evidence  hypothesis
-Slide 26
-33
+yes yes yes?  or no?
+71
+Slide 2
+no)yyes| CavitP(Youngno)yyes| CaviteP(Toothachno)P(Cavity
+Motivation
+ i.e. Your belief about A given that you have no
+ Testing: “the referee hit the blue bird”
+2. TEST:
+Example
+ Given
+Types of Machine Learning
+ ex: the word ambulance is not conditionally independent of the
+)c,count(w
+Recall=
+in321i
+Target system 1 system 2 system 3
 
-A B
-47
-)c in w of (frequency
-… …
+57
+ij
+1j
+hy
+completely ruled out !
+ ex: add-1 smoothing:
+A+C
+Slide 40
+In 1959, Arthur Samuel first proposed
+ So
+ union A1∪...∪ An is an event that takes place if at least one of the
+tomorrow
+ % of instances of the test set the algorithm correctly
+61
+Model says…
+ c1: SPAM
+yes)  Youngyes cheno| ToothaP(Cavity
+
+)H|P(X x )P(H  argmaxH
+ Score(COOKING)= log() + log(P(the|COOKING)) + log(P(referee|COOKING)) +
+)H|a(P ij
+Understand patterns and
+activities.
+using binary values for the presence/absence of words…
+yes) P(Youngyes) eP(Toothach
+Conditional Independent Events
+Logistic Regression, KNN,
+ P(stove|COOKING) =    P(stove|SPORTS) =
+• for DTs: pruning level
+https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
+ data set contains handwritten
+ Precision: What proportion of instances labeled with the class
+ Example: predict if a customer is likely to purchase
+classifies
+Slide 67
+3. Test set ~20%
+)c|P(w
+
+X4  X4 
+Slide 55
+)P(c ii 
+Day12 Overcast Mild High Strong Yes
+ predict the weather that maximizes the probability
+yes)Youngyes ) x P(eP(Toothach
+ Observation: average sunset (E2)
+Postal Code Recognition
+ select Hi such that P(Hi | E2) is the greatest
+ gives confidence in its class predictions (i.e., the scores)
+18
+Machine Learning History
+been assigned)
+certain goods according to history of shopping
+ll_eventscount_of_a
+ Recall, Precision & F-measure
+ i.e.  A is independent of B if P(A) = P(A|B)
+ % of instances of the test set the algorithm correctly
+ i.e. Your belief about A given that you know B
+15
+K-means, C-means, etc Q-learning, etc
+Recall, Precision
+9
+yes)YoungyeseP(Toothach
+00003.04.0
+yes)ityyes)xP(Cavyyes| CavitYoungyeseP(Toothach
+)H|P(a x )P(H argmax H
+Evaluation of Learning Model
+X2  X2  X2  X2 
+ It might rain tonight
+1. TRAIN:
+A
+Slide 71
+Loop:
+ e.g. Clustering, Anomaly Detection,
+60
+Metrics
+// 1. training
+NB
+Slide 43
+Slide 17
+X5  X5  X5  X5 
+c1: COOKING c2: SPORTS
+Cavity 0.108 0.012 0.072 0.008
+25
+41
+ E1: today, there's a beautiful sunset
+Image Classification
+X6  X6  X6  X6 
+Slide 48
+Slide 63
+X4  X4  X4  X4 
+31
+ Probability of an event given that you know that B is
+evidence  hypothesis
+Today
+ether_and_B_togcount_of_A
+ ex: out of all people who have the meningitis … how many have red
+7
+doc4:   "cheap book sale, not meds"
+→ Worksheet #3 (“Machine Learning System Evaluation”)
+// 2. testing a new document D
+X500  X500  X500  X500 
+defined class
+Getting the Probabilities
+email 1 3 2 5 1 0 1 SPAM
+Standard Methodology
+Slide 12
+ P(A|B) = 0.8 P(rain today| cloudy) = 0.8
+Slide 32
+Reinforcement
+
+1 )c in w of (frequency
+…  … …  … 
+for all classes ci   // ex. ham or spam
+C6 0 0 5 0 10 85  100
+for all classes ci
+A BA∩B
+X6  X6 
+ often used as a baseline algorithm before trying other methods
+Linear Regression,
+iji
+data
+ii
+Slide 10
+Slide 64
+ if the occurrence of one of them does not influence the
+temp
+conditional probabilities
+ Character recognition: P(character | bitmap)
+ so often represented as a feature/attribute vector
 Slide 13
+Slide 20
+ But how do we get the data ?
+X7  X7 
+offer money viagra laptop exam study category
+ Task: classify new digits into one
+ if we really do the product of probabilities…
+(data analytics)
+54
+H1 0.7 0.2 0.1
+P, improves with experience E.”
+ P(the|COOKING) =    P(the|SPORTS) =
+experience E with respect to some class of
+Slide 34
+sunset
+Slide 50
+Slide 42
+Slide 15
+1
+0.31  .12  .15  .04  .3x.4 .5x.3  .2x.2
+Slide 31
+ P(A)  = 0.1 P(rain today) = 0.1
+
+actions & discovers errors
+ …
+Supervised
+Slide 1
+documents) count(all
+in class C Is not in class C
+)c in mentscount(docu
+ Assume we have 3 hypothesis...
+ so instead, we add the log of the probs
+Evidence)|isP(Hypothes
+ P(A,B) = P(A|B) x P(B) (by chain rule)
+a4
+Day10 Rain Mild Normal Weak Yes
+Types of problems Regression &Classification Association & Clustering Reward based
+ DO NOT LOOK AT THE TEST SET  until step 5.
+Slide 16
+ ex: log(0.01) + log(0.02) + log(0.05) + …
+Slide 6
+ Prior (or unconditional) probability
+ Makes a strong assumption of conditional independence
+ Question:
+ value = number of times that word appears in the e-mail
+ N sets of training texts (1 set for each class)
+Training External supervision No supervision No supervision
+Slide 29
+Reinforcement Learning
+ Joint probability
+
+ 28 x 28 grayscale images
+ P(Montreal, boots) ≠ P(Montreal) * P(boots)
+C5 0 0 3 2 92 3  100
+ P(meningitis=yes) = 0.00003
+• for NB: value of delta for
+Slide 69
+second for every person on earth.
+log(P(hit|SPORTS)) + log(P(the| SPORTS))
+c2 : HAM
+digits from the American Census
+cannot change our belief about A
+ i.e. infer new knowledge from observed evidence
+non-factual knowledge?
+Slide 45
+yes)P(spots
+Remember this slide…
+ P(A) = 1 ⇒ the event A must take place
+Day1 Sunny Hot High Weak No
+Bayes’ Theorem
+26
+doc2:  "click here for the best meds"
+ P(heat|COOKING) =    P(heat|SPORTS) =
+ ex: Text Categorization (spam filtering)
+ To make things work in real applications, we often assume
+ Text classification: P(sports_news | text)
+ E3: today, there's no sunset
+X1  X1  X1  X1 
+→ If you have spots… you are more likely to have
+not hold…
+
+)yesPlayTennis(P )1
+= P(A)    x P(B) (by independence)
+nb of instances that the
+grow from there. By 2020, it is estimated that 1.7MB of data will be created every
+Parameters:
+~Cavity 0.016 0.064 0.144 0.576
+i
+n
+Slide 57
+Ham
+nb of instances that
+Slide 30
+Approach Map labelled input to
+e-mail Representation
+ Recall: What proportion of the instances in class C are labelled
+
+ Question: how will be the weather tomorrow?
+Ex. Application: Spam Filtering
+Machine Learning
+ what if we have a P(wi|cj) = 0…?
+72
+But since we only care about ranking the hypothesis…
+conditionally independent
+...
+)H|P(E x )P(H argmaxH ii
+69
+Hyper-parameters:  parameters
+Slide 62
+ Given that C is true, then any evidence about B
+ eg. when data set is unbalanced  Target system 1
+2. Validation set (~20%)
+46
+Slide 25
+ to solve this: we assume that every word always appears at
+42
+)H|P(E x )P(H
+you did not use for training) for which you know the correct
+ Score(SPORTS)= log() + log(P(the|SPORTS)) + log(P(referee|SPORTS)) +
+ Split data set into 3 sub-sets
+Classification Regression
+ This e-mail is most likely spam
+ML is widely used in Data Mining
+
+ ex: spam / ham
+→ Worksheet #3 (“Email Spam Detection”)
+ ex: Medical Diagnosis
+of the 10 classes
+ and:
+Supervised Learning
+Types of ML Algorithms
+Slide 36
+ So Bayesian reasoning:
+ task: correctly tag a new e-mail
+P(B) x B)|P(A  B)P(A,  so
+16
+ we soon have numerical underflow…
+Slide 51
+Day5 Rain Cool Normal Weak Yes
+2. Divide collection into training, validation and test set
+i2i
+summer
+ P(kitchen|COOKING) =    P(kitchen|SPORTS) =
+2. Naïve Bayes Classifier
+a2
+es
+ How do you know if what you learned is correct?
+Example 4
+8
+ Times, the probability that C occurs, assuming that A and B have
+Bayes’ Reasoning
+“A computer program is said to learn from
+ We typically want to know: P(Hypothesis | Evidence)
+weather
+28
+basic values learned by the ML
+least once (or a smaller value)
+• for DTs: features to split
+Error Analysis
+ll_Bcount_of_a
+B)P(A,  B)|P(A 
+Assume we only have 1 hypothesis
+90% !
+P(E2 |H1)
+Follow trail and error
+anyways!
+is)P(Hypothes)Hypothesis|P(Evidence
+Another Application:
+toothache young cavity
+spots
+ Times, the probability that B occurs, assuming that A occurred
+The machine is trained
+?
+ P(head, head) = 1/2 * 1/2 = 1/4
+Day8 Sunny Mild High Weak No
+j
+Association Rule Mining
+ each e-mail in the training set is tagged with the correct
+ beautiful sunset? clouds? temperature? summer?, …
+C1 C2 C3 C4 C5 C6 … Total
+Unsupervised
+ML outside of AI
+COOKiNG SPORTS
+Conditional Probability
+ Assume now 2 pieces of evidence:
+ so we can drop it
+class C
+ Two events A and B are independent:
+for all words wj in the vocabulary
+ …
+ Use a confusion matrix / contingency table
+ each feature = 256 greyscale value
+ The evidence is typically represented by many
+• for ANNs: weights
+are in class C
+COMP 6721
+doc1:  "cheap meds for sale"
+5. Measure performance with the test set
+the model identified as
+yes)P(Youngyes) eP(Toothach
+doc1:   … ball… heat…
+yes )Youngyes ) x P(eP(Toothach
+ In real life:
+Day13 Overcast Hot Normal Weak Yes
+P(A1, A2, A3, A4, ..., An)
+spots?
+B)P(A  B)|P(A 
+occurrence of the other
+X7  X7  X7  X7 
+correctly?
+20
+)H|a(P estimate ij
+ ex: living in Montreal & tossing a coin
+ that is often incorrect
+Slide 22
+ doc6:  “the cheap book”
+17
+true       (B = some evidence)
+ P(Cavity | Toothache) = 0.12
+yes)yyes| CavitP(Youngyes)yyes| CaviteP(Toothachyes)P(Cavity
+occurred
+th
+:assumption ceindependen lconditiona with
+ when all classes are equally important and represented
+)noPlayTennis(P )2
+Day2 Sunny Hot High Strong No
+34
+email 2 1 1 0 5 4 3 HAM
+Slide 44
+ But… P(E)
+2
+B)P(A,  A)|P(B 
+5
+ Features: each pixel is used as a
+Over 2.5 quintillion bytes of data are created every single day, and it is only going to
+Slide 7
+C3 0 1 94 2 1 2  100
+P(Toothache ∩ Cavity ∩ Young)
+ The assumption of conditional independence, often does
+(learns by reacting to
+ P(Hi | E2) ?
+Chain Rule
+So?
+→ Worksheet #3 (“Bayes’ Theorem”)
+Slide 49
+Popular
+12
+)H|P(E x )P(H  )E|P(H
+Association Clustering
+ Diagnostic systems: P(Disease | Symptoms)
+48
+19
+ H1: weather will be nice P(H1) = 0.2
+P(A) x A)|P(B  B)P(A,  so
+person
+are in  class C and that
+Slide 28
+?yes)Youngyescheyes|ToothaP(Cavity 
+score(ci) = score(ci) x P(wj | ci)
+email 3 0 3 2 1 0 1 SPAM
+ is the same for all possible Hi  (and is hard to gather anyways)
+evidence
+
+27
+All instances that
+)yesPlayTennis|strongWind(xP)yesPlayTennis|highHum(xP)yesPlayTennis|coolTemp(xP)yesPlayTennis|sunnyOutlook(P x
+ P(ball|COOKING) =       P(ball|SPORTS) =
+ 500,000 words in Cooking
+ P(A) = 0 ⇒ the event A will never take place
+49
+Cavity 0.04 0.06
+Bureau employees and American
+ Each set is already tagged by the class name
+Slide 4
+new email 2 1 0 1 1 2 ?
+ Out of n hypothesis…
+29
+)H(P estimate i
+Slide 59
+
+= P (∩Ai)
+60.05/3)noPlayTennis|sunnyOut(P
+→ Worksheet #3 (“AI Weather Prediction”)
+Accuracy  450/500 =
+Slide 24
+meningitis than if we don’t know about you having
+observations
+ 75,000 docs in Sports
+A∩B
+
+ BUT:
+3. Evaluation
+~80%
+ Where did the learner go wrong ?
+ MNIST dataset
+smoothing,
+doc75000:   goal… injury …
+Digit Recognition
+C2 0 93 3 4 0 0  100
+24
+Slide 39
+prior probabilities P(Hi)
+Slide 19
+ Rolling two dice (together):
+ The probability that A occurs
+47
+ These 2 pictures are very likely of the same
+method
+ in most applications, you just count from a set of
+environment by producing
+Be Careful: Smooth Probabilities
+possible combinations of variables
+doc1:   … stove… kitchen… the… heat
+ basis of many spam filters
+A1,...,An take place
+ P(Cause | Side Effect)… P(misaligned brakes| squeaky wheels)
+
+33
+ problem:
+Naive Bayes Classification
+ probability of 2 heads in a row:
+33.09/3)yesPlayTennis|strongWind(P
+ But Naïve Bayes works very well in many applications
+1. Introduction to ML
+yes) Youngyes hacheyes | TootP(Cavity
+ Predict the weather tomorrow based on tonight‘s sunset...
+classes assigned by the learner
+ e1 = <sunset:beautiful, clouds:no, temp:high, summer:yes>
+classifier, because we will count the number of words, as opposed to just
+• for ANNs: nb of hidden layers, nb
+0206.0
+ ex: sports, recreation, politics, war, economy,…
+for all classes ci // ex. ham or spam
+ With 3 events, the probability that A, B and C occur is:
+36.014/5)noPlayTennis(P
+ feature = actual words in the e-mail
+
+Assume:
+ P(Montreal, head) = P(Montreal) * P(head)
+ we want to find the most probable Hi given the evidence E
+C4 0 1 3 94 2 0  100
+B)P(AB)|P(A 
+correct class
+ If A and B are independent, then:
+ ex: out of all people who have red spots… how many have meningitis?
+)H|strongP(Wind x )H|highP(Humidity x
+ denoted P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+features / evidence / X f(X)
+36
+on unlabeled data
+63
+ we can do probabilistic inference
+38
+ training set: 60,000 examples
+→ Worksheet #3 (“Joint Probabilities”)
+ E2: today, there's a average sunset
+Slide 8
+ H2: weather will be bad P(H2) = 0.5
+
+ surprisingly very effective on real-world tasks
+doc5:   "here is the book for you"
+compute
+X500  X500 
+ argmaxcj log(P(cj)) + Σ log(P(wi|c))
+P(Toothache ∩ Cavity)
+Naive Bayes Classifier
+H
+c1 : SPAM
+Slide 58
+32
+ ex: 0.01 x 0.02 x 0.05 x …
+Slide 66
+C are actually correct?
+Comments on Naïve Bayes Classification
+log(P(hit|COOKING)) + log(P(the|COOKING))
+14
+Day14 Rain Mild High Strong No
+Learning
+ Sum Rule
+C1 94 3 0 0 3 0  100
+Slide 65
+Machine Learning Process
+attributes/features
+44
+Slide 27
+ 300,000 words in Sports
+ Two events A and B are conditionally
+Representing the Evidence
+Artificial Intelligence:
+51
+word accident given the class SPORTS
+obtained
+no)X(PlayTennis:answer 
+a) For each hypothesis Hi
+Slide 18
 yes)spots|yesisP(meningit
+)c in w of (frequency
+)noPlayTennis|strongWind(xP)noPlayTennis|highHum(xP)noPlayTennis|coolTemp(xP)noPlayTennis|sunnyOutlook(P x
+ ex. the word "dumbo" never appeared in the class SPAM?
  Accuracy
+Day11 Sunny Mild Normal Strong Yes
+Now we have decomposed the joint probability distribution into much
+tasks T and performance measure P if its
+po
+independent given C:
+A+B
+ when one class is more important than the others
+Slide 38
+etc
+Day3 Overcast Hot High Weak Yes
+for all words wj in the D
+of nodes per layer…
+ In reality, we may have dozens, hundreds of variables
+ given:
+)H|P(a x )P(H argmax  )H|a,...,a,a,aP( x )P(H argmax)H|P(E x )P(H argmax
+ Categorization: P(Category | Features of Object)
+ with strong (naive) independence assumption
+ Rolling two dice one after the other, first dice rolled 1:
+X2  X2 
+ there are 28x28 = 784 features
+Slide 14
+doc2:   … kitchen… pasta… stove…
+H2 0.3 0.3 0.4
+https://en.wikipedia.org/wiki/MNIST_database
+
+66
+…
+(that should have
+45
+yes)ityyes)xP(Cavyes|CavityYoungyeseP(Toothach
+identified as class C
+choose c* = with the greatest score(ci)
+doc2:   … the… referee… player…
+ when one class C is more important than the others
+w1 w2 w3 w4 w5 w6
+52
+Day Outlook Temperature Humidity Wind Play Tennis
+Conditional Probability (con’t)
+vocabulary of size c in words of number total
+instance is NOT in class C C D
+58
+ However P(Evidence | Hypothesis) is easier to gather
+clouds
+)P(E
+ Training – Unsmoothed  / Smoothed  probs:
+ ex: living in Montreal & wearing boots
+
+ Posterior (or conditional) probability
+the concept Machine Learning:
+score(ci) = P(ci)
+Types of ML Problems
+Definition The machine learns by
+40
+Slide 61
+is
+ And 1 piece of evidence with 3 possible values
+P(Ex|Hi) E1 E2 E3
+Slide 60
+)P(Evidence
+ Ex. with 16 binary variables, we would need 216 entries
+• for NB: prior & conditional
+H3 0.4 0.4 0.2
+ I can’t read this character, but it looks like a “B”
+Example 1
+nb of instances that are in
+ test set: 10,000 examples.
+Day6 Rain Cool Normal Strong No
+ A patient complains about Toothache and is Young…
+Why Machine Learning?
+category.
+Independent Events
+… …
+Slide 3
+22.09/2)yesPlayTennis|sunnyOut(P
+13
+65
+Slide 11
+)H|P(E x )P(H  argmax  E)|P(H argmax  H ii
+)H|coolP(Temp x )H|sunnyP(Outlook x )P(H argmax
+ P(Disease | Symptoms)… P(meningitis | red spots)
+ Joint probability distribution:
+Accuracy  450/500 = 90% ! 498/500 = 99.6% 498/500 = 99.6%
+no][yes,H
+ Goal: Given a new instance X=<a1,…, an>, classify as Yes/No
+ Naïve Bayes: Assumes that the attributes/features are
+Reward Based
+
+smaller pieces…
+ when all classes are equally important and represented
+ Task: classify e-mails (documents) into a pre-
+
+ P(A, B |  C) = P(A | C) x P(B | C).
+count_of_AP(A) 
+X1  X1 
+Day9 Sunny Cool Normal Weak Yes
+ We cannot have a table with the probability of all
+P(A)
+environment)
+Slide 5
+22
+05.0
+iiii
+ If you have red spots on your face, you might have
+Spam
+Combining Evidence
+Slide 46
+ Suppose, we know that
+argmaxH
+X3  X3  X3  X3 
+ 100,000 docs in Cooking
+Precision =
+ what is P(Cavity | Toothache ∩ Young) ?
+ 0 ≤ P(A) ≤ 1
+1st estimate the probabilities from the training examples:
+Learning
+X3  X3 
+yes yes ?
+performance at tasks in T, as measured by
+discover output
+events A1,...,An takes place
+instance is in class C A B
+ should it be classified as HAM or SPAM?
+high school students
+class C and that the model
+Example 4 evidence
+classify the new case: X=(Outlook: Sunny, Temp: Cool, Hum: High, Wind: Strong)
+Slide 54
+ P(referee|COOKING) =    P(referee|SPORTS) =
+used to set up the ML model. eg.
+Accuracy
+e1 beautiful no high yes  Nice
+
+4.05/2)noPlayTennis|rainOut(P
+11
+55
+B)P(A,
+ Fast, easy to apply
+ H3: weather will be mixed P(H3) = 0.3
+P(B)
+Be Careful: Use Logs
+feature so:
+ A simple probabilistic classifier based on Bayes' theorem
+= 99%
+Slide 56
+ denoted P(A∩B) or P(A,B)
+33.09/3)yesPlayTennis|rainOut(P
+
+00024.0
+60.05/3)noPlayTennis|strongWind(P
+…
+p(w1|c1) p(w2|c1) p(w3|c1) p(w4|c1) p(w5|c1) p(w6|c1)
+ a.k.a. Knowledge Discovery in Databases (KDD)
+68
+ c2: HAM
+X5  X5 
+Application of Bayesian Reasoning
+ so if a text contains the word "dumbo", the class SPAM is
+56
+ e1 = <a1, … , an>
+ some variables are independent…
+Strictly speaking, what we will see is called a Multinomial Naïve Bayes
+50
+ argmaxcj P(cj) P P(wi|cj)
+parameters* to improve performance
+and rewards
+P(A|B) x P(B) = P(B|A) x P(A)
+ ∑i P(Ai) = 1 ⇒ one of the events Ai will take place
+probabilities
+:assumption ceindependen with
+39
+1. Actual training set (~80%)
+a3.
+Day4 Rain Mild High Weak Yes
+compute
+ then P("dumbo"| SPAM) = 0
+ Assume:
+
+known output
+
+30
+Slide 47
+ With n events, we can generalize to the Chain rule:
+Naïve Bayes Algorithm
+0053.0
+…
+Supervised
+In reality, the instance is…
+(task-driven)
+1. Collect a large set of examples (all with correct classifications)
+59
+offer money viagra laptop exam study category
+ But P(Hypothesis| Evidence) is hard to gather
+model. eg.
+= P(A1) × P(A2|A1) × P(A3|A1,A2) × ... × P(An|A1,A2,A3,…,An-1)
+A B
+62
+ i.e. the features/attributes are conditionally independent
+Slide 26
+ Image processing: P(face_person | image features)
+ Speech recognition: P(words | acoustic signal)
+~Cavity 0.01 0.89
+ Dataset
+Slide 41
+4
+Example 3
+Unsupervised Learning
+)H|P(E x )P(H argmax
+model labelled as class C
+Slide 33
+the measles
+yes)isP(meningit x yes)meningitis|yesP(spots
+)H|P(E x )P(H  )H|P(E x )P(H )H|P(E x )P(H  )P(E 3232221212
+classification
+Accuracy                        = 495/500
+Remember…
+ You run your classifier on a data set of unseen examples (that
+ then:
+ normally:
+Slide 9
+Slide 21
+Slide 68
+ P(spots=yes | meningitis=yes) = 0.4
+ P(spots=yes) = 0.05
+
+ P is a probability function:
+a1
+ji
+10
+3. Apply learning algorithm to training set to learn the parameters
+P(E)
+Combining Evidence
+b) For each attribute value aj  of each instance (evidence)
+ fast, simple
+without any guidance
+So what?
+ each e-mail is represented by a vector of feature/value:
+Type of data Labelled data Unlabelled data No pre-defined data
+4. Measure performance with the validation set, and adjust hyper-
+2i 
+ compute the probabilities from the training set
+ some variables are not independent…
+using labelled data
+ |V| = 100     vocabulary = {ball, heat, kitchen, referee, stove, the, ... }
+E)H P(E)|P(H 
+yes)vityyes)x P(Cayes|CavityYoungyes )  xP(yes|CavityeP(Toothach
+Algorithms
+64.014/9)yesPlayTennis(P
+iii
+ P(A) + P(~A) = 1
+that events are independent
+doc3:  "book your trip"
+21
+ P(Cavity | Young) = 0.18
+An agent interacts with its
+ Probability of an event before any evidence is
+ So we choose the Hi with the largest P(Hi|E)
+)c|P(w 
+64
+3
+ P(A,B) = P(A) x P(B)
+p(w1|c2) p(w2|c2) p(w3|c2) p(w4|c2) p(w5|c2) p(w6|c2)
+43
+ Spam filter: P(spam_message | words in e-mail)
+ ex: customer email  order, complaint, support request, ...→
+67
+6
+ With 2 events, the probability that A and B occur is:
+→ Worksheet #3 (“AI Fraud Detection”)
+ji c in words of number total
+instance
+)H|P(a x )P(H  argmax
+Slide 52
+ How do we represent and reason about

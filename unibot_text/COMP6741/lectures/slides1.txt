@@ -1,331 +1,331 @@
-
-• HR & Operations
-• A software program that can interpret and
-Overcoming Information Silos
-(?title AS ?Title) WHERE {
-Named Entity Detection
-Apple Siri (2010)
-I am very unhappy these days.
-• Retention & Growth
-Eliza’s response will be:
-a foaf:Person ;\\
-CAGR of 25-40%
-Summary I
-• Need business vision to drive adoption
-• Recommender Systems
-• Similar architecture, different stacks
-Full-text search engine (Information Retrieval)
-Named Entity Detection
-1.8
-DocumentsKnowledge Worker
-schema:birthDate "1990-07-04"^^xsd:date ;
-https://www.w3.org/TR/rdf11-primer/
-Architecture
-• A.L.I.C.E (1995), the companion AI
-Automated Reasoning
-Outline
-Please find all documents and sentences mentioning “Steve Jobs”
-How does Eliza work?
-• Global Market to reach $1-3B by 2025,
-Summary
-Agents and Beyond
-</foaf:mbox_sha1sum>
-https://plato.stanford.edu/entries/artificial-intelligence/
-1.27
-Linked Open Data
-content written in a natural language, e.g., English or French.
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema>
-NLP Pipeline
-rules.”
-Knowledge Graphs
-1.7
-PREFIX wd: <http://www.wikidata.org/entity/>
-Automated Reasoning
-https://en.wikipedia.org/wiki/ELIZA
-1.51
-Architecture 2.0
-IBM Watson (2011)
-See Weizenbaum’s paper at:
-1 Introduction
-ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c
-PREFIX schema: <http://schema.org/>
-(Gartner)
-Linked Open Data (LOD)
-Now in RDF
-1.35
-Personal Agent
-Text Mining
-1.15
-How long have you been very unhappy these days?
-Google Assistant (2012)
-1.30
-BASE <http://example.org/>
-?proposal dc:title ?title
-1.3
-• Every statement is a triple: <subject, predicate, object>
-1.13
-"A Personal Research Agent..."
-<http://data.europeana.eu/item/04802/243FA8618938F4117025F17A8B813C5F9AA4D619>
-vendors
-• Generic vs. Goal-oriented
-Introduction
-owl:Thing
-natural language
-http://www.csee.umbc.edu/courses/331/papers/eliza.html
-Intelligent Systems Introduction
-• Disconnected, missing knowledge
-Please find all Persons mentioned in our documents
-Summary
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-Architecture
-4 Agents and Beyond
-wd:Q12418
-dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
-• Introduction to Artificial Intelligence,
-Foundations
-• Automatically manage an organization’s knowledge;
-Recommender Systems and Collaborative Filtering
-The W3C “Layer Cake”
-• SaaS (e.g., Amazon Comprehend, Refinitiv)
-Motivation
-Semantic Web
-ex:Bahar
-Chatbots: The Business Case
-• Ultimate Guide to Leveraging NLP & Machine Learning for your Chatbot,
-Task II
-Definition
-Machine Learning
-• Technology is mature and foundations are open source
-Architecture 3.0
-foaf:knows <alice#me> ;
-• “Hot” business topic, emerging after decades of research
-Example using ‘Amazon Comprehend’
-• Apache Lucene, Solr, Elastic Search, . . .
-NLP/Text Mining can unlock this knowledge
-Model people and their
-dcterms:subject wd:Q12418 .
-Architecture 4.0
-“Input sentences are analyzed on the basis of decomposition rules which
-Amazon Alexa (2015)
-Brief History of Chatbots (cont.)
-Eliza + DOCTOR script
-• Service & Payment
-• Intelligent Agents
-• Huge benefits across the value chain:
-Knowledge Worker DocumentsNLP Pipeline
-Reassembly Pattern:
-1.19
-Why ‘search’ is not enough
-Turing Test: “A truly intelligent machine would be
-1.22
-https://venturebeat.com/2017/06/26/
-• External Knowledge Bases to further enrich the data
-Recommender Systems
-1.17
-Reading Material
-Reading
-1.41
-Foundations
-Department of Computer Science
-Documents
-1.39
-1.45
-1.31
-• IBM Watson, https://en.wikipedia.org/wiki/Watson_(computer)
-Summary Part III
-1.28
-• Products, inventions, solutions, techniques, experiences, insights, . . .
-Documents, databases,
-• Enriching content with machine-readable metadata
-1.5
-• Different types of chatbots
-Knowledge Graphs
-• Sequence of components
-1.49
-Knowledge as Graphs
-PREFIX dcterms: <http://purl.org/dc/terms/>
-</foaf:Person>
-SELECT (?name AS ?Name)
-Lecture 1
-Knowledge BaseKnowledge Worker
-• Resource Description Framework (RDF) as a formal language
-1.47
-• Be aware of the bot lifecycle
-the efficient computation of the tree architecture ..."
-1.20
-• Retrieval vs. Generative (Deep Learning)
-foaf:Person
-discover novel insights by combining multiple sources
-FOAF
-2011 Jeopardy! competition: 2,880 POWER7 threads and 16 terabytes of RAM
-• Specify the business case
-• Eliza, https://en.wikipedia.org/wiki/ELIZA
-https://chatbotslife.com/
-Brief History of Chatbots
-• Re-envision Risk Management
-https://en.wikipedia.org/wiki/Watson_(computer)
-1.32
-spreadsheets, emails, . . .
-Perceived Business Benefits
-and Software Engineering
-Concordia University
-foaf:name rdf:type dc:creator
-• Text Mining
-• Offers SPARQL query language
-indistinguishable from a human” (A. Turing, 1950)
-Eliza (1966)
-bot-analytics-platform-releases-new-chatbot-landscape/
-<bob#me>
-• Continuously updated
-FOAF (Friend-of-a-Friend) Ontology
-<foaf:mbox_sha1sum>
-1.9
-• State-of-the-art technology: graph databases, triple stores, reasoning engines,
-2 Text Mining
-1.37
-Microsoft Cortana (2015)
-Sentiment Analysis
-The ‘Semantic Web’
-The Linked Open Data Cloud
-}
-rdf:type
-E.g., IBM’s UIMA or University of Sheffield’s GATE
-Dublin Core
-Requires Information Extraction (IE) – an example for a Text Mining task
-What do you need?
-Risks
-Vocabularies
-• Personalization
-1.10
-1.25
-Intelligent Conversational Agents
-Named Entity Recognition (Information Extraction)
-Decomposition pattern:
-• Determine KPIs and evaluate
-1.11
-Organizations have invaluable knowledge “hidden” in documents:
-etc.
-The Chatbots Landscape
-• Knowledge Graphs
-Entity Linking
-?person dc:creator ?proposal .
-5 Notes and Further Reading
-ex:Proposal
-• Stanford Parry (1972), the schizophrenic patient
-1.43
-• Define concrete use cases
-Architecture 1.0
-1.46
-are triggered by key words appearing in the input text. Responses are
-1.33
-Text Mining
-• 155 chatbots in this brand new landscape. Where does your bot fit?
-1.23
-• MIT Eliza (1966), the psychotherapist bot
-dcterms:title "Mona Lisa" ;
-Keyword:
-https://venturebeat.com/2017/06/26/bot-analytics-platform-releases-new-chatbot-landscape/
-5d5705ff1b2142d62a38061f804f766ffaf806ef
-?person foaf:name ?name .
-3 Knowledge Graphs
-1.40
-1.44
-foaf:topic\_interest wd:Q12418 .
-• Again, new legal and ethical issues
-• Huge difference in scope (simple rules vs. sophisticated reasoning)
-Microsoft Zo (2016)
-1.6
-Sentiment Analysis
-COMP 474/6741, Winter 2022
-"The proposed approach takes advantage of both
-What you need
-Technology
-History
-• Custom or off-the-shelf
-E.g., Ethical AI, Responsible AI, Explainable AI
-Common Issue
-• Freely available, many domains
-1.38
-1.42
-Processing
-• Reasonably mature technology (open source & commercial), many SAAS
-Linking Documents with Knowledge Graphs
-1.48
-• Rule-based and/or
-1.24
-"Bahar Sateli"
-Microsoft Tay (2016)
-1.26
-ex:Document
-• The AI Behind Watson, http://www.aaai.org/Magazine/Watson/watson.php
-A First Architecture
-Knowledge Integration
-Knowledge Bases
-dc:title rdf:type
-A branch of Artificial Intelligence (AI) that uses various techniques to process
-Motivation
-Recommender Systems
-• Sales & Marketing
-<foaf:Person>
-(full text, databases, spreadsheets, etc.)
-Summary Part III
-• Select a vendor or develop in-house
-Early chatbots were developed by scientists:
-1.36
-1.29
-Watson is a type of question-answering (QA) system, first developed 2006–2011
-Supplemental
-respond to statements made by users in a
-I am
 René Witte
-connections in a social network.
-?person rdf:type foaf:person .
-How long have you been <whatever>?
-Summary II
+
+1.36
+Tech companies join the bot development:
+Architecture
+Text Mining
+Organizations have invaluable knowledge “hidden” in documents:
+• Define concrete use cases
+owl:Thing
+1.12
+Motivation
+Summary I
+1.33
+• Text Mining
+• Recommender Systems
+1.31
+1.14
+• Data in Information Silos
+1.30
+• Knowledge Graphs can integrate different sources within an organization
+Perceived Business Benefits
+• Retrieval vs. Generative (Deep Learning)
+Towards Intelligent Systems
+5d5705ff1b2142d62a38061f804f766ffaf806ef
+• Intelligent Agents
+• Reasonably mature technology (open source & commercial), many SAAS
+• A.L.I.C.E (1995), the companion AI
+See Weizenbaum’s paper at:
+• Every statement is a triple: <subject, predicate, object>
+• Select a vendor or develop in-house
+• 155 chatbots in this brand new landscape. Where does your bot fit?
+E.g., Ethical AI, Responsible AI, Explainable AI
+How does Eliza work?
+rules.”
+Concordia University
+bot-analytics-platform-releases-new-chatbot-landscape/
+Documents, databases,
+• Eliza, https://en.wikipedia.org/wiki/ELIZA
+Microsoft Zo (2016)
+Automated Reasoning
+Architecture 2.0
+• Rule-based and/or
+1.6
+Machine Learning
+• Need business vision to drive adoption
+• Increasing legal and ethical concerns
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema>
+foaf:topic\_interest wd:Q12418 .
+"A Personal Research Agent..."
+foaf:Person
+Full-text search engine (Information Retrieval)
+}
+a foaf:Person ;\\
+I am <whatever>
 Introduction
-Vocabularies
-• “Top 5 Emerging Technologies in 2018”
-1.2
+Reading Material
+• NLP tools (e.g., UIMA, GATE)
+• Resource Description Framework (RDF) as a formal language
+http://www.csee.umbc.edu/courses/331/papers/eliza.html
+• Technology is mature and foundations are open source
+• IBM Watson, https://en.wikipedia.org/wiki/Watson_(computer)
+1.18
+Automated Reasoning
+Sentiment Analysis (a.k.a. Opinion Mining)
+• Introduction to Artificial Intelligence,
+Architecture
+http://dbpedia.org/resource/Tree_(data structure) http://dbpedia.org/resource/Tree
+1.21
+• Global Market to reach $1-3B by 2025,
+FOAF
 <foaf:name>Rene Witte</foaf:name>
+Introduction
+Intelligent Systems Introduction
+Foundations
+• Huge difference in scope (simple rules vs. sophisticated reasoning)
+Knowledge Graphs
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+• Leverage existing, external
+The ‘Semantic Web’
+(Gartner)
+NLP/Text Mining can unlock this knowledge
+• Offers SPARQL query language
+Eliza’s response will be:
+Turing Test: “A truly intelligent machine would be
+1.16
+1.42
+discover novel insights by combining multiple sources
+• A software program that can interpret and
+Please find all Persons mentioned in our documents
+• Apache Lucene, Solr, Elastic Search, . . .
+Personal Agent
+COMP 474/6741, Winter 2022
+1.26
+Now in RDF
+1.43
+dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
+dcterms:subject wd:Q12418 .
+Agents and Beyond
+1.17
+generated by reassembly rules associated with selected decomposition
+Recommender Systems and Collaborative Filtering
+Gene Ontology (GO)
+• Again, new legal and ethical issues
+1.5
+dcterms:title "Mona Lisa" ;
+If the input sentence is:
+I am
+?person dc:creator ?proposal .
+1.49
+• Retention & Growth
+• Products, inventions, solutions, techniques, experiences, insights, . . .
+Vocabularies
+rdf:type
+Example using ‘Amazon Comprehend’
+Brief History of Chatbots (cont.)
+1.48
+Named Entity Recognition (Information Extraction)
+https://en.wikipedia.org/wiki/Watson_(computer)
+• MIT Eliza (1966), the psychotherapist bot
+Task II
+1.25
+Summary II
+PREFIX schema: <http://schema.org/>
+3 Knowledge Graphs
+“Input sentences are analyzed on the basis of decomposition rules which
+Please find all documents and sentences mentioning “Steve Jobs”
+How long have you been <whatever>?
+5 Notes and Further Reading
+1.50
+How long have you been very unhappy these days?
+• Disconnected, missing knowledge
+1.37
+Brief History of Chatbots
+1.23
+• Sequence of components
+PREFIX dcterms: <http://purl.org/dc/terms/>
+Summary
+Intelligent Conversational Agents
+E.g., IBM’s UIMA or University of Sheffield’s GATE
+1.47
+1.7
+Summary II
+Model people and their
+foaf:knows <alice#me> ;
+respond to statements made by users in a
+https://chatbotslife.com/
+• Specify the business case
+Decomposition pattern:
+Keyword:
+Text Mining
+https://venturebeat.com/2017/06/26/
+I am very unhappy these days.
+SELECT (?name AS ?Name)
+?person rdf:type foaf:person .
+?person foaf:name ?name .
 Agents and Beyond
 Technology
-1.1
-IBM Watson
-1.50
-“Data is the new oil”
-generated by reassembly rules associated with selected decomposition
-Gene Ontology (GO)
-• Data in Information Silos
-http://www.aaai.org/Magazine/Watson/watson.php
-History
-1.21
-Task I
-A First Architecture
-E.g., bots pretending to be human, political campaigning, medical advice
-http://dbpedia.org/resource/Tree_(data structure) http://dbpedia.org/resource/Tree
-1.16
-1.18
-• Leverage existing, external
+Knowledge Graphs
+1.2
+• Personalization
 Linked Open Data
-DBpedia
-Towards Intelligent Systems
+1.15
+The Chatbots Landscape
+1.41
 • Connect silo-ed knowledge
-Eliza Example
-Summary II
-I am <whatever>
-Natural Language Processing (NLP)
-1.14
-Notes and Further
+• Service & Payment
+and Software Engineering
+1.40
+• Different types of chatbots
+spreadsheets, emails, . . .
+Department of Computer Science
+Linking Documents with Knowledge Graphs
+natural language
+Documents
+Lecture 1
+Amazon Alexa (2015)
 1.34
-If the input sentence is:
-https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c
+• Knowledge Graphs
+https://www.w3.org/TR/rdf11-primer/
+indistinguishable from a human” (A. Turing, 1950)
+1.38
+• Sales & Marketing
+Required
+What do you need?
+DBpedia
+Natural Language Processing (NLP)
+ex:Document
+Microsoft Tay (2016)
+Overcoming Information Silos
+1.46
+http://www.aaai.org/Magazine/Watson/watson.php
 Risks
 Baseline Technology
-• Increasing legal and ethical concerns
-Tech companies join the bot development:
+Processing
+1.1
+Early chatbots were developed by scientists:
+https://venturebeat.com/2017/06/26/bot-analytics-platform-releases-new-chatbot-landscape/
+Named Entity Detection
+Risks
+Knowledge Integration
+Common Issue
+1.44
+Sentiment Analysis
+<http://data.europeana.eu/item/04802/243FA8618938F4117025F17A8B813C5F9AA4D619>
+https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c
+ex:Bahar
+Eliza + DOCTOR script
+• Enriching content with machine-readable metadata
+Requires Information Extraction (IE) – an example for a Text Mining task
+</foaf:Person>
+IBM Watson
+(?title AS ?Title) WHERE {
+1.27
+<bob#me>
+Linked Open Data (LOD)
+1.35
+Architecture 3.0
+1.13
+Supplemental
+A First Architecture
+"The proposed approach takes advantage of both
+1.9
+What you need
+Summary Part III
+• SaaS (e.g., Amazon Comprehend, Refinitiv)
 Notes and Further Reading
-1.12
-Sentiment Analysis (a.k.a. Opinion Mining)
-Required
-• NLP tools (e.g., UIMA, GATE)
-• Knowledge Graphs can integrate different sources within an organization
+Summary
+Knowledge as Graphs
+Eliza (1966)
+Knowledge BaseKnowledge Worker
+Dublin Core
+CAGR of 25-40%
+Knowledge Worker DocumentsNLP Pipeline
+Outline
+Linked Open Data
+Foundations
+• The AI Behind Watson, http://www.aaai.org/Magazine/Watson/watson.php
+Recommender Systems
+A branch of Artificial Intelligence (AI) that uses various techniques to process
+Eliza Example
+dc:title rdf:type
+• Stanford Parry (1972), the schizophrenic patient
+schema:birthDate "1990-07-04"^^xsd:date ;
+• State-of-the-art technology: graph databases, triple stores, reasoning engines,
+• “Hot” business topic, emerging after decades of research
+• Similar architecture, different stacks
+Recommender Systems
+Entity Linking
+History
+1.51
+wd:Q12418
+E.g., bots pretending to be human, political campaigning, medical advice
+connections in a social network.
+1.24
+Microsoft Cortana (2015)
+The Linked Open Data Cloud
+History
+Reading
+“Data is the new oil”
+<foaf:mbox_sha1sum>
+A First Architecture
+DocumentsKnowledge Worker
+Watson is a type of question-answering (QA) system, first developed 2006–2011
+1.19
+1.20
+• Freely available, many domains
+content written in a natural language, e.g., English or French.
+Named Entity Detection
+1.22
+1.45
+the efficient computation of the tree architecture ..."
+1.8
+Architecture 4.0
+BASE <http://example.org/>
+1.32
+• Generic vs. Goal-oriented
+• Be aware of the bot lifecycle
+Sentiment Analysis
+Apple Siri (2010)
+(full text, databases, spreadsheets, etc.)
+Notes and Further
+Reassembly Pattern:
+1.39
+Why ‘search’ is not enough
+1.28
+Knowledge Bases
+vendors
+• Huge benefits across the value chain:
+ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c
+"Bahar Sateli"
+ex:Proposal
+are triggered by key words appearing in the input text. Responses are
+• Determine KPIs and evaluate
+1.10
+• Re-envision Risk Management
+https://plato.stanford.edu/entries/artificial-intelligence/
+Technology
+?proposal dc:title ?title
+etc.
+• Custom or off-the-shelf
+foaf:name rdf:type dc:creator
+1.11
+• Continuously updated
+FOAF (Friend-of-a-Friend) Ontology
+• External Knowledge Bases to further enrich the data
+• “Top 5 Emerging Technologies in 2018”
+• HR & Operations
+Chatbots: The Business Case
+2011 Jeopardy! competition: 2,880 POWER7 threads and 16 terabytes of RAM
+</foaf:mbox_sha1sum>
+IBM Watson (2011)
+NLP Pipeline
+PREFIX wd: <http://www.wikidata.org/entity/>
+• Ultimate Guide to Leveraging NLP & Machine Learning for your Chatbot,
+1 Introduction
+Motivation
+2 Text Mining
+4 Agents and Beyond
+Semantic Web
+Task I
+1.29
+• Automatically manage an organization’s knowledge;
+Summary Part III
+<foaf:Person>
+Architecture 1.0
+https://en.wikipedia.org/wiki/ELIZA
+The W3C “Layer Cake”
+Google Assistant (2012)
+Definition
+Vocabularies
+1.3

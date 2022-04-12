@@ -1,554 +1,554 @@
 
-• Basic idea of information retrieval (IR)
-q: [rich poor]
-i=1 d
+• Frequent terms are less informative than rare terms.
+Mean Average Precision (MAP)
+1,000,000
+6.27
+Motivation
+• find users interested in a new item
+6.8
+We can visualize vectors, e.g., in 2D:
+√∑
 |C|∑
-precision =
-where rel(c) tells us if item at rank c was relevant (1) or not (0).
-• Key idea 2: Rank documents according to their proximity to the query
-Copyright 2008 by Cambridge University Press, [MRS08]
-WORSER 1.37 0.0 0.11 4.15 0.25 1.95
-• Terms are axes of the space.
-(1 + log tft,d ) · log Ndft
-articles, . . . ) as a weighted tf-idf vector
-Evaluation
-Introduction to Information Retrieval.
-Cosine
-(normalized) term vectors
-Semantic Vocabularies for User Modeling
-6.15
-• Set to 0 if tft,d = 0
-We can now exploit tags for a number of use cases:
-0 1
-2 ·
+6.48
+i = 1.0
+From angles to cosines
+• For example, ~v ∈ Rn with
+• Blog post
+(N is the number of documents in the collection.)
+(due to the term frequency)
+high-dimensional space
+Collecting User Interactions
+cos(~q , ~d ) =
 TF*IDF weighting
+→ Worksheet #5: Task 3
+other users
+Movies as Vectors
+• Given two vectors, we can compute a similarity coefficient between them
+Items of Interest to a User
+poor
+Introduction
+6.51
+• this time, we calculate the cosine similarity between a user vector and
+6.19
+6.42
+• Compare item vectors according to the angle between them, in decreasing order
+• Create item vectors using raw count
+FOAF
+• Evaluate only top-k recommendations (e.g., top-10)
+• Instead: rank relevant documents higher than nonrelevant documents
+∑|V |
+Introduction to Information Retrieval.
+Making Recommendations
+How do we compute the length of a vector?
+• News article
+• Euclidean distance?
+• Note that we use the log transformation for both term frequency and document
+Intuitively. . .
+Bag of words model
+• idf affects the ranking of documents for queries with at least two terms.
+Binary incidence matrix
+d2:Rich poor gap grows
+• Alternative names: tf.idf, tf x idf
+• Which users would be interested in it?
+. . .
+6.21
+c=1
+∑
+k=1
+angle between ~q and ~d .
+Modeling Users
+LINE.
+Why Euclidian distance is a bad idea
+Binary→ count→ weight matrix
+• A document containing this term is more likely to be relevant than a document
+• Hence, average the AP for all users:
+[MRS08] Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schütze.
+6.14
+WORSER 2 0 1 1 1 5
+Vectors of words, users, products, . . .
+rel(c),
+• We want low (positive) weights for frequent words like GOOD, INCREASE, and
+Result is a similarity matrix
+• interoperable between applications
+~v(d1)
+Required
+Semantic User Profiles
+6.39
+• Basic user dimensions like Emotional States, Characteristics and Personality
+2 Collaborative Filtering
+6.25
+6.32
+metadata of users.
+tags or the weight of words. This is called a vector space model.
+• . . . but lower weights than for rare terms.
+• As a result, longer and shorter vectors (more/fewer tags) have weights of the
+The percentage of correct recommendations in the top-k .
+Supplemental
+6.26
+that t occurs in d .
+tf-idf weighting
+6.52
+Evaluation
+i=1 qi · di√∑|v|
+Effect of idf on ranking
+product.
+DCGu = rel1 +
+#correct system recommendations
+Hinrich Schütze [MRS08]
+Items related to other items
+• [MRS08, Chapter 8] (Evaluation)
+vector
+• . . . since after normalization: ||x ||2 =
+1
+• Enables describing user and team modelling, preferences, tasks and interests
+The term frequency tft,d of term t in document d is defined as the number of times
+Same idea, but now we have to build vectors out of whole documents
+CALPURNIA 0.0 1.54 0.0 0.0 0.0 0.0
+• Represent all documents (movie descriptions, blog posts, research
+k
+If we recommend N items to a user, where there are at most m relevant items in
+idf weight
 m
-Some strategies:
-• Return the top k (e.g., k = 10) to the user
+• The document frequency is the number of documents in the collection that the
+where rel(c) tells us if item at rank c was relevant (1) or not (0).
+• Is our fancy model better than giving out random recommendations?
+same way.
+article vector
+Semantic User Profiles
+6.18
+6.6
+Term Vector Space Model
+6.13
+6.16
+Summary: tf-idf
+Effect
+• . . . increases with the number of occurrences within a document
+6.17
+6.9
+• We will use document frequency to factor this into computing the matching
+Items of Interest to a User
+~q · ~d
+When multiple users tag the same resource, content can be discovered based on
+x2
+fly 10,000 2
+MERCY 1.51 0.0 1.90 0.12 5.25 0.88
+N∑
 6.34
+Queries as vectors
+Collective Intelligence in Action.
+• Euclidean distance is a bad idea . . .
+6.12
+6.41
+• Open knowledge bases:
+MAP
+i=1 d i
+. . . we want to be able to have a system
+[TB16] Doug Turnbull and John Berryman.
+Lecture 6
+x1
+• The tf-idf weight of a term is the product of its tf weight and its idf weight:
+
+i
+• idft is a measure of the informativeness of the term.
+• Return the top k (e.g., k = 10) to the user
+Each document is represented as a binary vector ∈ {0,1}|V |.
+potentially relevant items on Amazon or movies on Netflix)
+Finding related content
+~v(d3)
+precision =
+6.37
+• Documents are points or vectors in this space.
+c=2
+Modeling Users
+6.55
+query q and the distribution of terms in the document d2 are very similar.
+...
+1 . . .N,
+https://concordiauniversity.on.worldcat.org/oclc/314121652
+6.35
+6.24
+• Used in Internet search engines
+d3:Record baseball salaries in 2010
+• Set to 0 if tft,d = 0
+|~q||~d |
+Slides Credit
+• Rare terms are more informative than frequent terms.
+Precision@k
+Compute the discounted cumulative gain (DCG),
+idft = log10
+• Consider a term in the query that is rare in the collection (e.g., ARACHNOCENTRIC).
+• First cut: (negative) distance between two points
+The $1m Netflix Prize Competition (2009)
+COMP 474/6741, Winter 2022
+Items of interest to a user
+Weighting scheme
+6.11
+Recommender Systems and Collaborative Filtering
+• find similar items, based on interests of other users
+Collaborative Filtering
+→ Worksheet #5: Task 7
+General issue in recommender system deployment
+• |~q| and |~d | are the lengths of ~q and ~d .
+• ( = distance between the end points of the two vectors)
+6.50
+6.20
+• We want high weights for rare terms like ARACHNOCENTRIC.
+relative weight of ARACHNOCENTRIC and decreases the relative weight of LINE.
+(1 + log tft,d ) · log Ndft
+• A mathematical model to portray an n-dimensional space
+score.
+AP@N =
+• qi is the tf-idf weight of term i in the query.
+• Compute the cosine similarity between the target vector and each document
+• exploited in many e-commerce/social networking web sites
+• Rank documents with respect to the target
+• Each document is now represented as a real-valued vector of tf-idf weights
+
+sunday 1000 3
+√∑|v|
+Vectors
+Cosine
+• Ask user for preferences during sign-up
+Department of Computer Science
+∑|v|
+term occurs in.
+Each document is now represented as a real-valued vector of tf-idf weights ∈ R|V |.
+• No comprehensive classes for describing preferences or interests
+Content-based Recommendations
+• For example, in the query “arachnocentric line”, idf weighting increases the
+The tf-idf weight . . .
+0
+·
+wt,d = (1 + log tft,d ) · log
+Simple point-to-point recommendation engine
+Well. . . in this application scenario, we don’t really care (there are millions of
+• Item-to-item is the same for all users
+6.58
+MERCY 2 0 3 8 5 8
+#all system recommendations
+https://concordiauniversity.on.worldcat.org/oclc/954339855.
+length – here we use the L2 norm: ||x ||2 =
+i x
+Notes and Further Reading
+6.22
+6.36
+• Non-binary ranked results (i.e., not just correct or wrong, but a Likert-scale):
+• . . .
+• So we have a |V |-dimensional real-valued vector space.
+General machine learning process
+Recommender Systems
+[from Introduction to Information Retrieval]
+Solution: build user-specific similarity matrix
+6.49
+6.43
+animal 100 4
+• The following two notions are equivalent.
+• Cosine of the angle between two vectors reflects their degree of similarity
+2
+=
+• Cosine is a monotonically decreasing function of the angle for the interval
+Content-based Recommendations
+Content-based
+Generic user modeling vocabularies
+Includes slides by Christopher D. Manning, Prabhakar Raghavan and
+and ranking.
+CLEOPATRA 57 0 0 0 0 0
+6.1
+Precision at cutoff k
 6.10
+same order of magnitude.
+https://www.youtube.com/watch?v=nq2QtatuF7U
+• In addition, to term frequency (the frequency of the term in the document) . . .
+Count matrix
+Term frequency tf
+calpurnia 1 6
+k∑
+• But we want to know how well the system works across all users
+{
+Anthony Julius The Hamlet Othello Macbeth . . .
+i qi · di
+Motivation
+• Vector operations on entities, e.g., to compute their similarity
+6.54
+TF*IDF weighting
+6.7
+q: [rich poor]
+IntelLEO
+Given Information about a User. . .
+xn
+General Approach
+6.31
+articles, . . . ) as a weighted tf-idf vector
+MERCY 1 0 1 1 1 1
+BRUTUS 4 157 0 2 0 0
+Average Precision at N
+6.5
+ANTHONY 5.25 3.18 0.0 0.0 0.0 0.35
+• Entities are described by vectors with n coordinates in a real space Rn
+the most frequent tags (example: Last.fm).
+• A vector can be (length-) normalized by dividing each of its components by its
+Comparing vectors
+∈ R|V |.
+3 Content-based Recommendations
+Concordia University
+https://concordiauniversity.on.worldcat.org/oclc/314121652.
+CALPURNIA 0 10 0 0 0 0
+• Represent users/items as
+Similar to before, compute similarity matrix between metadata of new item and
+• → We want high weights for rare terms like ARACHNOCENTRIC.
+• dft is the document frequency, the number of documents that t occurs in.
+i=1 d
+Cold-Start Problem
+CALPURNIA 0 1 0 0 0 0
+term dft idft
+√∑|V |
+Collaborative tagging gives rise to simple recommender approaches:
+• show other items (products, photos, videos, music) that were tagged similar by
+• (if ~q and ~d are length-normalized).
+http://informationretrieval.org.
+6.40
+Item Metadata
+• Several ontologies strongly focused on personalization
+• Recommend items based on user’s interest
+idf = log
+• Each vector is very sparse – most entries are zero.
+Average Precision
+MAP@N =
+• . . . we also want to use the frequency of the term in the collection for weighting
+approaches against a ground truth (a.k.a. gold standard)
+• New item comes in (blog post, photo, article, product, . . .)
+Personalization, Collaborative Filtering & Content-based recommendation
+• Very high-dimensional: tens of millions of dimensions when you apply this to
+Manning, 2009.
+wt,d =
+under 100,000 1
+• The most popular generic user model offering descriptions for basic user
+Measuring performance
+Copyright 2016 by Manning Publications Co., [TB16]
+Collaborative Filtering
+tf-idf
+Data Collection
+0 1
+• Rank item vectors according to cosine(item1, item2) in increasing order
+, if tft,d > 0
+• idf has little effect on ranking for one-term queries.
+• Basic idea of information retrieval (IR)
+Relevant Users for an Item
+GUMO
+|U|
+ANTHONY 157 73 0 0 0 1
+6.44
+• Key idea 2: Rank documents according to their proximity to the query
+BRUTUS 1 1 0 1 0 0
+Relevant Search.
+• . . . increases with the rarity of the term in the collection
+• Terms are axes of the space.
+Netflix Recommendations
+References
+Recommendations based on tags
+Item Recommendation
+Recommendations
+profile
+• proximity ≈ negative distance
+6.60
+Copyright 2009 by Manning Publications Co., [Ala09]
+information
+web search engines
+d1:Ranks of starving poets swell
+• [MRS08, Chapter 6] (Vector Space Model, tf-idf)
+Term Vector Space Model
+• How can we recommend items for a particular user?
+u=1
+• Recall: We’re doing this because we want to get away from the
+Finding relevant users for an item
+• Movie description/summary
+
+between vectors; i.e., the angle
+6.30
+INCREASE, LINE).
+• Copyright © 2008 Cambridge University Press
+recall =
+• . . . but words like GOOD, INCREASE and LINE are not sure indicators of
+AP@N(u)
+#all correct recommendations
+Desired weight for frequent terms
+again, rel(c) is 1 if the recommendation at rank c is relevant, 0 otherwise
+relc
+Wait, what happened to Recall?
+6.4
+• This is the cosine similarity of ~q and ~d . . . . . . or, equivalently, the cosine of the
+• Consider a term in the query that is frequent in the collection (e.g., GOOD,
+→ Worksheet #5: Tasks 1, 2
+We can represent (users, documents, products) as vectors, e.g., using the count of
+precision@k ·rel(k)
+relevance.
+Computing similarity
+Outline
+→ Worksheet #5: Task 6
+Recommender Systems
+~v(d2)
+4 Notes and Further Reading
+We can now exploit tags for a number of use cases:
+and Caesar Tempest
+.
+(2)
+• [Ala09, Chapters 2, 3] (Recommendations)
+Length normalization
+0, otherwise
+Items Related to other Items
+The recall indicates how many relevant recommendations were found by a system:
+(3)
+Cosine for normalized vectors
+Notes and Further
+The precision provides a measure of the quality of the generated recommendations:
+WORSER 1 0 1 1 1 0
+Document Frequency (df)
+• So far, we build our model using vectors of concepts (e.g., tags, movie
+(due to the inverse document frequency)
+• What if we want to create recommendations based on the content
+• Best known weighting scheme in information retrieval
+• So far, everything was calculated for one user u ∈ U
+→ Worksheet #5: Task 9
+Evaluation
+Basic Recommender Engine using Vector Space Model
+1 Introduction
+dft
+Recommending items to users
+• Key idea 1: do the same for queries: represent them as vectors in the
+Note
+Computing with Words
+Each document is now represented as a count vector ∈ N|V |.
+Vocabularies
+René Witte
+6.45
+• [logN/dft ] instead of [N/dft ] to “dampen” the effect of idf
+http://informationretrieval.org
+Generally, there is a trade-off between precision and recall.
+Frequency in document vs. frequency in collection
+Approach
+• → For frequent terms like GOOD, INCREASE, and LINE, we want positive
+Copyright 2008 by Cambridge University Press, [MRS08]
+Semantic Vocabularies for User Modeling
+• We need metrics to evaluate and compare the performance of different
+Cosine similarity illustrated
+Performance Evaluation
+inverse document frequency (idf)
+• Semantic recommendations (remember the “tree” example)
+CAESAR 232 227 0 2 1 0
+Items
+Examples for idf
+CLEOPATRA 2.85 0.0 0.0 0.0 0.0 0.0
+• New user⇒ no user profile for recommendations
+precision@k =
+• A generic user model that offers several classes for users’ characteristics
+6.33
+i=1 q
+log2 c
+6.46
+Reading Material
+• dft is an inverse measure of the informativeness of term t .
+• This maps vectors onto the unit sphere . . .
+• We do not consider the order of words in a document.
+Computing with Words
+• We define the idf weight of term t as follows:
 Introduction
 • Recommend items related to other items
-vectors, this is simply their dot
-• exploited in many e-commerce/social networking web sites
-http://informationretrieval.org.
-Precision and Recall
-Movies as Vectors
-query q and the distribution of terms in the document d2 are very similar.
-• recommending items (books, movies, music, photos, videos, etc.)
-6.23
-Simple point-to-point recommendation engine
-• New item comes in (blog post, photo, article, product, . . .)
-wt,d = (1 + log tft,d ) · log
-Each document is represented as a binary vector ∈ {0,1}|V |.
-Examples for idf
-6.44
-d2:Rich poor gap grows
-Binary incidence matrix
-6.51
-• For normalized vectors, the cosine is equivalent to the dot product or scalar
-. . . we want to be able to have a system
-6.33
-• So far, we build our model using vectors of concepts (e.g., tags, movie
-Department of Computer Science
-• Recall: We’re doing this because we want to get away from the
-But wait, there’s more. . .
-6.7
-Relevant Search.
-• Consider a term in the query that is rare in the collection (e.g., ARACHNOCENTRIC).
-6.49
-AP@N(u)
-• Consider a term in the query that is frequent in the collection (e.g., GOOD,
-• [MRS08, Chapter 6] (Vector Space Model, tf-idf)
-• proximity = similarity
-Personalization, Collaborative Filtering & Content-based recommendation
-tags or the weight of words. This is called a vector space model.
-Binary→ count→ weight matrix
-frequency.
-and Software Engineering
-Computation
-6.45
-Vector Space Model
-Modeling Users
-Collaborative tagging gives rise to simple recommender approaches:
-• So far, everything was calculated for one user u ∈ U
-• . . . increases with the number of occurrences within a document
-• . . . increases with the rarity of the term in the collection
-https://concordiauniversity.on.worldcat.org/oclc/314121652
-6.2
-6.56
-Manning, 2009.
-Collaborative Filtering
-∑
-• What if we want to create recommendations based on the content
-6.25
-[Ala09] Satnam Alag.
-2 Collaborative Filtering
-• dft is the document frequency, the number of documents that t occurs in.
-tf = 1 + log(tft,d ) (1)
-The precision provides a measure of the quality of the generated recommendations:
-6.18
-vector
-Cosine similarity between query and document
-(N is the number of documents in the collection.)
-COMP 474/6741, Winter 2022
-• interoperable between applications
-• Which users would be interested in it?
-6.39
-∈ R|V |.
-• → We want high weights for rare terms like ARACHNOCENTRIC.
-Recommender Systems
-We can visualize vectors, e.g., in 2D:
-CLEOPATRA 57 0 0 0 0 0
-https://concordiauniversity.on.worldcat.org/oclc/314121652.
-1,000,000
-Cosine similarity illustrated
-Well. . . in this application scenario, we don’t really care (there are millions of
-Items Related to other Items
-calpurnia 1 6
-6.24
-.
-• |~q| and |~d | are the lengths of ~q and ~d .
-Anthony Julius The Hamlet Othello Macbeth . . .
-tf-idf weighting
-i x
-• show other items (products, photos, videos, music) that were tagged similar by
-idf weight
-=
-that t occurs in d .
-Cold-Start Problem
-CAESAR 232 227 0 2 1 0
-• We want high weights for rare terms like ARACHNOCENTRIC.
-Collaborative Filtering
-Content-based Recommendations
-Notes and Further Reading
-article vector
-The Euclidean distance of ~q and ~d2 is large although the distribution of terms in the
- ∈ Rn
-Precision@k
-Required
-→ Worksheet #5: Tasks 1, 2
-Evaluation
-• Is our fancy model better than giving out random recommendations?
-i = 1.0
-6.27
-4 Notes and Further Reading
-From angles to cosines
-• Blog post
-• Given two vectors, we can compute a similarity coefficient between them
-• Recommend top-n items (e.g., currently most popular movies/songs/products)
-• qi is the tf-idf weight of term i in the query.
-6.53
-√∑|v|
-6.5
-recall =
-i=1 d i
-between vectors; i.e., the angle
-AP@N =
-Outline
-Summary
-Items of Interest to a User
-Generally, there is a trade-off between precision and recall.
-6.3
-CALPURNIA 0.0 1.54 0.0 0.0 0.0 0.0
-x1
-[0◦,180◦]
-(due to the term frequency)
-1 Introduction
-product.
-Result is a similarity matrix
-• Each document is now represented as a real-valued vector of tf-idf weights
-Bag of words model
-• Euclidean distance is a bad idea . . .
-• For example, in the query “arachnocentric line”, idf weighting increases the
-Data Collection
-Same idea, but now we have to build vectors out of whole documents
-~v(d3)
-• → For frequent terms like GOOD, INCREASE, and LINE, we want positive
-(due to the inverse document frequency)
-• . . . we also want to use the frequency of the term in the collection for weighting
-Slides Credit
-6.37
-2
-Summary
-INCREASE, LINE).
-Recommendations based on tags
-Intuitively. . .
-. . .
-Items of interest to a user
-same order of magnitude.
-metadata of users.
-Term frequency tf
-• The most popular generic user model offering descriptions for basic user
-Visualization
-• Return a ranked list of recommendations (e.g., based on cosine similarity)
-Basic Recommender Engine using Vector Space Model
-Document Frequency (df)
-• Several ontologies strongly focused on personalization
-→ Worksheet #5: Task 3
-Recommender Systems
-Reading Material
-potentially relevant items on Amazon or movies on Netflix)
-Cosine for normalized vectors
-How do we formalize vector space similarity?
-k
-6.47
-→ Worksheet #5: Tasks 4, 5
-Relevant Users for an Item
-idft = log10
-• Used in Internet search engines
-[TB16] Doug Turnbull and John Berryman.
-Summary: tf-idf
-Each document is now represented as a real-valued vector of tf-idf weights ∈ R|V |.
-1
-|U|∑
-∑|V |
-• John is quicker than Mary and Mary is quicker than John are represented the
-• Copyright © 2008 Cambridge University Press
-Approach
-Finding relevant users for an item
-• Instead: rank relevant documents higher than nonrelevant documents
-6.28
-relc
-6.4
-6.16
-[from Introduction to Information Retrieval]
-Includes slides by Christopher D. Manning, Prabhakar Raghavan and
-·
-Concordia University
-...
-~v =
-The $1m Netflix Prize Competition (2009)
-poor
-How do we compute the length of a vector?
-|U|
-• This is the cosine similarity of ~q and ~d . . . . . . or, equivalently, the cosine of the
-Collective Intelligence in Action.
-N∑
-Measuring performance
-• Represent all documents (movie descriptions, blog posts, research
-• idf has little effect on ranking for one-term queries.
-6.46
-6.43
-other users
-inverse document frequency (idf)
-CALPURNIA 0 1 0 0 0 0
-Content-based Recommendations
-d3:Record baseball salaries in 2010
-θ
-k∑
-6.30
-score.
-√∑|V |
-information
-Item Metadata
-Content-based
-again, rel(c) is 1 if the recommendation at rank c is relevant, 0 otherwise
-If we recommend N items to a user, where there are at most m relevant items in
-Why Euclidian distance is a bad idea
-• Rank documents with respect to the target
-• Open knowledge bases:
-• A document containing this term is very likely to be relevant.
 Documents as vectors
-Semantic User Profiles
-• Movie description/summary
-approaches against a ground truth (a.k.a. gold standard)
-that doesn’t . . .
-Motivation
-Performance Evaluation
-→ Worksheet #5: Task 6
-• . . . because Euclidean distance is large for vectors of different lengths.
-6.54
-fly 10,000 2
-Weighting scheme
-René Witte
-angle between ~q and ~d .
-Solution: build user-specific similarity matrix
-• Euclidean distance?
-Introduction
-#correct system recommendations
-
-0, otherwise
-Finding related content
-• New item⇒ no user interactions for this item
-• Semantic recommendations (remember the “tree” example)
-6.8
-Making Recommendations
-CAESAR 8.59 2.54 0.0 1.51 0.25 0.0
-• Documents are points or vectors in this space.
-Fun with Flags Vectors
-6.29
-MERCY 1 0 1 1 1 1
-|~q||~d |
-6.26
-• We define the idf weight of term t as follows:
-Precision at cutoff k
-Hinrich Schütze [MRS08]
-1 . . .N,
-• This is called a bag of words model.
-~v
-Average Precision
-6.12
-x2
-• computation of vectors, normalization as before
-WORSER 2 0 1 1 1 5
-• Evaluate only top-k recommendations (e.g., top-10)
-dft
-term occurs in.
-6.20
-• Accuracy, Sensitivity, F-measure, . . .
-• The document frequency is the number of documents in the collection that the
-• We do not consider the order of words in a document.
-xn
-6.35
-• A vector can be (length-) normalized by dividing each of its components by its
-• find similar items, based on interests of other users
-General machine learning process
-Length normalization
-So what?
-Computing the similarity
-Wait, what happened to Recall?
-6.32
-6.9
-No general solution. . .
-6.13
-wt,d =
-• Frequent terms are less informative than rare terms.
-Lecture 6
-Idea: Use vocabularies instead of keywords in the vector representation of a user
-idf = log
-weights . . .
-Recommender Systems and Collaborative Filtering
-Motivation
-The percentage of correct recommendations in the top-k .
-the 1,000,000 0
-Comparing vectors
-TF*IDF weighting
-relevance.
-, if tft,d > 0
-6.11
-term dft idft
-• Ask user for preferences during sign-up
-• We need metrics to evaluate and compare the performance of different
-• Hence, average the AP for all users:
-rich
-Reading
-• Rank item vectors according to cosine(item1, item2) in increasing order
-LINE.
-• Best known weighting scheme in information retrieval
-#all system recommendations
-6.58
-General issue in recommender system deployment
-• Cosine is a monotonically decreasing function of the angle for the interval
-• Compare item vectors according to the angle between them, in decreasing order
-CLEOPATRA 1 0 0 0 0 0
-• First cut: (negative) distance between two points
-Item Recommendation
-3 Content-based Recommendations
-• Represent users/items as
-MERCY 1.51 0.0 1.90 0.12 5.25 0.88
-WORSER 1 0 1 1 1 0
-ANTHONY 5.25 3.18 0.0 0.0 0.0 0.35
-MAP@N =
-and Caesar Tempest
-
-Items of Interest to a User
-Netflix Recommendations
-Given Information about a User. . .
-product)
-categories, etc.)
-6.38
-• . . . but lower weights than for rare terms.
-Queries as vectors
-Items related to other items
-Vocabularies
-• Each vector is very sparse – most entries are zero.
-We can represent (users, documents, products) as vectors, e.g., using the count of
-animal 100 4
-• Create item vectors using raw count
-web search engines
-i=1 qidi√∑|V |
-6.31
-• . . . since after normalization: ||x ||2 =
-Term Vector Space Model
-• Alternative names: tf.idf, tf x idf
-• A mathematical model to portray an n-dimensional space
-same way.
-• [logN/dft ] instead of [N/dft ] to “dampen” the effect of idf
-Recommendations
-The recall indicates how many relevant recommendations were found by a system:
-DCGu = rel1 +
 Cambridge University Press, 2008.
-• Note: the “-” in tf-idf is a hyphen, not a minus sign!
-References
-6.60
-• No comprehensive classes for describing preferences or interests
 • Research publication
-Vectors of words, users, products, . . .
-https://concordiauniversity.on.worldcat.org/oclc/954339855.
-Mean Average Precision (MAP)
-→ Worksheet #5: Task 9
-cos(~q , ~d ) =
-Recommending items to users
-#all correct recommendations
-{
-• idf affects the ranking of documents for queries with at least two terms.
-When multiple users tag the same resource, content can be discovered based on
-ANTHONY 1 1 0 0 0 1
-The term frequency tft,d of term t in document d is defined as the number of times
-• How can we recommend items for a particular user?
-Document Frequency
-i qi · di
-6.21
-6.48
-• idft is a measure of the informativeness of the term.
-Copyright 2016 by Manning Publications Co., [TB16]
-6.17
-6.42
-Simple Tag-based Recommendation
-• ( = distance between the end points of the two vectors)
-Items Related to other
-• The following two notions are equivalent.
-• We will use document frequency to factor this into computing the matching
+6.53
+rich
 Item Recommendation
-MAP
-6.41
+|U|∑
+6.56
+6.23
+Cosine similarity between query and document
 you’re-either-in-or-out, feast-or-famine Boolean model.
-Semantic User Profiles
-~q · ~d
-∑|v|
-precision@k =
-i
-6.1
-• Find users interested in a new item
-CLEOPATRA 2.85 0.0 0.0 0.0 0.0 0.0
-between them (for normalized
-https://concordiauniversity.on.worldcat.org/oclc/954339855
-log2 c
-Assign a tf-idf weight for each term t in each document d :
-the most frequent tags (example: Last.fm).
-http://informationretrieval.org
-• this time, we calculate the cosine similarity between a user vector and
-• Note that we use the log transformation for both term frequency and document
-Items Related to other Items
-A vector ~v is an element of a vector space.
-• [MRS08, Chapter 8] (Evaluation)
-d1:Ranks of starving poets swell
-• find users interested in a new item
-• But we want to know how well the system works across all users
-• controlled by users, not corporations
-→ Worksheet #5: Task 7
-CALPURNIA 0 10 0 0 0 0
-6.36
-IntelLEO
-AP “rewards” (gives a higher score to) higher-ranked, correct recommendations
-tf-idf
-https://www.youtube.com/watch?v=nq2QtatuF7U
-BRUTUS 1.21 6.10 0.0 1.0 0.0 0.0
-GUMO
-Similar to before, compute similarity matrix between metadata of new item and
-Collecting User Interactions
-6.40
-i=1 qi · di√∑|v|
-Average Precision at N
-Generic user modeling vocabularies
-• Rare terms are more informative than frequent terms.
-6.50
-Personalization
-• Normalize vectors
-• News article
-length – here we use the L2 norm: ||x ||2 =
-• Very high-dimensional: tens of millions of dimensions when you apply this to
-~v(d1)
-Relevant Users for an Item
-Term Vector Space Model
-• Basic user dimensions like Emotional States, Characteristics and Personality
-6.52
-• The tf-idf weight of a term is the product of its tf weight and its idf weight:
-• Compute the cosine similarity between the target vector and each document
-Desired weight for frequent terms
-• Compute cosine similarity
-• . . . but words like GOOD, INCREASE and LINE are not sure indicators of
-precision@k ·rel(k)
-Frequency in document vs. frequency in collection
-
-k=1
-Effect of idf on ranking
-and ranking.
 Cleopatra
-Note
-BRUTUS 1 1 0 1 0 0
-• Entities are described by vectors with n coordinates in a real space Rn
-profile
-• For example, ~v ∈ Rn with
-FOAF
-sunday 1000 3
-• So we have a |V |-dimensional real-valued vector space.
-relative weight of ARACHNOCENTRIC and decreases the relative weight of LINE.
-• As a result, longer and shorter vectors (more/fewer tags) have weights of the
-Compute the discounted cumulative gain (DCG),
-Effect
-N
-Copyright 2009 by Manning Publications Co., [Ala09]
-• cos(~q, ~d) = ~q · ~d =
-6.6
-• This maps vectors onto the unit sphere . . .
-[MRS08] Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schütze.
+weights . . .
+Items Related to other
+categories, etc.)
+[0◦,180◦]
+• Normalize vectors
+6.2
+• Return a ranked list of recommendations (e.g., based on cosine similarity)
+• computation of vectors, normalization as before
+Document Frequency
+• New item⇒ no user interactions for this item
+BRUTUS 1.21 6.10 0.0 1.0 0.0 0.0
+6.28
 Manning, 2016.
-6.55
-• Recommend items based on user’s interest
-• [Ala09, Chapters 2, 3] (Recommendations)
-• A generic user model that offers several classes for users’ characteristics
-high-dimensional space
-CAESAR 1 1 0 1 1 1
-~v(q)
-• New user⇒ no user profile for recommendations
-Count matrix
-• Vector operations on entities, e.g., to compute their similarity
-under 100,000 1
-0
-• proximity ≈ negative distance
-The tf-idf weight . . .
-c=1
-• Enables describing user and team modelling, preferences, tasks and interests
-• Cosine of the angle between two vectors reflects their degree of similarity
-• Item-to-item is the same for all users
-General Approach
-rel(c),
-6.59
-→ Worksheet #5: Task 8
-u=1
-cos(~q, ~d) = SIM(~q, ~d) =
-i=1 q i
-BRUTUS 4 157 0 2 0 0
-c=2
-• (if ~q and ~d are length-normalized).
-• We want low (positive) weights for frequent words like GOOD, INCREASE, and
-~v(d2)
-Supplemental
-• Non-binary ranked results (i.e., not just correct or wrong, but a Likert-scale):
-i=1 q
-Each document is now represented as a count vector ∈ N|V |.
-• Key idea 1: do the same for queries: represent them as vectors in the
-6.22
-6.19
-√∑
-(3)
-Vectors
-Computing tf-idf
-Items
-• dft is an inverse measure of the informativeness of term t .
-Computing with Words
-Modeling Users
-• A document containing this term is more likely to be relevant than a document
-(2)
-Computing with Words
-6.14
-• In addition, to term frequency (the frequency of the term in the document) . . .
-MERCY 2 0 3 8 5 8
-• di is the tf-idf weight of term i in the document.
-Notes and Further
+WORSER 1.37 0.0 0.11 4.15 0.25 1.95
+CLEOPATRA 1 0 0 0 0 0
+θ
+6.15
+Items Related to other Items
+But wait, there’s more. . .
+• Find users interested in a new item
+Fun with Flags Vectors
+Summary
+• A document containing this term is very likely to be relevant.
+Relevant Users for an Item
+The Euclidean distance of ~q and ~d2 is large although the distribution of terms in the
+Precision and Recall
+between them (for normalized
+product)
+frequency.
+• Accuracy, Sensitivity, F-measure, . . .
+• controlled by users, not corporations
+• Note: the “-” in tf-idf is a hyphen, not a minus sign!
 Compute idft using the formula: idft = log10
-• . . .
-Computing similarity
-ANTHONY 157 73 0 0 0 1
+~v
+How do we formalize vector space similarity?
+and Software Engineering
+Assign a tf-idf weight for each term t in each document d :
+~v(q)
+Computing tf-idf
+vectors, this is simply their dot
+6.47
+6.29
+6.38
+• This is called a bag of words model.
+i=1 qidi√∑|V |
+• For normalized vectors, the cosine is equivalent to the dot product or scalar
+AP “rewards” (gives a higher score to) higher-ranked, correct recommendations
+cos(~q, ~d) = SIM(~q, ~d) =
+A vector ~v is an element of a vector space.
+the 1,000,000 0
+Some strategies:
+(normalized) term vectors
+6.59
+ ∈ Rn
+Simple Tag-based Recommendation
+i=1 q i
+ANTHONY 1 1 0 0 0 1
+Vector Space Model
+Summary
+No general solution. . .
+Computing the similarity
+https://concordiauniversity.on.worldcat.org/oclc/954339855
+• cos(~q, ~d) = ~q · ~d =
+[Ala09] Satnam Alag.
+• Compute cosine similarity
+Personalization
+~v =
+tf = 1 + log(tft,d ) (1)
+• recommending items (books, movies, music, photos, videos, etc.)
+• proximity = similarity
+2 ·
+Reading
+So what?
+CAESAR 1 1 0 1 1 1
+• di is the tf-idf weight of term i in the document.
+N
+• . . . because Euclidean distance is large for vectors of different lengths.
+CAESAR 8.59 2.54 0.0 1.51 0.25 0.0
+Idea: Use vocabularies instead of keywords in the vector representation of a user
+• Recommend top-n items (e.g., currently most popular movies/songs/products)
+• John is quicker than Mary and Mary is quicker than John are represented the
+Computation
+that doesn’t . . .
+6.3
+→ Worksheet #5: Tasks 4, 5
+Visualization
+→ Worksheet #5: Task 8

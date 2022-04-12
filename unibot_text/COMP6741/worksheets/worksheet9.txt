@@ -1,55 +1,55 @@
 
-Using the Euclidian distance,
+there is an error: w′i = wi + η · (label − predicted) · xi.
+Can we solve this type of question with an AI? Stay tuned for the answer!
+l1
 (cat, house):
+v =
 What is the distance between the one-
-
-k=1 e
-l2 0 1 0
-x0 x1 x0 ∧ x1
-Note that x2 is our bias (input always 1). Use a threshold for the activation function of 0.5 and a learning
-σ(z)j =
-rate η = 0.1. Train the Perceptron by checking the output for each training sample. Update the weights if
-Task 4. Here are three words in one-hot vector representation (three words, so three dimensions):
-weights are ~w = [0.25, 0.5, 0.75].
-(use a threshold of 0.5):
-l3 0 0 0
-and reasoning. Here’s a simple one (fill in the blank): Japan is to Sushi what Germany is to
-Task 1. Word analogy questions often appear on standardized tests, like the SSAT, to test language aptitude
-Task 3. Let’s train our Perceptron to learn the logical and function. Here, we have a two-dimensional
+Worksheet #9: Neural Networks & Word Embeddings
 1, if ~x · ~w ≥ threshold
 l0 0 0 0
-l1 1 0 0
-Task 5. Ok, now re-write the question from Task 1 in form of a word vector calculation:
-input vector and four labeled training examples l0, . . . , l3:
-l0
-l0 1 1 1
-Epoch Input w0 w1 w2 f(~x) ok?
-i=1(pi − qi)2
-
-0, otherwise
-zk
-
-Task 2. Calculate your first neuron activation for the Perceptron (only 100 billion−1 more to go!):
-ezj∑K
-{
- σ(v) =
-Worksheet #9: Neural Networks & Word Embeddings
-l1
-
-Task 6. Compute the softmax function σ on the vector v below:
-l3
 √∑n
-0
-0.2
-hot word vectors for (cat, dog) and
-Can we solve this type of question with an AI? Stay tuned for the answer!
-l2
 COMP474/6741 Intelligent Systems (Winter 2022)
 1
 0.50.9
-v =
-d(~p, ~q) =
-Your input vector ~x = [0, 1, 1] and your
+Task 5. Ok, now re-write the question from Task 1 in form of a word vector calculation:
+0.2
+and reasoning. Here’s a simple one (fill in the blank): Japan is to Sushi what Germany is to
+Note that x2 is our bias (input always 1). Use a threshold for the activation function of 0.5 and a learning
+l3 0 0 0
+x0 x1 x0 ∧ x1
+l0 1 1 1
+Task 2. Calculate your first neuron activation for the Perceptron (only 100 billion−1 more to go!):
+
+
+0, otherwise
+
+Task 3. Let’s train our Perceptron to learn the logical and function. Here, we have a two-dimensional
+l2 0 1 0
+l0
+l1 1 0 0
+hot word vectors for (cat, dog) and
+weights are ~w = [0.25, 0.5, 0.75].
+0
+σ(z)j =
 Activation function:
+input vector and four labeled training examples l0, . . . , l3:
+Task 4. Here are three words in one-hot vector representation (three words, so three dimensions):
+zk
+
+ezj∑K
+{
+Task 1. Word analogy questions often appear on standardized tests, like the SSAT, to test language aptitude
+rate η = 0.1. Train the Perceptron by checking the output for each training sample. Update the weights if
+l3
+Task 6. Compute the softmax function σ on the vector v below:
+Epoch Input w0 w1 w2 f(~x) ok?
+i=1(pi − qi)2
+ σ(v) =
+d(~p, ~q) =
+(use a threshold of 0.5):
+Your input vector ~x = [0, 1, 1] and your
+k=1 e
+Using the Euclidian distance,
+l2
 f(~x) =
-there is an error: w′i = wi + η · (label − predicted) · xi.

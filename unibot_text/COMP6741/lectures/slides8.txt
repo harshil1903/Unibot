@@ -1,441 +1,441 @@
 
-Out: ’Hi Human!’
-I am very unhappy these days.
-• Retention & Growth
-<category>
-• Enhance bot based on approach (e.g., add data for retrieval)
-• Develop pairs of user questions – expected answers
-Question Classification
-• Global Market to reach $1-3B by 2025,
-https://vimeo.com/5424527
-Natural Language Processing in Action.
-8.58
-• This is a typical machine learning problem (supervised learning)
-Copyright 2019 by Manning Publications Co., [LHH19]
-Chatbot recirculating (recurrent) pipeline
-Generating SPARQL Queries (II)
-8.13
-(Gartner)
-4 Grounding-Based Bots
-AIML Examples (v2.0)
-• Generalize multiple stories with the same theme
-8.27
-Question-answering Workflow
-Different types of questions require different SPARQL query structures (ASK,
-Hybrid approaches
-Example
-Introduction
-Can be done reliably, available in NLP libraries (e.g, spaCy or NLTK for Python).
-Basic approach
-Concordia University (commonly referred to as Concordia) is a public
-Generating SPARQL Queries (I)
-Towards Chatbot Frameworks
-8.54
-Intelligent Agents
-<aiml version="1.0.1">
-Grounding: Knowledge graphs and inference on those graphs
-<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
-E.g., “What is Concordia University?”
-https://www.youtube.com/watch?v=aiuDC2OSIYE
-Generative: Statistics and machine learning
-Leena.ai
-Bot Design Process
-https://concordiauniversity.on.worldcat.org/oclc/772977853
-• Service & Payment
-• When N-formyl-L-methionyl-L-leucyl-L-phenylalanine (fMLP) was injected. . .
-Reassembly Pattern:
-https://www.youtube.com/watch?v=ZbjTtCG3_X0
-Finite State Machine
-8.43
-Department of Computer Science
-• Create tf-idf vector of the question
-Need to convert text (here: question) into a feature vector
-Quantification: A quantifier after a token (such as a character) or group specifies how often
-Community management: Bonusly, Slackbot
-8.41
-Tokenization
-8.12
-8.52
-Steinmetz N, Arning AK, Sattler KU. From natural language questions to SPARQL queries: a
-<random>
-</button>
-"Should you $2 yourself?",
-• Using a knowledge graph when creating answers
-8.14
-Perceived Business Benefits
-<text>AIML How-To</text>
-and Software Engineering
-Chatbot Design
-Proprietary, intuitive language for dialog specifications
-Challenge: find features that facilitate classification.
-<image>www.png</image>
-"Perhaps I will $2 in good time",
-8.55
-• [LHH19, Chapter 12] (Dialog engines)
-8.57
-See https://pypi.org/project/AIML-Bot/
-Intelligent Conversational Agents
-Decomposition pattern:
-Agents
-https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/create-publish-knowledge-base?tabs=v1
-Search-Based Bots
-POS Tagging
-<li>Hi there!</li>
-https://concordiauniversity.on.worldcat.org/oclc/359890490.
-The Stanford Question Answering Dataset (SQuAD)
-2 Search-Based Bots
-Part-of-Speech (POS) Tagging and Parsing
-Keyword:
-"You mentioned $2",
-https://inc42.com/buzz/y-combinator-graduate-hrtech-startup-leena-ai-raises-2-mn-seed-fund/
-Taming Text: How to find, organise, and manipulate it.
-https://commons.wikimedia.org/wiki/File:Automata_theory.svg
-<pattern>MY DOGS NAME IS *</pattern>
-comprehensive university located in Montreal, Quebec, Canada.
-1 What is <X>?
-COMP 474/6741, Winter 2022
-8.34
-From the lab exercises...
-Classifying Questions
-Grounding
-8.38
-Pattern-response matching
-8.45
-Regular Expressions
-https://aws.amazon.com/lex/
-"What about $2?",
-more than max times.
-(among other uses). For example, gray|grey and gr(a|e)y are equivalent
-8.24
-• tf-idf vectors of answers (if only answers available)
-• ? The question mark indicates zero or one occurrences of the preceding
-Artificial Intelligence Markup Language (AIML)
-Manning, 2013.
-https://dl.gi.de/handle/20.500.12116/21702
-NLP Pipelines
-That is interesting that you have a dog named Max
-• Could use count or tf-idf vector
-• AIML kernel loads patterns and responds when match is found
-<template>Good one.</template>
-<?xml version="1.0" encoding="UTF-8"?>
-Notes and Further Reading
-A.k.a deterministic finite automaton (DFA).
-in Quebec where English is the primary language of instruction.
-"(.*)?do you remember (.*)?": [
-Required
-Marketing Chatbots
-• A software program that can interpret and
-"Do you believe I don’t $2?",
-"Who else in your family $2?",
-Example: Watson
-<postback>HOW TO</postback>
-8.28
-5 Chatbot Design
-Siri (2009)
-Outline
-Summary
-</card>
-http://www.aiml.foundation/doc.html
-• Compute cosine similarity with either:
-1 Introduction
-https://tomgruber.org/writing/semtech09.htm
-[RN10] Stuart Russell and Peter Norvig.
-Artificial Intelligence: A Modern Approach.
-a.k.a. Dialog System or Dialog Engine
-• Used in the A.L.I.C.E. chatbot (and many others)
-(from [LHH19, Chapter 12])
-• but this results in a high number of dimensions (and possible overfitting)
-Given a corpus of previously answered questions
-https://www.devdungeon.com/content/ai-chat-bot-python-aiml#sessions
-AIML 2.0 Extensions: Rich media, hyperlinks, ...
-<template>Hi , How are you?</template>
-Dimensionality reduction in NLP
-Create a tree representing a sentence’s grammatical structure
-<li>Clever!</li>
-That is interesting that you have a dog
-8.56
-Python & AIML
-Pattern matching: Regex matching and response templates (canned responses)
-Summary
-<pattern>WHAT IS MY DOGS NAME</pattern>
-as output
-Can we come up with some other features that can be easily extracted?
-<template>Hi!</template>
-• [RN10, Chapter 26] (Philosophical Foundations)
-named <set name="dog"><star/></set>
-8.35
-https://concordiauniversity.on.worldcat.org/oclc/1102387045.
-8.47
-• {n} The preceding item is matched exactly n times.
 <button>
-Generic SPARQL Query Generator
-Reading Material
-Task
-Managing State (Context)
-• Activision promoted “Call of Duty” with “Lt. Reyes”
-https://concordiauniversity.on.worldcat.org/oclc/1102387045
-• What we need is a classifier that takes a question as input and returns the type
-• Retrieval vs. Generative (Deep Learning)
-2011 Jeopardy! competition: 2,880 POWER7 threads and 16 terabytes of RAM
-Assign a POS tag (e.g., Noun, Verb, Adjective, Adverb, ...) to each Token:
-• Identify appropriate technology for specific type of question
-Founded in 1974 following the merger of Loyola College and Sir
-Concordia University
-...
-3 Pattern-Matching Bots
-<aiml version="1.0.1" encoding="UTF-8">
-</category>
-Random answers
-8.40
-George Williams University, Concordia is one of the three universities
-8.18https://techcrunch.com/2021/03/10/heyday-seed-funding-2/
-</template>
-• tf-idf vectors of questions (if question/answer pairs available)
-Applying ML
-Customer service: Storefront bots, technical support bots
-• E.g., PyAiml, aiml, aiml_bot
-Unger C, Bühmann L, Lehmann J, Ngonga Ngomo AC, Gerber D, Cimiano P. Template-based question
-SELECT, using COUNT, etc.)
-Your dog’s name is <get name="dog"/>.
-Search: Text retrieval
-Processing
-https://techcrunch.com/2018/06/29/leena-ai-builds-hr-chat-bots-to-answer-policy-questions-automatically/
-8.10
-Edubots
-Grounding-Based Bots
-• Developed by startup Speaktoit, released as api.ai in 2014
-8.46
-Marketing: Twitter bots, blogger bots, Facebook bots, Google Search, Google
-I am
-René Witte
-"Why do you think I should recall $2 now?",
-Generating SPARQL Queries: Evaluation
-Introduction
-• “Top 5 Emerging Technologies in 2018”
-element. For example, colou?r matches both "color" and "colour".
-• More scalable than hard-coding every possible answer in patterns
-Modern approaches
-api.ai
-→ Worksheet #7: Task 8
-Chatbot Design
-1.4 million answered questions from Amazon:
-8.48
-Examples
-Chatbot techniques used for some example applications
-answering over RDF data. In Proceedings of the 21st international conference on World Wide Web 2012
-<pattern>[HELLO HI YO YOH YO’]
-<pattern>[HELLO HI YO YOH YO’ ’SUP SUP OK HEY]
-[IMF13] Grant S. Ingersoll, Thomas S. Morton, and Andrew L. Farris.
-methyl-borato(2-)-N,N′,N′′,N′′′,N′′′′,N′′′′′)-chlorotechnetium) belongs to a family
-Eliza’s response will be:
-CAGR of 25-40%
-• Similar architecture, different stacks
-https://concordiauniversity.on.worldcat.org/oclc/359890490
-https://jmcauley.ucsd.edu/data/amazon/qa/
-Chatbots
-)-O]-[1,2-cyclohexanedione dioximato(2-)-O]
-• Open standard, started in 1995 by Richard Wallace et al.
-https://www.edubots.eu
-8.3
-8.49
-https://www.theguardian.com/technology/2016/jun/28/chatbot-ai-lawyer-donotpay-parking-tickets-london-new-york
 <pattern>HELLO *</pattern>
-8.42
-"Tell me more about your family",
-• * The asterisk indicates zero or more occurrences of the preceding
-• Sony promoted “Resident Evil” with “Red Queen”
-→ Worksheet #7: Task 1
-How long have you been very unhappy these days?
-bot = aiml_bot.Bot(learn="conubot.aiml")
-• Generic vs. Goal-oriented
-• 1,4-β-xylanase II from Trichoderma reesei
-<card>
-Apr 16 (pp. 639-648).
-Using multiple (or all four) techniques in one bot
-• Support AIML 1.0 only :(
-Feature Engineering
-pattern-based approach. BTW 2019. https://dl.gi.de/handle/20.500.12116/21702
-https://pypi.org/project/AIML-Bot/
-https://rajpurkar.github.io/SQuAD-explorer/
-8.37
-8.33
-IBM Watson: The Science Behind an Answer (2011)
-• Length (in words/characters)?
-<template>Good one, human.</template>
-Search-Based Bots
-8.15https://inc42.com/buzz/y-combinator-graduate-hrtech-startup-leena-ai-raises-2-mn-seed-fund/
-“gray” or “grey”.
-<postback>RESUME TOUR</postback>
-Eliza + DOCTOR script
-Intelligent Conversational
-• {min,max} The preceding item is matched at least min times, but not
-Reading
-</random>
-Virtual assistants: Google Assistant, Alexa, Siri, MS paperclip
-https://www.qnamaker.ai/
-• [IMF13, Chapter 8] (Building a QA System)
-8.6
-Development
-Stopword removal: remove stop-words (e.g., the, in, an, a, ...)
-<template>Hi Human!</template>
-Question Types (contd.)
-8.39
-8.2
-8.7
-Adding Knowledge
+(from [LHH19, Chapter 12])
+<subtitle>A very good dog</subtitle>
 8.61
-element. For example, ab*c matches "ac", "abc", "abbc", "abbbc", and
-8.62
-8.60
-6 Notes and Further Reading
-Manning Publications Co., 2019.
-Basic Concepts (https://en.wikipedia.org/wiki/Regular_expression)
-• Technetium-99m-CDO-MeB [Bis[1,2-cyclohexanedione-dioximato(1-
-Copyright 2013 by Manning Publications Co., [IMF13]
-etc.:
-Leena.ai Use Case
-Therapy: Woebot, Wysa, YourDost, Siri, Allo
-HR chatbot answering employees questions
-8.32
-Question answering: Google Search, Alexa, Siri, Watson
-Example: Watson
-NLP Pipelines
-• Powers Google Assistant and other services
-Grounding-Based Bots
+Python & AIML
+Generating SPARQL Queries: Evaluation
+Other bot languages
+API.ai was bought by Google in 2016 and renamed in 2017 to Dialogflow
+8.27
+Example
+Dialogflow
+8.43
+Chatbot Design
+Tokenization
+Examples
+8.14
+Pattern matching: Regex matching and response templates (canned responses)
+8.20
+Can be done reliably, available in NLP libraries (e.g, spaCy or NLTK for Python).
+(among other uses). For example, gray|grey and gr(a|e)y are equivalent
+Manning, 2013.
+<pattern>[HELLO HI YO YOH YO’ ’SUP SUP OK HEY]
+Introduction
+Virtual assistants: Google Assistant, Alexa, Siri, MS paperclip
+Search-Based Bots
+8.6
+Can we come up with some other features that can be easily extracted?
+8.13
+→ Worksheet #7: Task 6
+api.ai
+Finite State Machine
+Founded in 1974 following the merger of Loyola College and Sir
+Pattern-Matching Bots
+That is interesting that you have a dog
+8.7
+[HAL YOU U YALL Y’ALL YOUS YOUSE]</pattern>
+Artificial Intelligence Markup Language (AIML)
+Leena.ai
+https://aws.amazon.com/lex/
+8.35
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+• Retention & Growth
 • Done by a Tokenizer (e.g., the default tokenizer in scikit-learn)
-References
+https://www.edubots.eu
+• {min,max} The preceding item is matched at least min times, but not
+API.ai
+2 Search-Based Bots
+https://concordiauniversity.on.worldcat.org/oclc/772977853
+How long have you been <whatever>?
+Pandorabots (https://pandorabots.com)
+Intelligent Conversational Agents
+https://pandorabots.com
+etc.:
+• Number of words with capital letters?
+2 ⇒ query DBpedia to retrieve the rdfs:comment (in the user’s language) of X
+https://jmcauley.ucsd.edu/data/amazon/qa/
+https://concordiauniversity.on.worldcat.org/oclc/359890490
+Decomposition pattern:
+I am very unhappy these days.
+8.3
+• Different types of chatbots
+Required
+Lecture 8
+Taming Text: How to find, organise, and manipulate it.
+Towards Chatbot Frameworks
+• Universal promoted “Unfriended” with “Laura Barnes”
+Basic Concepts (https://en.wikipedia.org/wiki/Regular_expression)
+Stemming: reduce words to their stem (e.g., students, student ⇒ student)
+Eliza + DOCTOR script
+• AIML kernel loads patterns and responds when match is found
+IBM Watson
+8.26
+Supplemental
+6 Notes and Further Reading
+<aiml version="1.0.1" encoding="UTF-8">
+• Sony promoted “Resident Evil” with “Red Queen”
+<template>Hi , How are you?</template>
+8.54
+<li>Good one, human.</li>
+My dogs name is Max
+• Similar architecture, different stacks
+answering over RDF data. In Proceedings of the 21st international conference on World Wide Web 2012
+8.51
+<li>Hi Human!</li>
+NLP Pipelines
+<pattern>[HELLO HI YO YOH YO’]
+Development
+8.23
+Pattern-Matching Bots
+→ Worksheet #7: Task 1
+Copyright by Dnu72 (https://commons.wikimedia.org/wiki/File:Automata_theory.svg), “Automata theory”, licensed under https://creativecommons.org/licenses/by- sa/3.0/legalcode
+• Generic vs. Goal-oriented
+<pattern>WHAT IS MY DOGS NAME</pattern>
+Different types of questions require different SPARQL query structures (ASK,
+Pattern-response matching
+</random>
+Marketing: Twitter bots, blogger bots, Facebook bots, Google Search, Google
+Using multiple (or all four) techniques in one bot
+• ? The question mark indicates zero or one occurrences of the preceding
+8.58
+comprehensive university located in Montreal, Quebec, Canada.
+8.34
+Basic approach
+→ Worksheet #7: Task 8
+but not "ac".
+Managing State (Context)
+AIML Examples (v2.0)
+Assistant, Alexa, Allo
+→ Worksheet #7: Task 5
+8.19
+• Dialogue history, location and user preferences
+https://concordiauniversity.on.worldcat.org/oclc/1102387045
+Grounding-Based Bots
+)-O]-[1,2-cyclohexanedione dioximato(2-)-O]
+<li>Hi there!</li>
+8.15https://inc42.com/buzz/y-combinator-graduate-hrtech-startup-leena-ai-raises-2-mn-seed-fund/
+https://creativecommons.org/licenses/by-sa/3.0/legalcode
+<template>Hi Human!</template>
+"Did you think I would forget $2?",
+• E.g., PyAiml, aiml, aiml_bot
+• Used in the A.L.I.C.E. chatbot (and many others)
+8.8
+IBM Watson: The Science Behind an Answer (2011)
+"Who else in your family $2?",
+</card>
+<aiml version="1.0.1">
+...
+Apr 16 (pp. 639-648).
+Design process
+<pattern>MY DOGS NAME IS *</pattern>
+in Quebec where English is the primary language of instruction.
+8.33
+POS Tagging
+8.4
+(Gartner)
+• HBO promoted “Westworld” with “Aeden”
+3 Pattern-Matching Bots
+• A software program that can interpret and
+A.k.a deterministic finite automaton (DFA).
+• [LHH19, Chapter 12] (Dialog engines)
+COMP 474/6741, Winter 2022
+Bots promoting movies, TV shows, video games, . . .
+"You mentioned $2",
+In : bot.respond("Hello Conubot!!!")
+https://tomgruber.org/writing/semtech09.htm
+Conversational: Google Assistant, Google Smart Reply, Mitsuki Bot
+<image>www.png</image>
+Regular Expressions
+“gray” or “grey”.
+https://commons.wikimedia.org/wiki/File:Automata_theory.svg
+• Ends with question mark or not?
+"Should you $2 yourself?",
+<template>
+• Compute cosine similarity with either:
+Agents
+8.21
+• Powers Google Assistant and other services
+Challenge: find features that facilitate classification.
+<title>Italian Greyhound</title>
+Generic SPARQL Query Generator
+8.56
+The Chatbots Landscape
+• Service & Payment
+8.44
+• Length (in words/characters)?
+Department of Computer Science
+What is my dogs name?
+Create a tree representing a sentence’s grammatical structure
+Manning Publications Co., 2019.
+AIML 2.0 Extensions: Rich media, hyperlinks, ...
+Grounding
+8.53
+element. For example, colou?r matches both "color" and "colour".
+• * The asterisk indicates zero or more occurrences of the preceding
+QnA Maker (Microsoft)
+Some common strategies
+Notes and Further Reading
+8.55
+Unger C, Bühmann L, Lehmann J, Ngonga Ngomo AC, Gerber D, Cimiano P. Template-based question
+Therapy: Woebot, Wysa, YourDost, Siri, Allo
+8.41
+https://techcrunch.com/2018/06/29/leena-ai-builds-hr-chat-bots-to-answer-policy-questions-automatically/
+Eliza Example
+• Technetium-99m-CDO-MeB [Bis[1,2-cyclohexanedione-dioximato(1-
+bot = aiml_bot.Bot(learn="conubot.aiml")
+<text>AIML How-To</text>
+8.46
+Concordia University (commonly referred to as Concordia) is a public
+• {min,} The preceding item is matched min or more times.
+• Using XML-based patterns
+George Williams University, Concordia is one of the three universities
+</category>
+https://vimeo.com/5424527
+Edubots
+<postback>HOW TO</postback>
+Reassembly Pattern:
+Design process
+Need to convert text (here: question) into a feature vector
+Question Types (contd.)
+Example: Watson
+• “Top 5 Emerging Technologies in 2018”
+• What we need is a classifier that takes a question as input and returns the type
+Part-of-Speech (POS) Tagging and Parsing
+Example NLP Pipeline
+Customer service: Storefront bots, technical support bots
+• HR & Operations
+of compounds. . .
+"(.*)?why don’t you (.*)?": [
+Steinmetz N, Arning AK, Sattler KU. From natural language questions to SPARQL queries: a
+Feature Engineering
+Bot Design Process
 <pattern>HELLO TROLL</pattern>
+CAGR of 25-40%
+Marketing Chatbots
+8.49
+https://concordiauniversity.on.worldcat.org/oclc/772977853.
+[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
+Grounding: Knowledge graphs and inference on those graphs
+<li>Clever!</li>
+8.11
+Perceived Business Benefits
+• but this results in a high number of dimensions (and possible overfitting)
+Tokenization can be difficult...
+https://inc42.com/buzz/y-combinator-graduate-hrtech-startup-leena-ai-raises-2-mn-seed-fund/
+Concordia University
+• Open standard, started in 1995 by Richard Wallace et al.
+https://rajpurkar.github.io/SQuAD-explorer/
+Natural Language Processing in Action.
+• Enhance bot based on approach (e.g., add data for retrieval)
+4 Grounding-Based Bots
 8.30
 8.36
-respond to statements made by users in a
-Question Classification
-Other bot languages
-→ Worksheet #7: Task 2
-Dialogflow
-You can then extract subject or object, e.g., to use in a SPARQL query.
-8.19
-Grouping: Parentheses are used to define the scope and precedence of the operators
-<pattern>WHAT IS YOUR NAME</pattern>
-Pandorabots (https://pandorabots.com)
-API.ai
-QnA Maker (Microsoft)
+• Global Market to reach $1-3B by 2025,
+Hybrid approaches
 import aiml_bot
-• Number of nouns/verbs?
-https://techcrunch.com/2021/03/10/heyday-seed-funding-2/
-• Ends with question mark or not?
-<li>Hi Human!</li>
-Watson is a type of question-answering (QA) system, first developed 2006–2011
-8.5
-QnA Maker: Example
-<li>Good one, human.</li>
-8.8
-8.50
-<subtitle>A very good dog</subtitle>
-If the input sentence is:
-<title>Italian Greyhound</title>
-Parsing
-• Dialogue history, location and user preferences
-that a preceding element is allowed to occur:
 Siri Presentation
-https://creativecommons.org/licenses/by-sa/3.0/legalcode
-8.11
-https://en.wikipedia.org/wiki/Regular_expression)
-8.51
-• HR & Operations
-Summary of Chatbot Approaches
-8.16
-Prentice Hall, 3rd edition, 2010.
-Intelligent Conversational Agents
-8.23
-Tokenization can be difficult...
-Lecture 8
-8.59
-• HBO promoted “Westworld” with “Aeden”
-→ Worksheet #7: Tasks 3 & 4
-Information Retrieval-based Approach
-Conversational: Google Assistant, Google Smart Reply, Mitsuki Bot
-Feature Extraction
-natural language
-Chatbot Approaches
-https://concordiauniversity.on.worldcat.org/oclc/772977853.
-→ Worksheet #7: Task 5
-<template>
-8.1
-<text>Back To Tour</text>
-• + The plus sign indicates one or more occurrences of the preceding
-Sessions and Predicates
-8.26
-• Number of words with capital letters?
-→ Worksheet #7: Task 7
-8.53
-element. For example, ab+c matches "abc", "abbc", "abbbc", and so on,
-[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
+Eliza’s response will be:
+8.60
+Classifying Questions
+Random answers
+8.47
+8.45
 8.31
-• Huge benefits across the value chain:
-For example, biomedical documents with complex expressions, chemical formulas,
-Your dog’s name is Max.
-<template>Hi, human!</template>
-but not "ac".
-],
-8.44
-Pattern-Matching Bots
-• Different types of chatbots
 "(.*)?my mother (.*)?": [
-• Split input stream of characters into individual tokens (words, numbers, etc.)
-My dogs name is Max
-8.20
-• Using XML-based patterns
+"Perhaps I will $2 in good time",
+https://www.youtube.com/watch?v=ZbjTtCG3_X0
+QnA Maker: Example
+If the input sentence is:
+[RN10] Stuart Russell and Peter Norvig.
+E.g., “What is Concordia University?”
+1.4 million answered questions from Amazon:
+• Using a knowledge graph when creating answers
+Proprietary, intuitive language for dialog specifications
+8.59
+https://www.theguardian.com/technology/2016/jun/28/chatbot-ai-lawyer-donotpay-parking-tickets-london-new-york
+• Identify appropriate technology for specific type of question
+8.40
 Examples
-2 ⇒ query DBpedia to retrieve the rdfs:comment (in the user’s language) of X
-https://venturebeat.com/2016/05/03/call-of-duty-infinite-warfares-first-victory-6m-bot-messages-on-facebook/
-"(.*)?why don’t you (.*)?": [
-8.17
-Stemming: reduce words to their stem (e.g., students, student ⇒ student)
-https://pandorabots.com
-In : bot.respond("Hello Conubot!!!")
-The Chatbots Landscape
-<li>Hello!</li>
-Design process
-Bots promoting movies, TV shows, video games, . . .
-of compounds. . .
-"Did you think I would forget $2?",
-Pattern-Matching Bots
-Python Implementations
-[ROSA ROSE CHATTY CHATBOT BOT CHATTERBOT]</pattern>
-Chatbot Applications
-What is my dogs name?
-Idea: Reduce Dimensions
-• Sales & Marketing
-Copyright by Dnu72 (https://commons.wikimedia.org/wiki/File:Automata_theory.svg), “Automata theory”, licensed under https://creativecommons.org/licenses/by- sa/3.0/legalcode
-Using aiml_bot
-User Stories
-<pattern>HI</pattern>
-</aiml>
-8.21
-Supplemental
-<template>I am ConUBot, your helpful assistant.</template>
-• Disney promoted “Zootopia” with “Officer Judy Hopps”
-How long have you been <whatever>?
-IBM Watson
-• {min,} The preceding item is matched min or more times.
-• Universal promoted “Unfriended” with “Laura Barnes”
-so on.
-8.29
-Question Types
-Example NLP Pipeline
-→ Worksheet #7: Task 6
-API.ai was bought by Google in 2016 and renamed in 2017 to Dialogflow
-Assistant, Alexa, Allo
-8.4
-8.25
-Eliza Example
-I am <whatever>
-[HAL YOU U YALL Y’ALL YOUS YOUSE]</pattern>
-The/DT big/ADJ dog/NN
-Design process
-Notes and Further
-Some common strategies
+Question answering: Google Search, Alexa, Siri, Watson
+• Split input stream of characters into individual tokens (words, numbers, etc.)
+8.57
+Quantification: A quantifier after a token (such as a character) or group specifies how often
 Example Dataset
-patterns which both describe the set of "gray" or "grey".
-Cloud-based platform for AIML 2.0 bots
+respond to statements made by users in a
+8.25
+Grounding-Based Bots
+as output
+Keyword:
+"(.*)?do you remember (.*)?": [
+References
+<text>Back To Tour</text>
+so on.
+8.52
+Intelligent Conversational
+• [IMF13, Chapter 8] (Building a QA System)
+• {n} The preceding item is matched exactly n times.
+Question Types
+8.24
+8.10
+• Sales & Marketing
+• Create tf-idf vector of the question
+"Why do you think I should recall $2 now?",
+"Tell me more about your family",
+[IMF13] Grant S. Ingersoll, Thomas S. Morton, and Andrew L. Farris.
+a.k.a. Dialog System or Dialog Engine
+• Develop pairs of user questions – expected answers
+From the lab exercises...
+8.2
 Boolean "or": A vertical bar separates alternatives. For example, gray|grey can match
+Search-Based Bots
+8.62
+You can then extract subject or object, e.g., to use in a SPARQL query.
+Outline
+<?xml version="1.0" encoding="UTF-8"?><aiml version="2.0">
+For example, biomedical documents with complex expressions, chemical formulas,
+<pattern>WHAT IS YOUR NAME</pattern>
+Applying ML
+HR chatbot answering employees questions
+Given a corpus of previously answered questions
+<category>
+1 What is <X>?
+http://www.aiml.foundation/doc.html
+• tf-idf vectors of questions (if question/answer pairs available)
+Notes and Further
+• When N-formyl-L-methionyl-L-leucyl-L-phenylalanine (fMLP) was injected. . .
+• Huge benefits across the value chain:
+<li>Hello!</li>
+2011 Jeopardy! competition: 2,880 POWER7 threads and 16 terabytes of RAM
+1 Introduction
+<postback>RESUME TOUR</postback>
+Cloud-based platform for AIML 2.0 bots
+https://concordiauniversity.on.worldcat.org/oclc/1102387045.
+<template>Hi!</template>
+8.48
+8.16
+Modern approaches
+René Witte
+https://concordiauniversity.on.worldcat.org/oclc/359890490.
+8.28
+→ Worksheet #7: Tasks 3 & 4
+"What about $2?",
+Out: ’Hi Human!’
+https://www.youtube.com/watch?v=aiuDC2OSIYE
+8.50
+https://www.qnamaker.ai/
+• Retrieval vs. Generative (Deep Learning)
+Copyright 2013 by Manning Publications Co., [IMF13]
+Question-answering Workflow
+Artificial Intelligence: A Modern Approach.
+[ROSA ROSE CHATTY CHATBOT BOT CHATTERBOT]</pattern>
+Chatbot recirculating (recurrent) pipeline
+Using aiml_bot
+named <set name="dog"><star/></set>
+Generating SPARQL Queries (II)
+→ Worksheet #7: Task 2
+The/DT big/ADJ dog/NN
+Prentice Hall, 3rd edition, 2010.
+patterns which both describe the set of "gray" or "grey".
+Generative: Statistics and machine learning
+• tf-idf vectors of answers (if only answers available)
+Leena.ai Use Case
+I am <whatever>
+Reading Material
+Question Classification
+https://venturebeat.com/2016/05/03/call-of-duty-infinite-warfares-first-victory-6m-bot-messages-on-facebook/
+Introduction
+Summary of Chatbot Approaches
+Intelligent Agents
+8.5
+Python Implementations
+<template>Hi, human!</template>
+Your dog’s name is <get name="dog"/>.
+</button>
+• [RN10, Chapter 26] (Philosophical Foundations)
+that a preceding element is allowed to occur:
+Search: Text retrieval
+Chatbot Applications
+• Support AIML 1.0 only :(
+8.29
+I am
+https://en.wikipedia.org/wiki/Regular_expression)
+Task
+element. For example, ab+c matches "abc", "abbc", "abbbc", and so on,
+5 Chatbot Design
+Chatbot techniques used for some example applications
+https://www.devdungeon.com/content/ai-chat-bot-python-aiml#sessions
+https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/create-publish-knowledge-base?tabs=v1
+https://pypi.org/project/AIML-Bot/
+The Stanford Question Answering Dataset (SQuAD)
+8.32
+How long have you been very unhappy these days?
+https://dl.gi.de/handle/20.500.12116/21702
+Summary
+Intelligent Conversational Agents
+</template>
+Generating SPARQL Queries (I)
+8.38
+Example: Watson
+• Disney promoted “Zootopia” with “Officer Judy Hopps”
+→ Worksheet #7: Task 7
+<pattern>HI</pattern>
+• Activision promoted “Call of Duty” with “Lt. Reyes”
+8.39
+Question Classification
+and Software Engineering
+natural language
+8.12
+Sessions and Predicates
+more than max times.
+• Developed by startup Speaktoit, released as api.ai in 2014
+Processing
+Chatbot Design
+Chatbots
+Copyright 2019 by Manning Publications Co., [LHH19]
+<template>Good one, human.</template>
+Assign a POS tag (e.g., Noun, Verb, Adjective, Adverb, ...) to each Token:
+</aiml>
+• More scalable than hard-coding every possible answer in patterns
+Your dog’s name is Max.
+Idea: Reduce Dimensions
+Summary
+Adding Knowledge
+That is interesting that you have a dog named Max
+• + The plus sign indicates one or more occurrences of the preceding
+"Do you believe I don’t $2?",
+],
+element. For example, ab*c matches "ac", "abc", "abbc", "abbbc", and
+8.18https://techcrunch.com/2021/03/10/heyday-seed-funding-2/
+NLP Pipelines
+See https://pypi.org/project/AIML-Bot/
+• Generalize multiple stories with the same theme
+<random>
+https://techcrunch.com/2021/03/10/heyday-seed-funding-2/
+8.37
+• 1,4-β-xylanase II from Trichoderma reesei
+Reading
+Feature Extraction
+Dimensionality reduction in NLP
+methyl-borato(2-)-N,N′,N′′,N′′′,N′′′′,N′′′′′)-chlorotechnetium) belongs to a family
+Watson is a type of question-answering (QA) system, first developed 2006–2011
+• This is a typical machine learning problem (supervised learning)
+SELECT, using COUNT, etc.)
+Stopword removal: remove stop-words (e.g., the, in, an, a, ...)
+• Could use count or tf-idf vector
+Information Retrieval-based Approach
+User Stories
+8.1
+8.42
+Chatbot Approaches
+8.17
+Grouping: Parentheses are used to define the scope and precedence of the operators
+Siri (2009)
+• Number of nouns/verbs?
+<template>I am ConUBot, your helpful assistant.</template>
+pattern-based approach. BTW 2019. https://dl.gi.de/handle/20.500.12116/21702
+Parsing
+<template>Good one.</template>
+Community management: Bonusly, Slackbot

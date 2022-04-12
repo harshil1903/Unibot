@@ -1,55 +1,55 @@
 
-Information Content. The information content of an event x with P (x) > 0 is defined as:
-Data4 3.5 4.5
-p(xi) · log2 p(xi)
-compute the entropy for the outcome of the color in Roulette, where you have the numbers 1–36 (half red, half black)
-v∈values(A)
-For the systems from the previous lecture worksheet:
 Information Gain. Compute the Information Gain (IG) for the following training data when splitting using the
-Cluster 2 5.0 7.0
-Entropy. Using the definition of Entropy for a discrete random variable X with possible outcomes x1, x2, . . . , xn:
-Create a decision tree that decides if a student will get an ‘A’ this year, based on an input feature vector X.
-Worksheet #4: Decision Trees & k-means Clustering
-and the 0 with the color green: H(X) =
-k-Means Clustering. Here is a dataset with two attributes, to be grouped into two clusters. Compute the
-gain(Size) = H(S)−H(S|Size) =
-(called F1-measure):
-gain(S,A)
-2. s3 : P = 71%, R = 100%⇒ F1 =
+a1 a2
+Information Content. The information content of an event x with P (x) > 0 is defined as:
+√∑n
+·H(Sv)
+F-Measure. Compute the F-Measure, which combines precision and recall into a single number, using β = 1
+For the systems from the previous lecture worksheet:
 Data2 3.0 4.0
-i=1
+Cluster 1 1.0 1.0
+v∈values(A)
+Decision Tree. Given the following training data:
 Data1 1.5 2.0
-∑
-n∑
-Note: make sure you use log2(x); if you have a calculator with log10 only, you can compute it using the formula
-−P (x) · log2(P (x))
+p(xi) · log2 p(xi)
+H(S|Size) =
+a1 a2 Distance to C1 Distance to C2 Cluster
+1. s2 : P = 100%, R = 60%⇒ F1 =
+|S|
+2. s3 : P = 71%, R = 100%⇒ F1 =
+of a certain event (P (x) = 1)?
+Cluster 2 5.0 7.0
+distance d(~p, ~q) =
+Worksheet #4: Decision Trees & k-means Clustering
+“Size” attribute:
+i=1
 = H(S)−H(S|A)
-(Note: check that your tree would return the correct answer for all of the training data above.)
+n∑
+COMP6721 Worksheet: Decision Trees & k-means Clustering Winter 2022
+Note: make sure you use log2(x); if you have a calculator with log10 only, you can compute it using the formula
+log2(x) = log10(x)/ log10(2).
+compute the entropy for the outcome of the color in Roulette, where you have the numbers 1–36 (half red, half black)
+∑
+|Sv|
+and the 0 with the color green: H(X) =
+Entropy. Using the definition of Entropy for a discrete random variable X with possible outcomes x1, x2, . . . , xn:
+H(X) = −
+Your Decision Tree
+k-Means Clustering. Here is a dataset with two attributes, to be grouped into two clusters. Compute the
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
 = H(S)−
 An impossible event (P (x) = 0) is defined as having an information content of 0. What’s the information content
-|S|
-H(S|Size) =
-P +R
-Centroid
-|Sv|
-COMP 6721 Applied Artificial Intelligence (Winter 2022)
-“Size” attribute:
-·H(Sv)
-a1 a2 Distance to C1 Distance to C2 Cluster
-Data3 4.5 5.0
-2 · P ·R
 F1 =
-F-Measure. Compute the F-Measure, which combines precision and recall into a single number, using β = 1
-COMP6721 Worksheet: Decision Trees & k-means Clustering Winter 2022
-√∑n
-1. s2 : P = 100%, R = 60%⇒ F1 =
-Decision Tree. Given the following training data:
-H(X) = −
-log2(x) = log10(x)/ log10(2).
+Data3 4.5 5.0
+gain(Size) = H(S)−H(S|Size) =
+(called F1-measure):
+Data4 3.5 4.5
+gain(S,A)
+2 · P ·R
+Create a decision tree that decides if a student will get an ‘A’ this year, based on an input feature vector X.
+−P (x) · log2(P (x))
 i=1(pi − qi)2 of each data point to the two initial centroids and assign each point to its
-Your Decision Tree
-a1 a2
-of a certain event (P (x) = 1)?
-Cluster 1 1.0 1.0
+(Note: check that your tree would return the correct answer for all of the training data above.)
+Centroid
 closest cluster:
-distance d(~p, ~q) =
+P +R

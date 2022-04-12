@@ -1,415 +1,415 @@
 
-Training for 1000 epochs:
-50000/50000 [==========================] - 13s 259us/step - loss: 1.5827 - accuracy: 0.4372
-epochs = 10,
-11.34
-y_test = to_categorical(y_test, NUM_CLASSES)
-leaky_re_lu_6 (LeakyReLU) (None, 32, 32, 32) 0
-Ok, so what about text?
-• First dimension: index of the image in the dataset
-• We add a regularization technique, here a dropout layer
-Natural Language Processing in Action.
-• General formula (with padding = "same", meaning same size
-CNN for Text
-Total params: 646,260
-• Reduced in practice through batch normalization
-Copyright 2019 by Manning Publications Co., [LHH19]
-ReLU (Rectified Linear Unit) Activation Function
-indices = np.random.choice(range(len(x_test)), n_to_show)
-Classification Example: The CIFAR-10 Dataset
-NUM_CLASSES = 10
-x = LeakyReLU()(x)
-dense_31 (Dense) (None, 10) 1290
-(
-Convolutional Neural Network
-11.22
-batch_normalization_8 (Batch (None, 16, 16, 64) 256
-Pooling
-• Added as a separate layer, in Keras: BatchNormalization(momentum =
-[Maas, Andrew L. et al., Learning Word Vectors for Sentiment Analysis, Proceedings of the 49th Annual Meeting of the
-Epoch 5/10
-y_train,
-Architectures
+Resulting Model (1/2)
 Example
-Introduction
-• Choose a representative, e.g., maximum in a 2× 2 window
-=================================================================
-11.26
-Second conv layer: 20 filters, 3×3 size, depth 10
-x_train = x_train.astype(’float32’) / 255.0
-2 Deep Learning Architectures
-input_layer = Input(shape=(32,32,3))
-Applying Two Convolutional Filters to a Grayscale Image
-dense_5 (Dense) (None, 150) 30150
-This is called a (four-dimensional) tensor
+11.13
+• Want a network that can generalize, not just remember the input samples
+• General formula (with padding = "same", meaning same size
 for i, idx in enumerate(indices):
-Image Classification
-validation_data = (x_test, y_test))
-Pooling Layers
-)(conv_layer_1)
-Department of Computer Science
-)
-model = Model(input_layer, output_layer)
-n_to_show = 10
-• Number of weights (parameters) is (4× 4× 3 + 1)× 10 = 490
-y_train = to_categorical(y_train, NUM_CLASSES)
-50000/50000 [==========================] - 12s 246us/step - loss: 1.3849 - accuracy: 0.5086
-https://concordiauniversity.on.worldcat.org/oclc/1136155457
-and Software Engineering
-11.32
-preds = model.predict(x_test)
-Applying a 3 × 3 × 1 filter (a.k.a. kernel)
-Epoch 10/10
-→ Worksheet #10: Task 2
-Training data
-,
-Neural Network for CIFAR-10
-Epoch 1/10
-strides = 1,
-[1.4283625371932984, 0.49559998512268066]
-Padding extends the filter over the edges, using zero values
-x = Flatten()(input_layer)
+11.3
+Epoch 2/10
+Task: Sentiment Analysis
+input_shape=(maxlen, embedding_dims)))
+Epoch 7/10
+Applying the trained model
 [Nitish Srivastava et al., “Dropout: A Simple Way to Prevent Neural Networks from Overfitting,” Journal of Machine
-Layer (type) Output Shape Param #
-Our CNN in Keras
-50000/50000 [==========================] - 13s 256us/step - loss: 1.5290 - accuracy: 0.4571
-Sentiment Analysis
-COMP 474/6741, Winter 2022
-x = Dense(128)(x)
-(vectorize and shape input, see [LHH19])
-input_13 (InputLayer) (None, 32, 32, 3) 0
-10000/10000 [==========================] - 0s 47us/step
-import numpy as np
-one, but none which manage to outdo it. The cast are all horrible stereotypes
-Neural Network in Keras
-• Second, third dimension: size of the image
-dropout_2 (Dropout) (None, 128) 0
-11.6
-11.27
-0.9)
-’dog’, ’frog’, ’horse’, ’ship’, ’truck’])
-11.40
-11.38
-11.7
-Epoch 8/10
-Image Data Shape
-Training the Model
-x = Conv2D(filters = 32, kernel_size = 3, strides = 2, padding = ’same’)(x)
-Introduction to Deep Learning
-11.39
+model.compile(loss=’categorical_crossentropy’,
+11.12
+Introduction
 Image Classification
-11.11
-Notes and Further Reading
-ax.text(0.5, -0.35, ’pred = ’ + str(preds_single[idx]), fontsize=10,
-output_layer = Activation(’softmax’)(x)
-Required
-Evaluation
-11.15
-• Depth of filters in a layer = number of channels in preceding layer
-Distance we move the convolution across the input at each step
-model = Sequential()
+Our CNN in Keras
+2 Deep Learning Architectures
+stride
+• Reduced in practice through batch normalization
+https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
+https://github.com/davidADSP/GDL_code/blob/master/02_01_deep_learning_deep_neural_network.ipynb
+11.28
+padding=’valid’,
+Some random results. . .
+Some more random results. . .
+11.30
+11.46
+CNN for classifying IMDB movie reviews
+Epoch 9/10
 • Three channels in preceding layer (red, green, blue)
-50000/50000 [===============] - 114s 2ms/step - loss: 1.1528 - accuracy: 0.5914 - val_loss: 1.0027 - val_accuracy: 0.6462
-Outline
-Batch Normalization Layer
-x = Conv2D(filters=32, kernel_size=3, strides=1, padding=’same’)(input_layer)
+O’Reilly, 2019.
+Neural Network in Keras
+Perceptron and Backpropagation
+Second conv layer: 20 filters, 3×3 size, depth 10
+[Fos19] David Foster.
+https://arxiv.org/abs/1502.03167]
+• Caused by covariance shift in weights
+See https://github.com/davidADSP/GDL_code/blob/master/02_01_deep_learning_deep_neural_network.ipynb
+Evaluating the model
+batch_normalization_9 (Batch (None, 8, 8, 64) 256
+Complete Network in Keras
+Training the Model
+model.add(Dense(hidden_dims))
+>>> model.predict(test_vec)
+[1.6529622526168823, 0.5023999810218811]
+11.24
+Introduction to Deep Learning
+11.44
+Image Classification
+• Depth of filters in a layer = number of channels in preceding layer
+Epoch 4/10
+Required
+x = Dropout(rate = 0.5)(x)
+optimizer=opt,
+Convolutional Neural Network
+shuffle=True,
+• Number of weights (parameters) is (4× 4× 3 + 1)× 10 = 490
+11.40
+• Keras: model.add(GlobalMaxPooling1D()) (default size is 2)
+input_height
+leaky_re_lu_7 (LeakyReLU) (None, 16, 16, 32) 0
+x = Dense(150, activation = ’relu’)(x)
+ax.text(0.5, -0.7, ’act = ’ + str(actual_single[idx]), fontsize=10,
+11.33
+11.26
+Trainable params: 591,914
+Ok, so what about text?
+50000/50000 [===============] - 117s 2ms/step - loss: 0.9156 - accuracy: 0.6801 - val_loss: 0.9089 - val_accuracy: 0.6706
+Training for 1000 epochs:
+• Neutral reviews are not included in the dataset
+Convolutions in Keras
+Neural Network for CIFAR-10
+• Calculates the mean and standard deviation of each of its input channels
+x = Conv2D(filters = 32, kernel_size = 3, strides = 2, padding = ’same’)(x)
+x = LeakyReLU()(x)
+11.10
+11.19
+• We add a regularization technique, here a dropout layer
+11.34
+one, but none which manage to outdo it. The cast are all horrible stereotypes
+Non-trainable params: 640
+model.add(Dense(1))
+• We can “throw away” some data by reducing the size
+https://github.com/davidADSP/GDL_code/blob/master/02_03_deep_learning_conv_neural_network.ipynb
+sequence)
+Pooling
+ReLU (Rectified Linear Unit) Activation Function
+preds_single = CLASSES[np.argmax(preds, axis = -1)]
+• We normalized the RGB values from [0, 255] to [0, 1]
+50000/50000 [==========================] - 13s 255us/step - loss: 0.2840 - accuracy: 0.8986
+→ Worksheet #10: Task 3
+50000/50000 [===============] - 116s 2ms/step - loss: 0.8517 - accuracy: 0.7018 - val_loss: 0.8910 - val_accuracy: 0.6933
 Show result for some random test images
+11.16
+across the batch and normalizes by subtracting the mean and dividing by the
+11.8
+batch_size = 32,
+Loading the data (Keras/TensorFlow)
+Flatten: transform into 8× 8× 20 = 1280 unit vector using Keras Flatten
+• For text: max in a 1D (e.g., 1× 2 window)
+Backpropagation
+Classification Example: The CIFAR-10 Dataset
+model.add(Dropout(0.2))
+https://concordiauniversity.on.worldcat.org/oclc/1102387045
+https://hadrienj.github.io/posts/Deep- Learning- Book- Series- 2.1- Scalars- Vectors- Matrices- and- Tensors/
+Encoding Input Text using Word Embeddings
+input_layer = Input((32,32,3))
+Epoch 3/10
+and the puffy clouds are too thin. I can’t wait for the weekend."
+11.41
+https://www.cs.toronto.edu/~kriz/cifar.html
+50000/50000 [==========================] - 13s 256us/step - loss: 1.5290 - accuracy: 0.4571
+(vectorize and shape input, see [LHH19])
+50000/50000 [===============] - 118s 2ms/step - loss: 0.7532 - accuracy: 0.7369 - val_loss: 0.8539 - val_accuracy: 0.7086
+y_train,
+x = Conv2D(filters = 64, kernel_size = 3, strides = 1, padding = ’same’)(x)
+# word group filters of size filter_length:
+• Image 54, pixel at (12, 13), green channel
+Padding
+)
+strides = 1,
+Trainable params: 646,260
+...
+11.32
+50000/50000 [==========================] - 13s 257us/step - loss: 1.6592 - accuracy: 0.4104
+Keras: Model Summary
+dropout_2 (Dropout) (None, 128) 0
+11.18
+Resulting Model (2/2)
+• Filtering results in new (filtered) versions of each data sample
+Total params: 592,554
+COMP 474/6741, Winter 2022
+• Second, third dimension: size of the image
+• Keras: Dropout(rate = 0.5)
+11.5
+50000/50000 [==========================] - 12s 244us/step - loss: 1.3659 - accuracy: 0.5150
+x = BatchNormalization()(x)
+flatten_13 (Flatten) (None, 4096) 0
+Image Data Shape
+CNN for Text
+from keras.utils import to_categorical
+conv_layer_1 = Conv2D(filters = 2,
+• Loss functions start to return NaN→ overflow error
+Adventure of Charles Augustus Milverton,” is the first feature length Sherlock
+model.add(Activation(’relu’))
+kernel_size = (3,3),
+11.21
+conv2d_13 (Conv2D) (None, 16, 16, 64) 18496
+50000/50000 [==========================] - 13s 257us/step - loss: 1.4293 - accuracy: 0.4940
+conv2d_12 (Conv2D) (None, 16, 16, 32) 9248
+50000/50000 [===============] - 113s 2ms/step - loss: 0.6395 - accuracy: 0.7744 - val_loss: 0.8169 - val_accuracy: 0.7233
+We use 50000 images for training (and 10000 for testing):
+[1.4283625371932984, 0.49559998512268066]
+11.39
+• Added as a separate layer, in Keras: BatchNormalization(momentum =
+padding = ’same’
+Learning Research 15 (2014): 1929–1958, http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf].
+Department of Computer Science
+https://arxiv.org/abs/1502.03167
+ha=’center’, transform=ax.transAxes)
+10000/10000 [==========================] - 0s 47us/step
+epochs = 10,
+Manning Publications Co., 2019.
+conv_layer_2 = Conv2D(filters = 20,
+input_13 (InputLayer) (None, 32, 32, 3) 0
+Introduction to Deep Learning
+strides=1,
+50000/50000 [===============] - 112s 2ms/step - loss: 1.0021 - accuracy: 0.6472 - val_loss: 0.9151 - val_accuracy: 0.6846
+Notes and Further Reading
+Output: 10-unit Dense layer with softmax activation
+epochs=10,
+Tensors: n-dimensional arrays with n > 2
+ax.axis(’off’)
+[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift,
+• x_train is an array of shape [50000, 32, 32, 3]
+50000/50000 [==========================] - 13s 262us/step - loss: 1.8490 - accuracy: 0.3361
+Generative Deep Learning: Teaching Machines to Paint, Write, Compose,
+Pooling Layers
+leaky_re_lu_10 (LeakyReLU) (None, 128) 0
+The Convolution Operation
+11.49
+actual_single = CLASSES[np.argmax(y_test, axis = -1)]
+Holmes story with Jeremy Brett that I have seen. The story is interesting and dark...
+and Play.
+Training for 10 epochs:
+)(conv_layer_1)
+Non-trainable params: 0
+Applying a 3 × 3 × 1 filter (a.k.a. kernel)
+batch_normalization_6 (Batch (None, 32, 32, 32) 128
+NUM_CLASSES = 10
+(x_train, y_train), (x_test, y_test) = cifar10.load_data()
+(
+11.17
+indices = np.random.choice(range(len(x_test)), n_to_show)
+11.42
+kernel_size = (4,4),
+leaky_re_lu_8 (LeakyReLU) (None, 16, 16, 64) 0
+Stanford AI movie dataset from https://ai.stanford.edu/~amaas/data/sentiment/
+Association for Computational Linguistics: Human Language Technologies, June 2011, ACL]
+11.38
+Deep Learning
+→ Worksheet #10: Task 2
+Convolutional Neural Networks (CNNs)
+A 3 × 3 × 1 kernel (gray) being passed over a 5 × 5 × 1 input image (blue), with
+https://concordiauniversity.on.worldcat.org/oclc/1136155457.
+[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
+50000/50000 [===============] - 112s 2ms/step - loss: 0.8004 - accuracy: 0.7212 - val_loss: 0.8599 - val_accuracy: 0.6976
+11.45
+Copyright 2019 Applied Data Science Partners Ltd., [Fos19]
+img = x_test[idx]
+The Master Blackmailer, based off of Sir Arthur Conan Doyle’s short story, “the
+CLASSES = np.array([’airplane’, ’automobile’, ’bird’, ’cat’, ’deer’,
+• Instead of 2D convolutions, we have 1D convolutions
+Concordia University
+strides = 2,
+Natural Language Processing in Action.
+Dimensionality Reduction
+• [LHH19, Chapter 7] (CNNs for text)
+11.20
+50000/50000 [===============] - 118s 2ms/step - loss: 1.5609 - accuracy: 0.4556 - val_loss: 1.2602 - val_accuracy: 0.5468
+Keras: Building the model
 leaky_re_lu_9 (LeakyReLU) (None, 8, 8, 64) 0
 11.31
-• Want a network that can generalize, not just remember the input samples
-Multi-layer neural networks with hidden weights
-x = Dense(200, activation = ’relu’)(x)
-50000/50000 [===============] - 118s 2ms/step - loss: 1.5609 - accuracy: 0.4556 - val_loss: 1.2602 - val_accuracy: 0.5468
-1 Introduction
-50000/50000 [==========================] - 13s 257us/step - loss: 1.4293 - accuracy: 0.4940
-50000/50000 [===============] - 112s 2ms/step - loss: 1.0021 - accuracy: 0.6472 - val_loss: 0.9151 - val_accuracy: 0.6846
-model.add(Dropout(0.2))
-• [LHH19, Chapter 7] (CNNs for text)
-# word group filters of size filter_length:
-Adventure of Charles Augustus Milverton,” is the first feature length Sherlock
-epochs=10,
-https://arxiv.org/abs/1502.03167
-11.16
-• 50,000 reviews from IMDB; upto 30 reviews/movie
-11.37
-11.25
-input_layer = Input(shape=(64,64,1))
-Stanford AI movie dataset from https://ai.stanford.edu/~amaas/data/sentiment/
-50000/50000 [==========================] - 13s 257us/step - loss: 1.4537 - accuracy: 0.4847
-and Play.
-Training for 100 epochs:
-https://concordiauniversity.on.worldcat.org/oclc/1102387045.
-x = Conv2D(filters = 64, kernel_size = 3, strides = 2, padding = ’same’)(x)
-Reading Material
-• Instead of 2D convolutions, we have 1D convolutions
-kernel_size = (4,4),
-Trainable params: 591,914
-[0.8298392653465271, 0.7210999727249146]
-11.12
-padding="same" and strides=1, to generate the 5 × 5 × 1 output (green)
-https://concordiauniversity.on.worldcat.org/oclc/1102387045
-O’Reilly, 2019.
-• Keras: Dropout(rate = 0.5)
-input_layer = Input((32,32,3))
-input_2 (InputLayer) (None, 32, 32, 3) 0
-batch_normalization_7 (Batch (None, 16, 16, 32) 128
-Concordia University
-conv_layer_1 = Conv2D(filters = 2,
-Association for Computational Linguistics: Human Language Technologies, June 2011, ACL]
-Non-trainable params: 640
-...
-11.43
-dense_30 (Dense) (None, 128) 524416
-Sentiment Analysis
-11.23
-Training (output)
-First conv layer: 4×4×3 (kernel_size = (4,4))
-Task: Sentiment Analysis
-Epoch 9/10
-https://hadrienj.github.io/posts/Deep- Learning- Book- Series- 2.1- Scalars- Vectors- Matrices- and- Tensors/
-Trainable params: 646,260
-https://github.com/davidADSP/GDL_code/blob/master/02_03_deep_learning_conv_neural_network.ipynb
-https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.1-Scalars-Vectors-Matrices-and-Tensors/
-Convolutional Neural Networks (CNNs)
-standard deviation
-model.add(Activation(’relu’))
-11.13
-50000/50000 [===============] - 113s 2ms/step - loss: 0.6395 - accuracy: 0.7744 - val_loss: 0.8169 - val_accuracy: 0.7233
-optimizer=’adam’,
-None,
-50000/50000 [===============] - 118s 2ms/step - loss: 0.7532 - accuracy: 0.7369 - val_loss: 0.8539 - val_accuracy: 0.7086
-metrics=[’accuracy’])
-conv2d_13 (Conv2D) (None, 16, 16, 64) 18496
-• Filtering results in new (filtered) versions of each data sample
-50000/50000 [==========================] - 13s 261us/step - loss: 1.4882 - accuracy: 0.4725
-• For text: max in a 1D (e.g., 1× 2 window)
-René Witte
-padding = ’same’
-Introduction
-50000/50000 [==========================] - 13s 263us/step - loss: 1.4056 - accuracy: 0.4988
-fig = plt.figure(figsize=(15, 3))
->>> model.predict(test_vec)
-Feedforward Network (Word2vec)
-https://ai.stanford.edu/~amaas/data/sentiment/
-https://concordiauniversity.on.worldcat.org/oclc/1136155457.
-Single Neuron (Perceptron)
-x = Dense(NUM_CLASSES)(x)
-• Fourth dimension: RGB channels
-11.24
-(x_train, y_train), (x_test, y_test) = cifar10.load_data()
-from keras.models import Model
-50000/50000 [==========================] - 13s 262us/step - loss: 1.8490 - accuracy: 0.3361
-Goal: Avoid Overfitting
-Total params: 592,554
-x_test = x_test.astype(’float32’) / 255.0
-50000/50000 [==========================] - 12s 244us/step - loss: 1.3659 - accuracy: 0.5150
-conv2d_12 (Conv2D) (None, 16, 16, 32) 9248
-Loading the data (Keras/TensorFlow)
-11.14
-model.add(GlobalMaxPooling1D())
-11.2
-x = Dropout(rate = 0.5)(x)
-Resulting Model (1/2)
-See https://github.com/davidADSP/GDL_code/blob/master/02_01_deep_learning_deep_neural_network.ipynb
-50000/50000 [==========================] - 13s 255us/step - loss: 0.2840 - accuracy: 0.8986
-padding=’valid’,
-• We can “throw away” some data by reducing the size
-50000/50000 [===============] - 113s 2ms/step - loss: 0.6760 - accuracy: 0.7633 - val_loss: 0.8913 - val_accuracy: 0.6914
-x = Dense(150, activation = ’relu’)(x)
-opt = Adam(lr=0.0005)
-img = x_test[idx]
-https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7
-input_width
-# we use max pooling:
-11.41
-Complete Network in Keras
-leaky_re_lu_10 (LeakyReLU) (None, 128) 0
-input_height
-lumbered with flat dialogue. I am ashamed for all of the people involved ...
-Dataset
-Keras: Model Summary
-kernel_size = (3,3),
-• [Fos19, Chapter 2] (CNNs for images)
-11.47
-11.18
-11.33
-Lecture 11
-11.49
-Have I ever seen a film more shockingly inept? I can think of plenty that equal this
-The Master Blackmailer, based off of Sir Arthur Conan Doyle’s short story, “the
-→ Worksheet #10: Task 1
-• Over time, calculating the gradient in earlier layers can grow exponentially large
-Epoch 7/10
-x = Conv2D(filters = 64, kernel_size = 3, strides = 1, padding = ’same’)(x)
-model.add(Conv1D(filters,
-as input, padding with zeros):
-The Convolution Operation
-Reading
-Training
-output_shape =
-Training for 10 epochs:
-fig.subplots_adjust(hspace=0.4, wspace=0.4)
-11.42
-11.1
-preds_single = CLASSES[np.argmax(preds, axis = -1)]
+y_test = to_categorical(y_test, NUM_CLASSES)
 Stride (a.k.a. step size)
-11.9
-stride
-from keras.utils import to_categorical
-batch_normalization_10 (Batc (None, 128) 512
-• Loss functions start to return NaN→ overflow error
-• A negative review has a score ≤ 4 out of 10
-Applying the trained model
-11.30
-Perceptron and Backpropagation
-conv_layer_1 = Conv2D(filters = 10,
-flatten_13 (Flatten) (None, 4096) 0
-[Fos19] David Foster.
-Positive Example 6587_9.txt, so id 6587, rating 9 stars
-50000/50000 [===============] - 116s 2ms/step - loss: 0.8517 - accuracy: 0.7018 - val_loss: 0.8910 - val_accuracy: 0.6933
-, filters
-11.4
-batch_size=32,
-We use 50000 images for training (and 10000 for testing):
-11.5
-Manning Publications Co., 2019.
-Evaluating the model
-Epoch 6/10
-• We normalized the RGB values from [0, 255] to [0, 1]
-Holmes story with Jeremy Brett that I have seen. The story is interesting and dark...
-)(input_layer)
-Analysing the Network Architecture
-11.48
-Strides & Padding
-50000/50000 [===============] - 117s 2ms/step - loss: 0.9156 - accuracy: 0.6801 - val_loss: 0.9089 - val_accuracy: 0.6706
-from keras.datasets import cifar10
+model = Model(input_layer, output_layer)
+Padding extends the filter over the edges, using zero values
 60000 32x32 colour images in 10 classes: https://www.cs.toronto.edu/~kriz/cifar.html
-References
-• Output is normalized input, scaled by gamma and shifted by beta
-batch_normalization_6 (Batch (None, 32, 32, 32) 128
-(so randomly guessing yields 50% accuracy)
->>> sample_1 = "I hate that the dismal weather had me down for so long,
-kernel_size,
-conv2d_14 (Conv2D) (None, 8, 8, 64) 36928
-Encoding Input Text using Word Embeddings
-ax = fig.add_subplot(1, n_to_show, i+1)
-• Learns two parameters, scale (gamma) and shift (beta)
-x = Flatten()(x)
-sequence)
-Resulting Model (2/2)
-Perceptron and
-# we add a Convolution1D, which will learn filters
-Output: 10-unit Dense layer with softmax activation
-model.compile(loss=’binary_crossentropy’,
-from keras.optimizers import Adam
-[6.070724856567383, 0.4410000145435333]
-Convolutional Neural
-Deep Learning Conceptual Diagram
-Tensors: n-dimensional arrays with n > 2
-https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
-model.add(Activation(’sigmoid’))
-AI, ML, DL
-Negative Example (9985_1.txt), id 9985, rating 1 star
-and the puffy clouds are too thin. I can’t wait for the weekend."
-conv2d_11 (Conv2D) (None, 32, 32, 32) 896
-across the batch and normalizes by subtracting the mean and dividing by the
-Some random results. . .
-http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
-• A positive review has a score ≥ 7 out of 10
-CLASSES = np.array([’airplane’, ’automobile’, ’bird’, ’cat’, ’deer’,
-padding = "same")(input_layer)
-→ Worksheet #10: Task 3
-11.29
-model.add(Dense(hidden_dims))
-Networks (CNNs)
-• x_train is an array of shape [50000, 32, 32, 3]
-dense_6 (Dense) (None, 10) 1510
-• Neutral reviews are not included in the dataset
-11.45
-activation_2 (Activation) (None, 10) 0
-• Caused by covariance shift in weights
-11.10
-11.20
-shuffle=True,
-x = BatchNormalization()(x)
-_________________________________________________________________
-output_layer = Dense(NUM_CLASSES, activation = ’softmax’)(x)
-model.add(Dense(1))
-50000/50000 [===============] - 112s 2ms/step - loss: 0.8004 - accuracy: 0.7212 - val_loss: 0.8599 - val_accuracy: 0.6976
-Flatten: transform into 8× 8× 20 = 1280 unit vector using Keras Flatten
-11.46
-Convolutional Neural Networks (CNNs)
-Learning Research 15 (2014): 1929–1958, http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf].
-[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
-• Keras: model.add(GlobalMaxPooling1D()) (default size is 2)
-• contains an even number of positive and negative reviews
-Keras: Building the model
-model.evaluate(x_test, y_test)
-[1.6529622526168823, 0.5023999810218811]
-11.21
-• Image 54, pixel at (12, 13), green channel
-CNN for classifying IMDB movie reviews
-ax.imshow(img)
-50000/50000 [==========================] - 13s 257us/step - loss: 1.6592 - accuracy: 0.4104
-model.compile(loss=’categorical_crossentropy’,
-activation=’relu’,
-shuffle = True)
-conv_layer_2 = Conv2D(filters = 20,
-https://www.cs.toronto.edu/~kriz/cifar.html
-Backpropagation
-11.19
-CNN for Text
-11.35
-3 Notes and Further Reading
-Introduction to Deep Learning
-Training: Output
-ha=’center’, transform=ax.transAxes)
-ax.axis(’off’)
-batch_size = 32,
-flatten_2 (Flatten) (None, 3072) 0
-leaky_re_lu_8 (LeakyReLU) (None, 16, 16, 64) 0
-array([[ 0.12459087]], dtype=float32)
-batch_normalization_9 (Batch (None, 8, 8, 64) 256
-Avoiding ‘exploding gradient’ problem
-Copyright 2019 Applied Data Science Partners Ltd., [Fos19]
-Convolutions in Keras
-leaky_re_lu_7 (LeakyReLU) (None, 16, 16, 32) 0
-• Calculates the mean and standard deviation of each of its input channels
-Train on 50000 samples, validate on 10000 samples
-Padding
-50000/50000 [===============] - 113s 2ms/step - loss: 0.7111 - accuracy: 0.7502 - val_loss: 0.8647 - val_accuracy: 0.7017
-Dimensionality Reduction
-11.3
-A 3 × 3 × 1 kernel (gray) being passed over a 5 × 5 × 1 input image (blue), with
-optimizer=opt,
-Some more random results. . .
-Deep Learning
-strides=1,
-when will it break! Ugh, when does happiness return? The sun is blinding
-Non-trainable params: 0
-11.17
-input_shape=(maxlen, embedding_dims)))
-dense_4 (Dense) (None, 200) 614600
-11.44
-[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift,
-# We project onto a single unit output layer, and squash it with a sigmoid:
-Dropout Layer
-https://github.com/davidADSP/GDL_code/blob/master/02_01_deep_learning_deep_neural_network.ipynb
-Epoch 3/10
-https://arxiv.org/abs/1502.03167]
-ax.text(0.5, -0.7, ’act = ’ + str(actual_single[idx]), fontsize=10,
-11.28
-Deep Learning Architectures
-• No “vertical” information like in an image, but “horizontal” (left-to-right
-Epoch 2/10
-actual_single = CLASSES[np.argmax(y_test, axis = -1)]
-model.fit(x_train,
-from keras.layers import Input, Flatten, Dense
-strides = 2,
-x_train[54, 12, 13, 1] is 0.36862746
-Generative Deep Learning: Teaching Machines to Paint, Write, Compose,
-Epoch 4/10
-Notes and Further
-# We add a vanilla hidden layer:
 Input Shape: (None, 32, 32, 3) (None: can process inputs in batch)
-11.8
+Total params: 646,260
+y_train = to_categorical(y_train, NUM_CLASSES)
+CNN for Text
+http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+Epoch 8/10
+Multi-layer neural networks with hidden weights
+AI, ML, DL
+• contains an even number of positive and negative reviews
+Architectures
+from keras.layers import Input, Flatten, Dense
+Batch Normalization Layer
+conv_layer_1 = Conv2D(filters = 10,
+Lecture 11
+• A negative review has a score ≤ 4 out of 10
+model.compile(loss=’binary_crossentropy’,
+x_train = x_train.astype(’float32’) / 255.0
+ax = fig.add_subplot(1, n_to_show, i+1)
+dense_6 (Dense) (None, 10) 1510
+11.35
+model.add(Conv1D(filters,
+preds = model.predict(x_test)
+11.11
+x = Flatten()(x)
+model.add(GlobalMaxPooling1D())
+x = Dense(128)(x)
+# We project onto a single unit output layer, and squash it with a sigmoid:
+References
+Feedforward Network (Word2vec)
+,
+activation_2 (Activation) (None, 10) 0
+Epoch 1/10
+n_to_show = 10
+https://medium.com/@danqing/a-practical-guide-to-relu-b83ca804f1f7
+11.25
+=================================================================
+Negative Example (9985_1.txt), id 9985, rating 1 star
+ax.text(0.5, -0.35, ’pred = ’ + str(preds_single[idx]), fontsize=10,
+ax.imshow(img)
+• Learns two parameters, scale (gamma) and shift (beta)
+Epoch 10/10
+lumbered with flat dialogue. I am ashamed for all of the people involved ...
+11.27
+Strides & Padding
+input_width
+[6.070724856567383, 0.4410000145435333]
+conv2d_11 (Conv2D) (None, 32, 32, 32) 896
+batch_normalization_8 (Batch (None, 16, 16, 64) 256
+input_layer = Input(shape=(32,32,3))
+• 50,000 reviews from IMDB; upto 30 reviews/movie
+from keras.optimizers import Adam
+• Over time, calculating the gradient in earlier layers can grow exponentially large
+0.9)
+Outline
+Positive Example 6587_9.txt, so id 6587, rating 9 stars
+batch_normalization_7 (Batch (None, 16, 16, 32) 128
+model.fit(x_train,
+x = Conv2D(filters = 64, kernel_size = 3, strides = 2, padding = ’same’)(x)
+flatten_2 (Flatten) (None, 3072) 0
+• First dimension: index of the image in the dataset
+dense_5 (Dense) (None, 150) 30150
+→ Worksheet #10: Task 1
+[0.8298392653465271, 0.7210999727249146]
+x = Flatten()(input_layer)
+Notes and Further
+50000/50000 [===============] - 113s 2ms/step - loss: 0.6760 - accuracy: 0.7633 - val_loss: 0.8913 - val_accuracy: 0.6914
+11.47
+fig = plt.figure(figsize=(15, 3))
+input_layer = Input(shape=(64,64,1))
+Single Neuron (Perceptron)
+11.22
+array([[ 0.12459087]], dtype=float32)
+11.15
+padding="same" and strides=1, to generate the 5 × 5 × 1 output (green)
+https://concordiauniversity.on.worldcat.org/oclc/1136155457
+Evaluation
+1 Introduction
+https://concordiauniversity.on.worldcat.org/oclc/1102387045.
+Analysing the Network Architecture
+11.6
+This is called a (four-dimensional) tensor
+11.43
+x_train[54, 12, 13, 1] is 0.36862746
+René Witte
+# We add a vanilla hidden layer:
+(so randomly guessing yields 50% accuracy)
+import numpy as np
+model = Sequential()
+11.4
+• No “vertical” information like in an image, but “horizontal” (left-to-right
+Layer (type) Output Shape Param #
+Convolutional Neural Networks (CNNs)
+50000/50000 [==========================] - 13s 263us/step - loss: 1.4056 - accuracy: 0.4988
+Have I ever seen a film more shockingly inept? I can think of plenty that equal this
+Training data
+None,
+• Output is normalized input, scaled by gamma and shifted by beta
+50000/50000 [===============] - 113s 2ms/step - loss: 0.7111 - accuracy: 0.7502 - val_loss: 0.8647 - val_accuracy: 0.7017
+x_test = x_test.astype(’float32’) / 255.0
+Deep Learning Architectures
+dense_4 (Dense) (None, 200) 614600
+model.add(Activation(’sigmoid’))
+model.evaluate(x_test, y_test)
+conv2d_14 (Conv2D) (None, 8, 8, 64) 36928
+11.29
+validation_data = (x_test, y_test))
+Reading Material
+input_2 (InputLayer) (None, 32, 32, 3) 0
+• [Fos19, Chapter 2] (CNNs for images)
+[Maas, Andrew L. et al., Learning Word Vectors for Sentiment Analysis, Proceedings of the 49th Annual Meeting of the
+50000/50000 [===============] - 114s 2ms/step - loss: 1.1528 - accuracy: 0.5914 - val_loss: 1.0027 - val_accuracy: 0.6462
+Introduction
+activation=’relu’,
+# we use max pooling:
+Convolutional Neural
+when will it break! Ugh, when does happiness return? The sun is blinding
+from keras.models import Model
+opt = Adam(lr=0.0005)
+11.48
+Networks (CNNs)
+11.23
+x = Conv2D(filters=32, kernel_size=3, strides=1, padding=’same’)(input_layer)
+• Fourth dimension: RGB channels
+https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.1-Scalars-Vectors-Matrices-and-Tensors/
+leaky_re_lu_6 (LeakyReLU) (None, 32, 32, 32) 0
+# we add a Convolution1D, which will learn filters
+First conv layer: 4×4×3 (kernel_size = (4,4))
+kernel_size,
+Perceptron and
+• Choose a representative, e.g., maximum in a 2× 2 window
+Train on 50000 samples, validate on 10000 samples
+output_layer = Dense(NUM_CLASSES, activation = ’softmax’)(x)
+fig.subplots_adjust(hspace=0.4, wspace=0.4)
+11.7
+11.1
+and Software Engineering
+50000/50000 [==========================] - 13s 257us/step - loss: 1.4537 - accuracy: 0.4847
+batch_size=32,
+Dropout Layer
+Training for 100 epochs:
+>>> sample_1 = "I hate that the dismal weather had me down for so long,
+_________________________________________________________________
+11.2
+from keras.datasets import cifar10
+Sentiment Analysis
+Copyright 2019 by Manning Publications Co., [LHH19]
+Avoiding ‘exploding gradient’ problem
+50000/50000 [==========================] - 12s 246us/step - loss: 1.3849 - accuracy: 0.5086
+metrics=[’accuracy’])
+50000/50000 [==========================] - 13s 261us/step - loss: 1.4882 - accuracy: 0.4725
+dense_30 (Dense) (None, 128) 524416
+x = Dense(200, activation = ’relu’)(x)
+Epoch 5/10
+padding = "same")(input_layer)
+, filters
+batch_normalization_10 (Batc (None, 128) 512
+dense_31 (Dense) (None, 10) 1290
+)(input_layer)
+Distance we move the convolution across the input at each step
+Deep Learning Conceptual Diagram
+Applying Two Convolutional Filters to a Grayscale Image
+x = Dense(NUM_CLASSES)(x)
+’dog’, ’frog’, ’horse’, ’ship’, ’truck’])
+Training: Output
+output_shape =
+11.9
+shuffle = True)
+Reading
+as input, padding with zeros):
+50000/50000 [==========================] - 13s 259us/step - loss: 1.5827 - accuracy: 0.4372
+https://ai.stanford.edu/~amaas/data/sentiment/
+• A positive review has a score ≥ 7 out of 10
+Sentiment Analysis
+optimizer=’adam’,
+Training (output)
+output_layer = Activation(’softmax’)(x)
+11.37
+Training
+Goal: Avoid Overfitting
+3 Notes and Further Reading
+Epoch 6/10
+Dataset
+11.14
+standard deviation

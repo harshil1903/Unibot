@@ -1,732 +1,732 @@
 
-28 / 66
-arachnocentric).
-Frameworks: integration architectures for combining and controlling
-q: [rich poor]
-i=1 d
-Calpurnia 0.0 1.54 0.0 0.0 0.0 0.0
-(TITLE)+
-Morphological Variants
-11.34
-44 / 66
-PDF, . . .), from various sources (files, DBs, email, . . .)
-• → For frequent terms like good, increase, and line, we want
-• Terms are axes of the space.
-65 / 66
-Development Frameworks
-• . . . increases with the rarity of the term in the collection. (inverse
-Cosine similarity between query and
-Natural Language Processing in Action.
-Tokenization can become even more difficult in specific domains.
-tf-idf weights ∈ R|V|.
-from earlier slide: they have identical vectors after
-Copyright 2019 by Manning Publications Co., [LHH19]
-11.55
-collection that the term occurs in.
-Sentence similarity
-Introduction to Information Retrieval.
-31 / 66
-Caesar 232 227 0 2 1 0
-Cosine
-One-Hot Vectors
-• Set to 0 if tft,d = 0
-(
-11.22
-maximal similarity . . .
-0 1
-NLP Applications, Vector Space Models
-TF*IDF weighting
-[MRS08] Christopher D. Manning, Prabhakar Raghavan, and Hinrich
-information obtained from
-• Collection frequency of t: number of tokens of t in the collection
-1 / 66
-army, arm → arm
+Anthony 5.25 3.18 0.0 0.0 0.0 0.35
+worser 1 0 1 1 1 0
+16 / 66
+sent0 0 1 0 1 1
+• Frequent terms are less informative than rare terms.
+Make “sentence vectors”, ignoring the order within a sentence:
+1,000,000
+increases the relative weight of arachnocentric and decreases the
+computers → comput
+Transducer-based NE Detection
+11.13
 Example
+example is not in any list, it
+√∑
+• Very high-dimensional: tens of millions of dimensions when you
+• Disadvantages:
+From angles to cosines
+i = 1.0
+11.3
+• Various integrations (e.g, CoreNLP has GATE wrapper, Python
+Turn words into numbers.
+Tokenization
+(N is the number of documents in the collection.)
+11.58
+& cosine normalization
+Word order is ignored
+TF*IDF weighting
+How similar are these
+try 10422 8760
+→ Worksheet #10: “Cosine Similarity”
+affection 115 58 20
+11.12
+• Heavy compounding e.g. in German, decomposition necessary
+>>> v2 = pd.np.array([2, 3, 4])
+• cos(SaS,PaP) ≈
+mercy 1.51 0.0 1.90 0.12 5.25 0.88
+NLP Tools: programs performing a single task, like classifiers,
+poor
+name/last name rule (not
+tf-idf weights ∈ R|V|.
+Example GATE Pipeline
+)?
+Anthony 157 73 0 0 0 1
+dioximato(1-)-O]-[1,2-cyclohexanedione dioximato(2-)-O]
+18 / 66
+• typically indicates changes in case, gender, number, tense, etc.
+• This is the cosine similarity of ~q and ~d . . . . . . or, equivalently, the
+14 / 66
+Do not confuse with the cross product (“xyzzy”), written ~v × ~w
+11.28
+question and we find sentences that are similar to the question
+33 / 66
+• Rank documents according to angle with query
+Rule: PersonTitle
+Introduction to Information Retrieval.
+→ Worksheet #10: “Vector dot product”
+• Numerous NLP libraries: NLTK (Python), Stanford CoreNLP, . . .
+11.30
+are very similar.
+• What to do with hyphens?
+(CONTROL) >SpaceToken;kind=control;
+Stemming
+methyl-borato(2-)-N,N′,N′′,N′′′,N′′′′,N′′′′′)-chlorotechnetium)
+11.46
+SaS: Sense and Sensibility
+POS-tags with Gazetteer lookup
+• Euclidean distance?
+Bag of words model
+Binary incidence matrix
+jealous 10 7 11
+(To simplify this example, we don’t do idf weighting.)
+d2:Rich poor gap grows
+If one → problems in parsing (where’s the verb?)
+(TITLE)+
+11.53
+documents can be quite large.
+Cleopatra 57 0 0 0 0 0
+One-Hot Vectors
+51 / 66
+. . .
+the big cat and the dog"""
+actual root of a word, but requires morphological analysis.
+• word tokens
+∑
+Development Frameworks
 → Worksheet #10: “tf-idf Weights”
-Strategy
-vi · wi
+Development Frameworks
+Morphological Analysis
+the big dog
+of relevance.
+3 Document Vector Space Model
+information obtained from
+JAPE-Transducers to detect Named Entities (NE)s.
+• Thought experiment: take a document d and append it to itself.
+We will later see more sophisticated encodings and models.
+11.24
+11.44
+• Rank documents according to cosine(query,document) in increasing
+order
+• less errors than in stemming
+Documents include lots of source code snippets:
+• Search documents based on a query (Information Retrieval) –
+• . . . increases with the rarity of the term in the collection. (inverse
+and document frequency.
+Example Output
+~v(d1)
+Required
+arachnocentric).
+• Build a question-answering system – input is a natural language
+#whitespace#
+analysis, which in turn typically requires a lexicon.
+Calpurnia 0 10 0 0 0 0
+19 / 66
+Binary → count → weight matrix
+Call this document d′. d′ is twice as long as d.
+11.40
+Lemmatization reduce words to their lemma
+• The angle between the two documents is 0, corresponding to
+As well as resources for concrete tasks and languages:
+11.33
 11.26
-http://informationretrieval.org.
+corpus[’sent{}’.format(i)] = dict((tok, 1) for tok in
+• . . . but lower weights than for rare terms.
+→ Worksheet #10: “Inverse Document Frequency”
+Supplemental
+tf-idf weighting
+frequency
+Effect of idf on ranking
+11.10
+11.19
+Term Frequency
+NLP Applications, Vector Space Models
+Morphology
+Hinrich Schütze [MRS08]
+11.34
+• [MRS08, Chapter 8] (Evaluation)
+• UIMA (Unstructured Information Management Architecture),
+∑|V|
+Calpurnia 0.0 1.54 0.0 0.0 0.0 0.0
+1
+The good, the bad, and the . . .
+suffix-stripping
+• The document frequency is the number of documents in the
+• . . . because Euclidean distance is large for vectors of different
+11.63
+Morphology
+4 / 66
+Unstructured Information Management
+44 / 66
+idf weight
+Fortunately, you don’t have to start from scratch
+|~q||~d|
+three-dimensional vectors:
+novels?
+59 / 66
+0 0 1
+11.16
+| INITIALS2)
+Term Vector Space Model
+weights of the same order of magnitude.
+Language Technology (LT)
+Unfortunately, even tokenization can be difficult:
+11.8
+Summary: tf-idf
+What can we do now?
+terms.
+relative weight of line.
+Basic Search Engine using
+• . . . increases with the number of occurrences within a document.
+20/ 66
+Entity Detection: Finding Persons
+occurs in.
+The Euclidean distance of ~q and ~d2 is large although the distribution of
+~q · ~d
+((FIRSTNAME | FIRSTNAMEAMBIG
+https://concordiauniversity.on.worldcat.org/oclc/1102387045
+fly 10,000 2
+Queries as vectors
+• Euclidean distance is a bad idea . . .
+Need to deal with URLs, methods, class names, etc.
+57 / 66
+50/66
+https://uima.apache.org/d/ruta-current/tools.ruta.book.html
+POS-Tagging assigns a part-of-speech-tag (POS tag) to each Token.
+all components and resources of an NLP system
+If two → what do we do with John’s house?
+• Some languages don’t use whitespace (e.g., Chinese)
+Rind|erbraten? (generate cattle through BBQ’ing)
+• Advantages: simple & fast
+i
+• idft is a measure of the informativeness of the term.
+11.41
+Vector dimensionality = Vocabulary size
+other Person patterns, as well
+11.50
+army, arm → arm
+Example for a detected Person
+1 NLP Applications
+Highly complex expressions, chemical formulas, etc.:
+~v(d3)
+Pipeline Step: POS Tagging
+)
+• Documents are points or vectors in this space.
+• answer questions by looking at sentence overlap
+11.32
+Sentence Vectors
+Cleopatra 1 0 0 0 0 0
+• cos(SaS,WH) ≈ 0.79
+modified version of the Brill tagger
+3 / 66
+• Key idea 2: Rank documents according to their proximity to the
+• Set to 0 if tft,d = 0
+11.18
+~v · ~w =
+d3:Record baseball salaries in 2010
+• A vector can be (length-) normalized by dividing each of its
+NLP Development
+Slides Credit
+• Rare terms are more informative than frequent terms.
+idft = log10
+Sentence Splitters, Part-of-Speech (POS) Taggers, Finite-State
+our vocabulary that has 1 (one) for the word, else 0 (zero).
+Dot product
+• First cut: (negative) distance between two points
+• summarize documents by removing redundant sentences
+Brutus 1.21 6.10 0.0 1.0 0.0 0.0
+• |~q| and |~d| are the lengths of ~q and ~d.
+11.59
+• We want high weights for rare terms like arachnocentric.
+corpus = {}
+matching score.
+11.5
+22 / 66
+as Organizations, Dates,
+• So we have a |V|-dimensional real-valued vector space.
+• ( = distance between the end points of the two vectors)
+• Represent each document as a weighted tf-idf vector
+the big cat
+for weighting and ranking.
+11.60
+Bag-of-Words (BOW) Model
+• This example suggests that df (and idf) is better for weighting
+• Instead: rank relevant documents higher than nonrelevant
+• → For frequent terms like good, increase, and line, we want
+Stemming vs. Lemmatization
+vectors)
+So you want to build an NLP application. . .
+Copyright 2011, 2019 The Apache Software Foundation, https://uima.apache.org/d/ruta- current/tools.ruta.book.html 9 / 66
+21 / 66
+Addresses, . . .
+13 / 66
+||x||2 =
+for i, sent in enumerate(sentences.split(’\n’)):
+Using all the information obtained in the previous steps (Tokens,
+increase, and line.
+• qi is the tf-idf weight of term i in the query.
+This is a first example of a vector space model (VSM)
+53 / 66
+Caesar 232 227 0 2 1 0
+• → We want high weights for rare terms like arachnocentric.
+Producing POS Annotations
+11.21
+• In addition, to term frequency (the frequency of the term in the
+NLP Pipeline in GATE
+sunday 1000 3
+64 / 66
+Each document is represented as a binary vector ∈ {0, 1}|V|.
+{Token.category == DT}|
+Input files usually need some cleanup before processing can start:
+(1+ log tft,d) · log Ndft
+Cosine
+Calpurnia 0 1 0 0 0 0
+11.39
+41 / 66
+Collection frequency vs. Document
+• The tf-idf weight . . .
+46 / 66
+Example Tokenisation Rules
+Consistent tokenization is important for all later processing steps
+• Advantages:
+• Document frequency of t: number of documents t occurs in
+"DECIMAL_DIGIT_NUMBER"+ >Token;kind=number;
+wt,d = (1+ log tft,d) · log
+2 Processing & Vectorization
+• Make recommendations (movies, photos, music, products, . . . )
+{Token.category == RB}
+11.65
+//concordiauniversity.on.worldcat.org/oclc/1102387045.
+can be found based on its POS
+Example GATE Pipeline
+Two important frameworks are:
+Manning Publications Co., 2019.
+23 / 66
+lengths.
+0
+Words are changed through a morphological process called inflection:
+NLP Applications
+• . . . even though the Euclidean distance between the two
+What is a word?
+[MRS08] Christopher D. Manning, Prabhakar Raghavan, and Hinrich
+An NLP system requires a large amount of infrastructure work:
+We can now look at the grammar rules that found this person.
+8 / 66
+document in decreasing order
+• cos(~q,~d) = ~q · ~d =
+(SPACE_SEPARATOR) >SpaceToken;kind=space;
+parsers, or NP chunkers
+20
+query
+• Cosine is a monotonically decreasing function of the angle for
+i x
+• As a result, longer documents and shorter documents have
+Notes and Further Reading
+// a number is any combination of digits
+• although the last name in the
+Priority: 35
+→ need to run a word segmentation first
+Tokenization (IV)
+• . . .
+>>> v1.dot(v2)
+0.789 ∗ 0.832+ 0.515 ∗ 0.555+ 0.335 ∗ 0.0+ 0.0 ∗ 0.0 ≈ 0.94.
+• How do we compute the cosine?
+General Architecture for Text Engineering
+In Python
+[from Introduction to Information Retrieval]
+animal 100 4
+1 0 0
+Goal: “normalize” words
+• The following two notions are equivalent.
+(term frequency)
+2
+=
+11.49
 → Worksheet #10: “Term Frequency”
 also known as the scalar product or inner product
-As well as resources for concrete tasks and languages:
-Binary → count → weight matrix
-Why distance is a bad idea
-→ Worksheet #10: “Information Extraction”
-Consistent tokenization is important for all later processing steps
-worser 2 0 1 1 1 5
-• For normalized vectors, the cosine is equivalent to the dot
-If two → what do we do with John’s house?
-• answer questions by looking at sentence overlap
-~v · ~w =
-Persons with Titles
-• cos(SaS,WH) ≈ 0.79
-developed by IBM; open-sourced in 2007 (Apache project)
-document frequency)
-24 / 66
-• Advantages:
-document in decreasing order
-using user-to-item and item-to-item similarities (e.g., using tag
-Main difference: stemming just finds any base form, which doesn’t
-42 / 66
-• [logN/dft] instead of [N/dft] to “dampen” the effect of idf
-• Lexicons, WordNets
-11.54
-11.36
-Examples for idf
-• Each document is now represented as a real-valued vector of
-Unstructured Information Management
-• cos(SaS,PaP) ≈
-• In addition, to term frequency (the frequency of the term in the
-as Organizations, Dates,
-lengths.
-WH: Wuthering Heights
-d2:Rich poor gap grows
-Brutus 4 157 0 2 0 0
-• Can be achieved with rule-based algorithms, usually based on
-Binary incidence matrix
-• . . . we also want to use the frequency of the term in the collection
-weight)?
-• Key idea 2: Rank documents according to their proximity to the
-Lemmatization reduce words to their lemma
-• A document containing this term is more likely to be relevant
-• Machine Learning Algorithms & Evaluation Metrics, etc.
-Existing Resources
-60/66
-sent2 1 1 1 1 1
-)
-• Recall: We’re doing this because we want to get away from the
-Current Trends
-Tokenization
-name/last name rule (not
-Example for a detected Person
-0.789 ∗ 0.832+ 0.515 ∗ 0.555+ 0.335 ∗ 0.0+ 0.0 ∗ 0.0 ≈ 0.94.
-Many (open source) tools and resources are available:
-question and we find sentences that are similar to the question
-Preprocessing and Tokenisation
-are very similar.
-grammars
-57 / 66
-• Consider a term in the query that is rare in the collection (e.g.,
-• [MRS08, Chapter 6] (Vector Space Model, tf-idf)
-• proximity = similarity
-• although the last name in the
-40 / 66
-Sentence Splitters, Part-of-Speech (POS) Taggers, Finite-State
-11.32
-Vector Space Model
-Term Frequency
-than cf (and “icf”).
-• less errors than in stemming
-// a number is any combination of digits
-Example Tokenisation Rules
-NLP Applications
-• This is the cosine similarity of ~q and ~d . . . . . . or, equivalently, the
-∑
-Anthony 157 73 0 0 0 1
-query
-Stemming vs. Lemmatization
-https:
-term frequencies (counts)
-7 / 66
-13 / 66
-• Unlike in the BOW model, we do not lose information
-can be found based on its POS
-document) . . .
-Two important frameworks are:
-61 / 66
-(N is the number of documents in the collection.)
-actual root of a word, but requires morphological analysis.
-(To simplify this example, we don’t do idf weighting.)
-gossip 0.335 0.0 0.405
-• Consider a term in the query that is frequent in the collection
-How do we formalize vector space
-General Architecture for Text Engineering
-Each document is now represented as a count vector ∈ N|V|.
-Text is split into basic units called Tokens:
-In Python
-6 / 66
-modified version of the Brill tagger
-• John is quicker than Mary and Mary is quicker than John are
-11.6
-11.27
-3 Document Vector Space Model
-12 / 66
-bindings)
-• What to do with hyphens?
-18 / 66
-1,000,000
-wt,d = (1+ log tft,d) · log
-Cosine similarity illustrated
-11.63
-calpurnia 1 6
-• Effect on the two documents d and d′ (d appended to itself)
-cosine of the angle between ~q and ~d.
-.
-11.52
-Anthony Julius The Hamlet Othello Macbeth . . .
-• Make recommendations (movies, photos, music, products, . . . )
-11.40
-tf-idf weighting
-• The tf-idf weight . . .
-11.38
-11.7
-i x
-• . . . even though the Euclidean distance between the two
-idf weight
-2 Processing & Vectorization
-=
-• Key idea 1: do the same for queries: represent them as vectors in
-Cleopatra 2.85 0.0 0.0 0.0 0.0 0.0
-• Rules are language-dependent
-• Each vector is very sparse - most entries are zero.
-→ Worksheet #10: “Vector dot product”
-11.39
-)?
-documents can be quite large.
-Natural Language Processing (NLP)
->>> v1 = pd.np.array([1, 2, 3])
-11.11
-How similar are these
-Notes and Further Reading
-• Deal with errors in OCR’d documents
-Even worse. . .
-jealous 0.515 0.555 0.465
-returns a List view of the portion of this list whose indices range
-Required
-i = 1.0
-11.15
-4 Notes and Further Reading
-The Euclidean distance of ~q and ~d2 is large although the distribution of
-From angles to cosines
-Frequency in document vs. frequency in
-• Why these numbers?
-• Grammar files and Language models
-• qi is the tf-idf weight of term i in the query.
-• typically indicates changes in case, gender, number, tense, etc.
-∑|V|
-33 / 66
-E.g., database vs. data-base vs. data base
-• Note that we use the log transformation for both term frequency
-Outline
-i=1
-• A vector can be (length-) normalized by dividing each of its
-22 / 66
-• Alternative names: tf.idf, tf×idf
-An NLP system requires a large amount of infrastructure work:
-Dot product
-11.31
-gossip 2 0 6
-• “Semantically” d and d′ have the same content.
-• We want low (positive) weights for frequent words like good,
-((FIRSTNAME | FIRSTNAMEAMBIG
-affection 0.789 0.832 0.524
-weights of the same order of magnitude.
-54 / 66
->>> v1.dot(v2)
-• identifies the lemma (root form), which is an actual word
-√∑|V|
-• Disadvantages:
-||x||2 =
-worser 1.37 0.0 0.11 4.15 0.25 1.95
-Morphology
-Simplification
-Development Frameworks
-• Rank documents according to cosine(query,document) in increasing
-Bag of words model
-wuthering 0 0 2.58
-collection
-38 / 66
-• Represent each document as a weighted tf-idf vector
-• Euclidean distance is a bad idea . . .
-• Rank documents according to the angle between query and
-insurance 10440 3997
-(e.g., good, increase, line).
-~v(d3)
-32 / 66
-length-normalization.
-Slides Credit
-Schütze.
-example is not in any list, it
-#numbers#
-Highly complex expressions, chemical formulas, etc.:
-increase, and line.
-2
-27 / 66
-11.16
-Fortunately, you don’t have to start from scratch
-• Some languages don’t use whitespace (e.g., Chinese)
-jealous 10 7 11
-• Assign a tf-idf weight for each term t in each document d:
-11.37
-suffix-stripping
-11.25
-. . .
-Brutus 1.21 6.10 0.0 1.0 0.0 0.0
-• Build a question-answering system – input is a natural language
-Language Technology (LT)
-worser 1 0 1 1 1 0
-Term Frequency
-• cos(PaP,WH) ≈ 0.69
-Term frequency tf
-11.62
-corpus = {}
-Morphological Analysis
-• Can create words (stems) that do not exist in the language, e.g.,
-So you want to build an NLP application. . .
-14 / 66
-36 / 66
-Bag-of-Words (BOW) Model
-Reading Material
-5 / 66
-Cosine for normalized vectors
-basis for search engines
-• package java.util.*
-11.64
-idft = log10
-Task
-11.12
-Summary: tf-idf
-1
-https://concordiauniversity.on.worldcat.org/oclc/1102387045
-wuthering 0.0 0.0 0.588
-• Copyright © 2008 Cambridge University Press
-Word order is ignored
-submissions or finding similar contracts in case law
-Caesar 1 1 0 1 1 1
-51 / 66
-Includes slides by Christopher D. Manning, Prabhakar Raghavan and
-[from Introduction to Information Retrieval]
-tells us how many words they have in common.
-• How do we compute the cosine?
-NLP Tools: programs performing a single task, like classifiers,
-• Which word is a better search term (and should get a higher
-• Is “John’s” in John’s sick one token or two?
-1 NLP Applications
-(SPACE_SEPARATOR) >SpaceToken;kind=space;
-• space tokens
-Rule: PersonTitle
-0 1 0
-11.43
-11.23
-our vocabulary that has 1 (one) for the word, else 0 (zero).
-11.60
-25 / 66
-• Normalize text converted from PDF, Doc, or other binary formats
-other Person patterns, as well
-idf weight.
-“Rinderbraten” → Rinder|braten? (roast beef)
-poor
-dioximato(1-)-O]-[1,2-cyclohexanedione dioximato(2-)-O]
-Gazetteer lookups, POS tags), ANNIE now runs a sequence of
-• For example, in the query “arachnocentric line”, idf weighting
-Meaning of the text is lost.
-• Often reduces different words to the same stem, e.g.,
-35 / 66
-• idf has little effect on ranking for one-term queries.
-Stemming and Lemmatization
-(PERSONENDING)?
-• This example suggests that df (and idf) is better for weighting
-Each document is now represented as a real-valued vector of tf-idf weights ∈ R|V|.
-0 0 1
-If one → problems in parsing (where’s the verb?)
-d3:Record baseball salaries in 2010
-θ
-affection 115 58 20
-sentences = """the big dog
-• Remove “fluff” from web pages (ads, navigation bars, . . .)
-Input files usually need some cleanup before processing can start:
-documents
-• The document frequency is the number of documents in the
-Artificial Intelligence:
-Need to deal with URLs, methods, class names, etc.
-11.13
-• Note: there are lots of variations/alternative weighting schemes
-20/ 66
-Unfortunately, even tokenization can be difficult:
-information
-3 / 66
-apply this to web search engines
-Libraries
-• A document containing this term is very likely to be relevant.
-Documents as vectors
-Cleopatra 57 0 0 0 0 0
-39 / 66
-"DECIMAL_DIGIT_NUMBER"+ >Token;kind=number;
-• Thought experiment: take a document d and append it to itself.
-Document frequency
-parsers, or NP chunkers
-Architecture (UIMA)
-Summarizers, . . .
-Producing POS Annotations
-fly 10,000 2
-the high-dimensional space
-• Euclidean distance?
-47 / 66
-Cosine: Example
-than a document that doesn’t . . .
-0, otherwise
-log frequency weighting
-• . . . because Euclidean distance is large for vectors of different
-matching score.
-Use angle instead of distance
-Tokenization (III)
-computers → comput
-term SaS PaP WH
-• Documents are points or vectors in this space.
-11.24
-Copyright 2011, 2019 The Apache Software Foundation, https://uima.apache.org/d/ruta- current/tools.ruta.book.html 9 / 66
-• We define the idf weight of term t as follows:
-affection 3.06 2.76 2.30
-Hinrich Schütze [MRS08]
-Transducer-based NE Detection
-Words are changed through a morphological process called inflection:
-• dft is the document frequency, the number of documents that t
 sent1 0 1 1 0 1
-PaP: Pride and Prejudice
-Two main approaches to normalization:
-• Search documents based on a query (Information Retrieval) –
-56 / 66
-NLP Applications
-stocks, stockings → stock
-• This is called a bag of words model.
-• Deal with tables, figures, captions, formulas, . . .
-dft
-corpus[’sent{}’.format(i)] = dict((tok, 1) for tok in
-Stemming vs. Lemmatization, Part II
-11.61
-We will later see more sophisticated encodings and models.
-Brutus 1 1 0 1 0 0
-11.14
-• Very high-dimensional: tens of millions of dimensions when you
-Tokenization (IV)
-11.2
-• We do not consider the order of words in a document.
-• Summarize longer texts, but removing sentences that have a
-Entity Detection: Finding Persons
-11.66
-Length normalization
-• Instead: rank relevant documents higher than nonrelevant
-{Token.category == DT}|
-11.41
-Sentence Vectors
-increases the relative weight of arachnocentric and decreases the
-Goal: “normalize” words
-• 1,4-β-xylanase II from Trichoderma reesei
-2 / 66
-53 / 66
-11.47
-Example Output
-11.18
-Anthony 1 1 0 0 0 1
-11.33
-• We will use document frequency to factor this into computing the
-→ Worksheet #10: “Inverse Document Frequency”
-Lecture 11
-• Frequent terms are less informative than rare terms.
-wt,d =
-• . . . increases with the number of occurrences within a document.
-11.49
-Using all the information obtained in the previous steps (Tokens,
-• Formula:
-Tokenization (II)
-cos(~q,~d) = sim(~q,~d) =
-Stemming reduce words to a base form
-11.65
-the 1,000,000 0
-TF*IDF weighting
-• We want high weights for rare terms like arachnocentric.
-, if tft,d > 0
-Calpurnia 0 1 0 0 0 0
-a word from one of its inflected forms. This requires a morphological
-term dft idft
-all components and resources of an NLP system
-rich
-(term frequency)
+Frequency in document vs. frequency in
 48 / 66
-• Why do we have cos(SaS,PaP) > cos(SAS,WH)?
-• Increasing use of Deep Learning tools/frameworks for NLP
-• Best known weighting scheme in information retrieval
-• what to do with “C++”, “A/C”, “:-)”, “. . .”?
-sent0 0 1 0 1 1
-• Compute the cosine similarity between the query vector and each
-#whitespace#
-the big cat
-11.42
-11.1
-Cleopatra 1 0 0 0 0 0
-the big dog
-Example GATE Pipeline
-11.9
-| INITIALS2)
-• Represent the query as a weighted tf-idf vector
-Commonly used in Information Retrieval:
-• Compute document similarity – e.g., for detecting plagiarism in
-(UPPER)
-• First cut: (negative) distance between two points
-49 / 66
-11.30
-Applications
-Pipeline Step: Named Entity (NE) Detection
-11.51
-63 / 66
-What is a word?
-NLP: Applications, Vector Space Models
-and Caesar Tempest
-11.57
-23 / 66
-11.4
-• . . . but lower weights than for rare terms.
-• Various integrations (e.g, CoreNLP has GATE wrapper, Python
-• Heavy compounding e.g. in German, decomposition necessary
-11.5
-• When N-formyl-L-methionyl-L-leucyl-L-phenylalanine (fMLP) was
-Queries as vectors
-Manning Publications Co., 2019.
-Caesar 8.59 2.54 0.0 1.51 0.25 0.0
-• Numerous NLP libraries: NLTK (Python), Stanford CoreNLP, . . .
-Desired weight for rare terms
-• Component implementations for standard tasks, like Tokenizers,
-components by its length – here we use the L2 norm:
-vectors)
-animal 100 4
-• more complex than stemming, slower
-Transducers, Full Parsers, Classifiers, Noun Phrase Chunkers,
-three-dimensional vectors:
-SaS: Sense and Sensibility
-Term Vector Space Model
-• Advantages: simple & fast
-of relevance.
-• requires additional language-dependent resources
-Addresses, . . .
-Do not confuse with the cross product (“xyzzy”), written ~v × ~w
-document vector
-41 / 66
-34 / 66
-11.48
-11 / 66
-Preprocessing
-Make “sentence vectors”, ignoring the order within a sentence:
-• . . . but words like good, increase and line are not sure indicators
-//concordiauniversity.on.worldcat.org/oclc/1102387045.
-Cambridge University Press, 2008.
-• Standard algorithm for English: the Porter stemmer
-relative weight of line.
-What can we do now?
-29 / 66
-• Note: the “-” in tf-idf is a hyphen, not a minus sign!
-(CONTROL) >SpaceToken;kind=control;
-References
-{Token.category == PRP}|
-methyl-borato(2-)-N,N′,N′′,N′′′,N′′′′,N′′′′′)-chlorotechnetium)
-11.58
-novels?
-11.50
-Problems with the Bag-of-Words Model
-& cosine normalization
-Both frameworks are open source (GATE: LGPL, UIMA: Apache)
-45 / 66
-n∑
-• Annotation handling (stand-off markup)
-high similarity (thus deemed redundant)
-{
-shown)
-Documents include lots of source code snippets:
-Lemmatization
-64 / 66
-• Rank documents with respect to the query
-Pipeline Step: Tokenization
-• example car → cars, give → gives, gave, given
-19 / 66
-Language Technology (LT)
-(a “1” means on, or hot; a “0” means off, or absent.)
-• The angle between the two documents is 0, corresponding to
-Dot product of two n-dimensional vectors
-4 / 66
-terms in the query q and the distribution of terms in the document d2
-i qi · di
-(PREFIX)*
-• idft is a measure of the informativeness of the term.
-• Document handling, in various formats (plain text, HTML, XML,
-→ need to run a word segmentation first
-• GATE comes with the Hepple tagger for English, which is a
-• number tokens
-injected. . .
-positive weights . . .
-Each document is represented as a binary vector ∈ {0, 1}|V|.
-sent.split())
-• ( = distance between the end points of the two vectors)
-NLP Pipeline in GATE
-• The following two notions are equivalent.
-you’re-either-in-or-out, feast-or-famine Boolean model.
-• idf affects the ranking of documents for queries with at least two
-We could use this to:
-• The tf-idf weight of a term is the product of its tf weight and its
-~q · ~d
+Includes slides by Christopher D. Manning, Prabhakar Raghavan and
+than a document that doesn’t . . .
+Morphological Variants
 26 / 66
-• dft is an inverse measure of the informativeness of term t.
-50/66
-• Cosine is a monotonically decreasing function of the angle for
-Turn words into numbers.
-i
-product or scalar product.
-Pipeline Step: POS Tagging
-Lemmatization is the process of deriving the base form, or lemma, of
-• → We want high weights for rare terms like arachnocentric.
-11.29
-Lemmatizers, Entity Taggers, Coreference Resolution Engines,
-jealous 2.0 1.85 2.04
-Software Documents
-• cos(~q,~d) = ~q · ~d =
-from fromIndex, inclusive, to toIndex , exclusive.
-Rind|erb|raten? (cattle inheritance rate)
-• Not practical for long documents
-even need to be a word in the language! Lemmatization finds the
-http://informationretrieval.org
-58 / 66
-Collection frequency vs. Document
-Example GATE Pipeline
-11.45
-Vector dimensionality = Vocabulary size
-• [MRS08, Chapter 8] (Evaluation)
-11.10
-d1:Ranks of starving poets swell
-belongs to a family of compounds. . .
-Requirements
-Document Vector Space Model
-11.20
-This is a first example of a vector space model (VSM)
-for i, sent in enumerate(sentences.split(’\n’)):
-and document frequency.
-52 / 66
-• GATE (General Architecture for Text Engineering), under
-JAPE-Transducers to detect Named Entities (NE)s.
-POS-Tagging assigns a part-of-speech-tag (POS tag) to each Token.
-30/66
-Processing & Vectorization
-11.59
-terms.
-11.46
-The good, the bad, and the . . .
-the interval [0◦, 180◦]
-Resources: for various languages, like lexicons, wordnets, or
-(GATE)
-i=1 qidi√∑|V|
-• Rare terms are more informative than frequent terms.
-• |~q| and |~d| are the lengths of ~q and ~d.
-With n-dimensional vectors of {0, 1}, we can represent each word in
-POS-tags with Gazetteer lookup
-[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
-~v(d1)
-59 / 66
-Term Vector Space Model
-37 / 66
-and big cat dog the
-mercy 2 0 3 8 5 8
-Desired weight for frequent terms
-10 / 66
-COMP 6721, Winter 2022
-occurs in.
-11.21
-• Keras, TensorFlow, PyTorch etc.
-Rind|erbraten? (generate cattle through BBQ’ing)
-• As a result, longer documents and shorter documents have
-Effect of idf on ranking
-mercy 1.51 0.0 1.90 0.12 5.25 0.88
-55 / 66
-Stemming
-Cleopatra
-tag and an additional first
-Note
-15 / 66
-• Document frequency of t: number of documents t occurs in
-11.19
-11.35
-Bag-of-Words (BOW) Model
-sunday 1000 3
-Biological/Chemical Documents
-{Token.category == RB}
-One-Hot Vectors
-Anthony 5.25 3.18 0.0 0.0 0.0 0.35
-try 10422 8760
-N
-Calpurnia 0 10 0 0 0 0
-11.53
-• This maps vectors onto the unit sphere . . .
-• Technetium-99m-CDO-MeB [Bis[1,2-cyclohexanedione-
-Major Frameworks
-• many additional rules for
-analysis, which in turn typically requires a lexicon.
-11.3
-46 / 66
-The term frequency tft,d of term t in document d is defined as the
-1 0 0
-8 / 66
-https://uima.apache.org/d/ruta-current/tools.ruta.book.html
-~v(q)
-66 / 66
-document
+11.66
+Brutus 1 1 0 1 0 0
 Count matrix
-16 / 66
-Morphology
-the big cat and the dog"""
-under 100,000 1
-• summarize documents by removing redundant sentences
-Preprocessing and Tokenisation
-0
-21 / 66
-• proximity ≈ negative distance
-43 / 66
->>> v2 = pd.np.array([2, 3, 4])
-11.17
-11.44
+63 / 66
+• Grammar files and Language models
 development since 1995 at University of Sheffield, UK
-Call this document d′. d′ is twice as long as d.
-similarity?
-(1+ log tft,d) · log Ndft
-frequency
-:person --> ...
-17 / 66
-• UIMA (Unstructured Information Management Architecture),
-11.56
-word collection frequency document frequency
-We can now look at the grammar rules that found this person.
-• (if ~q and ~d are length-normalized).
-~v(d2)
-Supplemental
-• So we have a |V|-dimensional real-valued vector space.
-|~q||~d|
-• The range-view operation, subList(int fromIndex, int toIndex),
-i=1 q
-NLP Development
-20
-represented the same way.
-Basic Search Engine using
-• Return the top K (e.g., K = 10) to the user
-Compute vector overlap
+(GATE)
+• Often reduces different words to the same stem, e.g.,
+Term frequency tf
+• Can create words (stems) that do not exist in the language, e.g.,
+calpurnia 1 6
+• Rank documents according to the angle between query and
+{
+affection 0.789 0.832 0.524
 62 / 66
-Computing the dot product of two sentence vectors in this encoding
-√∑
-11.28
-Example output
-order
-• word tokens
-number of times that t occurs in d.
-A JAPE grammar rule combines
-mercy 1 0 1 1 1 1
-for weighting and ranking.
-• . . . since after normalization: ||x||2 =
+idf weight.
 Example NLP Pipeline
-Computing with Words
-Computing with Words
-• di is the tf-idf weight of term i in the document.
+• Component implementations for standard tasks, like Tokenizers,
+Software Documents
+Compute vector overlap
+Anthony Julius The Hamlet Othello Macbeth . . .
+sentences = """the big dog
+(
+• Alternative names: tf.idf, tf×idf
+11.17
+worser 1.37 0.0 0.11 4.15 0.25 1.95
+i qi · di
+Cosine: Example
+11.64
+• Machine Learning Algorithms & Evaluation Metrics, etc.
+11.42
+TF*IDF weighting
+• space tokens
+q: [rich poor]
+tag and an additional first
+document
+Tokenization (III)
+Tokenization (II)
+11.38
+• We will use document frequency to factor this into computing the
+Each document is now represented as a count vector ∈ N|V|.
+• Key idea 1: do the same for queries: represent them as vectors in
+log frequency weighting
+Even worse. . .
+[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
+52 / 66
+Anthony 1 1 0 0 0 1
+• Compute the cosine similarity between the query vector and each
+Requirements
+37 / 66
+Stemming and Lemmatization
+• Can be achieved with rule-based algorithms, usually based on
+45 / 66
+shown)
+>>> v1 = pd.np.array([1, 2, 3])
+Pipeline Step: Named Entity (NE) Detection
+11.45
+→ Worksheet #10: “Information Extraction”
+Meaning of the text is lost.
+Bag-of-Words (BOW) Model
+Preprocessing
+Summarizers, . . .
+i=1 qidi√∑|V|
+• Standard algorithm for English: the Porter stemmer
+Artificial Intelligence:
+the high-dimensional space
+29 / 66
+Natural Language Processing in Action.
+components by its length – here we use the L2 norm:
+42 / 66
+11.20
+#numbers#
+Stemming vs. Lemmatization, Part II
+10 / 66
+i=1 d
+11.31
+Language Technology (LT)
+27 / 66
+submissions or finding similar contracts in case law
+• Increasing use of Deep Learning tools/frameworks for NLP
+term dft idft
+Many (open source) tools and resources are available:
+sent2 1 1 1 1 1
+returns a List view of the portion of this list whose indices range
+Lemmatizers, Entity Taggers, Coreference Resolution Engines,
+• (if ~q and ~d are length-normalized).
+• example car → cars, give → gives, gave, given
+http://informationretrieval.org.
+11.52
+Computing the dot product of two sentence vectors in this encoding
+• [logN/dft] instead of [N/dft] to “dampen” the effect of idf
+cos(~q,~d) = sim(~q,~d) =
+Example output
+• Technetium-99m-CDO-MeB [Bis[1,2-cyclohexanedione-
+• Which word is a better search term (and should get a higher
+term SaS PaP WH
+• John is quicker than Mary and Mary is quicker than John are
+With n-dimensional vectors of {0, 1}, we can represent each word in
+Why distance is a bad idea
+Architecture (UIMA)
+11.57
+Lecture 11
+documents
+terms in the query q and the distribution of terms in the document d2
+5 / 66
+n∑
+positive weights . . .
+under 100,000 1
+11.35
+0 1 0
+wt,d =
+• Each document is now represented as a real-valued vector of
+Cosine similarity between query and
+• more complex than stemming, slower
+insurance 10440 3997
+11.11
+from fromIndex, inclusive, to toIndex , exclusive.
+Lemmatization
+0 1
+Schütze.
+, if tft,d > 0
+• idf has little effect on ranking for one-term queries.
+Resources: for various languages, like lexicons, wordnets, or
+Commonly used in Information Retrieval:
+• Rank documents with respect to the query
+• Represent the query as a weighted tf-idf vector
+• Terms are axes of the space.
+11.62
+40 / 66
+References
+38 / 66
+60/66
+• proximity ≈ negative distance
+Two main approaches to normalization:
+information
+d1:Ranks of starving poets swell
+11.25
+• [MRS08, Chapter 6] (Vector Space Model, tf-idf)
+Term Vector Space Model
+• cos(PaP,WH) ≈ 0.69
+A JAPE grammar rule combines
+Strategy
+• A document containing this term is more likely to be relevant
+• Recall: We’re doing this because we want to get away from the
+Natural Language Processing (NLP)
+• what to do with “C++”, “A/C”, “:-)”, “. . .”?
+• Why do we have cos(SaS,PaP) > cos(SAS,WH)?
+high similarity (thus deemed redundant)
+• dft is an inverse measure of the informativeness of term t.
+• Copyright © 2008 Cambridge University Press
+11.27
+(e.g., good, increase, line).
+Persons with Titles
+even need to be a word in the language! Lemmatization finds the
+How do we formalize vector space
+Desired weight for frequent terms
+• Deal with tables, figures, captions, formulas, . . .
+Document Vector Space Model
+Existing Resources
+• Compute document similarity – e.g., for detecting plagiarism in
+35 / 66
+Document frequency
+stocks, stockings → stock
+https:
+Outline
+11.54
+Pipeline Step: Tokenization
+34 / 66
+Simplification
+term frequencies (counts)
+~v(d2)
+document vector
+Problems with the Bag-of-Words Model
+4 Notes and Further Reading
+• Why these numbers?
+• Return the top K (e.g., K = 10) to the user
+length-normalization.
+and Caesar Tempest
+Processing & Vectorization
+word collection frequency document frequency
+collection that the term occurs in.
+.
+gossip 0.335 0.0 0.405
+belongs to a family of compounds. . .
+Length normalization
+jealous 0.515 0.555 0.465
+0, otherwise
+Both frameworks are open source (GATE: LGPL, UIMA: Apache)
+Stemming reduce words to a base form
+COMP 6721, Winter 2022
+Cosine for normalized vectors
+11.47
+from earlier slide: they have identical vectors after
+11.22
+The term frequency tft,d of term t in document d is defined as the
+11.15
+• Best known weighting scheme in information retrieval
+17 / 66
+• number tokens
+E.g., database vs. data-base vs. data base
+Main difference: stemming just finds any base form, which doesn’t
+Biological/Chemical Documents
 df = pd.DataFrame.from_records(corpus).fillna(0).astype(int).T
-→ Worksheet #10: “Cosine Similarity”
-Compute idft using the formula: idft = log10
-• . . .
+11.55
+dft
+injected. . .
+• . . . since after normalization: ||x||2 =
+1 / 66
+• When N-formyl-L-methionyl-L-leucyl-L-phenylalanine (fMLP) was
+• Unlike in the BOW model, we do not lose information
+Computing with Words
+11.6
+24 / 66
+(a “1” means on, or hot; a “0” means off, or absent.)
+Note
+11.36
+11.43
+Use angle instead of distance
+WH: Wuthering Heights
+• Lexicons, WordNets
+basis for search engines
+http://informationretrieval.org
+11.4
+Desired weight for rare terms
+Transducers, Full Parsers, Classifiers, Noun Phrase Chunkers,
+Cosine similarity illustrated
+55 / 66
+jealous 2.0 1.85 2.04
+Preprocessing and Tokenisation
+√∑|V|
+PaP: Pride and Prejudice
+grammars
+Libraries
+• Normalize text converted from PDF, Doc, or other binary formats
+Current Trends
+NLP: Applications, Vector Space Models
+Each document is now represented as a real-valued vector of tf-idf weights ∈ R|V|.
+• Keras, TensorFlow, PyTorch etc.
+Examples for idf
+“Rinderbraten” → Rinder|braten? (roast beef)
+i=1 q
+• Deal with errors in OCR’d documents
+• “Semantically” d and d′ have the same content.
 We can encode the sentence The big dog as a series of
+11.29
+Reading Material
+number of times that t occurs in d.
+• We do not consider the order of words in a document.
+• This maps vectors onto the unit sphere . . .
+Computing with Words
+30/66
+Lemmatization is the process of deriving the base form, or lemma, of
+• Remove “fluff” from web pages (ads, navigation bars, . . .)
+• We define the idf weight of term t as follows:
+49 / 66
+• Summarize longer texts, but removing sentences that have a
+{Token.category == PRP}|
+11.61
+• GATE (General Architecture for Text Engineering), under
+• Formula:
+• . . . but words like good, increase and line are not sure indicators
+tells us how many words they have in common.
+Documents as vectors
+:person --> ...
+mercy 2 0 3 8 5 8
+• We want low (positive) weights for frequent words like good,
+Frameworks: integration architectures for combining and controlling
+7 / 66
+Cambridge University Press, 2008.
+(UPPER)
+rich
+Gazetteer lookups, POS tags), ANNIE now runs a sequence of
+bindings)
 wuthering 0 0 38
-11.8
+12 / 66
+• dft is the document frequency, the number of documents that t
+Applications
+Dot product of two n-dimensional vectors
+One-Hot Vectors
+• The range-view operation, subList(int fromIndex, int toIndex),
+• Document handling, in various formats (plain text, HTML, XML,
+you’re-either-in-or-out, feast-or-famine Boolean model.
+25 / 66
+Cleopatra
+61 / 66
 gossip 1.30 0 1.78
-Priority: 35
-• Rank documents according to angle with query
+65 / 66
+wuthering 0.0 0.0 0.588
+and big cat dog the
+affection 3.06 2.76 2.30
+Task
+document) . . .
+• Not practical for long documents
+• . . . we also want to use the frequency of the term in the collection
+11.48
+Tokenization can become even more difficult in specific domains.
+11.23
+• identifies the lemma (root form), which is an actual word
+• Effect on the two documents d and d′ (d appended to itself)
+similarity?
+weight)?
+collection
+PDF, . . .), from various sources (files, DBs, email, . . .)
+θ
+document frequency)
+• For example, in the query “arachnocentric line”, idf weighting
+• Consider a term in the query that is rare in the collection (e.g.,
+(PERSONENDING)?
+• Each vector is very sparse - most entries are zero.
+• A document containing this term is very likely to be relevant.
+28 / 66
+• Collection frequency of t: number of tokens of t in the collection
+Sentence similarity
+31 / 66
+maximal similarity . . .
+66 / 66
+Brutus 4 157 0 2 0 0
+32 / 66
+6 / 66
+43 / 66
+apply this to web search engines
+• package java.util.*
+Caesar 8.59 2.54 0.0 1.51 0.25 0.0
+11.7
+Compute idft using the formula: idft = log10
+• Note: the “-” in tf-idf is a hyphen, not a minus sign!
+represented the same way.
+11.1
+• idf affects the ranking of documents for queries with at least two
+~v(q)
+• For normalized vectors, the cosine is equivalent to the dot
+• Annotation handling (stand-off markup)
+product or scalar product.
+11.2
+• Consider a term in the query that is frequent in the collection
+• This is called a bag of words model.
+i=1
+gossip 2 0 6
+(PREFIX)*
+worser 2 0 1 1 1 5
+54 / 66
+the 1,000,000 0
+Copyright 2019 by Manning Publications Co., [LHH19]
+39 / 66
+mercy 1 0 1 1 1 1
+than cf (and “icf”).
+11.51
+developed by IBM; open-sourced in 2007 (Apache project)
+Preprocessing and Tokenisation
+11 / 66
+• Rules are language-dependent
+Text is split into basic units called Tokens:
+Vector Space Model
+the interval [0◦, 180◦]
+• The tf-idf weight of a term is the product of its tf weight and its
+• many additional rules for
+11.9
+• proximity = similarity
+36 / 66
+• 1,4-β-xylanase II from Trichoderma reesei
+We could use this to:
+using user-to-item and item-to-item similarities (e.g., using tag
+11.56
+sent.split())
+• Assign a tf-idf weight for each term t in each document d:
+Cleopatra 2.85 0.0 0.0 0.0 0.0 0.0
+• di is the tf-idf weight of term i in the document.
+56 / 66
+wuthering 0 0 2.58
+N
+• Is “John’s” in John’s sick one token or two?
+2 / 66
+NLP Applications
+58 / 66
+cosine of the angle between ~q and ~d.
+Rind|erb|raten? (cattle inheritance rate)
+47 / 66
+Caesar 1 1 0 1 1 1
+• Note that we use the log transformation for both term frequency
+11.37
+a word from one of its inflected forms. This requires a morphological
+Major Frameworks
+• requires additional language-dependent resources
+• Note: there are lots of variations/alternative weighting schemes
+vi · wi
+Term Frequency
+11.14
+15 / 66
+• GATE comes with the Hepple tagger for English, which is a

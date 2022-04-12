@@ -1,737 +1,737 @@
 
-State Space as a Search Tree
- +1pt if a block is NOT sitting where it is supposed to sit
-… but Sam Loyd claimed he invented it!
-BFS vs.
-Slide 74
-Path cost function:
- Search space: the set of all states that can be reached
-15
-Slide 35
-the cost from the root to node n –
-help!
-Slide 72
- Depth-first
-Search is about the exploration of alternatives
- Search algorithm:  how the search space is visited
-by a better search
-nextNode = NULL;
-6
-80
-ara
-Slide 29
- algorithm A used with such an h(n) is called “algorithm A*”
- Heuristic:
-Notes:
- Best-First
- Hill Climbing
-depth limits
- instead of moving to the first position that
-Breadth-First Search
-17
-2. open = [B-A  C-A  D-A]  closed [A]
-Slide 30
-search)
- The state graph may
-path.
- The order of the nodes in the open list depends on the search
-pre
-possibly sacrificing on completeness
-51
- pick the best position out of all the next possible moves
-More informed heuristics search smaller space to find the
- To trace back the entire path of the solution after
-to
-current best guess) are more likely to lead to good solutions
-8 STATE REPRESENTATION
-64
-because search space is too large!
- Solution
- Idea:
- guarantees to find the shortest solution path
-1. Initialize the open list  with the initial node so (top node)
- h(n) ≤ h*(n)  for all n
-breadth-first
- h1(n) ≤ h2(n) ≤ h*(n)
-if (HEURISTIC-VALUE(c) < nextEval) // lower h is better
-Depth-limited No Stack
- Use a tree representation, and check for cycles
-Best-First Yes Priority queue sorted by h(n)
-Slide 53
-Slide 4
-67
-at which nodes are not expanded)
- guarantees to find the lowest cost
-Slide 62
- Manhattan distance: sum up
-Slide 31
-13
-along a suboptimal path
-Hill Climbing
- ie. visit level-by-level
- a flat area of the search space in which the next states
-82
-Slide 57
- it is not possible to determine the best direction in which
-from an initial state to a goal state
- order of nodes controls order of search
- h(n) = estimate of the lowest cost from n to goal
-...and so on until either U is found or open = []
-48
-source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991.
- does not consider the
- The first solution may not be the best,
-87
- an A* algorithm is admissible
-Perception
-Agent
-5 6 7 8
- a state that is better than all its neighbors but is not better
- Breadth-first and Depth-first
-blank moves up, blank moves down, blank moves left, blank moves right
- 1026 = nb of nanoseconds since the “big bang”
-Don’t be confused…
- use "open" as a priority queue
- Often, there is no direct way to find a solution to a
- A*
-Slide 46
- Breadth-first:
-Slide 86
-39
-Example: Hill Climbing with Blocks World
-56
-Slide 12
- i.e. f(n) is non-decreasing along any path
-problem
-37
- according to a selection function (i.e. a heuristic function h(n))
-= 2 + 3 + 0 + 1 + 3 + 0 + 3 + 1 = 13
-solution very quickly
- so need an informed/heuristic search
- Heuristic search:
- g(n) actual cost of path from start to node n
-and closed are
-pickup&stack(H,A)
-Rubik’s cube Tetris
-parent… --> local minimum
-Slide 51
-admissible
-Down
-19
- Do depth-first but with depth cutoff k (depth
- Similar to climbing a mountain in the fog with amnesia …
-Learning
-e o
-4
- (Designing Heuristics)
-distance tiles have to be
- g*(n) cost of lowest cost path from start to
-75
-Slide 37
-Slide 77
- Breath-first and Depth-first
-Algorithm A*
-40
-Slide 16
-22
-if nextEval >= HEURISTIC-VALUE(currentNode)
- Depth-limited search
-Slide 25
-Slide 88
- “optimistic”
-Function Depth-First Search
-Hill Climbing Yes none
- visit siblings before successors
-space and the depth of the solution is unknown
-c) If s is a goal state, exit  with success.  Extract the solution path
-2. Monotonicity:
-12
- h is monotonic if for every node n and every successor n’ of n:
-Set of operators:
-h(n) = 2
-Slide 83
- inefficient if branching factor B is very high
-CHILDREN
- solution to hill-climbing:
- e.g.: breadth-first is admissible  -- it uses f(n) = g(n) + 0
-Slide 10
- 0pt if a block is sitting where it is supposed to sit
-Invented in 1874 by Noyes Palmer Chapman
-  BFS uses a queue:
-2. Initialize the closed list   to  empty
-each state the 1st time it is encountered !
-Goal test function:
-8-puzzle
- Blind search without cycle check may never
-higher h(n) than the
-86
-?
-3. Goal test function
- At 100 millions states/sec:
-Iterative Deepening
-Slide 17
-Uniform Cost Search
-another
-Heuristic search
-Slide 56
- at a local maximum, all moves appear to make things worse.
-Evaluating Heuristics
- f*(n) actual cost of lowest cost of the solution
-h(n)
-path (from start to goal passing through n)
-Slide 78
-Slide 65
-Slide 43
-lowest cost from node n to the goal
- 15-puzzle  -->  16! ~ 2.09 x 1013 states
-Informed Search (aka heuristic search)
- Informed search (heuristic search)
-42
-nextEval = HEURISTIC-VALUE(c);
-5 8 4 2 1 7 3 6
-Slide 87
-iteration 6 of
-always go higher than where you are now,
-2. Set of operators
-h(n) = 2h(n) = 2h(n) = 2
-contain more than one
- f(n) estimate of the lowest cost of the solution
- Applied to a state to determine if it is a goal state
- But what if all edges/moves do not have the same cost?
-shorter/least expensive paths
- stores all the nodes that have already been visited (to avoid cycles).
- closed list (aka the explored set)
-Slide 27
-Slide 9
- Uninformed search
-h3(N) = sum of permutation inversions
- Depth-first:
-41
-69
-8-Puzzle: Successor Function
-me
-exists)
- Assigns a cost to a path to tell if a path is preferable to
-2 1
- choose "best" next node to expand
-Problems with Hill Climbing
-2
-55
- Bad heuristics lead to frequent backtracking
- DFS and BFS differ only in the way they order nodes in the
-Summary
-30
-5. open = [S-K L-E F-B C-A D-A]  closed = [K E B A]
-Algorithm A on the 8-puzzle
- Focus on paths that seem most promising according to
-25
- DFS: (open is a stack)
-distinct node
-Slide 79
- Note:  does not guarantee to find the lowest cost search
- Hill climbing
-21
-How large is the state space of the
-- same as A, but h(n) must be
-Goal state
- We systematically explore the alternatives
-Informedness
-moved
-Breadth-first No Queue
-because all children have
- Plateau
-61
- guarantees to find the lowest cost solution path to the goal (if it
-State: Any arrangement of 8 numbered tiles and an empty tile on a 3x3 board
-Robotics
-26
- if g(n) ≥ g*(n) for all n
-8 1 2 3
- State Space Search
- Best-First
-Slide 24
-Systems
- h2: Better heuristic
-tiles are out of place
-= 4  + 6  + 3   + 1   + 0  + 2   + 0  + 0
-Algorithm A vs Algorithm A*
-Slide 7
- actions responsible for transition between states
-4. → Worksheet #1 (“Best-First Search”)
-1. Admissibility:
-1
- lists generated nodes not yet expanded
- h(n) ≤ c(n,n') + h(n')
- so search could continue down a wrong path
-  h2(n) = Manhattan distance = 13
-4321
- run each until it halts or makes no significant progress.
-following problem:
-State Space for the 8-puzzle
-Slide 40
-Algorithm A
-Constraint
-sen
-Slide 38
-PARENT-NODE
-But:
- pickup&stack(Block1,Block2)
-Slide 21
-Generic Search Algorithm
- if h(n) ≤ h*(n) for all n
-solution path
-Slide 39
-Slide 61
- h(initial) = 2
-for all c in L
- h2(n) = 2+3+0+1+3+0+3+1
-...
-(n2-1)-puzzle
-18
-45
- keep going even if the best successor has the same value as
- h2(n)  =  Manhattan distance
-when compared with goal
-Slide 66
-36
-to move by making local comparisons.
-Lower h(n) is better
- Three possible outcomes:
-e) Insert the successors of s  in  the  open list  in a certain order if
-Slide 34
-best h(n) -- regardless of where it is in the search space
-1. Brute force search:
-Reasoning
-r p
-71
-Slide 75
-Slide 19
-1. open = [A-null]  closed = []
-satisfaction
-10
 all the distances by which
-RightAction
-P-0
-Sam Loyd even offered $1,000 of his own
-Slide 15
-Just to make sure we’re clear…
-Some Solutions to Hill-Climbing
-Slide 69
-later called g(n)
-…
-Depth-First Search Example
- Repeats depth first search with gradually increasing
- Best-first search:
-money to the first person who would solve the
-7
- Hill climbing
-// Return current node since no better child state exists
- Many AI problems, can be expressed in terms of going
-15-Puzzle
-Som
- In general: the more informed a heuristic is,
- memory requirements high -- exponential space for states
-f(n) = g(n) + h(n)
-language
-1. Initial State
-66
-BOOKKEEPING
- aka: systematic/exhaustive/blind/brute force search
- Evaluation function f(n) = g(n) + h(n) for node n:
-connected component
-cost of reaching the goal
-3. Informedness:
-78
- Requires little memory (fundamentally, it’s a depth first)
- Heuristics might be wrong:
-s’  ∈ SUCCESSOR(s)
- A technique that improves the efficiency of search,
-Slide 54
-Slide 36
-Slide 33
-7 8
- Ex: to solve a puzzle, to drive from home to Concordia…
-cost solution path
-2. open = [B-A-4  C-A-4  D-A-6]  (arbitrary choice) closed [A]
-Slide 82
-77
-5
-52
-Slide 11
-Slide 52
- random initial states are generated
-required: Bn
-(n2-1)-puzzle?
- h(n) estimate of cost to reach goal from node n
-Slide 63
-Heuristics for the 8-Puzzle
- Requires less memory
-should be on its left in the goal state.
- as soon as you find a position that is better than the
- then h2 is more informed than h1
- 24-puzzle  -->  25! ~ 1025 states
-open list:
-4 6
-nextEval = INFINITY;
- only try the possibilities that you think (based on your
-currentNode = startNode;
- generate and search all possibilities (but inefficient)
- starting state
- h(goal) = 0
-4. open = [K-E L-E F-B C-A D-A]  closed = [E B A]
-from the initial state to the goal
- h3: Even Better
-29
-Slide 18
-Slide 5
-on a plateau
- …
-Heuristic - Heureka!
-Best-First: Example
-4. Path cost function
-But no one ever won the prize…
-  h1(n) = Hamming distance = number of misplaced tiles = 6
-some function
- Depth-first:
-60
-h(n) = 1
- Always choose the next node to visit to be the one with the
- h3(n) = sum of permutation inversions
-50
-to a node s’ if
- Solution:
-but there is a good chance of finding it quickly
- problem with hill-climbing:
-3. open = [C-A D-A  E-B F-B]  closed = [B A]
-termination
-Motivation
-state matches the goal state
-Iterative Deepening: Example
-16
- Insert nodes in open list so that the nodes are sorted in
-46
- reached a local maximum, not the global maximum
-68
-each movement costs 1
-Slide 50
- Uniform-cost
- Not optimal (no guarantee to find the shortest path)
-65
-from s to so
-(tiles out of place)
-STATE n
-Assume U is goal state
-COMP 6721: State Space Search
-79
- ex: TSP: "nearest neighbour" heuristic
- Maintain depth/cost count, i.e., give preference to
-3 4
- Breadth-first:
-re
-Slide 1
-there are several standard goals states for the 8-puzzle
- Breadth-first
-b) Else, take the first node s  from the open list.
-1 2 3
-Slide 49
-Snapshot of BFS
-11
- g(n) current cost from start to node n
-robotics.stanford.edu/~latombe/cs121/2003/home.htm
-Steepest Ascent Hill Climbing
-currentNode = nextNode;
- For two admissible heuristics h1 and h2
- h3(n) = n5 + n8 + n4 + n2 + n1 + n7 + n3 + n6
-loop do
-31
-59
- g(n) = cost of current path from start to node n
- so far, all search algorithms have been uninformed (general
-Uninformed VS Informed Search
-Google itinerary
- 8-puzzle --> 0.036 sec
-58
-they are not already in the closed and/or open lists (to avoid
- If you have a good h(n), best-first can find the
- uses a priority queue sorted using
-74
-the root
-43
-nextNode = c;
-3
- Determine order for examining states
-the
- visit successors before siblings
- nodes are added at the end of the list.
-inversions
-Snapshot of DFS
-the better the search performance
- guarantees to find the lowest cost solution path to the
- 1075 = nb of molecules in the universe
-Search
-rep.Planning
- h(n) estimate of the lowest cost from n to goal
- Open is a priority queue sorted using the depth of the nodes from
-Admissibility
- e.g. state space of all possible moves in chess = 10120
- Each state is
- Modified evaluation function f:
- Failure (no solution)
-from the initial state by any sequence of action
-current one, select it.
-Example: 8-Puzzle – Heuristic 2
- Heuristic:
-Search Uses h(n)? Open is a…
-Initial state Goal state
-Slide 2
- Summary
+Slide 75
  the best result is then chosen.
-62
-a lower h(n) is better…
-→ Worksheet #1 (“Algorithm A”)
- but could lead to infinite loop
- Foothills (or local maxima)
- measure for the “quality” of a heuristic
-→ Worksheet #1 (“Depth-First Search”)
- Now consider f*(n) = g*(n) + h*(n):
- An admissible heuristics may temporarily reach non-goal states
- Uninformed search
-Knowledge
- ex: 8-puzzle: we may need to move tiles temporarily out of goal
-Slide 80
-have the same value.
-Slide 22
-Depth = length of path from root to node
-Depth-Limited Search
-Slide 68
-Designing Heuristics
-- guarantees to find the lowest
-Uniform Cost No Priority queue sorted by g(n)
-g(n), h(n) and f(n)
-Slide 44
-g(n)
- ex. solved puzzle, being at Concordia
-highlighted
-
-3. open = [E-B F-B C-A D-A]  closed = [B A]
-14
-Artificial Intelligence:
-Adapted from https://en.wikipedia.org/wiki/Hill_climbing
-Slide 71
-search space is too large
- one move is selected and all others are forgotten.
- works well on a "shoulder"
- Intuition: number of misplaced tiles is less informed than
-source: adapted from G. Luger (2005)
-terminate
- We try to choose smartly
-Slide 73
-8
-= 16
- ex. unsolved puzzle, being at home
-Compromise between BFS and DFS:
- BFS: (open is a queue)
- guarantees to find the lowest cost path to each state n
-44
-number of tiles out of place
- h1: Simplest heuristic
- sum of permutation
- General hill climbing strategy:
-Slide 47
- h*(n) actual lowest cost from n to goal
- Iterative deepening search
-Example: 8-Puzzle – Heuristic 3
-Slide 23
-n goal
- Heuristic evaluation functions are highly
- An arc (or edge)
-current node
-Best-First Search
-5 6
-  Many slides from:
-Slide 59
-Slide 58
-source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991.
-Initial state
-is better than the current one
-Slide 20
- “local admissibility”
-Data Structures
- 15-puzzle --> ~ 55 hours
-Manhattan distance
-Notes on Best-first
-source: Russel & Norvig (2003)
- In all search strategies, you need:
- Iterative Deepening
- Heuristic function h(n) = an approximation of the
-Slide 45
- pickup&putOnTable(Block)
-= 13
-search
-Open = [F, G, H, I, J, K, L]
-15-puzzle
-State Space Search
-pickup&stack(A,H) pickup&putOnTable(H)
-position in order to place another tile in goal position
- So how do we design a “good” heuristic?
-State Space
-88
- See next slide…
- State Space Representation
-3. Repeat
-  DFS uses a stack:
- A heuristic is monotonic if it always finds the optimal path to
-4 5 6
-3. open = [C-A-4 E-B-5 F-B-5  D-A-6]  closed = [B A]
- Uniform Cost
-ter
-cycles)
- use depth-first search, but
-source: G. Luger (2005)
-Iterative Deepening No Stack
-= n5 + n8 + n4  + n2 + n1 + n7 + n3 + n6
-Monotonicity (aka consistent)
-70
- Informed search
-represented by a
-return currentNode;
-23
- Search graph at
-Slide 8
- A*
- Operators:
- Problem is represented by:
-Depth-first No Stack
- It is an exhaustive search …
-Slide 55
- For each numbered tile, count how many tiles on its right
-in the search
- ex:
-38
-54
-depth-first
-pickup&putOnTable(A)
- Need an evaluation function (heuristic function) to
- a rule of thumb, a good bet
-Closed = [A, B, C, D, E]
- if h1(n) ≤ h2(n), for all states n
-Today
-source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991. & Russel & Norvig (2003)
-73
- Preferred search method when there is a large search
- but has no guarantee to be correct whatsoever!
-Search tree
- A heuristic is admissible if it never overestimates the
-....
- Bidirectional search
-Slide 48
- Breadth First Search
- guarantees to find the lowest cost path to each state n encountered
-http://robotics.stanford.edu/~latombe/cs121/winter02/home.htm
-L = CHILDREN(currentNode);
-a) If the open list  is empty, then exit with failure.
-the search, each node in the lists contain:
-Yes Priority queue sorted by f(n)
-State Graph
-dependent on the search domain
- States on open
- 8-puzzle  -->  9! = 362,880 states
-4. → Worksheet #1 (“Breadth-First Search”)
-27
- Cutoff (no solution within cutoff)
-Example: 8-Puzzle – Heuristic 1
-connects a node s
+ memory requirements high -- exponential space for states
+Slide 72
+71
+Slide 2
+ 24-puzzle  -->  25! ~ 1025 states
+Motivation
 LeftUpRight
-72
-evaluating the heuristic…
- i.e. it guarantees to find the lowest cost solution path
-1. open = [A-null-5]  closed = []
-53
-Best-First Search: Example
-node n
-Slide 6
-Slide 67
- 24-puzzle  -->  > 109 years
-85
-83
-Slide 42
-Breadth-First Search Example
-49
- Finds the shortest path (limited depth)
- the more informed, the better
-Example: 8-Puzzle
-ascending  h(n)
- Random-restart hill-climbing
- Steepest ascent hill climbing:
-encountered in the search
-Slide 84
- i.e. h(n) never overestimates the true cost from n to a goal
-2. Heuristic search:
-Natural
-Compromise for DFS :
-... Expert
- But: heuristic might fail
- However, you need to consider the computational cost of
-5Depth
-= 4  + 6  + 3   + 1   + 0  + 2  + 0  + 0  = 16
- Nb of states:
-Some parameter to represent n
-Slide 41
- f(n) estimate of total cost along path through n
- Optimal: will always finds shortest path
- so lower h(n) is better
+3. Goal test function
+80
 57
- The time spent computing heuristics must be recovered
-goal (if it exists)
- but we can list the possibilities and search through them
-score a node in the search tree
-Example: The 8-puzzle
-Slide 3
-5Path-Cost
-strategy
- Uniform Cost Search
- In graph representation, cycles can prevent
- nodes are added on the top of the list.
-so the path cost is the length of the path (the number of moves)
- with a maximum depth before going to next level
-t n
- Hamming distance : count
- Depth-limited Search
-63
- Most of the time, it is not feasible to do an exhaustive search,
-24
-34
-than some other states farther away.
- h1(n)  = 6
-d) Else, insert s in the closed list (s has been visited /expanded)
-but never go back…
-20
-76
- open list (aka the frontier)
- h1(n)  = misplaced numbered tiles
-= 6
-Slide 14
- But both search are impractical in real applications
- this is called best-first search
-DFS and BFS
-Slide 60
-Slide 76
-35
-Slide 85
-Depth-first vs. Breadth-first
- Does not maintain a list of next nodes to visit (an open list)
-9
---> admissible
+Algorithm A
+Slide 40
+Best-First Search: Example
+ter
+Perception
+61
 hill-climbing will stop,
-Slide 70
-- no constraints on h(n)
-Breadth-first vs Depth-first Search
-Slide 26
- never overestimates the actual cost of reaching the goal
-33
- best-first used with such a g(n) is called “algorithm A”
- i.e.:
-47
- will eventually try all possible paths
-h(n)
+ Most of the time, it is not feasible to do an exhaustive search,
+ Open is a priority queue sorted using the depth of the nodes from
+ A technique that improves the efficiency of search,
+ Depth-limited Search
+ The order of the nodes in the open list depends on the search
+ h3(n) = sum of permutation inversions
+ The time spent computing heuristics must be recovered
+1 2 3
+85
+ In all search strategies, you need:
+1. open = [A-null-5]  closed = []
+ Heuristic search:
+ h3(n) = n5 + n8 + n4 + n2 + n1 + n7 + n3 + n6
+35
+Lower h(n) is better
+ Many AI problems, can be expressed in terms of going
+8 STATE REPRESENTATION
+ guarantees to find the lowest cost solution path to the
+86
+ stores all the nodes that have already been visited (to avoid cycles).
+money to the first person who would solve the
+= 16
+ Summary
+Open = [F, G, H, I, J, K, L]
+ However, you need to consider the computational cost of
+ Steepest ascent hill climbing:
+ Heuristic evaluation functions are highly
+Slide 67
+Slide 55
+ random initial states are generated
+ algorithm A used with such an h(n) is called “algorithm A*”
+possibly sacrificing on completeness
+ Solution:
+→ Worksheet #1 (“Algorithm A”)
+ Breadth-first:
+76
+higher h(n) than the
+Goal test function:
+ visit successors before siblings
+ A*
+18
+Uniform Cost Search
+ f*(n) actual cost of lowest cost of the solution
+15
+ Uninformed search
+9
+23
+ Often, there is no direct way to find a solution to a
+ Best-first search:
+ Does not maintain a list of next nodes to visit (an open list)
+Generic Search Algorithm
+along a suboptimal path
+Som
+ State Space Representation
+But no one ever won the prize…
+State Space as a Search Tree
+Slide 71
+ Modified evaluation function f:
+60
+if (HEURISTIC-VALUE(c) < nextEval) // lower h is better
+Slide 43
+Slide 17
+5 6 7 8
+ reached a local maximum, not the global maximum
+termination
+ f(n) estimate of the lowest cost of the solution
+25
+Knowledge
+ Repeats depth first search with gradually increasing
+41
+ Breadth-first
+Slide 48
+Slide 63
+ closed list (aka the explored set)
+ guarantees to find the lowest cost solution path to the goal (if it
+pickup&putOnTable(A)
+31
+ Similar to climbing a mountain in the fog with amnesia …
+blank moves up, blank moves down, blank moves left, blank moves right
+ DFS and BFS differ only in the way they order nodes in the
+ At 100 millions states/sec:
+Today
+ Uniform Cost
+Invented in 1874 by Noyes Palmer Chapman
+ To trace back the entire path of the solution after
+7
+ h1(n)  = misplaced numbered tiles
+h3(N) = sum of permutation inversions
+ Manhattan distance: sum up
+some function
+ +1pt if a block is NOT sitting where it is supposed to sit
+= 13
+ 1026 = nb of nanoseconds since the “big bang”
+ If you have a good h(n), best-first can find the
+Slide 12
+ Blind search without cycle check may never
+the search, each node in the lists contain:
+75
+L = CHILDREN(currentNode);
+(n2-1)-puzzle?
+ ex. solved puzzle, being at Concordia
+Heuristic - Heureka!
+Slide 10
+= 4  + 6  + 3   + 1   + 0  + 2   + 0  + 0
+Slide 20
 Slide 13
+the cost from the root to node n –
+ so need an informed/heuristic search
+54
+Designing Heuristics
+ Hill Climbing
+2. Heuristic search:
+37
+1. Initial State
+Depth-Limited Search
+Example: Hill Climbing with Blocks World
+ but we can list the possibilities and search through them
+Snapshot of BFS
+Slide 34
+Slide 50
+Slide 42
+Slide 15
+1
+Slide 31
+ We try to choose smartly
+ Insert nodes in open list so that the nodes are sorted in
+ …
+ Breadth-first:
+Depth-first No Stack
+Slide 1
+each movement costs 1
+ Operators:
+Slide 23
+ Hill climbing
+ use depth-first search, but
+ h2(n) = 2+3+0+1+3+0+3+1
+  h1(n) = Hamming distance = number of misplaced tiles = 6
+ Depth-limited search
+connects a node s
+Slide 16
+ Depth-first
+c) If s is a goal state, exit  with success.  Extract the solution path
+Assume U is goal state
+Slide 6
+h(n) = 2
+P-0
+Goal state
+Breadth-first No Queue
+Slide 29
+5 6
+ Heuristics might be wrong:
+connected component
+ Determine order for examining states
+ then h2 is more informed than h1
+Algorithm A*
+4. → Worksheet #1 (“Best-First Search”)
+ works well on a "shoulder"
+language
+ nodes are added on the top of the list.
+ Hill climbing
+Slide 69
+70
+Slide 45
+me
+ use "open" as a priority queue
+26
+ h(n) estimate of cost to reach goal from node n
+so the path cost is the length of the path (the number of moves)
+Example: 8-Puzzle – Heuristic 2
+2. Monotonicity:
+Informedness
+ starting state
+current one, select it.
+following problem:
+ For two admissible heuristics h1 and h2
+Path cost function:
+Slide 57
+ In general: the more informed a heuristic is,
+and closed are
+Slide 30
+ara
+a) If the open list  is empty, then exit with failure.
+ guarantees to find the lowest cost path to each state n
+→ Worksheet #1 (“Depth-First Search”)
+72
+74
+Depth-First Search Example
+ Iterative deepening search
+ Search algorithm:  how the search space is visited
+...
+pickup&stack(A,H) pickup&putOnTable(H)
+ i.e. it guarantees to find the lowest cost solution path
+69
+ Now consider f*(n) = g*(n) + h*(n):
+Slide 62
+ Best-First
+46
+Down
+--> admissible
+Slide 25
+42
+shorter/least expensive paths
+ f(n) estimate of total cost along path through n
+2. Set of operators
+ An arc (or edge)
+Slide 36
+highlighted
+ Heuristic:
+on a plateau
+(n2-1)-puzzle
+source: adapted from G. Luger (2005)
+16
+Slide 51
+but there is a good chance of finding it quickly
+ h2: Better heuristic
+g(n), h(n) and f(n)
+Uniform Cost No Priority queue sorted by g(n)
+1. Initialize the open list  with the initial node so (top node)
+ aka: systematic/exhaustive/blind/brute force search
+solution path
+82
+8
+ keep going even if the best successor has the same value as
+distance tiles have to be
+ Depth-first:
+ choose "best" next node to expand
+State Graph
+ does not consider the
+ Uniform Cost Search
+  h2(n) = Manhattan distance = 13
+source: Russel & Norvig (2003)
+4. open = [K-E L-E F-B C-A D-A]  closed = [E B A]
+ Iterative Deepening
+Natural
+always go higher than where you are now,
+ e.g.: breadth-first is admissible  -- it uses f(n) = g(n) + 0
+ pick the best position out of all the next possible moves
+?
+87
+COMP 6721: State Space Search
+ but has no guarantee to be correct whatsoever!
+ Ex: to solve a puzzle, to drive from home to Concordia…
+ ex:
+nextNode = NULL;
+ Always choose the next node to visit to be the one with the
+1. Brute force search:
+admissible
+ actions responsible for transition between states
+Compromise for DFS :
+= n5 + n8 + n4  + n2 + n1 + n7 + n3 + n6
+is better than the current one
+= 4  + 6  + 3   + 1   + 0  + 2  + 0  + 0  = 16
+a lower h(n) is better…
+ Not optimal (no guarantee to find the shortest path)
+Manhattan distance
+t n
+3. Informedness:
+ generate and search all possibilities (but inefficient)
+cost solution path
+Slide 73
+2 1
+satisfaction
+ See next slide…
+ Breadth First Search
+depth-first
+ guarantees to find the shortest solution path
+1. open = [A-null]  closed = []
+5Path-Cost
+parent… --> local minimum
+- no constraints on h(n)
+later called g(n)
+20
+ DFS: (open is a stack)
+ an A* algorithm is admissible
+n goal
+DFS and BFS
+Slide 22
+ Assigns a cost to a path to tell if a path is preferable to
+17
+1. Admissibility:
+ State Space Search
+ Heuristic:
+should be on its left in the goal state.
+exists)
+ h(n) = estimate of the lowest cost from n to goal
+34
+pre
+Slide 44
+ ex: TSP: "nearest neighbour" heuristic
+2
+ h(goal) = 0
+Informed Search (aka heuristic search)
+ In graph representation, cycles can prevent
+Slide 80
+ Failure (no solution)
+5
+to a node s’ if
+Slide 7
+they are not already in the closed and/or open lists (to avoid
+ Problem is represented by:
+State: Any arrangement of 8 numbered tiles and an empty tile on a 3x3 board
+Slide 88
+Slide 49
+ Requires less memory
+ But: heuristic might fail
+depth limits
+12
+node n
+cost of reaching the goal
+Uninformed VS Informed Search
+Hill Climbing
+48
+Slide 53
+e o
+19
+ only try the possibilities that you think (based on your
+78
+ as soon as you find a position that is better than the
+when compared with goal
+2. open = [B-A  C-A  D-A]  closed [A]
+score a node in the search tree
+ measure for the “quality” of a heuristic
+4 6
+= 6
+ a state that is better than all its neighbors but is not better
+ h is monotonic if for every node n and every successor n’ of n:
+  DFS uses a stack:
+r p
+27
+Slide 85
+ Breadth-first and Depth-first
+Slide 79
+8-puzzle
+Search Uses h(n)? Open is a…
+cycles)
+ But what if all edges/moves do not have the same cost?
+49
+Slide 4
+ g(n) actual cost of path from start to node n
+ h1(n) ≤ h2(n) ≤ h*(n)
+ Search graph at
+29
+Slide 59
+ the more informed, the better
+pickup&stack(H,A)
+Slide 24
+Slide 74
+there are several standard goals states for the 8-puzzle
+ Idea:
+ 15-puzzle --> ~ 55 hours
+help!
+Iterative Deepening No Stack
+Heuristics for the 8-Puzzle
+ will eventually try all possible paths
+ It is an exhaustive search …
+7 8
+3 4
+Just to make sure we’re clear…
+24
+Slide 39
+Example: The 8-puzzle
+Slide 19
+Breadth-First Search Example
+Data Structures
+47
+BFS vs.
+ so search could continue down a wrong path
+Rubik’s cube Tetris
+Function Depth-First Search
+ascending  h(n)
+(tiles out of place)
+PARENT-NODE
+  Many slides from:
+ Note:  does not guarantee to find the lowest cost search
+space and the depth of the solution is unknown
+from the initial state to the goal
+33
+b) Else, take the first node s  from the open list.
+ “local admissibility”
+Slide 37
+problem
+each state the 1st time it is encountered !
+Problems with Hill Climbing
+ Foothills (or local maxima)
+nextEval = HEURISTIC-VALUE(c);
+ h3: Even Better
+ ie. visit level-by-level
+ States on open
+ best-first used with such a g(n) is called “algorithm A”
+Constraint
+// Return current node since no better child state exists
+from s to so
+Heuristic search
+Algorithm A on the 8-puzzle
+2. open = [B-A-4  C-A-4  D-A-6]  (arbitrary choice) closed [A]
+ Do depth-first but with depth cutoff k (depth
+Initial state
+36
+ Use a tree representation, and check for cycles
+number of tiles out of place
+tiles are out of place
+63
+Best-First: Example
+ A*
+38
+ Heuristic function h(n) = an approximation of the
+ A heuristic is monotonic if it always finds the optimal path to
+rep.Planning
+Slide 8
+source: G. Luger (2005)
+ Preferred search method when there is a large search
+ Nb of states:
+ Focus on paths that seem most promising according to
+ problem with hill-climbing:
+the better the search performance
+Monotonicity (aka consistent)
+Set of operators:
+Initial state Goal state
+Slide 58
+moved
+ nodes are added at the end of the list.
+ h*(n) actual lowest cost from n to goal
+Slide 66
+ Best-First
+ Depth-first:
+14
+ g*(n) cost of lowest cost path from start to
+Slide 65
+nextEval = INFINITY;
+44
+Compromise between BFS and DFS:
+5Depth
+Slide 27
+ Breath-first and Depth-first
+path (from start to goal passing through n)
+ order of nodes controls order of search
+ a flat area of the search space in which the next states
+Artificial Intelligence:
+51
+3. open = [C-A-4 E-B-5 F-B-5  D-A-6]  closed = [B A]
+CHILDREN
+Don’t be confused…
+ h1(n)  = 6
+by a better search
+ Maintain depth/cost count, i.e., give preference to
+Yes Priority queue sorted by f(n)
+83
+Slide 18
+Hill Climbing Yes none
+Slide 78
+ guarantees to find the lowest cost path to each state n encountered
+5. open = [S-K L-E F-B C-A D-A]  closed = [K E B A]
+Depth-first vs. Breadth-first
+evaluating the heuristic…
+ at a local maximum, all moves appear to make things worse.
+Snapshot of DFS
+for all c in L
+Slide 38
+than some other states farther away.
+contain more than one
+Slide 76
+because all children have
+79
+ if g(n) ≥ g*(n) for all n
+- same as A, but h(n) must be
+h(n)
+ ex: 8-puzzle: we may need to move tiles temporarily out of goal
+ Applied to a state to determine if it is a goal state
+Breadth-first vs Depth-first Search
+Slide 84
+ An admissible heuristics may temporarily reach non-goal states
+Slide 14
+ if h1(n) ≤ h2(n), for all states n
+Adapted from https://en.wikipedia.org/wiki/Hill_climbing
+66
+ i.e. h(n) never overestimates the true cost from n to a goal
+Systems
+45
+dependent on the search domain
+ So how do we design a “good” heuristic?
+53
+ Uniform-cost
+but never go back…
+52
+re
+ “optimistic”
+58
+from an initial state to a goal state
+Search tree
+15-puzzle
+d) Else, insert s in the closed list (s has been visited /expanded)
+in the search
+inversions
+40
+ Finds the shortest path (limited depth)
+Slide 61
+Some parameter to represent n
+Slide 60
+the root
+ it is not possible to determine the best direction in which
+represented by a
+Depth = length of path from root to node
+...and so on until either U is found or open = []
+ Need an evaluation function (heuristic function) to
+4. → Worksheet #1 (“Breadth-First Search”)
+ open list (aka the frontier)
+because search space is too large!
+ The state graph may
+5 8 4 2 1 7 3 6
+4 5 6
+ 8-puzzle --> 0.036 sec
+STATE n
+8 1 2 3
+Slide 35
+3. open = [C-A D-A  E-B F-B]  closed = [B A]
+Slide 83
+current best guess) are more likely to lead to good solutions
+Iterative Deepening
+ Optimal: will always finds shortest path
+Slide 3
+State Space for the 8-puzzle
+nextNode = c;
+ never overestimates the actual cost of reaching the goal
+13
+65
+Slide 11
+ solution to hill-climbing:
+ 15-puzzle  -->  16! ~ 2.09 x 1013 states
+ General hill climbing strategy:
+ Hamming distance : count
+ Plateau
+ Cutoff (no solution within cutoff)
+ We systematically explore the alternatives
+http://robotics.stanford.edu/~latombe/cs121/winter02/home.htm
+g(n)
+RightAction
+ visit siblings before successors
+ if h(n) ≤ h*(n) for all n
+Example: 8-Puzzle – Heuristic 1
+Search is about the exploration of alternatives
+88
+ a rule of thumb, a good bet
+ 8-puzzle  -->  9! = 362,880 states
+Sam Loyd even offered $1,000 of his own
+8-Puzzle: Successor Function
+ i.e. f(n) is non-decreasing along any path
+ Bad heuristics lead to frequent backtracking
+ (Designing Heuristics)
+ run each until it halts or makes no significant progress.
+ A heuristic is admissible if it never overestimates the
+ instead of moving to the first position that
+currentNode = startNode;
+ Random-restart hill-climbing
+ Requires little memory (fundamentally, it’s a depth first)
+Slide 5
+More informed heuristics search smaller space to find the
+ 24-puzzle  -->  > 109 years
+h(n)
+ 0pt if a block is sitting where it is supposed to sit
+22
+ inefficient if branching factor B is very high
+have the same value.
+Steepest Ascent Hill Climbing
+77
+Slide 52
+if nextEval >= HEURISTIC-VALUE(currentNode)
+Slide 46
+How large is the state space of the
+State Space Search
+ Bidirectional search
+Learning
+lowest cost from node n to the goal
+ For each numbered tile, count how many tiles on its right
+2. Initialize the closed list   to  empty
+search)
+ Uninformed search
+goal (if it exists)
+Slide 86
+ Search space: the set of all states that can be reached
+ BFS: (open is a queue)
+ according to a selection function (i.e. a heuristic function h(n))
+ g(n) = cost of current path from start to node n
+source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991.
+Slide 54
+ The first solution may not be the best,
+BOOKKEEPING
+strategy
+3. open = [E-B F-B C-A D-A]  closed = [B A]
+55
+11
+ this is called best-first search
+Depth-limited No Stack
+Google itinerary
+source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991. & Russel & Norvig (2003)
+Slide 56
+path.
+....
+… but Sam Loyd claimed he invented it!
+
+encountered in the search
+Admissibility
+Slide 87
+Robotics
+68
+to move by making local comparisons.
+Reasoning
+56
+the
+4321
+50
+- guarantees to find the lowest
+from the initial state by any sequence of action
+ 1075 = nb of molecules in the universe
+ lists generated nodes not yet expanded
+current node
+Evaluating Heuristics
+h(n) = 2h(n) = 2h(n) = 2
+currentNode = nextNode;
+robotics.stanford.edu/~latombe/cs121/2003/home.htm
+39
+ Informed search (heuristic search)
+iteration 6 of
+Slide 82
+Search
+Best-First Yes Priority queue sorted by h(n)
+ g(n) current cost from start to node n
+Notes on Best-first
+30
+ so lower h(n) is better
+Slide 47
+open list:
+Iterative Deepening: Example
+distinct node
+solution very quickly
+f(n) = g(n) + h(n)
+loop do
+…
+59
+ e.g. state space of all possible moves in chess = 10120
+ guarantees to find the lowest cost
+ h1: Simplest heuristic
+State Space
+But:
+Best-First Search
+62
+Some Solutions to Hill-Climbing
+Slide 26
+Slide 41
+Summary
+4
+Slide 77
+4. Path cost function
+terminate
+ i.e.:
+Slide 33
+search space is too large
+ Evaluation function f(n) = g(n) + h(n) for node n:
+Slide 21
+ Each state is
+ h(n) ≤ h*(n)  for all n
+Slide 9
+breadth-first
+Slide 68
+ Intuition: number of misplaced tiles is less informed than
+e) Insert the successors of s  in  the  open list  in a certain order if
+return currentNode;
+to
+Algorithm A vs Algorithm A*
+10
+Slide 70
+  BFS uses a queue:
+ one move is selected and all others are forgotten.
+73
+ h(n) estimate of the lowest cost from n to goal
+Agent
+15-Puzzle
+position in order to place another tile in goal position
+Notes:
+sen
+ but could lead to infinite loop
+ ex. unsolved puzzle, being at home
+ h2(n)  =  Manhattan distance
+best h(n) -- regardless of where it is in the search space
+Closed = [A, B, C, D, E]
+ Three possible outcomes:
+ Solution
+Example: 8-Puzzle – Heuristic 3
+source: Rich & Knight, Artificial Intelligence, McGraw-Hill College 1991.
+required: Bn
+ But both search are impractical in real applications
+ h(initial) = 2
+Breadth-First Search
+another
+Example: 8-Puzzle
+ uses a priority queue sorted using
+at which nodes are not expanded)
+21
+ so far, all search algorithms have been uninformed (general
+search
+ Informed search
+state matches the goal state
+h(n) = 1
+64
+3
+s’  ∈ SUCCESSOR(s)
+43
+3. Repeat
+67
+6
+ pickup&putOnTable(Block)
+ with a maximum depth before going to next level
+= 2 + 3 + 0 + 1 + 3 + 0 + 3 + 1 = 13
+... Expert
+ pickup&stack(Block1,Block2)
+ h(n) ≤ c(n,n') + h(n')
+ sum of permutation

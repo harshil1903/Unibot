@@ -1,529 +1,529 @@
 
-• A URI uniquely identifies a resource (e.g., person, book, class of things) on the
-• editor
-3.8
-RDF Schema Constructs: Summary
-Subclasses
-• IRIs (‘Internationalized Resource Identifier’) are URIs with Unicode characters
-RDF Schema
-}  In Turtle:
-[Yu14] Liyang Yu.
-...
-</foaf:mbox_sha1sum>
-000651409X
-Adventure stories
-C rdf:type rdfs:Class
-P1 rdfs:subPropertyOf P2
-SKOS
-A Developer’s Guide to the Semantic Web.
-(47) 47
-"Le Palais des miroirs est un roman..."@fr ;
-dc:title
-Review
-§  Labeling (prefLabel, altLabel,…)
-• Autor
-we could describe it as [HB11]:
-3.16
-skos:prefLabel "Fiction"@en;
-3.6
-Subclass
-Example
-Introduction
-→ Worksheet #2: Task 6
-3.12
-a:name
-http : //www.example.org︸ ︷︷ ︸
-Defining Classes
-rdfs:isDefinedBy a property typically used to refer to a vocabulary (RDF Schema)
-http://www.concordia.ca/comp474/lecture03/slide5
-3.51
-§  do that recursively until the graph does not change
-<http://www.w3.org/2004/02/skos/core#broader>
-• blogger
-3.2
-•Combat information overload
-https://concordiauniversity.on.worldcat.org/oclc/897466408.
-§ Documentation (definition, historyNote,…)
-To define that P (a resource) is a property, write:
-(126) 126
-•Tool for supporting knowledge-driven tasks
-Novels
-1 Reuse of vocabularies
-...
-Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.
-Department of Computer Science
-• The members of a class are known as instances of the class
-Lecture 3
-}  Classes and Properties:
-Documents, databases,
-rdfs:comment a short (one paragraph) description
-Domain
-3.3
-3.1
-and Software Engineering
-•Use decades of work on graph analysis
-• auteur
-→ Worksheet #2: Task 3
-skos:broader <http://id.loc.gov/authorities/sh85048050#concept>;
-Class and Instance
-3.63
-f:titre "Le palais des mirroirs"@fr ;
-e
-• “RDF Vocabulary Description Language 1.0: RDF Schema” (RDFS 1.0)
-Linked Data: Structured Data on the Web.
-3.17
-<http://…/isbn/000651409X>
-er
-Classes and Instances (contd.)
-• AIs:
-Literature
-Back to the bookstore example
-There are also some datastructures (bag, list etc.) – read more before using!
-→ Worksheet #2: Task 1
-• Humans:
-Used together with RDF
-:n
-a skos:Concept;
-fragment
-3.47
-representation of these
-COMP 474/6741, Winter 2022
-3.46
-Meaning? Relations?
-3.20
-]
-https://kgtutorial.github.io/
-3.21
-(235) 235
-• ghostwriter
-http://…isbn/2020386682
-(230) 230
-skos:Concept
-• Namespaces are used to shorten URIs and prevent name clashes, e.g., ex:me
-<http://id.loc.gov/authorities/sh85048050#concept>
-entailment rules:
-pe
-§ Basic description (Concept, ConceptScheme,…)
-To define a class C as the range of a property P, write:
-Instances
-Vocabularies
-rdfs:range  rdfs:Literal.
-• [Wor14] (RDF Primer)
-3.35
-(Schemas aka Vocabularies aka Ontologies aka. . . )
-→ Worksheet #2: Task 9
-Besse, Christianne
-#Novel http://…isbn/000651409X
-FOAF
-/
-3.9
-rdf:type
-3.26
-3.24
-}  RDF is a general model for such triples (with
-skos:prefLabel "Historical Fiction"@en;
-2 RDF Schema
-Self-Describing Datasets
-Notes and Further Reading
-Required
-SKOS
-• URIs have a generic syntax:
-schema:name "Oscars 2012: The Artist, review" ;
-f:original <http://…/isbn/000651409X> .
-Then add:
-https://www.w3.org/TR/rdf11-primer/
-→ Worksheet #2: Task 8
-:s
-Outline
-Summary
-dc:subject <http://id.loc.gov/authorities/sh85061165#concept>;
-}  Define classes and properties to add those
-Review
-}  RDFS defines the meaning of these terms
-1 Introduction
-[Her] Ivan Herman.
-}  The RDF Semantics document has a list of (33)
-§  there is even an ISO standard for these
-https://concordiauniversity.on.worldcat.org/oclc/704257552
-Back to the bookstore example
-To define a class C as the domain of a property P, write:
-ty
-(233) 233
-(125) 125
-Slides Credit
-→ Worksheet #2: Task 7
-• So we define properties of properties using. . . RDF properties!
-a:title
-3.11
-Summary
-With a subproperty, we can state that all resources related by one property are also
-<http://…/isbn/2020386682>
-annotate other vocabularies, …
-(231) 231
-http://www.w3.org/TR/rdf11-primer/, 24 June 2014.
-Anatomy of a URI
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-• RDF provides “a way to make statements about resources” (IRIs)
-http://www.amitavghosh.com
-...
-If:
-3.25
-<rdf:Property rdf:ID="title">
-}  …but can be inferred from the RDFS rules
-• Properties are also resources (named with URIs)
-from Text, https://kgtutorial.github.io/
-<is a friend of> <type> <Property>
-<http://id.loc.gov/authorities/subjects/sh85031620> .
-Reading Material
 Harper Collins
-3.55
-ct
-Ghosh, Amitav
-3.41
-§  allow for a quick port of this traditional data, combine it with
-(236) 236
-}  is not in the original RDF data…
-Classes and Instances
-§  eg, SPARQL queries may be issued on the library data+LOC
-related by another.
-• RDFS provides semantics about what the IRIs stand for
-}  In RDF/XML:
-ub
+vvv rdf:type uuu .
+<h2 itemprop="description">The Artist, an utterly beguiling…</h2>
+RDFS Utility Vocabulary
+Example
+https://concordiauniversity.on.worldcat.org/oclc/704257552.
+skos:prefLabel "Fiction"@en;
+https://concordiauniversity.on.worldcat.org/oclc/871683907.
+E.g., always use FOAF to describe names, emails, etc., instead of making up
+(or a instead of rdf:type in Turtle.)
+path︷︸︸︷
+→ Worksheet #2: Task 2
+(sounds weird the first time you hear it, but you get used to it)
+2 Make your data self-describing
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+→ Worksheet #2: Task 7
+Documents, databases,
+}  Represent and share classifications, glossaries,
+• An instance can be member of more than one class
+3.13
+concepts
+ro
+This is just another triple. . .
+rdfs:label a human-readable label
+Introduction
+Classes and Instances (contd.)
+http://…isbn/000651409X
+}  RDFS defines the meaning of these terms
+This states that all the instances of C1 are also instances of C2.
+FOAF
+Copyright 2014 by Manning Publications Co., [WZRH14]
+<foaf:name>Rene Witte</foaf:name>
+3.15
+f:
+Dublin Core
+:title
+(75) 75
+or a literal
+http://id.loc.gov/…#concept
+…
+<h1 itemprop="name">Oscars 2012: The Artist, review</h1>
+More authoritative vocabularies
+Subclass
+ACM classification of keywords and terms…
+Why knowledge graphs?
+23
+TBL at TED on “The Next Web” (2009)
+Then add:
+I rdf:type C
+• So we define properties of properties using. . . RDF properties!
+Class and Instance
+https://concordiauniversity.on.worldcat.org/oclc/897466408
+“object”
+pe
+• Disconnected, missing knowledge
+Nexus Simulation Credit Erich Bremmer
+(126) 126
+• co-author
+RDF Schema (RDFS)
+P rdfs:domain C
+Web
+§  label, alternate label, narrower, broader, …
+• blogger
+spreadsheets, emails, . . .
+3.65
+Required
+(235) 235
+We define that an IRI in a triple is a class using . . . a triple!
+scheme︷︸︸︷
+skos:broader
+000651409X
+Tutorial on Semantic Web Technologies.
+Self-Describing Datasets
+3.26
+je
+3.61
+Le palais des miroirs
+A Developer’s Guide to the Semantic Web.
+}  Anybody in the World can refer to common
+• URI is not always the same as a URL (Uniform Resource Locator)
+</foaf:Person>
+3.59
+rdfs:isDefinedBy a property typically used to refer to a vocabulary (RDF Schema)
 3.32
-Concordia University
+(129) 129
+Supplemental
+a:name
+Example: schema.org
+authority
+Human-Readable Content
+example
+3.43
+Classes and Instances
+(27) 27
+rdfs:comment "The Glass Palace is a 2000 historical novel..."@en ,
+using language tags for multiple languages.
+Vocabularies & Ontologies
+}  The relevant rule for our example:
+§  Labeling (prefLabel, altLabel,…)
+defining the subject IRI
+•  classification/formalization of Web 2.0 type tags
+RDF Schema
+a skos:Concept;
+skos:narrower <http://id.loc.gov/authorities/sh85061165#concept>;
+dc:title
+To define that I (a resource) is an instance of C (a class), write:
+Photo credit “nepatterson”, Flickr
+3.52
+• Autor
+3.9
+3.24
+miroirs
+skos:broader <http://id.loc.gov/authorities/sh85048050#concept>;
+3.36
+}  RDFS environments return that triple, too
+Le palais des
+→ Worksheet #2: Task 5
+4 Example: schema.org
+ct
+3.18
+(125) 125
+• IRIs (‘Internationalized Resource Identifier’) are URIs with Unicode characters
+• Data in Information Silos
+#Novel http://…isbn/000651409X
+3.54
+(231) 231
+2020386682
+N3, RDFa, Json, …)
+3.42
+What’s an “author”?
+§ Documentation (definition, historyNote,…)
+Class and Instance
+3.66
+https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
+<http://…/isbn/2020386682>
+For example, if we create our own proprietary term, like SmallMediumEnterprise,
+machine readable formats like RDF/XML, Turtle,
+...
+resources.
+}  Applications may exploit the relationships among
+•Explore via intuitive structure
+Ghosh, Amitav
+3.47
+f:original
+With a subproperty, we can state that all resources related by one property are also
+• Queries are also possible:
+Slides Credit
+C rdf:type rdfs:Class
+<rdf:Property rdf:ID="title">
+with rdfs defined as http://www.w3.org/2000/01/rdf-schema#
+ty
+}  Thesauri, glossaries, etc, from the library community
+(236) 236
+a:author
+COMP 474/6741, Winter 2022
+http://www.w3.org/TR/rdf11-primer/, 24 June 2014.
+"Authors and publishers"@en .
+<http://www.w3.org/2004/02/skos/core#broader>
+(80) 80
+}  …but can be inferred from the RDFS rules
+• Resources may be divided into groups called classes
+[ rdf:type schema:Review ;
+<http://www.w3.org/2004/02/skos/core#Concept> .
+What is a knowledge graph – Pokémon edition: https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
+If:
+be in any format)
+Photo credit “scarletgreen”, Flickr
+thesauri, etc
+• editor
+3.21
+uuu rdfs:subClassOf xxx .
+Besse, Christianne
+Property
+Defining Classes
+The rdfs:subClassOf property is transitive.
+5 Notes and Further Reading
+• Current version (2014): “RDF Schema 1.1”
+• auteur
+§ Collections (Collection, OrderedCollection,…)
+representation of these
+RDF Schema Constructs: Summary
+Properties are used to define relations between subject resources and object
 dc:title "The Glass Palace"@en;
+3.60
+•Use decades of work on graph analysis
+Subclass
+2 RDF Schema
+a:city
+3.23
+To define that P1 (a property) is a subproperty of P2 (a property), write:
+•Bridge from data to human semantics
+Fiction
+• Namespaces are used to shorten URIs and prevent name clashes, e.g., ex:me
+Department of Computer Science
+rdfs:label "The Glass Palace"@en ,
+can be made available
+• writer
+3.49
+(47) 47
+skos:Concept Historical Fiction
+/
+er
+§  here is the complete triple:
+• The members of a class are known as instances of the class
+3.46
+Notes and Further Reading
+• . . .
+3.8
+→ Worksheet #2: Task 9
+• Includes slides from Jay Pujara & Sameer Singh, Mining Knowledge Graphs
+3.11
+P rdf:type rdf:Property
+a:title
+connections in a social network.
+• “RDF Vocabulary Description Language 1.0: RDF Schema” (RDFS 1.0)
+§  there is even an ISO standard for these
+3.64
+"Le Palais des miroirs est un roman..."@fr ;
+3.41
+<http://id.loc.gov/authorities/subjects/sh85010023>
+(29) 29
+3.19
+Reuse vocabularies whenever possible
+ar
+• URIs have a generic syntax:
+3.2
+f:auteur
+Defining a subclass
+London
+rd
+<http://id.loc.gov/authorities/sh85048050#concept>
+FOAF
+� “s”, “p”, and “o” stand for “subject”, “property”, and
+3.5
+§  “if such and such triples are in the graph, add this and this”
+Range
+:n
+other data
+→ Worksheet #2: Task 3
+rdfs:seeAlso a property that links a resource to another for more information (can
+https://concordiauniversity.on.worldcat.org/oclc/897466408.
+3.57
+:s
+<div itemscope itemtype="http://schema.org/Review">
+f:nom
+Same URI!
+W3C Recommendation
+Morgan & Claypool, 2011.
+(76) 76
+Novels
+3.48
+schema:ratingValue "5" ;
+Photo credit “kxlly”, Flickr
+By convention, always provide:
+Some “helper” constructs
+•  Dewey Decimal Classification, Art and Architecture Thesaurus,
+[HB11] Tom Heath and Christian Bizer.
+Label & Comment
+(<http://…isbn…6682>, <http://…/original>, <http://…isbn…409X>)
+3.39
+Concordia University
+Lecture 3
+• RDF provides “a way to make statements about resources” (IRIs)
+3.17
+https://concordiauniversity.on.worldcat.org/oclc/871683907
+3.7
+3.38
+Semantics
+entailment rules:
+<is a friend of> <type> <Property>
+http://www.concordia.ca/comp474/lecture03/slide5
+http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/
+• Leverage existing, external
+• book author
+• Properties are also resources (named with URIs)
+3.51
+3.50
+• [WZRH14, Chapters 2, 4] (RDF, FOAF)
+RDFS Utility Vocabulary
+3.16
+dc:subject <http://id.loc.gov/authorities/sh85061165#concept>;
+3.30
+Two major principles:
+Used together with RDF
+§  LOC is a good example
+3 Vocabularies
+Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.
+1 Reuse of vocabularies
+http://…isbn/2020386682
+To define that P (a resource) is a property, write:
+skos:prefLabel "Historical Fiction"@en;
+§  “s”, “p” are URI-s, ie, resources on the Web; “o” is a URI
+Subproperties
+rdfs:Class
+Domain
+P rdfs:range C
+There are also some datastructures (bag, list etc.) – read more before using!
+§ Basic description (Concept, ConceptScheme,…)
+•Combat information overload
+Example: schema.org
+Manning, 2014.
+<http://...isbn/000651409X> rdf:type ex:Novel
+skos:prefLabel
+→ Worksheet #2: Task 6
+world” and the (Semantic) Web
+(230) 230
+3.35
+a    skos:Concept;
+References
+3.4
+• author
+To define that C (a resource) is an RDFS class, write:
+3.56
+• Humans:
+}  SKOS provides a simple bridge between the “print
+SKOS
+• ghostwriter
+a:year
+• Connect silo-ed knowledge
+<http://id.loc.gov/authorities/sh85061165#concept>
+SKOS RDF Triples
+a:homepage
+Defining a Property
+§  they mean the same for everybody
+skos:Concept
+• For example,
+[Yu14] Liyang Yu.
+http : //www.example.org︸ ︷︷ ︸
+http://www.w3.org/2000/01/rdf-schema#
+annotate other vocabularies, …
+<http://id.loc.gov/authorities/subjects/sh85109817> .
+rdfs:domain :Fiction;
+§  do that recursively until the graph does not change
+3.58
+2000
+(233) 233
+e
+§  eg, SPARQL queries may be issued on the library data+LOC
+rdfs:range  rdfs:Literal.
+...
+Meaning? Relations?
+Defining a Subproperty
+[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas.
+Back to the bookstore
+Dublin Core
+Outline
+from Text, https://kgtutorial.github.io/
+3.33
+Subclasses
+→ Worksheet #2: Task 1
+[Wor14] World Wide Web Consortium (W3C).
+3.1
+Domain and Range
+(229) 229
 <foaf:mbox_sha1sum>
 § Semantic relations (broader, narrower, related,…)
-§ Concept mappings (broadMatch, narrowMatch,…)
-...
-abbreviation)
-3.45
-(234) 234
-authority
-http:.//…/isbn/…
-Photo credit “nepatterson”, Flickr
-resources.
-}  Represent and share classifications, glossaries,
-path︷︸︸︷
-http://…isbn/
-5 Notes and Further Reading
-Fiction
-I rdf:type C
-3.50
-rdfs:domain :Fiction;
-(71) 71
-a:year
-§  (these are all special URI-s, we just use the namespace
-From the first week’s lecture. . .
-<http://...isbn/000651409X> rdf:type ex:Novel
-5d5705ff1b2142d62a38061f804f766ffaf806ef
-• Current version (2014): “RDF Schema 1.1”
-Why knowledge graphs?
-Copyright 2014 by Manning Publications Co., [WZRH14]
-<h2 itemprop="description">The Artist, an utterly beguiling…</h2>
-Example: schema.org
-• Freely available, many domains
-C1 rdfs:subClassOf C2
-Domain and Range
-os
-a:city
-}  Anybody in the World can refer to common
-Web
-}  SKOS provides a basic structure to create an RDF
-(27) 27
-This is just another triple. . .
-rdfs:label "The Glass Palace"@en ,
-3.36
-• Includes slides by Ivan Herman, W3C [Her]
-https://concordiauniversity.on.worldcat.org/oclc/871683907.
-[ rdf:type schema:Review ;
-example
-René Witte
-§  “s”, “p” are URI-s, ie, resources on the Web; “o” is a URI
-<http://id.loc.gov/authorities/subjects/sh85010023>
-connections in a social network.
-(75) 75
-Introduction
-skos:Concept Historical Fiction
-<foaf:name>Rene Witte</foaf:name>
-Same URI!
-3.56
-3.60
-•  Dewey Decimal Classification, Art and Architecture Thesaurus,
-f:auteur
-3.53
-(80) 80
-To define that P1 (a property) is a subproperty of P2 (a property), write:
-https://concordiauniversity.on.worldcat.org/oclc/897466408
-(129) 129
-We define that an IRI in a triple is a class using . . . a triple!
-For example, if we create our own proprietary term, like SmallMediumEnterprise,
-3.10
-§ Collections (Collection, OrderedCollection,…)
-To define that C1 (a class) is a subclass of C2 (a class), write:
-• Connect silo-ed knowledge
-3.23
-rdfs:comment "The Glass Palace is a 2000 historical novel..."@en ,
-ex:Novel rdf:type rdfs:Class
-…
-more) class(es).
-• [Yu14, Chapter 7] (FOAF)
-ro
-https://concordiauniversity.on.worldcat.org/oclc/871683907
-Properties
-}  SKOS provides a simple bridge between the “print
-}  SKOS can also be used to organize, eg, tags,
-3.64
-• Includes slides from Jay Pujara & Sameer Singh, Mining Knowledge Graphs
-Defining a subclass
-3.7
-This states that any resource that has a given property is an instance of one (or
-E.g., always use FOAF to describe names, emails, etc., instead of making up
-schema:description "The Artist, an utterly beguiling…" ;
-<div itemscope itemtype="http://schema.org/Review">
-3.40
-Morgan & Claypool, 2011.
-(29) 29
-3.66
-other data
-TBL at TED on “The Next Web” (2009)
-Le palais des
-Anatomy of a URI
-Library of Congress
-P rdfs:range C
 http://id.loc.gov/authorities/subjects/sh85010023.html
-<http://www.w3.org/2004/02/skos/core#narrower>
-Le palais des miroirs
-schema:ratingValue "5" ;
-By convention, always provide:
-ar
-thesauri, etc
-Semantics
-3.59
-rdf:type    rdf:Property;
-3.18
-RDF 1.1 Primer.
-Reuse vocabularies whenever possible
-}  An RDF Triple (s,p,o) is such that:
-The W3C “Layer Cake”
-scheme︷︸︸︷
-Core Vocabularies
-• An instance can be member of more than one class
-Property
-Model people and their
-3.33
-• Again, you’ll get used to it. . .
-is a valid URI, but not a URL
-§  “if such and such triples are in the graph, add this and this”
-<rdfs:domain rdf:resource="#Fiction"/>
-P rdf:type rdf:Property
-rdfs:seeAlso a property that links a resource to another for more information (can
-Reading
-ACM classification of keywords and terms…
-Example: schema.org
-(28) 28
-skos:narrower <http://id.loc.gov/authorities/sh85061165#concept>;
-structures to an RDF universe
-scheme:[//authority]path[?query][#fragment]
-world” and the (Semantic) Web
-or a literal
-The Glass Palace
-3.58
-To define that I (a resource) is an instance of C (a class), write:
-(229) 229
-• Resources may be divided into groups called classes
-RDF Schema (RDFS)
-• [WZRH14, Chapters 2, 4] (RDF, FOAF)
-a    skos:Concept;
-f:original
-• Continuously updated
-concepts
-3.28
-•Key ingredient for many AI tasks
-3.54
-§  they mean the same for everybody
-3.30
-defining the subject IRI
-Vocabularies
-3.15
-Tutorial on Semantic Web Technologies.
-using language tags for multiple languages.
-je
-<is father of> <subPropertyOf> <is parent of>
-In Turtle, rdf:type can be abbreviated as a
-P rdfs:domain C
-Nexus Simulation Credit Erich Bremmer
-https://concordiauniversity.on.worldcat.org/oclc/704257552.
-Defining a Subproperty
-RDFS Utility Vocabulary
-§  LOC is a good example
+• Freely available, many domains
+os
 3.14
-3 Vocabularies
-http://…isbn/000651409X
-
-• [Yu14, Chapter 10] (Schema.org)
-• author
-rd
-:title
-Turtle
-References
-Knowledge Bases
-<foaf:Person>
-<h1 itemprop="name">Oscars 2012: The Artist, review</h1>
-• co-author
-vvv rdf:type uuu .
-bob #me︸ ︷︷ ︸
-Back to the bookstore
-Two major principles:
-sk
-3.49
-http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/.
-3.31
-Class and Instance
-• Queries are also possible:
-•Explore via intuitive structure
-a:author
-(sounds weird the first time you hear it, but you get used to it)
-}  RDFS environments return that triple, too
-• Leverage existing, external
-§  here is the complete triple:
-4 Example: schema.org
-a:p_nam
-f:traducteur
-w
-}  Applications may exploit the relationships among
-To define that C (a resource) is an RDFS class, write:
-vvv rdf:type xxx .
-3.44
-Label & Comment
-This states that all the instances of C1 are also instances of C2.
-3.61
-3.5
-Subclass
-3.13
-• URI is not always the same as a URL (Uniform Resource Locator)
-f:
-The rdfs:subClassOf property is transitive.
-#Fiction
-2 Make your data self-describing
-Photo credit “kxlly”, Flickr
-2000
-Some “helper” constructs
-[Wor14] World Wide Web Consortium (W3C).
-<http://www.w3.org/2004/02/skos/core#prefLabel>
-(51) 51
-rdfs:label a human-readable label
-"Authors and publishers"@en .
-Properties are used to define relations between subject resources and object
-Range
-2020386682
-London
-skos:prefLabel
-dc
-Vocabularies & Ontologies
-23
-3.52
-What’s an “author”?
-3.43
-3.22
-RDFS Utility Vocabulary
-• book author
-(76) 76
-• Disconnected, missing knowledge
-What is a knowledge graph – Pokémon edition: https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
-[HB11] Tom Heath and Christian Bizer.
-3.29
-Allegories
-}  Thesauri, glossaries, etc, from the library community
-3.57
-Property
-→ Worksheet #2: Task 2
-→ Worksheet #2: Task 5
-}  The relevant rule for our example:
-miroirs
-http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/
-Defining a Property
-Like inheritance for classes, we can have inheritance for properties:
-"Le Palais des miroirs"@fr ;
-machine readable formats like RDF/XML, Turtle,
-Manning, 2014.
-uuu rdfs:subClassOf xxx .
-3.34
-Metafiction
-3.48
-<http://id.loc.gov/authorities/subjects/sh85109817> .
-(79) 79
-This states that values of a property are instances of one (or more) class(es).
-(or a instead of rdf:type in Turtle.)
-Note
-</foaf:Person>
-→ Worksheet #2: Task 4
-<span itemprop="ratingValue" class="hidden">5</span>
-FOAF
-</rdf:Property>
-N3, RDFa, Json, …)
-• For example,
-spreadsheets, emails, . . .
-3.39
-� “s”, “p”, and “o” stand for “subject”, “property”, and
-rdfs:Class
-f:nom
-3.65
-<rdfs:range rdf:resource="http://...#Literal"/>
-RDF Schema
-http://id.loc.gov/…#concept
-https://www.youtube.com/watch?v=OM6XIICm_qo
-§  label, alternate label, narrower, broader, …
-Dublin Core
-skos:broader
-“object”
-•Bridge from data to human semantics
-}  The structure of the LOC page is fairly typical
-3.42
-http://www.w3.org/TR/rdf11-primer/
-3.19
-Goal: Knowledge Integration
-FOAF (Friend-of-a-Friend) Vocabulary
-(237) 237
-Subproperties
-3.27
-3.38
-Provide useful information about new terms
-Common Issue
-• writer
-<http://www.w3.org/2004/02/skos/core#Concept> .
-Examples (dbpedia:The_Glass_Palace)
-Knowledge Integration
-<http://id.loc.gov/authorities/sh85061165#concept>
-your own schema
-3.4
-SKOS RDF Triples
-3.37
-(<http://…isbn…6682>, <http://…/original>, <http://…isbn…409X>)
-Supplemental
-Dublin Core
-More authoritative vocabularies
-Photo credit “scarletgreen”, Flickr
-Label & Comment
-§  for example:
-(<http://…/isbn/000651409X> rdf:type #Fiction)
-with rdfs defined as http://www.w3.org/2000/01/rdf-schema#
-can be made available
-be in any format)
-• Data in Information Silos
-(228) 228
-Human-Readable Content
-(232) 232
-3.62
-• [Yu14, Chapter 4] (RDFS)
-https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
-•  classification/formalization of Web 2.0 type tags
-W3C Recommendation
-[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas.
-<http://dbpedia.org/resource/The_Glass_Palace>
-a:homepage
-http://www.w3.org/2000/01/rdf-schema#
-Classes
+http://www.amitavghosh.com
+(28) 28
+3.28
+3.20
+...
 Notes and Further
+<rdfs:domain rdf:resource="#Fiction"/>
+http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/.
+https://concordiauniversity.on.worldcat.org/oclc/704257552
+Knowledge Bases
+In Turtle, rdf:type can be abbreviated as a
+3.6
+Literature
+RDF 1.1 Primer.
+P1 rdfs:subPropertyOf P2
+sk
+your own schema
+Label & Comment
+Library of Congress
+Anatomy of a URI
+</foaf:mbox_sha1sum>
+<http://www.w3.org/2004/02/skos/core#prefLabel>
+1 Introduction
+<http://dbpedia.org/resource/The_Glass_Palace>
+vvv rdf:type xxx .
+Properties
+Note
+<foaf:Person>
+http:.//…/isbn/…
+Vocabularies
+René Witte
+structures to an RDF universe
+→ Worksheet #2: Task 8
+Core Vocabularies
+3.29
+• [Wor14] (RDF Primer)
+•Key ingredient for many AI tasks
+Turtle
+}  Classes and Properties:
+Metafiction
+Examples (dbpedia:The_Glass_Palace)
+• [Yu14, Chapter 7] (FOAF)
+http://…isbn/
+Goal: Knowledge Integration
+The Glass Palace
+f:traducteur
+5d5705ff1b2142d62a38061f804f766ffaf806ef
+<rdfs:range rdf:resource="http://...#Literal"/>
+3.12
+3.3
+• RDFS provides semantics about what the IRIs stand for
+related by another.
+3.34
+[Her] Ivan Herman.
+3.40
+f:original <http://…/isbn/000651409X> .
+(237) 237
+C1 rdfs:subClassOf C2
+<http://…/isbn/000651409X>
+Reading Material
+• AIs:
+Linked Data: Structured Data on the Web.
+Instances
+(228) 228
+Introduction
+3.44
+Back to the bookstore example
+https://kgtutorial.github.io/
+SKOS
+}  In RDF/XML:
+FOAF (Friend-of-a-Friend) Vocabulary
+§ Concept mappings (broadMatch, narrowMatch,…)
+Adventure stories
+Allegories
+To define a class C as the domain of a property P, write:
+• [Yu14, Chapter 4] (RDFS)
+This states that any resource that has a given property is an instance of one (or
+3.27
+3.10
+Provide useful information about new terms
+ub
+http://www.w3.org/TR/rdf11-primer/
+This states that values of a property are instances of one (or more) class(es).
+bob #me︸ ︷︷ ︸
+3.37
+(51) 51
+<http://id.loc.gov/authorities/subjects/sh85031620> .
+<http://www.w3.org/2004/02/skos/core#narrower>
+Anatomy of a URI
+abbreviation)
+Vocabularies
+(Schemas aka Vocabularies aka Ontologies aka. . . )
+(79) 79
+To define that C1 (a class) is a subclass of C2 (a class), write:
+• Includes slides by Ivan Herman, W3C [Her]
+Classes
+more) class(es).
+3.53
+Review
+https://www.youtube.com/watch?v=OM6XIICm_qo
+<is father of> <subPropertyOf> <is parent of>
+rdfs:comment a short (one paragraph) description
+•Tool for supporting knowledge-driven tasks
+Summary
+
+Model people and their
+}  The structure of the LOC page is fairly typical
+→ Worksheet #2: Task 4
+fragment
+3.31
+From the first week’s lecture. . .
+scheme:[//authority]path[?query][#fragment]
+}  An RDF Triple (s,p,o) is such that:
+Like inheritance for classes, we can have inheritance for properties:
+• [Yu14, Chapter 10] (Schema.org)
+}  is not in the original RDF data…
+and Software Engineering
+a:p_nam
+schema:name "Oscars 2012: The Artist, review" ;
+rdf:type    rdf:Property;
+https://www.w3.org/TR/rdf11-primer/
+Review
+we could describe it as [HB11]:
+RDF Schema
+</rdf:Property>
+§  for example:
+Property
+Knowledge Integration
+Common Issue
+3.62
+Back to the bookstore example
+#Fiction
+}  Define classes and properties to add those
+3.22
+(<http://…/isbn/000651409X> rdf:type #Fiction)
+w
+• Again, you’ll get used to it. . .
+3.55
+(234) 234
+Summary
+ex:Novel rdf:type rdfs:Class
+(71) 71
 Linked Data: Evolving the Web into a Global Data Space.
-• . . .
+}  RDF is a general model for such triples (with
+3.45
+Reading
+schema:description "The Artist, an utterly beguiling…" ;
+is a valid URI, but not a URL
+}  In Turtle:
+• A URI uniquely identifies a resource (e.g., person, book, class of things) on the
+3.25
+<span itemprop="ratingValue" class="hidden">5</span>
+dc
+}  SKOS provides a basic structure to create an RDF
+}  SKOS can also be used to organize, eg, tags,
+f:titre "Le palais des mirroirs"@fr ;
+§  allow for a quick port of this traditional data, combine it with
+• Continuously updated
+3.63
+(232) 232
+rdf:type
+"Le Palais des miroirs"@fr ;
+}  The RDF Semantics document has a list of (33)
+To define a class C as the range of a property P, write:
+]
+§  (these are all special URI-s, we just use the namespace
+...
+The W3C “Layer Cake”

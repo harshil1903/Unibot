@@ -1,488 +1,488 @@
 
-Because C will be 3.
- Alpha pruning:
-Slide 74
-15
-Slide 35
+2018 – AlphaZero vs Stockfish 8
+Slide 75
+01 function alphabeta(node, depth, α, β, maximizingPlayer)
 Slide 72
- MiniMax
-MAX
-6
-of tokens into 2 non-empty piles
-knowledge previously "learned" by deep
-Slide 29
-e(n) = 8-8 = 0 e(n) = 6-4 = 2 e(n) = 3-3 = 0
-players using a heuristic function e(n)
-value ≤ 5
- A gain by one player must be matched by a loss by the
-17
- Search tree for games of chance
-Slide 30
-(e.g., 1/6 for a single dice roll)
-2. label each level according to player’s turn (MAX or MIN)
- ignores (cuts off, prunes) branches of the tree
-feasible
-source: robotics.stanford.edu/~latombe/cs121/2003/home.htm
-descendant that has an α >= 6.
-95
-Adversarial Search
-- number of rows, columns, and diagonals open for MIN
- if child β <= ancestor α → prune
- Alpha-beta pruning
-e(n) = 2 e(n) = -1
-+∞, if n is a forced win for MAX
- The system’s answer? 6
-b=-1a =-∞
+71
+Slide 2
 chess tic-tac-toe
- If the total gains of one player are added up, and the
-Slide 31
-13
-Exhaustive MiniMax Search
-≤6 ≤6
-Deep Junior
- No exhaustive search
-19          return v
+Motivation
+Leaf nodes show the actual heuristic value e(n)
+ Search tree for games of chance
+ called n-ply look-ahead
+50 billion neurons
+D will be <= 0
+feasible
+Slide 40
+ Like MiniMax, but using the sum of the weighted sum for Chance
+ Example: Backgammon, Monopoly, Poker, etc.
+value = 1
+still 50 billion neurons
+Example: e(n) for Tic-Tac-Toe
+at horizon = 2
+=7
  branches indicate possible dice rolls
-Heuristic Function for 2-player games
- Possible e(n)
-max level
--------------------------------------------------------------------------------------------------------
-A=min(3, max(5,?)) C=max(3, min(0,?), min(2,?))
-Alpha-Beta Pruning Algorithm
-87
-Example with tic-tac-toe
- Depends on the order of the siblings
- In the first three days, AlphaGo Zero played 4.9 million games
-What is the sum of 1+1+1+1+1+1+1?
-1992-1994 - Checkers:
-90
-But C will be >= 3
- Calculating EXPECTIMINIMAX
-Tic-Tac-Toe tree
-Slide 86
-39
- would require a helpful opponent
-Slide 12
-b=5a =-∞
-≤5
-37
- α : lower bound on the final backed-up value.
- Games with opponent
- 2 players start with a pile of tokens
- e(n) < 0 --> n is favorable to MIN
- Here, we look at 2-player adversarial games
-forced win for MAX
- uses a Monte Carlo tree search
-05          v := -∞
-∑ P (r ) Expectiminimax (Result (s ,r ) )
-Choosing a Heuristic Function e(n)
-75
- game ends when no pile can be unevenly split
-Slide 37
-Slide 77
-Slide 89
- Classical application for heuristic search
- See https://en.wikipedia.org/wiki/Expectiminimax
-40
-Slide 81
-Slide 16
-(including source code)
-five-game match of GO.
-https://www.youtube.com/watch?v=nPexHaFL1uo
-Slide 25
-total losses are subtracted, they will sum to zero
-03          return the heuristic value of node
- each branch labeled with the roll and its probability
-Slide 88
- In 2018, it beat the then-
- win, lose, or tie
-≥6
-Match ends in a 3/3 tie!
-12
- e(n) > 0 --> n is favorable to MAX
-Games
- Examples: Chess, Tic-Tac-Toe, Go, etc.
-Slide 10
-e(n) = 1e(n) = 2
+35
 86
-Alpha-Beta Pruning: Example 2
-for over 40 years
-So we can ignore E’s right
-Slide 17
-1997- Chess: Kasparov vs. Deep Blue
- Beta pruning:
-10                  break (* β cut-off *)
-12      else
-best chess program,
-on four TPUs and a 44-core
-Step 2
- Trained using 5,000 tensor
-Slide 78
-Slide 43
- Win-Win or Lose-Lose type games
  r is a possible dice roll (or other random event)
- Deterministic games
+ if parent=MIN, give it min value of children
+so stop searching the right branch;
+ Non-deterministic games
+76
+Logistello beat Murakami by 6 games to 0
+https://www.theverge.com/2016/3/15/11213518/alphago-deepmind-go-match-5-result
+18
+Deep Junior
+15
+07              v := max(v, alphabeta(child, depth - 1, α, β, FALSE))
+9
+23
+http://games.cs.ualberta.ca/cgi-bin/player.cgi?nodemo
+=6
+Garry Kasparov
+Efficiency of Alpha-Beta Pruning
+ allows deeper search with same effort
+ Depends on the order of the siblings
+Slide 71
+Tinsley vs. Chinook Marion Tinsley
+Alpha-Beta Pruning
+Slide 43
+Slide 17
+25
+Takeshi Murakami
+41
+∑ P (r ) Expectiminimax (Result (s ,r ) )
+Slide 89
+Match ends in a 3/3 tie!
+31
+ In best case:
+Slide 91
+number of rows, columns, and diagonals open for MAX
+Today
+ win, lose, or tie
+7
+chess vs 250 for Go!)
+So we can ignore B’s right
+16              β := min(β, v)
+Because C will be 3.
+ player who cannot make his move loses
+=5 =6
+Slide 12
+02      if depth = 0 or node is a terminal node
+ player without a move left loses
+75
+8 CPU, 8 GB RAM, Win 2000
+Slide 10
+Alpha-Beta Pruning: Example 2
+forced win for MAX
+Slide 13
+ alpha-beta provides no pruning
+branch
+differently-sized piles
+06          for each child of node
+37
+nodes:
+ In the first three days, AlphaGo Zero played 4.9 million games
+https://arxiv.org/abs/1904.01557
+89
+Logistello
+Slide 34
+Step 2
+≥3
+Alpha-Beta: Best ordering
+Slide 15
+1
+Best ordering for alpha-beta
+200,000,000 pos/sec
+Slide 31
+Step 3
+94
+ In 2016, AlphaGo beat Lee Sedol in a
+ if child β <= ancestor α → prune
+against itself using reinforcement learning
+Slide 1
+Slide 23
+Slide 95
+tournament
+Slide 16
+Slide 6
+ Example: Battleship, Stratego, many card games, etc.
+still 2 positions/sec
+Slide 29
+1. children of MIN : smallest node first
+Developed by
+visible (hidden)
+≤4 ≤4
+ α : lower bound on the final backed-up value.
+ No games of chance (e.g., rolling dice)
+ Note: very expensive due to the high branching factor!
+ n is number of levels
+ indicates best state that can be reached
+Slide 69
+x x
+70
+on four TPUs and a 44-core
+developed by Michael Buro
+World Othello (aka Reversi) champion
+b=2 1a =-∞
+ branching factor is reduced to its square root
+26
+b=6a =-∞
+Backgammon
+ Alpha-beta pruning
+90
+Games
+value ≤ -1
 try to maximize difference between MAX’s game and MIN’s
-runs on a standard PC
-Slide 87
- if parent=MAX, give it max value of children
-and anyone playing against Chinook would only be able to draw, never win.
+MAX
+ Examples: Checkers, Chess, etc.
+knowledge previously "learned" by deep
+(example: cutting a cake)
+Game commentary: https://www.youtube.com/watch?v=nPexHaFL1uo
 child β <= ancestor α → stop search
-Stockfish 8 in a 100-game
- if ancestor β  <= child α → prune
+Slide 30
+ eg.  if MAX node's α = 6, then the search can prune branches from a MIN
+Slide 81
+ Classical application for heuristic search
+Slide 90
+ each branch labeled with the roll and its probability
+ typically called e(n)
+b=-1a =-∞
+A=min(3, max(5,?)) C=max(3, min(0,?), min(2,?))
+72
+Two-ply MiniMax: MAX’s possible 2nd  moves
+74
+branch, because A must be 3
+ One player tries to maximize a single value, the other
+69
+node n is for MAX
+ eg. if a MIN node's β = 6, then the search can prune branches from a MAX
+Slide 25
+2. label each level according to player’s turn (MAX or MIN)
+2019 – Deep learning to answer
+Slide 36
+ 2 players start with a pile of tokens
+16
+b=5a =-∞
+18                  break (* α cut-off *)
+1997- Chess: Kasparov vs. Deep Blue
+8
+28
+the value cannot come from there!
+AlphaZero can learn other
+2,000,000 pos/sec
+ GO was always considered a much harder game to automate
+ Games with opponent
+87
+Example: Game of Nim
+Alpha-Beta Pruning: Example 1
+ white can calculate its own legal moves
+ would require a helpful opponent
+4. propagate this value up:
+Choosing a Heuristic Function e(n)
+ Rules
+professor at the U. of Alberta
+Slide 73
+b=+∞a =6
+ Where we are today
+ Examples: Chess, Tic-Tac-Toe, Go, etc.
+Slide 92
+ With minimax, we look at all possible nodes at the n-ply depth
+So we can ignore E’s right
+source: http://en.wikipedia.org/wiki/File:AB_pruning.svg
+ β : upper bound on the final backed-up value.
+1992-1994 - Checkers:
+ The system’s answer? 6
+ Non-Zero-Sum Game
+17
+player tries to minimize it
+ Stochastic Games
+players using a heuristic function e(n)
+34
+2
+math questions
+Slide 80
+value ≥ 6
+5
+Slide 7
+ But it did solve 14 out of 40 questions on a standard test
+Slide 88
+ e(n) > 0 --> n is favorable to MAX
++∞, if n is a forced win for MAX
+games, like Chess and Shogi
+12
+→ Worksheet #2 (“Two-ply MiniMax)
+92
+ ignores (cuts off, prunes) branches of the tree
+Slide 28
+5. Select best next move for player at root as the move leading
+ If the total gains of one player are added up, and the
+ No exhaustive search
+ start with one pile of tokens
+ Imperfect Information
+≥6
+Alpha-Beta Pruning Algorithm
+ Procedure:
+b = 1
+Slide 79
+17              if β ≤ α
+≥6
+ simple strategy:
+ Here, we look at 2-player adversarial games
+29
+But C will be >= 3
+ best ordering:
+Heuristic Function for 2-player games
+Max
+n-ply MiniMax with Heuristic
+Slide 74
+value ≤ 2 1
+Initial call:
+What is the sum of 1+1+1+1+1+1+1?
+-∞, if n is a forced win for MIN
 a =7 b=+∞
- For small games where exhaustive search is feasible
+ each step has to divide one pile
+Adversarial Search
+ A gain by one player must be matched by a loss by the
+Slide 39
+GO
+(including source code)
+ e(n) = 0 --> n is neutral
+05          v := -∞
+→ Worksheet #2 (“MiniMax”)
+2016 – Go: AlphaGo vs Lee Se-dol
+11          return v
+8 nodes explored out of 27
+ Stochastic games
+ In 2019, Google engineers published on their work training a
+Available at $100
+source: http://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
+33
+descendant that has an α >= 6.
+Slide 37
+B will be >= 5
+total losses are subtracted, they will sum to zero
+In 2007, Schaeffer announced that checkers was solved,
+Two-ply MiniMax for Opening Move
+Types of Games (III)
+source: robotics.stanford.edu/~latombe/cs121/2003/home.htm
+ In 2017 AlphaGo beat Ke Jie, the
+VS
+incompatible…
+https://skatgame.net/mburo/log.html
+ In 2018, it beat the then-
+best chess program,
+ Trained using 5,000 tensor
+MIN
+36
+15              v := min(v, alphabeta(child, depth - 1, α, β, TRUE))
+1994: 6 draws
+38
+Tic-Tac-Toe tree
+e(n) =
+≤6 ≤6
+source: G. Luger (2005)
+Slide 8
+ if ancestor β  <= child α → prune
+So we can ignore D’s right
+32
+ Beta pruning:
+ e(n) is a heuristic that estimates how favorable a
+95
+https://en.wikipedia.org/wiki/Expectiminimax
+14
+ Alpha pruning:
+ Became better than all old versions after 40 days of training
+EXPECTIMINIMAX Algorithm
+source: Russel & Norvig (2010)
+ game ends when no pile can be unevenly split
+ Possible e(n)
+ if parent=MAX, give it max value of children
+Artificial Intelligence:
+E will be <= 2.
+of tokens into 2 non-empty piles
+of the game
+Slide 18
+Slide 78
+=5
+ A game with the perfect information is that in which agents can
+and anyone playing against Chinook would only be able to draw, never win.
+max level
+e(n) = 2
+ complex games: only partial search possible
+Slide 38
+e(n) = 2 e(n) = -1
+ simple games: exhaustibly searchable
+descendant that has a β <= 6.
+1992: Tinsley beat Chinook in 4 games to 2,
+Slide 76
+ MiniMax
+e(n) = 1
+≥5
+https://en.wikipedia.org/wiki/Prisoner%27s_dilemma
+Deep Blue wins by 3 wins, 1 loss, and 2 draws
+Exhaustive MiniMax Search
+≤6
+https://skatgame.net/mburo/log.html
+Slide 94
+ Search only to predefined level
+Slide 14
+Two-ply minimax: MAX’s move at end?
+
+value ≤ 6
+ uses a Monte Carlo tree search
+2. children of MAX: largest node first
+Bold lines indicate
+CPU during matches
+≤5
+=3
+to the child with the highest value (for MAX) or lowest
+ Win-Win or Lose-Lose type games
+Step 1
+e(n) = 8-8 = 0 e(n) = 6-4 = 2 e(n) = 3-3 = 0
+ MAX tries to win, and
+→ Worksheet #2 (“MiniMax Heuristic for Tic-Tac-Toe”)
+91
+five-game match of GO.
+≤5
+40
+ but it does not know what black will roll...
+03          return the heuristic value of node
+10                  break (* β cut-off *)
+ nodes evaluated with heuristics and not win/loss
+- number of rows, columns, and diagonals open for MIN
+value ≥ 7
+min level
+Jonathan Schaeffer,
+1. build complete game tree
+Types of Games
+12      else
+runs on a standard PC
+Slide 35
+=4
+of different size
+ e.g., (0, 1) or (-1, 0, 1)
+MiniMax Search
+world No.1 ranked player at the time
+Slide 3
+✓
+13
+Slide 11
+with 33 draws.
+ reduces branching factor
+game
+93
+MiniMax with Fixed Ply Depth
+09              if β ≤ α
+http://robotics.stanford.edu/~latombe/cs121/winter02/home.htm
++ 256 VLSI chess engines
+88
+values (for MIN)
+ Existing heuristic search methods do not work
+for over 40 years
+Slide 5
+Min
+Intro to AI
+77
+Chinook
+games
+other player
+✓ x
+Slide 93
+neural network system to answer math questions, like
 See https://arxiv.org/abs/1904.01557
+ Result(s, r) is the same state s with dice roll result r
+for the whole algorithm
+processing units (TPUs), run
+ See https://en.wikipedia.org/wiki/Expectiminimax
+https://www.youtube.com/watch?v=nPexHaFL1uo
+Exhaustive MiniMax for Nim
+Slide 86
+Deep Blue
+2003 - Chess: Kasparov vs. Deep Junior
+11
+contribute to the final decision
+correctly
+AlphaGo Zero learned the Game by itself, without input of human
+ move: split (any) existing pile into two non-empty
+ Idea: add chance nodes to the search tree
+Alpha-Beta Pruning: Example 3
+ Deterministic games
+→ Worksheet #2 (“Game of Nim”)
+
+value ≤ 5
+04      if maximizingPlayer
+2 positions/sec
+Slide 87
+Slide 32
+ e(n) < 0 --> n is favorable to MIN
+ Game between two opponents, MIN and MAX
+ Examples: Chess, Checkers, Go, etc.
+ In worst case:
+algorithm to find its moves based on
+that cannot possibly lead to a better solution
+ Perfect Information
+32 RISC processors
+ Calculating EXPECTIMINIMAX
+19          return v
+39
+ Zero-Sum Game
+2017 – AlphaGo Zero & AlphaZero
+Ongoing work on solving other problems with a general AI
+b=2a =-∞
+look into the complete board. Agents have all the information about
+ horizon effect
+Stochastic (Non-Deterministic)
+30
+Play against Chinook: http://games.cs.ualberta.ca/cgi-bin/player.cgi?nodemo
+Types of Games (II)
+ Need to incorporate “hostile” moves into search strategy
+→ Worksheet #2 (“Alpha-Beta Pruning”)
+State Space of Game Nim
+value ≥ 1
+ additional problem: playing against opponent
+learning
+≤7
+ Optimization over MiniMax, that:
+Slide 26
+ Famous example: The Prisoner’s Dilemma
+Slide 41
+Slide 77
+--------------------------------------------------------------------------------------------------------
+Slide 33
+World champion
+than chess because of its very high branching factor (35 for
+ P(r) the probability of the event
 
 Slide 9
-1. children of MIN : smallest node first
-41
-69
-32 RISC processors
-alphabeta(origin, depth, -∞, +∞, TRUE)
-source: http://en.wikipedia.org/wiki/File:AB_pruning.svg
-World champion
-16              β := min(β, v)
- Example: Backgammon, Monopoly, Poker, etc.
- P(r) the probability of the event
-games
-Original (arbitrary) game tree
-In 2007, Schaeffer announced that checkers was solved,
-=5 =6
-2
-11          return v
-30
-25
-Slide 79
-Step 1
- typically called e(n)
-D will be <= 0
- alpha-beta provides no pruning
-Leaf nodes show the actual heuristic value e(n)
-3. label leaves with a utility function to determine the outcome
-26
- Rules
-x x
-06          for each child of node
-MIN
-branch, because A must be 3
-Slide 7
-MiniMax with Fixed Ply Depth
-So we can ignore B’s right
-1
-17              if β ≤ α
-=3
-Slide 40
-Slide 38
-n-ply MiniMax with Heuristic
-≥5
- simple games: exhaustibly searchable
-≤4 ≤4
-Slide 39
-https://skatgame.net/mburo/log.html
- With α-β pruning, we ignore branches that could not possibly
-→ Worksheet #2 (“Alpha-Beta Pruning”)
-18
-B will be >= 5
-91
-e(n) =
-e(n) = 2
- MAX tries to win, and
- simple strategy:
-Example: e(n) for Tic-Tac-Toe
-36
-world No.1 ranked player at the time
- A game with the perfect information is that in which agents can
-Types of Games
-GO
- Where we are today
-Slide 34
- β : upper bound on the final backed-up value.
-71
- No games of chance (e.g., rolling dice)
-Types of Games (II)
-Slide 75
-Initial call:
-10
- Note: very expensive due to the high branching factor!
-5. Select best next move for player at root as the move leading
-Slide 15
- indicates best state that can be reached
-correctly
- allows deeper search with same effort
-the game, and they can see each other moves also.
-Slide 69
- nodes evaluated with heuristics and not win/loss
-that cannot possibly lead to a better solution
-https://www.theverge.com/2016/3/15/11213518/alphago-deepmind-go-match-5-result
-=7
-7
-Garry Kasparov
-https://en.wikipedia.org/wiki/Prisoner%27s_dilemma
-(example: cutting a cake)
-https://skatgame.net/mburo/log.html
-against itself using reinforcement learning
-Slide 28
- Optimization over MiniMax, that:
- One player tries to maximize a single value, the other
- branching factor is reduced to its square root
-So we can ignore D’s right
-number of rows, columns, and diagonals open for MAX
-EXPECTIMINIMAX Algorithm
- Stochastic games
-→ Worksheet #2 (“Two-ply MiniMax)
-contribute to the final decision
-VS
-Slide 94
-Slide 36
-Slide 33
-Backgammon
-algorithm to find its moves based on
-77
-5
-Slide 11
-93
-values (for MIN)
-than chess because of its very high branching factor (35 for
- Exhaustive search for interesting games is rarely
- Result(s, r) is the same state s with dice roll result r
-b=2 1a =-∞
-professor at the U. of Alberta
-AlphaGo Zero learned the Game by itself, without input of human
-Slide 91
-processing units (TPUs), run
-Slide 95
-developed by Michael Buro
-to the child with the highest value (for MAX) or lowest
-≤7
-29
-Slide 18
-=5
-Slide 93
-Slide 5
-
- State Space Search for Game Playing
-with 33 draws.
-✓ x
- Like MiniMax, but using the sum of the weighted sum for Chance
-incompatible…
-visible (hidden)
-Slide 32
-Slide 92
-value ≤ 2
-b=+∞a =6
-Deep Blue
- Perfect Information
-→ Worksheet #2 (“MiniMax”)
-MiniMax Search
-1997 - Othello: Murakami vs. Logistello
- Examples: Chess, Checkers, Go, etc.
-CPU during matches
-≥3
-50 billion neurons
-Search Tree for Backgammon
-08              α := max(α, v)
-Motivation
-Deep Blue wins by 3 wins, 1 loss, and 2 draws
-16
-neural network system to answer math questions, like
-Developed by
-value = 1
-Slide 1
- Zero-Sum Game
-92
-Slide 90
-11
-b=6a =-∞
-→ Worksheet #2 (“Game of Nim”)
-31
-✓
- With minimax, we look at all possible nodes at the n-ply depth
-74
-Alpha-Beta: Best ordering
-1. build complete game tree
-43
-3
-8 CPU, 8 GB RAM, Win 2000
-1994: 6 draws
- GO was always considered a much harder game to automate
 14          for each child of node
-2. children of MAX: largest node first
-→ Worksheet #2 (“MiniMax Heuristic for Tic-Tac-Toe”)
-2019 – Deep learning to answer
- Idea: add chance nodes to the search tree
-Tinsley vs. Chinook Marion Tinsley
-Two-ply minimax: MAX’s move at end?
-≤5
-Available at $100
-Logistello beat Murakami by 6 games to 0
-World Othello (aka Reversi) champion
-200,000,000 pos/sec
-of different size
-look into the complete board. Agents have all the information about
-01 function alphabeta(node, depth, α, β, maximizingPlayer)
-Slide 2
-so stop searching the right branch;
- but it does not know what black will roll...
-4. propagate this value up:
-Slide 80
-Game commentary: https://www.youtube.com/watch?v=nPexHaFL1uo
-≥6
- Non-Zero-Sum Game
-
-Max
-14
-differently-sized piles
-Artificial Intelligence:
- MIN tries to minimize MAX’s score
-15              v := min(v, alphabeta(child, depth - 1, α, β, TRUE))
-Slide 71
-for the whole algorithm
-source: Russel & Norvig (2010)
- called n-ply look-ahead
-28
-Slide 73
-8
- e(n) = 0 --> n is neutral
-18                  break (* α cut-off *)
-nodes:
-value ≥ 6
-E will be <= 2.
- Non-deterministic games
-min level
-Logistello
-Slide 23
-source: http://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
-04      if maximizingPlayer
-02      if depth = 0 or node is a terminal node
--∞, if n is a forced win for MIN
- player without a move left loses
-learning
- complex games: only partial search possible
---------------------------------------------------------------------------------------------------------
-chess vs 250 for Go!)
+ With α-β pruning, we ignore branches that could not possibly
  Games with unpredictable (random) events (involving chance or luck)
-Play against Chinook: http://games.cs.ualberta.ca/cgi-bin/player.cgi?nodemo
-+ 256 VLSI chess engines
- In worst case:
-32
- reduces branching factor
-13          v := ∞
-Stochastic (Non-Deterministic)
-of the game
- Need to incorporate “hostile” moves into search strategy
-Step 3
-Example: Game of Nim
-AlphaZero can learn other
- Examples: Checkers, Chess, etc.
-88
- move: split (any) existing pile into two non-empty
-09              if β ≤ α
-branch
-Bold lines indicate
-game
-player tries to minimize it
-the value cannot come from there!
-source: G. Luger (2005)
-Types of Games (III)
- eg. if a MIN node's β = 6, then the search can prune branches from a MAX
-2017 – AlphaGo Zero & AlphaZero
- n is number of levels
-still 50 billion neurons
-70
- In best case:
-8 nodes explored out of 27
-tournament
-Best ordering for alpha-beta
-23
-b=+∞a =1
- Imperfect Information
-math questions
-Slide 8
-=6
-Intro to AI
-value ≥ 1
-38
- additional problem: playing against opponent
-Two-ply MiniMax: MAX’s possible 2nd  moves
- Stochastic Games
- In 2016, AlphaGo beat Lee Sedol in a
-Today
-Alpha-Beta Pruning: Example 1
-73
-still 2 positions/sec
-07              v := max(v, alphabeta(child, depth - 1, α, β, FALSE))
-=4
-node n is for MAX
-http://robotics.stanford.edu/~latombe/cs121/winter02/home.htm
-e(n) = 1
-b = 1
- e(n) is a heuristic that estimates how favorable a
-value ≤ -1
-2016 – Go: AlphaGo vs Lee Se-dol
-72
-value ≤ 6
-2,000,000 pos/sec
- start with one pile of tokens
-2 positions/sec
- each step has to divide one pile
-other player
-≤6
-2003 - Chess: Kasparov vs. Deep Junior
-Alpha-Beta Pruning: Example 3
-89
-Slide 6
- In 2019, Google engineers published on their work training a
-Min
-game
-Two-ply MiniMax for Opening Move
-Alpha-Beta Pruning
- Procedure:
-2018 – AlphaZero vs Stockfish 8
-94
-State Space of Game Nim
- player who cannot make his move loses
-https://en.wikipedia.org/wiki/Expectiminimax
-Exhaustive MiniMax for Nim
-Slide 41
- horizon effect
-Efficiency of Alpha-Beta Pruning
-value ≥ 7
- Existing heuristic search methods do not work
- Game between two opponents, MIN and MAX
-games, like Chess and Shogi
-Slide 3
- Example: Battleship, Stratego, many card games, etc.
-http://games.cs.ualberta.ca/cgi-bin/player.cgi?nodemo
- Became better than all old versions after 40 days of training
- Famous example: The Prisoner’s Dilemma
- Search only to predefined level
- if parent=MIN, give it min value of children
- best ordering:
-34
-https://arxiv.org/abs/1904.01557
- But it did solve 14 out of 40 questions on a standard test
-Jonathan Schaeffer,
-76
-Slide 14
-Ongoing work on solving other problems with a general AI
-Slide 76
- Game state only partially observable, choices by opponent are not
-35
-b=2a =-∞
-9
-descendant that has a β <= 6.
- In 2017 AlphaGo beat Ke Jie, the
-Takeshi Murakami
- simple strategy: try to maximize difference between
+10
 Slide 70
-Slide 26
-Chinook
-1992: Tinsley beat Chinook in 4 games to 2,
-33
- e.g., (0, 1) or (-1, 0, 1)
-at horizon = 2
-Slide 13
-value ≤ 2 1
- eg.  if MAX node's α = 6, then the search can prune branches from a MIN
- white can calculate its own legal moves
+game
+73
+ simple strategy: try to maximize difference between
+ MIN tries to minimize MAX’s score
+Original (arbitrary) game tree
+Search Tree for Backgammon
+ For small games where exhaustive search is feasible
+the game, and they can see each other moves also.
+alphabeta(origin, depth, -∞, +∞, TRUE)
+b=+∞a =1
+1997 - Othello: Murakami vs. Logistello
+ Exhaustive search for interesting games is rarely
+Example with tic-tac-toe
+13          v := ∞
+e(n) = 1e(n) = 2
+value ≤ 2
+-------------------------------------------------------------------------------------------------------
+ State Space Search for Game Playing
+Stockfish 8 in a 100-game
+3
+3. label leaves with a utility function to determine the outcome
+(e.g., 1/6 for a single dice roll)
+ Game state only partially observable, choices by opponent are not
+43
+08              α := max(α, v)
+6

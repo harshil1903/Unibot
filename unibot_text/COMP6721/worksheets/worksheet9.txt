@@ -1,17 +1,17 @@
 
-1. Score(BANK1) =
-Parsing. Now, given the following context-free grammar:
 Sentence Probability. Given the following bigram probabilities, compute the probability for the sentence:
 Word Sense Disambiguation. Using the following probabilities you obtained from a training corpus:
-(Words not shown above have an unsmoothed probability of 0.)
-COMP 6721 Applied Artificial Intelligence (Winter 2022)
-P (I want to eat British food)
-Worksheet #9: Introduction to Natural Language Processing
-Part-of-Speech Tagging. Given the following lexicon, assign a part-of-speech (POS) tag to each word for the
-=
-I prefer a direct flight to Chigaco.
-Using 0.5 smoothing as shown above, using a context window of ±3, find the correct sense for bank in the sentence,
-“I like the Potomac bank.”:
 2. Score(BANK2) =
-create a parse tree for the sentence, “I prefer a direct flight to Chicago.” using the POS tags you assigned above:
+Using 0.5 smoothing as shown above, using a context window of ±3, find the correct sense for bank in the sentence,
+P (I want to eat British food)
+1. Score(BANK1) =
+Part-of-Speech Tagging. Given the following lexicon, assign a part-of-speech (POS) tag to each word for the
+“I like the Potomac bank.”:
+Worksheet #9: Introduction to Natural Language Processing
+Parsing. Now, given the following context-free grammar:
+(Words not shown above have an unsmoothed probability of 0.)
+I prefer a direct flight to Chigaco.
+=
 sentence below:
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
+create a parse tree for the sentence, “I prefer a direct flight to Chicago.” using the POS tags you assigned above:

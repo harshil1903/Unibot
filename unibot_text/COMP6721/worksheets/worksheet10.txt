@@ -1,53 +1,53 @@
 
-1. ~sent0 · ~sent1 =
-i pi ·qi:
-2
-wt,d =
-normalized vectors ~p, ~q for the two documents and add them to the table above. To normalize a vector, you have
-Assume N = 10,000,000 (number of documents).
-compute the cosine similarity using the dot product of the normalized vectors, sim(d1, d2) = cos(~p, ~q) = ~p·~q =
-(1 + log tft,d) · idft, if tft,d > 0
-d2 = “The big dog and the big cat.”
-N
-||~v|| . Now you can
-d1 d2
-big 100,000
-1https://explosion.ai/software#spacy
-https://explosion.ai/demos/displacy-ent
-Term Frequency. Fill in the term frequency for the two documents (d1, d2):
-√
-https://explosion.ai/software#spacy
-∑
-df
-2. ~sent0 · ~sent2 =
-n, then (2) divide each element by the length:
-barks 10,000
-cat 10,000
-0, otherwise
-xi
-big cat and dog”, compute their similarity as the dot product (~m · ~n =
-and big cat dog the
 Note: ignore words not in the table (we removed so-called stopwords).
-(here |V | = 4, the size of our vocabulary).
-{
-COMP 6721 Applied Artificial Intelligence (Winter 2022)
-tf-idf Weights. You can now compute the tf-idf weights:
-Inverse Document Frequency. Now compute the inverse document frequency, idf = log10
-sent2 1 1 1 1 1
 sent0 0 1 0 1 1
-Information Extraction. The detection of Named Entities (NEs) is a standard NLP application, called InformationÏ
-i mi · ni) of their vector representations:
-dog 50,000
-Vector dot product. Given the following encoding for sent0 = “the big dog”, sent1 = “the big cat” and sent2 = “the
-at https://explosion.ai/demos/displacy-ent. Try it out on an example text (e.g., a Concordia News article).
-• cos(~p, ~q) =
-to (1) compute its length ||~v|| =
-Cosine Similarity. We can now compute the similarity between the two documents. First, compute the length-
+d1 d2
+n, then (2) divide each element by the length:
 token df idf tf tf.idf pi tf tf.idf qi
-x21 + . . .+ x
-(note that we already did the log-scaling for idf above). You now have each document represented as a vector ~di ∈ R|V |
-Worksheet #10: NLP: Applications, Vector Space Models
-and add it to the table.
+cat 10,000
+tf-idf Weights. You can now compute the tf-idf weights:
+Information Extraction. The detection of Named Entities (NEs) is a standard NLP application, called InformationÏ
+big cat and dog”, compute their similarity as the dot product (~m · ~n =
+2
+Term Frequency. Fill in the term frequency for the two documents (d1, d2):
+• cos(~p, ~q) =
+||~v|| . Now you can
 sent1 0 1 1 0 1
-Extraction (IE). A popular Python library for developing NLP applications is spaCy,1 which has an online IE demo
+1https://explosion.ai/software#spacy
+and big cat dog the
+Vector dot product. Given the following encoding for sent0 = “the big dog”, sent1 = “the big cat” and sent2 = “the
+N
+xi
+Cosine Similarity. We can now compute the similarity between the two documents. First, compute the length-
 d1 = “The big dog barks.”
+d2 = “The big dog and the big cat.”
+Inverse Document Frequency. Now compute the inverse document frequency, idf = log10
+https://explosion.ai/software#spacy
+0, otherwise
+(1 + log tft,d) · idft, if tft,d > 0
+barks 10,000
+wt,d =
+Extraction (IE). A popular Python library for developing NLP applications is spaCy,1 which has an online IE demo
+to (1) compute its length ||~v|| =
+√
+and add it to the table.
+∑
+x21 + . . .+ x
+https://explosion.ai/demos/displacy-ent
+at https://explosion.ai/demos/displacy-ent. Try it out on an example text (e.g., a Concordia News article).
+{
+i pi ·qi:
+(here |V | = 4, the size of our vocabulary).
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
+2. ~sent0 · ~sent2 =
+i mi · ni) of their vector representations:
+Assume N = 10,000,000 (number of documents).
+df
+dog 50,000
+sent2 1 1 1 1 1
+compute the cosine similarity using the dot product of the normalized vectors, sim(d1, d2) = cos(~p, ~q) = ~p·~q =
+Worksheet #10: NLP: Applications, Vector Space Models
+big 100,000
+(note that we already did the log-scaling for idf above). You now have each document represented as a vector ~di ∈ R|V |
+normalized vectors ~p, ~q for the two documents and add them to the table above. To normalize a vector, you have
+1. ~sent0 · ~sent1 =

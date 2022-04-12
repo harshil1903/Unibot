@@ -1,1210 +1,1210 @@
 
-Economy
-corpus
- Spelling correction
- take into account the frequency of the word in
-The Land of Statistical NLP
-The Ancient Land of NLP
- so instead of multiplying the probs, we add the
-of  Deep
- Training phase:
- a parsing strategy:
-…
-Slide 74
-15
-Slide 35
-(Dracula)
-apples 1
-Slide 72
- most widely used value for 𝛿 = 0.5
-given point is .00001
- P(off|BANK1) = (0+.5) / 55 P(off|BANK2) = (1+.5) / 37
-“I am going to make a collect …”
-6. John ate NP
-Slide 3
-linguistic features are hand-engineered and fed to the ML model
-Slide 31
-eat .00039 .00039 .0009 .00039 .0078 .0012 .0208
-6
- How to arrange words
-the cat eats the mouse.
-Example of a PCFG
-80
- 5-grams
-Slide 29
-
- Metal gun… a gun made out of metal
-given to unseen events
-27 at 8:30
- i.e. To predict the next event in a sequence of event
-Size and weight
-D 0.0042 0.0014 0.0014 0.0014 … 0.0014 0.0014
-in a specific sentence
-recognition
-= log(P(I|<s>)) + log(P(want|I)) + log(P(to|want)) + log(P(eat|to)) +
-  Main Constituents:
- Even simple sentences are highly ambiguous
-17
--Chris
-Deep Neural Networks applied to NLP problems
- to assign semantic roles (different from grammatical roles):
-Slide 30
-source:  Manning, and Schütze, Foundations of Statistical Natural Language Processing, MIT Press (1999)
- Simple syntactic structures
-P(“che bella cosa”) with the Spanish LM
-bought some underwear.
-Menu
-How knowledge about the world (history,
- Goal: find most likely sentence (S*) given the observed sound (O) …
-n-grams
- Number of sentences: 95,119,665,584
-51
- Artificial
-C 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
- “mountain”? “tree”?
- I ate spaghetti with my sister.     <accompanying person>
-https://www.youtube.com/watch?v=sbJ89LFheTs
-Example
-)w w (w C  )w w (wP n1 2n21AddD
- Map sentences to some representation of its
-
- |V| = 1616 words
- that learns a classifier (a function f) to assign to
-64
-)P(s kk 
-95
-features
-Semantic interpretation:
-(3) S --> Aux NP VP
- In English character sequence
-Mary did like to eat apples.
- A non-probabilistic parser may find a large set of possible
- 1 time, followed by “a”
-Information extraction (IE)
-relations between
- relatively fixed membership
-Example (with add 0.5 smoothing)
- Closed (functional) class words
-ELABORATION The solution was developed by Alan Turing.
- new words can be added easily
-mostly solved making good progress Good progress by
-n
- bigrams (characters) after 100’s million words
-dependencies.
-…player… instrument
- aka stop words
- John visited Paris. Then he flew home. He went to
-Slide 53
-Slide 4
-7. John ate ART N
-7. NP V NP
- I eat.  I sleep.
- Encode information about the words around the target word
- Michael Bublé, who was featured in ..., is living in California.
-1. Natural Language Understanding
-67
- Smaller vocabulary
-Paraphrase
-zucchini 0 0 0 3 … 0 0
-previous words (the history)
-Add-one Smoothing
-Chinese 2 0 0 0 0 120 1  C(Chinese)=213
- depth-first: exhaust 1 path before considering
- ie. pick the sentence with the highest probability:
-Island
- Most likely sense of the word
- General Kane… person     but  General Motors … corporation
-1-n1
-2. NP VP
-as) across C(come  across) come |P(as 
-Slide 62
-Y 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
-
-13
-“Shannon Game” (Shannon, 1951)
-http://googleresearch.blogspot.com/2006/08/all-our-n-gram-are-belong-to-you.html
-I have to go to the store.  I need butter.
-Top down   
-Semantic Interpretation
- NB spam filter seen in class a few weeks ago
-82
-speech
- next word based on past words
-appearing in windows of Sk
-Slide 57
-CONDITION  If it rains, I will go out.
- so that there is a little bit of probability mass left over for
- Output = acoustic signal
-And Even More Examples of Ambiguity
-lunch 4 0 0 0 0 1 0  C(lunch)=459
- The idea is to give a little bit of the probability
- “Sue swallowed the large green ______ .”
-P(I want to eat British food)
-to be very delicate in the handling of this camera
-space to unseen events
-Stoker?
-48
- every previously unseen n-gram is given a low probability
-87
-)s,count(v
-City of
- each word has an equal probability to follow any
-Date:   Jan-16-2012
-“At last, a computer that understands you like your mother”
-Probability of a parse tree
-84
- ie. The meaning of individual words
-B 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
-Problem with n-grams
- The men next to the large oak tree near … are tall.
-2nd Invasion of NLP, by Deep Learning
- The meaning/sense of words is not clear-cut
-Parsing Strategies
-Part-of-
-en
- Number of unigrams: 13,588,391
-90
-PERSON              ORG                      LOCPERSON              ORG                      LOC
-understands you.
- but does not take word order into account.  This
-Slide 46
-Slide 86
-39
-To: Dan Jurafsky
-S2: How to wreck a nice beach. ?
-1j
-100
-Correct parse 1 Correct parse 2
-56
-https://www.youtube.com/watch?v=7BPx-vl8G00
- Not in NL:
-Slide 12
-problem
- Training:
-37
- nouns, main verbs, adjectives, adverbs
-Bag-of-word Model (BOW)
-ease of use
-N=10,000
- a non-terminal designated as the starting symbol
-Statistical methods / Machine Learning / Knowledge-poor method
-Statistical NLP
-Acoustic model
-1088
- next move of player based on his/her past moves
- models the order of the events
-aback 26 1 6 0 … 12 2
-2. Train a character-based language model for Spanish:
-Coreference resolution
- Number of tokens: 1,024,908,267,229
- new_count(n-gram) = old_count(n-gram) + 1
-Limits of BOW Model
-Forest
-→ Worksheet #10 (“Parsing”)
-World Knowledge
-Slide 51
- “come across 3 men” --> prob = 0
-19
- Genre (adaptation):
-ADJ         ADJ    NOUN  VERB      ADV     ADJ         ADJ    NOUN  VERB      ADV
-4
-sentence – en*
-P(wn |w1w2…wn-1)
- E.g.: figures of speech, …
- P(more | come across) = 0.1
- He is trying to fine out.
-1. Assign the right part of speech (NOUN, VERB, …) to
-75
-Where: Gates 159
- The child hid the candy under the bed.
-Slide 37
-The Ancient Land of NLP (aka GOFAI)
-6. NP V ART N
- Tense of verb (future, past)
- Semantic roles: Agent, Patient, Instrument, Time,  Location, …
- P(“I’d like a coffee with 2 sugars and milk”) ≈ 0.001
-Slide 89
-apples.
-Stages of NLU
- Non-ambiguous
- word order is ignored ==> meaning of text is lost.
-unsmoothed bigram counts:
-5. John V NP
-chair
-40
-meaning of phrases and
-Do you have a quarter?
-Lexical Semantics
- E.g. Overlapping of word senses across languages
-22
- So use a window of words around the target word as
-Add-one: Example
-= .0009072         = .0006804
- The model assigns a probability of zero to unseen events …
-Slide 16
- The bird next to the large oak tree near … flies rapidly.
-Slide 25
-Slide 60
-Syntactic Parsing
-Slide 88
-flash
- Top-down parsing /
-
-eat 1
- with pre-classified documents
-Semantics: What is the
-.215 .00019 .0028
-Factors of Training Corpus
-Spam detection
- Juvenile Court to Try Shooting Defendant
-zoom
- used in many applications:
-8. John ate the N
-  These phenomena can quickly increase the number of
- Goal:
-Example 1:
-Symbolic methods / Linguistic approach / Knowledge-rich approach
-cewordsequen
-Slide 83
-Buy V1AGRA …Buy V1AGRA …
-Syntactic
- E.g.
- “pill”?  “broccoli”?
-S2: Translated this!
- Hospitals are Sued by 7 Foot Doctors
- Speech Processing
- ex: bass = fish, musical instrument, ...
-environment?
- map an expression into a knowledge representation
-Slide 10
-mother.
-SF?
-sequences
-S4…
- … …
-WILLIAM WILKINSON’S
- Number of bigrams: 314,843,401
-…he was throwing paper balls in class.
-add-one smoothed bigram counts:
- Complex syntactic structures
-tagging
-86
-Q. How effective is ibuprofen in
- in a training corpus, we have 10 instances of
-before considering another
-• Rules are developed by hand in collaboration with linguists
-perfume.  Then he flew home.  He went to Walmart.  He
-3. The computer understands you
-Slide 17
-meaning/semantic
-tokenisation Decision trees
-P(acoustic signal)
- Assume V = 50
-another
-End:    11:30am
- Assume a vocabulary of 1616 (different) words
- Syntax is not enough
-…play… instrument
-  Input:
-Slide 56
-Rule-based NLP
-
- (?) I am going to Concordia.  I need butter.
- Features?
- “come across the men” --> prob = 0
- We painted the wall with cracks.
- E.g.: Could you spare some change?
-trees
-a 0 0 0 0 … 8 5
-
- top-down (goal-directed): grammar --> words
-since the camera is small and light, I won't need to carry around
- Clean and tokenize
-81
-Party
-Z 0.0014 0.0014 0.0014 0.0014 0.0014 0.0014 0.0014
- Conjunctions and appositives
-Smurf talk on youtube:
-Who is Bram
- trigram needs to store 8 trillion parameters
-Slide 43
-
-Remember these slides?
-dinner party, Friday May
-V of surrounding words
-Summary of NLU
-42
- bottom-up (data-directed): words --> grammar
- P(BANK1) = 5/7 P(BANK2) = 2/7
-(designed by hand)
-Slide 85
-Slide 87
-…striped… fish
-= log(.25) + log(.32) + log(.65) + log (.26) + log(.001) + log(.6)
-…Today the World Bank/BANK1 and partners are calling for greater relief…
- Parallel problems to syntactic ambiguity
-• Cognitive approach
- In logics:
- Sentence  Ex. If it rains, I will go out.
-• Engineering Approach
- N = size of the vocabulary we are using
-1s
- P(X | come across) = 0  where X ≠ “as”, “more”, “a”
-N+|V|2 = 10,000 + (1616)2
- Pretend we have seen every n-gram at least once
-1. Data preparation:
-Lexicon:
- Determining which sense of a word is used
-Add-one: Example (con’t)
-Slide 27
-possibilities
-phonemes in the language +
- i.e., going back 3 words before helps
-Let’s go to Agra!Let’s go to Agra!
-Slide 9
-P(wn|wn-1)
-animal
- Ex: Silence of the lambs…
-target word [0, 0, 0, 2, 1, 0, …]
-Dialog  Where is Citizen Kane playing in
-Slide 77
-1st approximation
-Mary did kill John.
-some training corpus
-i.e. nb of different n-gram types
- parsing is seen as a search problem
-4. Linguistic features for NLP
-Heuristic
-PP attachment:
-104
- The cat eats the mouse = The mouse is eaten by the cat.
-55
-Metropolis
-add-one bigram conditional probabilities:
- Natural language is not linear ....
-102
-)...wC(w
-WALLACHIA AND MOLDOVIA”
-Slide 76
-you like (love) your mother.
-25
-Slide 79
- possible variations: case sensitivity,
- 1 time, followed by “more”
- Take a window of n words around the target word
-Probability of ≠ pronunciations
- e.g., logics, semantic network, embedding…
-2nd word
-nice and compact to carry!
-61
-Slide 97
- sense of a word depends on the sense of surrounding words
-kjk
-26
- generally function/grammatical words
-expectations perhaps.
-WSD as a Classification Problem
- I ate spaghetti with a fork.  <instrument>
-Stages of NL Understanding
-Bottom up   
-previously unseen events
-i.e. nb of cells in the matrix
-S1: Translate that!
-to any other rules for VP
- first-order Markov models
-MOST FAMOUS NOVEL
-S3: …
- Output:
-Why is NLP hard?
-k
-Slide 24
- s* = argmaxsk P(sk|V)
-individual words?
-Slide 7
- compute 1 level at a time
-Given: Observed sound - O
-LS
-http://en.wikipedia.org/wiki/Google_Ngram_Viewer
-individual words in a text
-Machine Learning
-Information Extraction
-LS
-…         ...
-over the total nb of features
-.
-1
-size and weight
-4. John VP
-like 1
-Using World Knowledge
-
-leg
- Very ambiguous
-
- Water gun… a gun made out of water?
-In Statistical Machine Translation
- AdjP: adjective phrase    really funny, rather clear
-across) C(come
- AdvP: adverb phrase slowly, really slowly
-be explicitly stated in order to make a text coherent.
- Connectives such as “if”, “however”, “in conclusion”
-  How parts-of-speech are organised into larger
- a set of re-write rules
-Slide 38
-Bigrams
-kill 1
- …
-Slide 40
- V is the feature vector
-Carter told Mubarak he shouldn’t run again.Carter told Mubarak he shouldn’t run again.
- n-grams take [a bit of] word order into account
-Slide 21
- probability of an n-gram involving unseen words will be zero!
-这 不过 是 一 个 时间 的 问题 .
-2. Natural Language Generation
-…Web site of the European Central Bank/BANK1 located in Frankfurt…
-Find: The most likely English
-Slide 39
-Slide 61
-Slide 81
-4. Highest probability  language of sentence→
-...
-45
-18
-“ing”  is more probable than in
- result:
-(circa A.D. 1950...mid 1980)
-Nb of  occurrences of sense k
- P(and|BANK1) = 1/30 P(and|BANK2) = 0/12
-91
-not really part of the scene, just as a sort of nod to gringo
- using a language model > trigram is impractical
- goal:
-English Parts-of-Speech
-96
-Slide 66
-36
-8I)|P(I
-French
-…violin… instrument
-https://en.wikipedia.org/wiki/Claude_Shannon
-What is the
- depth-first: exhaust 1 path
-Attributes:
-Slide 34
- Feature vector V contains:
-Deep
- we need:
-character/word sequences
-71
- Goal: choose the most probable sense s* for a word given a vector
-Slide 75
-Slide 19
- What words are available in a
-Where is Citizen Kane playing in
-… … … … … … … …
- A Language model is a n-gram model over word/character
-as well as your mother
-10
- Assume we translate from fr[foreign] to English  i.e.: (en|fr)
-Natural Language Processing
-other
- Intuitively, P(VP → V NP) is:
-Mary did not like to eat
-(6) PP -- > Prep N
-• Rules are developed automatically (using machine learning)
-2. Count words and build model
-together?
-of the grammar to a specific sentence.
-Hi Dan, we’ve now scheduled the curriculum meeting.
-Slide 15
-Artificial Intelligence:
- at any given point, “the”  is more probable than “rabbit”
-language) share similar
- i.e., Meaning of individual words
- An electric guitar and bass player stand off to one side,
-Processing
-I can see Alcatraz from the window!I can see Alcatraz from the window!
-The man saw the boy with the telescope.
-…
- Red Tape Holds Up New Bridges
- NP --> PN
- a representation of context-independent, literal meaning
-Problem: Data Sparseness
-the rose is red /  red the rose is
-It will be in Gates 159 tomorrow from 10:00-11:30.
-7
-)s|P(v
- ...
-Building n-gram Models
-the next event to occur in the sequence
- Size:
-human
- We can use Bayes rule to rewrite this as:
- Number of fivegrams: 1,176,470,663
- P(world|BANK1) = 1/30 P(world|BANK2) = 0/12
- N-by-N-by-N matrix of probabilities/frequencies
- Score(BANK1)=log(5/7) + log(P(shoe|BANK1))+log(P(on|BANK1))+log(P(the|BANK1)) …
-(5) NP -- > Det N
-argmax
-each other (same author, same
-5. PN V ART N
-66
-Slide 28
-The Dow Jones is upThe Dow Jones is up
- 12
-2nd approximation: unigrams
-Slide 64
- See discussion:
- Since denominator is the same for each candidate S, we can ignore it for the
-第 13 届上海国际电影节开幕…第 13 届上海国际电影节开幕…
-The chair’s leg is broken
-meaning
- The/DET rose/NOUN is/VERB red/ADJ.
-over nb of all occurrences of
- …
-Colorless   green   ideas   sleep   furiously.Colorless   green   ideas   sleep   furiously.
-78
- Intuitively:
-words/characters.
-https://image.slidesharecdn.com/maryamsaihbani-161004094341/95/lefttoright-hierarchical-phrasebased-
-Parsing (Syntax):
- S is the set of possible senses for the target word
-Given: Foreign sentence - fr
- P(world|BANK1) = (1+.5) / 55  P(world|BANK2) = (0+.5) / 37
-Another Example of Ambiguity
-8. NP VP
-Slide 94
- description of the language constructions
-the camera feels flimsy, is plastic and very light in weight you have
-Probability of the candidate
-Slide 36
-Slide 54
-Slide 33
-S3: Eat your soup!
-(circa 2010-today)
-= automatic processing of written texts
-Some Difficulties
- Score(BANK2)=log(2/7) + log(P(shoe|BANK2)+log(P(on|BANK2))+log(P(the|BANK2)) …
-Trigrams
-Kingdom
-reducing fever in patients with acute
- next base pair based on past DNA sequence
- ie: events = words  or  events = character
-argmax:
-Castro Theatre at 7:30.
- S: sentence       The boy is happy.
-(11) N --> cat
-52
-77
- sk is a sense in S
-Slide 11
- Testing phase:
-add
-
-log of the probs
-marker, …
-I have to go to the university.  I need butter.
-4. PN V ART cat
-2. Compositional Semantics
-Question answering (QA)
-93
-Slide 52
-INSPIRED THIS AUTHOR’S
-Feature Extraction
-9. S
-P(en) x en)|P(fr argmaxen*
-(9/5053)
- Information Retrieval (eg. google search)
-Examples of Discourse Relations
-Slide 63
- Bayes decision rule:
-B   N
-ambiguous word
-Start:   10:00am
-Bill Gates passed away last night.
-Det-N-PP Det-N …
-Turing was a great mathematician living in
-Slide 91
-→ Worksheet #10 (“Word Sense Disambiguation”)
-Slide 95
- Grammatical roles:  subject, direct object, ...
-eat 0 0 2 0 19 2 52  C(eat)=938
-29
-:note
-Features for WSD
-Slide 18
-Machine
-How people use language in a social
-N: size of the corpus
-punctuation, beginning/end of sentence
-Slide 93
-to 3 0 10 860 3 0 12  C(to)=3256
- Happy [cats and dogs] live on the farm
-Slide 5
- Pragmatics
- (I eat) (eat I) (I sleep)
-the  cat Prep-NP
- …
-i.e. nb of n-gram tokens in training corpus
-C(I) + |V| = 5053
-(10) Det --> the
-language?  gfiioudd  / table
-n1
- set of non-terminal symbols
-Do you want a ticket?
-Add-delta Smoothing
-Probabilistic Parsing
- I went to the bank of the river and dangled my feet.
- WSD can be viewed as typical classification
-.00019 .00019 .00019
-Why use only bi- or tri-grams?
-Naïve Bayes WSD
-https://en.wikipedia.org/wiki/Winograd_Schema_Challenge
-Surrounding words Most probable sense
- He is trying to find out.
-…river… fish
- Language Identification
-Slide 32
-Pragmatics
-60
-Slide 92
-Slide 104
-Slide 102
- a tree representation of the application
- P(“I’d hike a toffee with 2 sugars and silk”) ≈ 0.000000001
-Acoustic model --
-2. Determine how words are put together to form
-Chinese 3 1 1 1 1 121 2  C(Chinese) + |V| = 1829
-1. Train a character-based language model for Italian:
-P(S)S)|P(O argmaxS*
-Date: January 15, 2012
- Because it is ambiguous:
- <s>I eat <s> I sleep <s>
- The man next to the large oak tree near … talks rapidly.
-50
-Helping human translators
-Model Applications
- What if a sequence never appears in training corpus? P(X)=0
-is good
- Is/VERB red/ADJ the/DET rose/NOUN.
-Linguistic features used for what?
-1  )w w (w C  )w w (wP n1 2n21Add1
- Number of trigrams: 977,069,902
-Slide 82
-…for swimming, had warned her off the banks/BANK2 of the Potomac. Nobody...
-1. Introduction
-translation-and-its-application-in-simultaneous-speech-translation-maryam-siahbani-4-638.jpg?cb=1477004310
- cat, mouse, nurses, eat, ...
-Great Britain. He was an atheist as well as gay.
- breadth-first: compute all paths in parallel
- Using our general knowledge of the world to interpret
- Optical character recognition / Handwriting
- But, how far back do we look?
- NP: noun phrase      the little boy from Paris, Sam Smith, I,
-16
- Target word: The word to be disambiguated
-46
-Einstein met with UN officials in PrincetonEinstein met with UN officials in Princeton
-Summarization
- Maybe we should take word order into account...
- V = {a, aardvark, aardwolf, aback, … , I, …, want,… to, …, eat, Chinese, …, food, …, lunch, …,
-A B C D … Y Z
-surrounding sentences?
- “the large green ______ .”
-zoophyte, zucchini}
-68
-
-unsmoothed bigram conditional probabilities:
-model
-Grammar:
-65
-P(wn|wn-1wn-2)
-text?
- So for:
-)...wC(w  )...ww|(wP
-CS &
- And a total of N = 10,000 bigrams (~word instances) in the training corpus
-79
-a sentence/discourse
-Slide 1
-92
-Slide 90
- Fake gun… it is a gun anyways?  Can it kill?
-Example: John ate the cat
- Disambiguation: “I lost my left shoe on the banks of the river Nile.”
- P(a | come across) = 0.1
- Local HS Dropouts Cut in Half
- Knowing that Sue “swallowed” helps narrow down
- some languages do not have all these categories
-Slide 49
-John.
-11
- 58
- S, NP, VP, PP, D, N, V, ...
- product of probabilities… numerical underflow
-98
-✓
-31
- Every man loves a woman.
-59
- I ate spaghetti with meat balls.  <attribute of food>
- Kids Make Nutritious Snacks
-NLP vs Speech Processing
-Linguists
-CONTRAST This is good, but this is better.
- Training a Naïve Bayes classifier
-74
-Breath
-43
- Discourse Analysis
-kt
- I shot an elephant in my pyjamas.
-n-gram Model
-The trophy would not fit in the brown suitcase because ...
- John visited Paris.  He bought Mary some expensive
-Learning
- but after a while, not much improvement…
- Syntactic dependencies
- NP --> D N
-“One morning I shot an elephant in my pyjamas.  How he got
-Applications
- training on cooking recipes and testing on aircraft
-want .0014 .00035 .278 .00035 .0025 .0031 .00247
-Chair:  person?  Furniture?
- VP: verb phrase       eat an apple, sing, leave Paris in the night
- left right right up ... up? down? left? right?
- the probability of expanding VP by a V NP, as opposed
- P(and|BANK1) = (1+.5) / 55  P(and|BANK2) = (0+.5) / 37
-to .00082 .0002 .00226 .1767 .00082 .0002 .00267
--- > (Maddy), (my dog), and (Samy)
- that learns a classifier to assign to unseen sentences one of a fixed
- AGCTTCG ... A? G? C? T?
-not 1
- Statistical Machine Translation
-In Speech Recognition
-1. Speech Recognition
-did 2
-with a 20 000 word vocabulary:
-1-n1n 
-3rd word
-Problem: Multiple parses
- 8 times, followed by “as”
-Slide 50
- The man saw the boy with the telescope.
-maintenance manuals
- Natural Language Processing
-Word Freq.
-)count(s
-a CFG consists of
-terminal or non-terminal in the RHS
-✗
-Slide 2
- Gun = instrument that can kill
-I 8 1087 0 13 0 0 0  C(I)=3437
-This is only a matter of time.
- Output = text
-I need new batteries for my mouse.I need new batteries for my mouse.
-62
-depth first
-eat 1 1 23 1 20 3 53  C(eat) + |V| = 2554
-…lounging against verdant banks/BANK2 carving out the...
- N-by-N matrix of probabilities/frequencies
- e.g. preference to shorter rules
-)count(word
-Probability of the possible
-1. John ate the cat
-Artificial Intelligence:  Natural Language Processing
  prepositions, determiners, pronouns, conjunctions, …
- I went to the bank of Montreal and deposited 50$.
-Village of
-Best roast chicken in San Francisco!Best roast chicken in San Francisco!
- S --> NP VP
-Named entity recognition (NER)
-Word sense disambiguation (WSD)
-Slide 80
-...
- Hi dear, how are ... helicopter? laptop? you? magic?
-Mary did eat apples.
-Slide 22
-Machine Translation
-Slide 98
-A 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
-Slide 68
-A Parse Tree
- Natural
- having a single non-terminal on the LHS and one or more
-... it was too big.
-Fully automatic
-zoophyte 0 0 0 1 … 0 0
- Heuristic search
- breadth-first:
-Word Sense Disambiguation (WSD)
-2. Speech Synthesis
- the more, the better
-O)|P(SargmaxS*
- but some words are more frequent then others…
-
- How do we deal with sentence boundaries?
-14
- set of terminal symbols
-SEQUENCE Do this, then do that.
-Slide 71
-aardvark 0 0 0 0 … 0 0
-3. Given a unknown sentence “che bella cosa”  is it in Italian or in Spanish?
- characters = 26 letters (case insensitive)
-Question Answering: IBM’s Watson
- so the probability of a word also depends on the
- but there are so many of them that too much probability mass is
-Slide 73
- Input = acoustic signal
-8
-journey
-Hide (agent=child, patient=candy,
-Speech
- use machine learning techniques (ex. Naïve Bayes classifier, decision
- parsing:
--- > (Maddy, my dog), and (Samy)
-Translation model
-P(word sequence | acoustic signal)argmax
-…salmon… fish
-44
- Many possible parses for a single sentence happens
-P(acoustic signal | word sequence) x P(word sequence)argmax
- Large and open vocabulary (new words everyday)
-aardwolf 0 0 0 0 … 0 0
-or
- hypothesis: texts that resemble
-through the space of all possible parse
-Depth
-Slide 47
- E.g.:
- A simple model where word order is ignored
- Solution: smoothing
- sentence S
-Slide 23
- apply language model to unknown
-into my pyjamas, I don’t know.”
-= estimating P(vj|sk) and P(sk) from a sense-tagged training
-Slide 59
- use machine learning techniques (ex. Naïve Bayes
-Slide 78
-• But the linguistic features are hand-engineered and fed to the ML model
-Some Adjustments
- ex. the, in, and, over, beyond…
- Iraqi Head Seeks Arms
-Slide 58
-jambe pied
- P(the|BANK1) = 5/30 P(the|BANK2) = 3/12
- a grammar:
-3. n-gram models
- assign syntactic structures to a sentence
-Nb of occurrences of feature j
-Slide 20
- NP --> Pro
-d
-possible parse trees!
- [Happy cats] and dogs live on the farm
-P(O)
- Sentences can be very ambiguous…
-want 3 0 786 0 6 8 6  C(want)=1215
- better than add-one, but still…
-correct sentences
-Compositional Semantics
-Parsing
-May
- Not tolerant to errors (ex. Syntax error)
- But has severe limits to understand meaning of text...
-sentence in the language
-32
-food 20 1 18 1 1 1 1  C(food) + |V| = 3122
- World knowledge
-→ Worksheet #10 (“Sentence Probability”)
- Value: frequency of these words in a window before & after the
-events (grams/units/items)
-…Welcome to America's Job Bank/BANK1 Visit our site and…
-Slide 45
-syntactic constituents
- Features?
-• And the linguistic features are found automatically!
-Slide 101
-for long sentences
- Ban on Nude Dancing on Governor’s Desk
-those heavy, bulky professional cameras either!
- Won Jeopardy on February 16, 2011!
- Maddy, my dog, and Samy
- second-order Markov models
-Do you have a child?
-88
-You’re invited to our
-Another Classification Problem,  again!
-…
-febrile illness?
- understanding how people use language socially
-E 0.0097 0.0014 0.0014 0.0014 … 0.0014 0.0014
-The 13th Shanghai International Film Festival…The 13th Shanghai International Film Festival…
- so we have:
-= automatic processing of speech
-food 19 0 17 0 0 0 0  C(food)=1506
- Predict the next word/character given the n-1 previous
-The professor sent the student to see the principal because…
-P(t1) = 1x.1x.7x1x.4x.18x1x1x.18 P(t2) = 1x.1x.3x.7x1x1x.18x1x.18
-  intuition:
- “the” appears many more times, than “rabbit”
-Information
-as well as it understands your
-…he could not take it anymore.
-What’s a Language Model?
-70
- Let C(w1...wn) be the frequency of n-gram w1...wn
- Decide on training corpus
-P(acoustic signal | word sequence) x P(word sequence)
-P(“che bella cosa”) with the Italian LM
-Naïve Bayes classifier
- generated from 1 trillion words
-23
- Humans infer relations between sentences that may not
-Slide 8
- A word may denote different things (ex. chair)
-Slide 55
-Add-one, more formally
-3. PN VP
-is the bag of word approach.
-Search
-8P(II)
- “Just then, the white …”
-I want to eat Chinese food lunch …
-38
-to 4 1 11 861 4 1 13  C(to) + |V| = 4872
-54
- bigram of characters
-
- Score(BANK2)=log(2/7) + log(P(shoe|BANK2))+log(P(on|BANK2))+log(P(the|BANK2)) …
-ceword sequenc
-Slide 65
- Training corpus (context window = ±3 words):
-Part-of-speech (POS) tagging
-étape
- Number of fourgrams: 1,313,818,354
-Automatic Language Identification…
-John did not kill Mary.
-Slide 100
-Language
- construction of the language
-Discourse Analysis
- More complex models of language are needed to handle such
-73
-…Welcome to the Bank/BANK1 of America the nation's leading financial institution…
- See Google Ngram Viewer: http://en.wikipedia.org/wiki/Google_Ngram_Viewer
- VP: ∀i ∑i P(VP --> B) = .7 + .3 = 1
- Input:
-Mary did not like to kill
- Robust (ex. forgot a comma, a word… still OK)
+ top-down (goal-directed): grammar --> words
  “come across some men” --> prob = 0
+Slide 75
+Det-N-PP Det-N …
+9. S
+Add-one, more formally
+depth first
+Example 1:
+CONTRAST This is good, but this is better.
+Add-delta Smoothing
+Slide 72
+71
+Slide 2
+S2: How to wreck a nice beach. ?
  Product of the probabilities of the rules used in subtrees
-(12) VB --> eats
-Where we are today
- I ate spaghetti with lots of appetite. <manner>
-Slide 96
-Translation from Stanford’s Phrasal:
-1st Invasion of NLP, from ML
-1. S
- instead of adding 1, add some other (smaller) positive value 𝛿
- Prepositional phrase attachment (PP-attachment)
- Quantifier Scoping
-99
-Deep Language Processing
- Michael Jackson, who was featured in ..., is buried in California.
-Slide 48
-Information Extraction & Sentiment Analysis
-Machine translation (MT)
-(categories)
-Languages
-Remember this slide...
-is goodThe S&P500 jumpedThe S&P500 jumped
-)s|P(v log  )P(s logargmaxs*
-log(P(British|eat)) + log(P(food|British))
- P(the|BANK1) = (5+.5) / (30+.5V) P(the|BANK2) = (3+.5) / (12 + .5V)
-27
-I 8   9 1087
-Walmart. He bought Mary some expensive perfume. He
-PURPOSE To use the computer, get an access code.
-72
-9. John ate the cat
- i.e., Meaning of combination of words
-t
-parses
-S)P(S)|P(OargmaxS*
-53
-• Applications: Information Retrieval, Predictive Text / Word Completion,
-unsmoothed bigram counts (frequencies):
- Compositional
-parsing
-stemming
-Applications of LM
-89
-“come across”
-
-Slide 6
-Slide 67
-tree) to train a system
-(known language/author)
-facts, …) modifies our understanding of
-85
-Google’s Web 1T 5-gram model
- Bottom-up parsing /
-John 1
-source: Robert Dale.
-83
-very often…
-Slide 42
-…The Asian Development Bank/BANK1 ADB a multilateral development finance…
-How to relate the meaning of sentences to
- PP: prepositional phrase  in the morning, about my ticket
- Input = text
- there may be long-distance dependencies.
-49
- P(Potomac|BANK1) = (0+.5) / 55 P(Potomac|BANK2) = (1+.5) / 37
- 2
-patte
-1. Lexical Semantics
- Heuristic search:
- 3
-I .0018
-B  N
-“AN ACCOUNT OF THE PRINCIPALITIES OF
- trigrams (characters) after some billions of words
- Semantic dependencies
-Sentiment analysis
-K-means clustering
- Used when the past sequence of events is a good indicator of
-CAUSE Because I was sick, I could not do my assignment.
- tries to explain what the speaker is really expressing
-Slide 84
-
-94
-
-(4) NP --> Det N PP
- (<s> I) (I eat) (eat <s>) (<s> I) (I sleep) (sleep <s>)
- British Left Waffles on Falkland Islands
-S1: How to recognize speech.  ?
-Introduction to
-XYZ acquired ABC yesterdayXYZ acquired ABC yesterday
- 21
-3. PN V the cat
-(1) S --> NP VP
- 24
- Bush Wins on Budget, but More Lies Ahead
-Deep Learning
-guess how that’s done?
- Features: words [fishing, big, sound, player, fly, rod, …]
-Language Identification, Text Classification, Authorship Attribution...
-B: number of "bins"
+Example
+Where is Citizen Kane playing in
+Kingdom
+RESULT  Click on the button, the red light will blink.
+80
+
+add
+“I am going to make a collect …”
+
 57
- World Knowledge
-Slide 44
-101
-1. The computer understands you
- bigram needs to store 400 million parameters
-purpose, …)
-3. Smooth your model (see later)
-(mid 1980 – circa 2010)
-Language model -- P(a sentence)
-…         total = 10,000
-Event:  Curriculum mtg
-text
-  Discourse tagging can be viewed as typical classification problem
-I want to eat Chinese food lunch … Total
-Example: Language Identification
-slide from Olga Veksler (U. Western Ontario)
-Subject: curriculum meeting
-Syntax
-Mary 2
-s
-Enter Source Text:
-... it was too small.
- Teacher Strikes Idle Kids
-S
-= 2,621,456
-… … … … … … … 0.0014
-t  w
-G. Marx, Animal Crackers, 1930.
- Open (lexical) class words
-First
-63
-1 14 1 1 1  3437
- with 100,000 words, the probability of each word at any
-34
- constituents & parts-of-speech
+1j
+Slide 40
 source: Luger (2005)
-NP-VP       VP   Aux-NP-VP
-…he wanted to see him.
- P(off|BANK1) = 0/30 P(off|BANK2) = 1/12
-20
+Naïve Bayes classifier
+ better than add-one, but still…
+ John visited Paris.  He bought Mary some expensive
+61
+Probability of the possible
+Where: Gates 159
+with a 20 000 word vocabulary:
+ Robust (ex. forgot a comma, a word… still OK)
+ <s>I eat <s> I sleep <s>
+ i.e., Meaning of combination of words
+V of surrounding words
+environment?
+ Feature vector V contains:
+81
+:note
+(circa 2010-today)
+
+3. Smooth your model (see later)
+ Bush Wins on Budget, but More Lies Ahead
+(circa A.D. 1950...mid 1980)
+(known language/author)
+ “come across the men” --> prob = 0
+85
+I have to go to the store.  I need butter.
+The chair’s leg is broken
+ that learns a classifier to assign to unseen sentences one of a fixed
+ apply language model to unknown
+Carter told Mubarak he shouldn’t run again.Carter told Mubarak he shouldn’t run again.
+35
+ 58
+Stages of NL Understanding
+dependencies.
+ P(world|BANK1) = (1+.5) / 55  P(world|BANK2) = (0+.5) / 37
+target word [0, 0, 0, 2, 1, 0, …]
+John.
+86
+= automatic processing of written texts
+ I went to the bank of Montreal and deposited 50$.
+ training on cooking recipes and testing on aircraft
+Lexical Semantics
+apples 1
+ sense of a word depends on the sense of surrounding words
+P(I want to eat British food)
+ constituents & parts-of-speech
+Slide 67
+S3: Eat your soup!
+ N-by-N matrix of probabilities/frequencies
+
+Slide 55
+
+84
+ Features?
+Remember these slides?
+of the grammar to a specific sentence.
+Naïve Bayes WSD
+ AGCTTCG ... A? G? C? T?
+ bigram of characters
 76
- --> need to pick the most probable parse one from the set
-breadth first
-location=under_the_bed, time=past)
-2. The computer understands that
+ Input = acoustic signal
+Bag-of-word Model (BOW)
+18
+Languages
+Mary did like to eat apples.
+ P(Potomac|BANK1) = (0+.5) / 55 P(Potomac|BANK2) = (1+.5) / 37
+15
+98
+“One morning I shot an elephant in my pyjamas.  How he got
+ depth-first: exhaust 1 path before considering
+S1: Translate that!
+)P(s kk 
+ E.g.: Could you spare some change?
+102
+23
+sequences
+ Gun = instrument that can kill
+Parsing (Syntax):
+a aardvark aardwolf aback … zoophyte zucchini
+is goodThe S&P500 jumpedThe S&P500 jumped
+ result:
+ e.g. preference to shorter rules
+ I went to the bank of the river and dangled my feet.
+The 13th Shanghai International Film Festival…The 13th Shanghai International Film Festival…
+1st Invasion of NLP, from ML
+B   N
+The waiter ignored us for 20 minutes.The waiter ignored us for 20 minutes.
+7. John ate ART N
+Applications of LM
+P(wn|wn-1)
+reducing fever in patients with acute
+Paraphrase
+ Features: words [fishing, big, sound, player, fly, rod, …]
+ Fake gun… it is a gun anyways?  Can it kill?
+Start:   10:00am
+How people use language in a social
+ Michael Bublé, who was featured in ..., is living in California.
+
+104
+60
+.
+Slide 43
+Slide 17
+Deep
+the camera feels flimsy, is plastic and very light in weight you have
+ P(the|BANK1) = 5/30 P(the|BANK2) = 3/12
+25
+ VP: ∀i ∑i P(VP --> B) = .7 + .3 = 1
+ V is the feature vector
+Chinese 2 0 0 0 0 120 1  C(Chinese)=213
+individual words in a text
+ Natural
+  intuition:
+“Shannon Game” (Shannon, 1951)
+Slide 48
+ S --> NP VP
+Trigrams
+Slide 63
+Slide 89
+Language model -- P(a sentence)
+31
+Remember this other slide...
+Economy
+Semantics: What is the
+Do you have a child?
+ Using our general knowledge of the world to interpret
+Question Answering: IBM’s Watson
+ Optical character recognition / Handwriting
+ Semantic roles: Agent, Patient, Instrument, Time,  Location, …
+ Water gun… a gun made out of water?
+2. NP VP
+Slide 91
+linguistic features are hand-engineered and fed to the ML model
+ A non-probabilistic parser may find a large set of possible
+7
+ Sentence  Ex. If it rains, I will go out.
+Probabilistic Parsing
+n-gram Model
+aardwolf 0 0 0 0 … 0 0
+ P(“I’d like a coffee with 2 sugars and milk”) ≈ 0.001
+ELABORATION The solution was developed by Alan Turing.
+ Encode information about the words around the target word
+The Ancient Land of NLP (aka GOFAI)
+Party
+Size and weight
+Slide 12
+…he could not take it anymore.
+Surrounding words Most probable sense
+B: number of "bins"
+ Happy [cats and dogs] live on the farm
+75
+Language
+ parsing:
+= .0009072         = .0006804
+Chair:  person?  Furniture?
+  How parts-of-speech are organised into larger
+5. PN V ART N
+ map an expression into a knowledge representation
+Mary did not like to kill
+The Dow Jones is upThe Dow Jones is up
+)s|P(v
+
+Colorless   green   ideas   sleep   furiously.Colorless   green   ideas   sleep   furiously.
+Why use only bi- or tri-grams?
+Slide 10
+Slide 64
+tree) to train a system
+Probability of the candidate
+ Input = text
+K-means clustering
+e.g. for bigrams, it's (size of the vocabulary)2
+Slide 13
+you like (love) your mother.
+ “the” appears many more times, than “rabbit”
+(5) NP -- > Det N
+ Value: frequency of these words in a window before & after the
+(2) S --> VP
+Slide 20
+S)P(S)|P(OargmaxS*
+as well as it understands your
+54
+human
+ceword sequenc
+Syntax
+Stoker?
+37
+ 21
+• Engineering Approach
+ Ex: “Astronomers saw stars with ears.”
+food 20 1 18 1 1 1 1  C(food) + |V| = 3122
+ Red Tape Holds Up New Bridges
+1. Assign the right part of speech (NOUN, VERB, …) to
+Language Identification, Text Classification, Authorship Attribution...
+ The model assigns a probability of zero to unseen events …
+NLP vs Speech Processing
+ The bird next to the large oak tree near … flies rapidly.
+ E.g.:
+ trigrams (characters) after some billions of words
+Pragmatics
+89
+Fully automatic
+ Disambiguation: “I lost my left shoe on the banks of the river Nile.”
+Slide 34
+Slide 50
+第 13 届上海国际电影节开幕…第 13 届上海国际电影节开幕…
+Slide 42
+
+1
+ a tree representation of the application
+ sentence S
+features
+ Let C(w1...wn) be the frequency of n-gram w1...wn
+Slide 15
+Slide 31
+ Decide on training corpus
+t  w
+ Number of bigrams: 314,843,401
+Slide 104
+94
+Mary 2
+ we need:
+ …
+ Michael Jackson, who was featured in ..., is buried in California.
+ next base pair based on past DNA sequence
+ Humans infer relations between sentences that may not
+Spam detection
+Summary of NLU
+Slide 1
+ Statistical Machine Translation
+Mary did kill John.
+argmax
+1. John ate the cat
+other
+k
+eat 0 0 2 0 19 2 52  C(eat)=938
+Slide 23
+Slide 95
+ use machine learning techniques (ex. Naïve Bayes classifier, decision
+ word order is ignored ==> meaning of text is lost.
+Statistical methods / Machine Learning / Knowledge-poor method
  how the syntactic analysis are to be computed
-Find: The most likely word/sentence – S*
-
+P(word sequence | acoustic signal)argmax
+ description of the language constructions
+ I ate spaghetti with a fork.  <instrument>
+Slide 16
+ An electric guitar and bass player stand off to one side,
+…Web site of the European Central Bank/BANK1 located in Frankfurt…
+Slide 6
+ Metal gun… a gun made out of metal
+ so the probability of a word also depends on the
+ Training phase:
+ More complex models of language are needed to handle such
+ Prepositional phrase attachment (PP-attachment)
+Slide 29
+ 2
+Feature Extraction
+ “pill”?  “broccoli”?
+ parsing is seen as a search problem
+phonemes in the language +
+ at any given point, “the”  is more probable than “rabbit”
+(designed by hand)
+1. The computer understands you
+ left right right up ... up? down? left? right?
+eat 1 1 23 1 20 3 53  C(eat) + |V| = 2554
+patte
+ Input:
+kt
+1s
+ construction of the language
+ Is/VERB red/ADJ the/DET rose/NOUN.
+8P(II)
+slide from Olga Veksler (U. Western Ontario)
+P(S)S)|P(O argmaxS*
+ instead of adding 1, add some other (smaller) positive value 𝛿
+70
+through the space of all possible parse
+(4) NP --> Det N PP
+Slide 45
+ “Get the cat with the gloves”
+unsmoothed bigram conditional probabilities:
+I 8   9 1087
+or
+26
+Bottom up   
+ Target word: The word to be disambiguated
+ NB spam filter seen in class a few weeks ago
+Metropolis
+2. Train a character-based language model for Spanish:
+-- > (Maddy, my dog), and (Samy)
+ where:
+90
+n-grams
+Nb of occurrences of feature j
+1. Natural Language Understanding
+n
+Mary did not like to eat
+Slide 57
+)...wC(w  )...ww|(wP
+ Compositional
+the cat eats the mouse.
+Another Example of Ambiguity
+Slide 30
+-Chris
+Slide 81
+(9/5053)
+Slide 90
+i.e. nb of different n-gram types
+ Ban on Nude Dancing on Governor’s Desk
+1. Introduction
+72
+74
+Stages of NLU
+P(acoustic signal | word sequence) x P(word sequence)argmax
+...
+The trophy would not fit in the brown suitcase because ...
+ Goal: find most likely sentence (S*) given the observed sound (O) …
+ to assign semantic roles (different from grammatical roles):
+ I ate spaghetti with my sister.     <accompanying person>
+Slide 62
+Slide 71
+ What if a sequence never appears in training corpus? P(X)=0
+dinner party, Friday May
+46
+ a non-terminal designated as the starting symbol
+4. Linguistic features for NLP
+N: size of the corpus
+I need new batteries for my mouse.I need new batteries for my mouse.
+ next word based on past words
+42
+P(“che bella cosa”) with the Spanish LM
+In Speech Recognition
+100
+ Ex: Silence of the lambs…
+P(“che bella cosa”) with the Italian LM
+want .0014 .00035 .278 .00035 .0025 .0031 .00247
+= estimating P(vj|sk) and P(sk) from a sense-tagged training
+Where we are today
+food 19 0 17 0 0 0 0  C(food)=1506
+ Solution: smoothing
+Slide 36
+May
+the  cat Prep-NP
+ but there are so many of them that too much probability mass is
+ World knowledge
+Statistical NLP
+1st approximation
+ ex. the, in, and, over, beyond…
+ Open (lexical) class words
+16
+Slide 51
+Information Extraction & Sentiment Analysis
+.215 .00019 .0028
+NP-VP       VP   Aux-NP-VP
+ 5-grams
+Summarization
+B  N
+Z 0.0014 0.0014 0.0014 0.0014 0.0014 0.0014 0.0014
+Syntactic
+82
+ The meaning/sense of words is not clear-cut
+8
+S
+101
+ E.g.
+ with 100,000 words, the probability of each word at any
+i.e. nb of cells in the matrix
+Translation from Stanford’s Phrasal:
+Add-one: Example
+The professor sent the student to see the principal because…
+ The men next to the large oak tree near … are tall.
+ Local HS Dropouts Cut in Half
+Problem: Multiple parses
+…he wanted to see him.
+Best roast chicken in San Francisco!Best roast chicken in San Francisco!
+ Quantifier Scoping
+ Connectives such as “if”, “however”, “in conclusion”
+ in a training corpus, we have 10 instances of
+2nd Invasion of NLP, by Deep Learning
+ having a single non-terminal on the LHS and one or more
+ E.g. Overlapping of word senses across languages
+ John visited Paris. Then he flew home. He went to
+ Knowing that Sue “swallowed” helps narrow down
+the next event to occur in the sequence
+ e.g. first-order predicate logic, conceptual graph, embedding...
+ Teacher Strikes Idle Kids
+sentence in the language
+P(acoustic signal | word sequence) x P(word sequence)
+…for swimming, had warned her off the banks/BANK2 of the Potomac. Nobody...
+ Intuitively:
+9. John ate the cat
+affordability
+aback 26 1 6 0 … 12 2
+A 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
+8I)|P(I
+ NP --> D N
+nice and compact to carry!
+Date:   Jan-16-2012
+ He is trying to find out.
+ P(more | come across) = 0.1
+I want to eat Chinese food lunch … Total
+ “come across 3 men” --> prob = 0
+Word Sense Disambiguation (WSD)
+Hi Dan, we’ve now scheduled the curriculum meeting.
+Machine Translation
+ P(a | come across) = 0.1
+ Take a window of n words around the target word
+87
+ Assume V = 50
+ABC has been taken over by XYZABC has been taken over by XYZ
+for long sentences
+mostly solved making good progress Good progress by
+ What words are available in a
+ S, NP, VP, PP, D, N, V, ...
+…play… instrument
+ Markov approximation is still costly
+Introduction to
+ “mountain”? “tree”?
+Example: Language Identification
+What’s a Language Model?
+ Number of fivegrams: 1,176,470,663
+→ Worksheet #10 (“Parsing”)
+(6) PP -- > Prep N
+ VP: verb phrase       eat an apple, sing, leave Paris in the night
+Current Research area: see Winograd Schema Challenge
+1 14 1 1 1  3437
+Slide 100
+since the camera is small and light, I won't need to carry around
+ P(world|BANK1) = 1/30 P(world|BANK2) = 0/12
+to be very delicate in the handling of this camera
+previously unseen events
+“At last, a computer that understands you like your mother”
+ breadth-first: compute all paths in parallel
+Slide 73
+ Discourse Analysis
+ (I eat) (eat I) (I sleep)
+into my pyjamas, I don’t know.”
+ Number of unigrams: 13,588,391
+ 3
+perfume.  Then he flew home.  He went to Walmart.  He
+to see in a few classes
+as) across C(come  across) come |P(as 
+syntactic constituents
+ tries to explain what the speaker is really expressing
+ Closed (functional) class words
+ Bottom-up parsing /
+8. John ate the N
+Helping human translators
+ Bayes decision rule:
+... it was too small.
+Slide 92
+Create new Calendar entry
+ The cat eats the mouse = The mouse is eaten by the cat.
+Coreference resolution
+Question answering (QA)
+ Stolen Painting Found by Tree
+1. Train a character-based language model for Italian:
+kj
+Word sense disambiguation (WSD)
+size and weight
+ P(X | come across) = 0  where X ≠ “as”, “more”, “a”
+3. PN V the cat
+not 1
+Remember this slide...
+CAUSE Because I was sick, I could not do my assignment.
+stemming
+20
+ Speech Recognition
+ “Just then, the white …”
+Slide 102
+ [Happy cats] and dogs live on the farm
+Depth
+marker, …
 Depth-first vs Breadth-first
-unseen examples one of a fixed number of senses
- decrease the probability of previously seen events
-Slide 14
-000 10
+Slide 22
+17
+want 3  4 1 787 1 7 9 7  C(want) + |V| = 2831
+ possible variations: case sensitivity,
+Lexicon:
+ Output:
+2. Natural Language Generation
+tagging
+…he was throwing paper balls in class.
+together?
+Why is NLP hard?
+34
+ second-order Markov models
+ Hi dear, how are ... helicopter? laptop? you? magic?
+s
+ P(“I’d hike a toffee with 2 sugars and silk”) ≈ 0.000000001
+Slide 44
+over nb of all occurrences of
+log(P(British|eat)) + log(P(food|British))
+Slide 80
+• Rules are developed by hand in collaboration with linguists
+ The man saw the boy with the telescope.
+ A word may denote different things (ex. chair)
+John 1
+Slide 7
+ A Language model is a n-gram model over word/character
+…         total = 10,000
+To: Dan Jurafsky
+Probability of ≠ pronunciations
+ Number of sentences: 95,119,665,584
+ i.e. To predict the next event in a sequence of event
+Slide 88
+Slide 49
+kill 1
+ADJ         ADJ    NOUN  VERB      ADV     ADJ         ADJ    NOUN  VERB      ADV
+understands you.
+ but some words are more frequent then others…
+ The man next to the large oak tree near … is tall.
+character/word sequences
+ British Left Waffles on Falkland Islands
+ with pre-classified documents
+6. NP V ART N
+LS
+ Every man loves a woman.
+Slide 53
+Q. How effective is ibuprofen in
+48
+ --> need to pick the most probable parse one from the set
+as well as your mother
+19
+ Used when the past sequence of events is a good indicator of
+ NP: noun phrase      the little boy from Paris, Sam Smith, I,
+to any other rules for VP
+Example (with add 0.5 smoothing)
+92
+78
+some training corpus
+given to unseen events
+ Number of tokens: 1,024,908,267,229
+I want to eat Chinese food lunch …
+1. Lexical Semantics
+Slide 28
+ using a language model > trigram is impractical
+Google’s Web 1T 5-gram model
+ Spelling correction
+)...wC(w
+C 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
+ But has severe limits to understand meaning of text...
+ Features?
+ … …
+bought some underwear.
+Linguists
+… … … … … … … …
+ And a total of N = 10,000 bigrams (~word instances) in the training corpus
+sentences?
+ We can use Bayes rule to rewrite this as:
+ Juvenile Court to Try Shooting Defendant
+27
+The Modern Land of
+E 0.0097 0.0014 0.0014 0.0014 … 0.0014 0.0014
+ambiguous word
+Deep Language Processing
+ Very ambiguous
+-- > (Maddy), (my dog), and (Samy)
+Slide 79
+Enter Source Text:
+4. PN V ART cat
+Deep Learning
+Heuristic
+ Conjunctions and appositives
+49
+zoophyte 0 0 0 1 … 0 0
+3. Given a unknown sentence “che bella cosa”  is it in Italian or in Spanish?
+ but does not take word order into account.  This
+1-n1n 
+4. Highest probability  language of sentence→
+ cat, mouse, nurses, eat, ...
+…violin… instrument
+ a representation of context-independent, literal meaning
+ Syntactic dependencies
+ Output = text
+Hide (agent=child, patient=candy,
+ so instead of multiplying the probs, we add the
+WALLACHIA AND MOLDOVIA”
+29
+eat .00039 .00039 .0009 .00039 .0078 .0012 .0208
+ Testing phase:
+• But the linguistic features are hand-engineered and fed to the ML model
+I 8 1087 0 13 0 0 0  C(I)=3437
+ goal:
+Word Freq.
+ Training a Naïve Bayes classifier
+https://en.wikipedia.org/wiki/Winograd_Schema_Challenge
+Slide 59
+CS &
+the rose is red /  red the rose is
+ Grammatical roles:  subject, direct object, ...
+Slide 24
+Slide 74
+http://googleresearch.blogspot.com/2006/08/all-our-n-gram-are-belong-to-you.html
+ (?) I am going to Concordia.  I need butter.
+ every previously unseen n-gram is given a low probability
+ “Sue swallowed the large green ______ .”
+Artificial Intelligence:
+2. Bag of word model
+ I eat.  I sleep.
+to 1
+ Many possible parses for a single sentence happens
+
+across) C(come
+Grammar:
+Y 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
+Mary did eat apples.
+ See Google Ngram Viewer: http://en.wikipedia.org/wiki/Google_Ngram_Viewer
+a 0 0 0 0 … 8 5
+ Semantic dependencies
+Information Extraction
+parses
+events (grams/units/items)
+ But, how far back do we look?
+ Heuristic search:
+S2: Translated this!
+WSD as a Classification Problem
+ i.e., going back 3 words before helps
+ product of probabilities… numerical underflow
+ a set of re-write rules
+eat 1
+Correct parse 1 Correct parse 2
+ each word has an equal probability to follow any
+Add-one: Example (con’t)
+given point is .00001
+flash
+ Hospitals are Sued by 7 Foot Doctors
+space to unseen events
+Probability of a parse tree
+  Input:
+add-one bigram conditional probabilities:
+N=10,000
+ The child hid the candy under the bed.
+ …
+ 24 GB compressed
+Slide 39
+source:  Manning, and Schütze, Foundations of Statistical Natural Language Processing, MIT Press (1999)
+ So use a window of words around the target word as
+Slide 98
+before considering another
+Slide 19
+Sentiment analysis
+ so we have:
+t
+47
+5. John V NP
+You’re invited to our
+1  )w w (w C  )w w (wP n1 2n21Add1
+= log(P(I|<s>)) + log(P(want|I)) + log(P(to|want)) + log(P(eat|to)) +
+“ing”  is more probable than in
+ ...
+I have to go to the university.  I need butter.
+ Score(BANK2)=log(2/7) + log(P(shoe|BANK2))+log(P(on|BANK2))+log(P(the|BANK2)) …
+ I ate spaghetti with lots of appetite. <manner>
+ He is trying to fine out.
+Menu
+French
+ a parsing strategy:
+text
+ hypothesis: texts that resemble
+P(acoustic signal)
+1. Speech Recognition
+ Won Jeopardy on February 16, 2011!
+G. Marx, Animal Crackers, 1930.
+ I ate spaghetti with meat balls.  <attribute of food>
+Artificial Intelligence:  Natural Language Processing
+
+33
+ understanding how people use language socially
+Slide 37
+ Size:
+Information
+breadth first
+correct sentences
+problem
+appearing in windows of Sk
+ P(off|BANK1) = (0+.5) / 55 P(off|BANK2) = (1+.5) / 37
+meaning/semantic
+ Lexical Semantics :
+ models the order of the events
+apples.
+ Assume we translate from fr[foreign] to English  i.e.: (en|fr)
+Retrieval
+facts, …) modifies our understanding of
+leg
+Some Difficulties
+27 at 8:30
+ n-grams take [a bit of] word order into account
+cewordsequen
+How knowledge about the world (history,
+Natural Language Processing
+ Goal:
+ Information Retrieval (eg. google search)
+ the probability of expanding VP by a V NP, as opposed
+This is only a matter of time.
+en
+2. Count words and build model
+unsmoothed bigram counts:
+English Parts-of-Speech
+individual words?
+Machine Learning
+ We painted the wall with cracks.
+36
+The man saw the boy with the telescope.
+…         ...
+ Sentences can be very ambiguous…
+ Iraqi Head Seeks Arms
+ Clean and tokenize
+P(wn|wn-1wn-2)
+ ie: events = words  or  events = character
+Problem with n-grams
+63
+ NP --> PN
+2. Compositional Semantics
+over the total nb of features
+ Score(BANK2)=log(2/7) + log(P(shoe|BANK2)+log(P(on|BANK2))+log(P(the|BANK2)) …
+38
+ S is the set of possible senses for the target word
+ How to arrange words
+MOST FAMOUS NOVEL
+ 1 time, followed by “a”
+not really part of the scene, just as a sort of nod to gringo
+ The idea is to give a little bit of the probability
+ a grammar:
+…striped… fish
+Slide 8
+WILLIAM WILKINSON’S
+language) share similar
+ Artificial
+Buy V1AGRA …Buy V1AGRA …
+ some languages do not have all these categories
+Slide 58
+A Parse Tree
+Find: The most likely English
+ ex: bass = fish, musical instrument, ...
+ set of non-terminal symbols
+32
+Slide 66
+ 24
+95
+ V = {a, aardvark, aardwolf, aback, … , I, …, want,… to, …, eat, Chinese, …, food, …, lunch, …,
+14
+1088
+Learning
+Factors of Training Corpus
+ breadth-first:
+source: Robert Dale.
  P(Potomac|BANK1) = 0/30 P(Potomac|BANK2) = 1/12
+Slide 65
+44
+ so that there is a little bit of probability mass left over for
+i.e. nb of n-gram tokens in training corpus
+S3: …
+Slide 25
+Slide 27
+like 1
+ P(the|BANK1) = (5+.5) / (30+.5V) P(the|BANK2) = (3+.5) / (12 + .5V)
+ (set of) parse trees
+Chinese 3 1 1 1 1 121 2  C(Chinese) + |V| = 1829
+End:    11:30am
+51
+(mid 1980 – circa 2010)
+Find: The most likely word/sentence – S*
+ How do we deal with sentence boundaries?
+ 12
+99
+n1
+ “the large green ______ .”
+Slide 18
+ Large and open vocabulary (new words everyday)
+83
+…salmon… fish
+ generally function/grammatical words
+Slide 78
+  Discourse tagging can be viewed as typical classification problem
+ 8 times, followed by “as”
+ ie. pick the sentence with the highest probability:
+in a specific sentence
+Compositional Semantics
+Attributes:
+D 0.0042 0.0014 0.0014 0.0014 … 0.0014 0.0014
+ ie. The meaning of individual words
+= finding the most likely sense k
+Slide 38
+ NP --> Pro
+ Goal: choose the most probable sense s* for a word given a vector
+Walmart. He bought Mary some expensive perfume. He
+ characters = 26 letters (case insensitive)
+trees
+ sk is a sense in S
+ Syntax is not enough
+96
+ Complex syntactic structures
+Slide 76
+ Output = acoustic signal
+79
+2. Speech Synthesis
+animal
+ PP: prepositional phrase  in the morning, about my ticket
+“come across”
+Acoustic model --
+Acoustic model
+= 2,621,456
+ An n-gram model is a probability distribution over sequences of
+Slide 94
+ first-order Markov models
+Slide 84
+Deep Neural Networks applied to NLP problems
+8. NP VP
+
+ P(and|BANK1) = 1/30 P(and|BANK2) = 0/12
+2. Determine how words are put together to form
+Slide 14
+ Kids Make Nutritious Snacks
+ new_count(n-gram) = old_count(n-gram) + 1
+add-one smoothed bigram counts:
+…
+S1: How to recognize speech.  ?
+Some Adjustments
+febrile illness?
+ used in many applications:
+✗
+Translation model
+P(en) x en)|P(fr argmaxen*
+45
+ probability of an n-gram involving unseen words will be zero!
+53
+A B C D … Y Z
+ In English character sequence
+ Number of fourgrams: 1,313,818,354
+…Welcome to the Bank/BANK1 of America the nation's leading financial institution…
+52
+Breath
+ Most likely sense of the word
+lunch 4 0 0 0 0 1 0  C(lunch)=459
+ AdvP: adverb phrase slowly, really slowly
+Slide 96
+Model Applications
+ nouns, main verbs, adjectives, adverbs
+→ Worksheet #10 (“Sentence Probability”)
+speech
+Language model
+ most widely used value for 𝛿 = 0.5
+ Map sentences to some representation of its
+91
+Slide 101
+40
+)count(s
+to .00082 .0002 .00226 .1767 .00082 .0002 .00267
+corpus
+mother.
+Slide 61
+The Ancient Land of NLP
+ use machine learning techniques (ex. Naïve Bayes
+Slide 60
+Slide 97
+ new words can be added easily
+Smurf talk on youtube:
+https://www.youtube.com/watch?v=7BPx-vl8G00
+7. NP V NP
+Housing prices roseHousing prices rose
 437 3
  NP: ∀i ∑i P(NP --> B) = .4 + .1 + .18 + .04 + .18 + .1 = 1
-Slide 99
-Summary of Parsing Strategies
- Stolen Painting Found by Tree
-Create new Calendar entry
-The waiter ignored us for 20 minutes.The waiter ignored us for 20 minutes.
-The Modern Land of
+ Number of trigrams: 977,069,902
+Slide 85
+Event:  Curriculum mtg
+…Welcome to America's Job Bank/BANK1 Visit our site and…
+
+Forest
+ the more, the better
+very often…
+ Not in NL:
+In Statistical Machine Translation
+ i.e., Meaning of individual words
+ I shot an elephant in my pyjamas.
+ Even simple sentences are highly ambiguous
+translation-and-its-application-in-simultaneous-speech-translation-maryam-siahbani-4-638.jpg?cb=1477004310
+to 4 1 11 861 4 1 13  C(to) + |V| = 4872
+ generated from 1 trillion words
+Search
+zoom
+Using World Knowledge
+= automatic processing of speech
+a sentence/discourse
+ Pretend we have seen every n-gram at least once
+(10) Det --> the
+ Training corpus (context window = ±3 words):
+relations between
+Slide 35
+Slide 83
+ Pragmatics
+1. Data preparation:
+ Language Identification
+Slide 3
+• Rules are developed automatically (using machine learning)
+ Tense of verb (future, past)
+✓
+Einstein met with UN officials in PrincetonEinstein met with UN officials in Princeton
+13
+ Assume a vocabulary of 1616 (different) words
+65
+meaning of phrases and
+4. John VP
+Slide 11
+1-n1
+P(t1) = 1x.1x.7x1x.4x.18x1x1x.18 P(t2) = 1x.1x.3x.7x1x1x.18x1x.18
+XYZ acquired ABC yesterdayXYZ acquired ABC yesterday
+John did not kill Mary.
+location=under_the_bed, time=past)
+maintenance manuals
+93
+2. The computer understands that
+Machine
+http://en.wikipedia.org/wiki/Google_Ngram_Viewer
+purpose, …)
+parsing
+ e.g., logics, semantic network, embedding…
+https://image.slidesharecdn.com/maryamsaihbani-161004094341/95/lefttoright-hierarchical-phrasebased-
+punctuation, beginning/end of sentence
+Rule-based NLP
+ bottom-up (data-directed): words --> grammar
+Turing was a great mathematician living in
+Slide 4
 Neural networks
-affordability
-35
- An n-gram model is a probability distribution over sequences of
-want 3  4 1 787 1 7 9 7  C(want) + |V| = 2831
- 24 GB compressed
-= finding the most likely sense k
-ABC has been taken over by XYZABC has been taken over by XYZ
-e.g. for bigrams, it's (size of the vocabulary)2
-BANK1 BANK2
- e.g. first-order predicate logic, conceptual graph, embedding...
+S4…
+88
+)s,count(v
+ Because it is ambiguous:
+Examples of Discourse Relations
+Part-of-
+each other (same author, same
+Speech
+Date: January 15, 2012
+ s* = argmaxsk P(sk|V)
+Add-one Smoothing
+étape
+Island
+Example: John ate the cat
+… … … … … … … 0.0014
+sentence – en*
+text?
+(Dracula)
+Castro Theatre at 7:30.
+unseen examples one of a fixed number of senses
+)count(word
+Slide 5
+chair
+(11) N --> cat
+)w w (w C  )w w (wP n1 2n21AddD
+aardvark 0 0 0 0 … 0 0
+22
+ Not tolerant to errors (ex. Syntax error)
+…
+Great Britain. He was an atheist as well as gay.
+  Main Constituents:
+77
+surrounding sentences?
+  These phenomena can quickly increase the number of
+ The man next to the large oak tree near … talks rapidly.
+PP attachment:
+Slide 46
+INSPIRED THIS AUTHOR’S
+ …
+O)|P(SargmaxS*
+Applications
+(1) S --> NP VP
+ there may be long-distance dependencies.
+Bill Gates passed away last night.
+ S: sentence       The boy is happy.
+jambe pied
+ set of terminal symbols
+Slide 93
+is the bag of word approach.
 number of discourse relations (categories)
- Ex: “Astronomers saw stars with ears.”
-Current Research area: see Winograd Schema Challenge
+World Knowledge
+Top down   
+How to relate the meaning of sentences to
+Slide 86
+It will be in Gates 159 tomorrow from 10:00-11:30.
+ Speech Processing
+ but after a while, not much improvement…
+…lounging against verdant banks/BANK2 carving out the...
+
+Slide 54
+ next move of player based on his/her past moves
+55
+11
+ Smaller vocabulary
+Given: Foreign sentence - fr
+Do you have a quarter?
+argmax:
+https://en.wikipedia.org/wiki/Claude_Shannon
+ N-by-N-by-N matrix of probabilities/frequencies
+What is the
+log of the probs
+ P(BANK1) = 5/7 P(BANK2) = 2/7
+ |V| = 1616 words
+66
+1. S
+ (<s> I) (I eat) (eat <s>) (<s> I) (I sleep) (sleep <s>)
+ compute 1 level at a time
+zoophyte, zucchini}
+)s|P(v log  )P(s logargmaxs*
+Slide 56
+model
+And Even More Examples of Ambiguity
+C(I) + |V| = 5053
+
+...
+这 不过 是 一 个 时间 的 问题 .
+is good
+Slide 87
+a CFG consists of
+68
+SF?
+journey
+https://www.youtube.com/watch?v=sbJ89LFheTs
+Summary of Parsing Strategies
+zucchini 0 0 0 3 … 0 0
+Automatic Language Identification…
+ bigram needs to store 400 million parameters
+56
+Slide 32
+ Genre (adaptation):
+
+50
+ Predict the next word/character given the n-1 previous
+B 0.0014 0.0014 0.0014 0.0014 … 0.0014 0.0014
+ assign syntactic structures to a sentence
+ease of use
+BANK1 BANK2
+• Applications: Information Retrieval, Predictive Text / Word Completion,
+ Heuristic search
 lunch 5 1 1 1 1 2 1  C(lunch) + |V| = 2075
-sentences?
-Slide 70
- goes beyond the literal meaning of a sentence
-Remember this other slide...
- Lexical Semantics :
-Retrieval
-Slide 26
-33
-2. Bag of word model
- Markov approximation is still costly
-
-to 1
- words & punctuation
-RESULT  Click on the button, the red light will blink.
+…The Asian Development Bank/BANK1 ADB a multilateral development finance…
+ Score(BANK1)=log(5/7) + log(P(shoe|BANK1))+log(P(on|BANK1))+log(P(the|BANK1)) …
+(categories)
+…Today the World Bank/BANK1 and partners are calling for greater relief…
+ Parallel problems to syntactic ambiguity
+possible parse trees!
+of  Deep
+ AdjP: adjective phrase    really funny, rather clear
+tokenisation Decision trees
+.00019 .00019 .00019
+guess how that’s done?
+Subject: curriculum meeting
+3. The computer understands you
+3. PN VP
+39
+(12) VB --> eats
 classifier, decision tree) to train a system
- where:
+6. John ate NP
+ words & punctuation
+Let’s go to Agra!Let’s go to Agra!
+Nb of  occurrences of sense k
+PERSON              ORG                      LOCPERSON              ORG                      LOC
+Do you want a ticket?
+previous words (the history)
+City of
+ Since denominator is the same for each candidate S, we can ignore it for the
+ See discussion:
+Parsing Strategies
+
+Problem: Data Sparseness
+language?  gfiioudd  / table
+Slide 82
+Building n-gram Models
+words/characters.
+ depth-first: exhaust 1 path
+Information extraction (IE)
+ So for:
+ E.g.: figures of speech, …
+Slide 47
+Slide 99
+“AN ACCOUNT OF THE PRINCIPALITIES OF
+Processing
+= log(.25) + log(.32) + log(.65) + log (.26) + log(.001) + log(.6)
+ 1 time, followed by “more”
+…
+59
+ bigrams (characters) after 100’s million words
+ aka stop words
+I can see Alcatraz from the window!I can see Alcatraz from the window!
+
+ P(off|BANK1) = 0/30 P(off|BANK2) = 1/12
+
+P(wn |w1w2…wn-1)
+Syntactic Parsing
+N+|V|2 = 10,000 + (1616)2
+meaning
+62
+000 10
+ General Kane… person     but  General Motors … corporation
+ Simple syntactic structures
+ In logics:
+ Non-ambiguous
+Slide 26
+ Natural language is not linear ....
+Part-of-speech (POS) tagging
+4
+Bigrams
+unsmoothed bigram counts (frequencies):
+Slide 77
+terminal or non-terminal in the RHS
+... it was too big.
+Slide 33
+Another Classification Problem,  again!
+Limits of BOW Model
+want 3 0 786 0 6 8 6  C(want)=1215
+First
+ WSD can be viewed as typical classification
+d
+Dialog  Where is Citizen Kane playing in
+PURPOSE To use the computer, get an access code.
+ N = size of the vocabulary we are using
+…player… instrument
  Most likely relation in the sentence (none, condition, contrast,
-to see in a few classes
-47
- “Get the cat with the gloves”
-a aardvark aardwolf aback … zoophyte zucchini
- Speech Recognition
- The man next to the large oak tree near … is tall.
- (set of) parse trees
-Language model
+Slide 9
+ P(and|BANK1) = (1+.5) / 55  P(and|BANK2) = (0+.5) / 37
+Slide 21
+Slide 68
+Linguistic features used for what?
+Semantic interpretation:
+10
+Named entity recognition (NER)
+I .0018
+expectations perhaps.
+2nd approximation: unigrams
+those heavy, bulky professional cameras either!
+73
+(3) S --> Aux NP VP
+ Maybe we should take word order into account...
+Slide 70
+LS
+Who is Bram
+ Maddy, my dog, and Samy
+ Determining which sense of a word is used
+3. n-gram models
+Features for WSD
+kjk
+ A simple model where word order is ignored
+The Land of Statistical NLP
+Example of a PCFG
+3rd word
+to 3 0 10 860 3 0 12  C(to)=3256
+Semantic Interpretation
+possibilities
+ The/DET rose/NOUN is/VERB red/ADJ.
+ Top-down parsing /
+CONDITION  If it rains, I will go out.
+…river… fish
+• And the linguistic features are found automatically!
 2. PN ate the cat
-Housing prices roseHousing prices rose
-(2) S --> VP
-Slide 13
-kj
+Discourse Analysis
+another
+recognition
+P(O)
+• Cognitive approach
+2nd word
+ Natural Language Processing
+ Intuitively, P(VP → V NP) is:
+ Training:
+Parsing
+64
+ World Knowledge
+ take into account the frequency of the word in
+ relatively fixed membership
+Given: Observed sound - O
+43
+SEQUENCE Do this, then do that.
+67
+ trigram needs to store 8 trillion parameters
+6
+ goes beyond the literal meaning of a sentence
+→ Worksheet #10 (“Word Sense Disambiguation”)
+did 2
+ decrease the probability of previously seen events
+Slide 52
+Village of
+Machine translation (MT)
+be explicitly stated in order to make a text coherent.
+Symbolic methods / Linguistic approach / Knowledge-rich approach
+ that learns a classifier (a function f) to assign to

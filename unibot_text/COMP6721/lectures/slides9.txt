@@ -1,556 +1,556 @@
 
-71 / 73
-Available as machine-readable structured data (e.g.,
-RDF Schema Constructs: Summary
-29 / 73
-Subclasses
-RDF Schema
-}  In Turtle:
-[Yu14] Liyang Yu.
-...
-9.19
-Google's Knowledge Graph
-§  interlink the DBpedia dataset with other datasets on the Web
-(179) 179 Courtesy of Richard Cyganiak and Anja Jentzsch
-(178) 178 Courtesy of Richard Cyganiak and Anja Jentzsch
-(177) 177 Courtesy of Richard Cyganiak and Anja Jentzsch
-C rdf:type rdfs:Class
-P1 rdfs:subPropertyOf P2
-21 / 73
-65 / 73
-A Developer’s Guide to the Semantic Web.
-"Le Palais des miroirs est un roman..."@fr ;
-Data in various formats
-class(es).
-37 / 73
-9.30
-:€ 60
-Subclass
-Example
-“Bridges”
-Introduction
-→ Worksheet #8: “Subclasses”
-9.27
-9.60
-a:name
-To define that P1 (a property) is a subproperty of P2 (a property),
-Defining Classes
-68 / 73
-9.1
-59 / 73
-§  do that recursively until the graph does not change
-rdfs:isDefinedBy a property typically used to refer to a vocabulary
-dbterm:officialName "Amsterdam" ;
-To define that P (a resource) is a property, write:
-(126) 126
-9.62
-1 Reuse of vocabularies
-...
-Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.
-9.47
-10 / 73
-• The members of a class are known as instances of the class
-→ Worksheet #8: “Linked Data”
-Common “Graph”
-Application Architecture
-rdfs:comment a short (one paragraph) description
-48
-wgs84_pos:long "4.8833333";
-Domain
-35 / 73
-open license
-9.52
-2 Vocabularies
-Class and Instance
-Linked Data: Structured Data on the Web.
-foaf:name "Rene␣Witte" ;
-Format &
-Corrects its
-write:
-...
-Classes and Instances (contd.)
-9.12
-system
-9.6
-https:
-to provide context
-9.51
-(204) 204
-foaf:mbox_sha1sum "5d5705ff1b2142d62a38061f804f766ffaf806ef" .
-Used together with RDF
-Consume
-53 / 73
-18 / 73
-9.26
-52 / 73
-]
-9.18
-https://kgtutorial.github.io/
-9.41
-entailment rules:
-}  DBpedia is a community effort to
-WHERE { ?isbn a:price ?x. ?x rdf:value ?price. ?x p:currency ?currency.
-This states that any resource that has a given property is an instance
-To define a class C as the range of a property P, write:
-Instances
-69 / 73
-9.67
-Vocabularies
-9.54
-rdfs:range  rdfs:Literal.
-→ Worksheet #8: “Creating Instances”
-1 / 73
-Data represented in abstract format
-wgs84_pos:lat "52.3666667" ;
-(197) 197
-(Schemas aka Vocabularies aka Ontologies aka. . . )
-9.73
-#Novel http://…isbn/000651409X
-60/ 73
-9.13
-FOAF
-15 / 73
-rdf:type
-(175) 175
-Self-Describing Datasets
-Notes and Further Reading
-SELECT ?isbn ?price ?currency ?wiki
-9.14
-Required
-http://dbpedia.org/resource/Steve_Jobs
-1.0)
-schema:name "Oscars 2012: The Artist, review" ;
-9.10
-9.4
-Then add:
-SELECT ?isbn ?price ?currency # note: not ?x!
-9.61
-Outline
-Common
-Summary
-9.22
-https://www.microsoft.com/en-us/research/uploads/prod/2018/
-a:author a:author
-Manipulate
-9.15
-9.65
-20/ 73
-}  RDFS defines the meaning of these terms
-[Her] Ivan Herman.
-}  The RDF Semantics document has a list of (33)
-[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael
-(206) 206
-}  Set links among the data items from different
-(203) 203
-https://concordiauniversity.on.worldcat.org/oclc/704257552
-To define a class C as the domain of a property P, write:
-46 / 73
-9.20
-9.37
-9.63
-(201) 201
-(125) 125
-Slides Credit
-• So we define properties of properties using. . . RDF properties!
-19 / 73
-→ Worksheet #8: “FOAF”
-}  The fundamental idea: use graph patterns
-49 / 73
-Summary
-E.g., always use FOAF to describe names, emails, etc., instead of
-9.38
-http://www.w3.org/TR/rdf11-primer/, 24 June 2014.
-• RDF provides “a way to make statements about resources” (IRIs)
-<http://sws.geonames.org/2759793>
-Supports
-...
-If:
-a foaf:Person ;
-§  done, partially, by the “Linking Open Drug Data” task force
-<rdf:Property rdf:ID="title">
-Yih, Machine Reading for Precision Medicine,
-}  …but can be inferred from the RDFS rules
-9.66
-• Properties are also resources (named with URIs)
-<is a friend of> <type> <Property>
-//concordiauniversity.on.worldcat.org/oclc/871683907.
-dbterm:website <http://www.amsterdam.nl> ;
-§ we want to avoid the silo effects
-Reading Material
-§  remember the importance of data!
-Ghosh, Amitav
-56 / 73
-Available on the web (whatever format), but with an
-Courtesy of Richard Cyganiak and Anja Jentzsch
-1 RDF Schema
-owl:sameAs <http://dbpedia.org/resource/Amsterdam>
-}  is not in the original RDF data…
-@prefix dbterm  <http://dbpedia.org/property/>.
-Classes and Instances
-• RDFS provides semantics about what the IRIs stand for
-}  In RDF/XML:
-}  The goal of SPARQL (Query Language for RDF)
-9.71
-SmallMediumEnterprise, we could describe it as [HB11]:
-:$ 78
-4 Knowledge Bases & Linked Open Data
-context beyond
-9.58
-…
-abbreviation)
-9.25
-62 / 73
-property are also related by another.
-of data
-5 Notes and Further Reading
-I rdf:type C
-→ Worksheet #8: “Properties”
-rdfs:domain :Fiction;
-(71) 71
-rdfs:seeAlso a property that links a resource to another for more
-dbterm:longm "53" ;
-excel instead of an image scan)
-9 / 73
-63 / 73
-§  (these are all special URI-s, we just use the namespace
-<http://...isbn/000651409X> rdf:type ex:Novel
-(182) 182
-References I
-9.56
-}  In practice, more complex queries into the RDF data
-• Current version (2014): “RDF Schema 1.1”
-Copyright 2014 by Manning Publications Co., [WZRH14]
-(207) 207
-Artificial Intelligence:
-<h2 itemprop="description">The Artist, an utterly beguiling…</h2>
-Example: schema.org
-Future KG
-dbterm:location dbpedia:Amsterdam ;
-C1 rdfs:subClassOf C2
-Domain and Range
-§  extract structured (“infobox”) information from Wikipedia
-33 / 73
-→ Worksheet #8: “Domain & Range”
-WHERE {?isbn a:price ?x. ?x rdf:value ?price. ?x p:currency ?currency.}
-This is just another triple. . .
-rdfs:label "The Glass Palace"@en ,
-• Includes slides by Ivan Herman, W3C [Her]
-Returns:  [[<..09X>,33,:£,<…Palace>], … , [<..6682>,78,:$, ]]
-[ rdf:type schema:Review ;
-connections in a social network.
-(75) 75
-Introduction
-→ Worksheet #8: “SPARQL”
-54 / 73
-8 / 73
-of one (or more) class(es).
-Gene Ontology (GO)
-(80) 80
-CSV instead of excel)
-Google’s Knowledge Graph
-https://concordiauniversity.on.worldcat.org/oclc/897466408
-(129) 129
-We define that an IRI in a triple is a class using . . . a triple!
-39 / 73
-13 / 73
-(199) 199
-@prefix dbpedia <http://dbpedia.org/resource/>.
-To define that C1 (a class) is a subclass of C2 (a class), write:
-DBpedia
-Returns: [<…409X>,33,:£],  [<…409X>,50,:€],
-9.32
-9.69
-rdfs:comment "The Glass Palace is a 2000 historical novel..."@en ,
-RDFS Summary
-ex:Novel rdf:type rdfs:Class
-Future……
-…
-9.24
-(202) 202
-9.48
-Applications
-9.9
-https://concordiauniversity.on.worldcat.org/oclc/871683907
-Properties
-identify things, so that people could point at your stuff
-Defining a subclass
-Generic Assistant Architecture
-(174) 174
-schema:description "The Artist, an utterly beguiling…" ;
-<div itemscope itemtype="http://schema.org/Review">
-owl:sameAs <http://rdf.freebase.com/ns/...> ;
-Morgan & Claypool, 2011.
-(176) 176 Courtesy of Richard Cyganiak and Anja Jentzsch
-01/1802_aaai-tutorial_precision-med.pdf
-:€ 50
-P rdfs:range C
-geo:inCountry <http://www.geonames.org/countries/#NL> ;
-(171) 171
-16 / 73
-resources
-schema:ratingValue "5" ;
-(172) 172
-w:isbn
-By convention, always provide:
-(RDF Schema) defining the subject IRI
-Knowledge Graphs from Text, https://kgtutorial.github.io/
-Knowledge Bases & Linked Open Data
-6 / 73
-Semantics
-Data on the Web
-(208) 208
-(181) 181 Courtesy of Richard Cyganiak and Anja Jentzsch
-Stand Alone
-17 / 73
-rdf:type    rdf:Property;
-Properties are used to define relations between subject resources
-which there is an x such that (x parent a) and (b brother x)
-Web of Data
-30/ 73
-RDF 1.1 Primer.
-Reuse vocabularies whenever possible
-The W3C “Layer Cake”
-making up your own schema
-• Includes slides from Hoifung Poon, Chris Quirk & Scott Wen-Tau
-Core Vocabularies
-9.59
-LOD Datasets: https://lod-cloud.net/
-• An instance can be member of more than one class
-Property
-Model people and their
-• Again, you’ll get used to it. . .
-§  “if such and such triples are in the graph, add this and this”
-§  provide a query endpoint to the dataset
-9.7
-<rdfs:domain rdf:resource="#Fiction"/>
-Returns: [<…409X>,33,:£],  [<…409X>,50,:€]
-//concordiauniversity.on.worldcat.org/oclc/897466408.
-P rdf:type rdf:Property
-//concordiauniversity.on.worldcat.org/oclc/704257552.
-48 / 73
-43 / 73
-construction
-(173) 173
-dbterm:longs "32" ;
-dbterm:areaTotalKm "219" ;
-To define that I (a resource) is an instance of C (a class), write:
-}  Goal: “expose” datasets on the Web
-• Resources may be divided into groups called classes
-RDF Schema (RDFS)
-Query and Update
-http://…isbn/2020386682 http://…isbn/000651409X
-31 / 73
-34 / 73
-9.68
-70 / 73
-of the HCLS IG at W3C
-9.53
-datasets
-64 / 73
-http://www.w3.org/People/Ivan/CorePresentations/
-With a subproperty, we can state that all resources related by one
-Vocabularies
-Expose,
-}  Eg, “bio” related datasets
-Tutorial on Semantic Web Technologies.
-using language tags for multiple languages.
-25 / 73
-<http://dbpedia.org/resource/Amsterdam>
-In Turtle, rdf:type can be abbreviated as a
-Nexus Simulation Credit Erich Bremmer
-P rdfs:domain C
-<is father of> <subPropertyOf> <is parent of>
-47 / 73
-67 / 73
-Defining a Subproperty
-DBpedia
-28 / 73
-RDFS Utility Vocabulary
-9.17
-9.46
-https://www.microsoft.com/en-us/research/uploads/prod/2018/01/1802_aaai-tutorial_precision-med.pdf
-9.11
-9.57
-12 / 73
-
-http://en.wikipedia/…/The_Glass_Palace
-:title
-This states that values of a property are instances of one (or more)
-Turtle
-All the above, plus link your data to other people’s data
-<h1 itemprop="name">Oscars 2012: The Artist, review</h1>
+information (can be in any format)
 vvv rdf:type uuu .
-9.31
-4 / 73
+9.39
+Represent
+50/ 73
+<h2 itemprop="description">The Artist, an utterly beguiling…</h2>
+RDFS Utility Vocabulary
+Example
 https://www.youtube.com/watch?v=mmQl6VGvX-c
-• Includes slides from Jay Pujara & Sameer Singh, Mining
-Two major principles:
-Processors can switch automatically from one to the other…
-9.70
-p:currency rdf:value
-§  something like: “give me the (a,b) pair of resources, for
-32 / 73
-→ Worksheet #8: “Are we there yet?”
-Class and Instance
-Lecture 9
-45 / 73
-Vocabularies
-FILTER(?currency == :€) }
+DBpedia
+(or a instead of rdf:type in Turtle.)
+9.58
+3 / 73
+}  Set links among the data items from different
 (sounds weird the first time you hear it, but you get used to it)
-}  RDFS environments return that triple, too
-9.3
+2 Make your data self-describing
+• An instance can be member of more than one class
+Available as machine-readable structured data (e.g.,
+wgs84_pos:long "4.8833333";
+→ Worksheet #8: “SPARQL”
+39 / 73
+http://www.w3.org/People/Ivan/CorePresentations/
+(178) 178 Courtesy of Richard Cyganiak and Anja Jentzsch
+This is just another triple. . .
+rdfs:label a human-readable label
+(208) 208
+Introduction
+Classes and Instances (contd.)
 RDFTutorial/.
-27 / 73
-To define that C (a resource) is an RDFS class, write:
-38 / 73
-<#RW>
-For example, if we create our own proprietary term, like
-a:price a:price a:price a:price
-vvv rdf:type xxx .
-9.29
-Label & Comment
+:€ 50
+}  RDFS defines the meaning of these terms
 This states that all the instances of C1 are also instances of C2.
-RDFS Summary
+…
+dbpedia:ABN_AMRO
+Copyright 2014 by Manning Publications Co., [WZRH14]
+FOAF
+9.37
+(204) 204
+:€ 60
+Manipulate
+58 / 73
+Dublin Core
+SPARQL Queries
+(RDF Schema) defining the subject IRI
+dbterm:populationUrban "1364422" ;
+:title
+Expose,
+(75) 75
+Knowledge Bases & Linked Open Data
+…
+<h1 itemprop="name">Oscars 2012: The Artist, review</h1>
+(201) 201
+Gene Ontology (GO)
+§  something like: “give me the (a,b) pair of resources, for
+More authoritative vocabularies
+9.73
+Subclass
+E.g., always use FOAF to describe names, emails, etc., instead of
+}  DBpedia is a community effort to
+SELECT ?isbn ?price ?currency ?wiki
+9.54
+73 / 73
+Then add:
+I rdf:type C
+2 Vocabularies
+• So we define properties of properties using. . . RDF properties!
+foaf:mbox_sha1sum "5d5705ff1b2142d62a38061f804f766ffaf806ef" .
+[<…6682>,60,:€]
+Class and Instance
+https://concordiauniversity.on.worldcat.org/oclc/897466408
+9.71
+Nexus Simulation Credit Erich Bremmer
+(126) 126
+19 / 73
+9.30
+RDF Schema (RDFS)
+6 / 73
+P rdfs:domain C
+Available on the web (whatever format), but with an
+9.70
+9.22
+Required
+9.35
+We define that an IRI in a triple is a class using . . . a triple!
+DBpedia
+Tutorial on Semantic Web Technologies.
+(202) 202
+21 / 73
+Self-Describing Datasets
+9.19
+9.41
+:£ 33
+48 / 73
+A Developer’s Guide to the Semantic Web.
+dbterm:location dbpedia:Amsterdam ;
+9.43
+online streams
+9.50
+9.63
+Part II: Vocabularies & Ontologies, RDFS, Linked Open Data
+[<…6682>,60,:€],  [<…6682>,78,:$]
+(129) 129
+Supplemental
+Format &
+a:name
+Example: schema.org
+14 / 73
+(174) 174
+Returns: [<…409X>,33,:£],  [<…409X>,50,:€]
+9.17
+Human-Readable Content
+61 / 73
+54 / 73
+Classes and Instances
+1 RDF Schema
+45 / 73
+rdfs:comment "The Glass Palace is a 2000 historical novel..."@en ,
+using language tags for multiple languages.
+9.8
+72 / 73
+}  The relevant rule for our example:
+9.25
+Map,
+Consume
+Courtesy of Richard Cyganiak and Anja Jentzsch
+30/ 73
+• Includes slides from Hoifung Poon, Chris Quirk & Scott Wen-Tau
+With a subproperty, we can state that all resources related by one
+To define that I (a resource) is an instance of C (a class), write:
+(41) 41
+01/1802_aaai-tutorial_precision-med.pdf
+a:price a:price a:price a:price
+13 / 73
+9.26
+Data represented in abstract format
+(181) 181 Courtesy of Richard Cyganiak and Anja Jentzsch
+http://dbpedia.org/resource/Steve_Jobs
+dbterm:areaTotalKm "219" ;
+}  Goal: “expose” datasets on the Web
+(205) 205
+}  RDFS environments return that triple, too
+33 / 73
+(125) 125
+Generic Assistant Architecture
+9.64
+9.29
+#Novel http://…isbn/000651409X
+9.31
+23 / 73
+Future KG
+This states that values of a property are instances of one (or more)
+9.32
+owl:sameAs <http://rdf.freebase.com/ns/...> ;
+Class and Instance
+https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
+49 / 73
+OPTIONAL ?wiki w:isbn ?isbn. }
+Corrects its
+Stand Alone
+Ghosh, Amitav
+(176) 176 Courtesy of Richard Cyganiak and Anja Jentzsch
+9.53
+rdfs:isDefinedBy a property typically used to refer to a vocabulary
+9.49
+(199) 199
+C rdf:type rdfs:Class
+Slides Credit
+<rdf:Property rdf:ID="title">
+with rdfs defined as http://www.w3.org/2000/01/rdf-schema#
+Google's Knowledge Graph
+47 / 73
+WHERE { ?isbn a:price ?x. ?x rdf:value ?price. ?x p:currency ?currency.
+There are also some datastructures (bag, list etc.) – read more
+http://www.w3.org/TR/rdf11-primer/, 24 June 2014.
+9.62
+(80) 80
+}  …but can be inferred from the RDFS rules
+• Resources may be divided into groups called classes
+open license
+Common “Graph”
+[ rdf:type schema:Review ;
+property are also related by another.
+→ Worksheet #8: “Subclasses”
+If:
+9.6
+Processors can switch automatically from one to the other…
+4 / 73
+•  these rules may become quite complex
+Application Architecture
+→ Worksheet #8: “FOAF”
+uuu rdfs:subClassOf xxx .
+Property
+@prefix dbpedia <http://dbpedia.org/resource/>.
+56 / 73
+9.46
+Data on the Web
+Defining Classes
+The rdfs:subClassOf property is transitive.
+5 Notes and Further Reading
+• Current version (2014): “RDF Schema 1.1”
+Browser
+For example, if we create our own proprietary term, like
+facts
+https://www.microsoft.com/en-us/research/uploads/prod/2018/
+Supports
+RDF Schema Constructs: Summary
+8 / 73
 Subclass
 9.16
-The rdfs:subClassOf property is transitive.
-#Fiction
-3 Example: schema.org
-2 Make your data self-describing
-own mistakes
-OPTIONAL ?wiki w:isbn ?isbn. }
-9.42
-There are also some datastructures (bag, list etc.) – read more
-Returns: [<…409X>,50,:€],  [<…6682>,60,:€]
-9.21
-Some “helper” constructs
-9.36
-dbterm:longd "4" ;
-[Wor14] World Wide Web Consortium (W3C).
-57 / 73
-9.64
-Query
-Browser
-Range
-rdfs:label a human-readable label
-9.8
-Application Architecture
-9.33
-9.45
-References II
-51 / 73
-→ Worksheet #8: “N-Triples” & “Your first Vocabulary”
-• “RDF Vocabulary Description Language 1.0: RDF Schema” (RDFS
-facts
-RDFS Utility Vocabulary
-(76) 76
-[HB11] Tom Heath and Christian Bizer.
-9.28
-9.39
-36 / 73
-Property
-dbpedia:ABN_AMRO
-(180) 180 Courtesy of Richard Cyganiak and Anja Jentzsch
-}  The relevant rule for our example:
-http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/
-Defining a Property
-§  if there is such a selection, the query returns the bound
-Like inheritance for classes, we can have inheritance for properties:
-"Le Palais des miroirs"@fr ;
-holds” (ie, return the uncles)
-9.23
-42 / 73
-66 / 73
-Manning, 2014.
-uuu rdfs:subClassOf xxx .
-24 / 73
-COMP 6721, Winter 2022
-[<…6682>,60,:€],  [<…6682>,78,:$]
-•  these rules may become quite complex
-(79) 79
-44 / 73
-9.40
-Note
-(or a instead of rdf:type in Turtle.)
-What is a knowledge graph – Pokémon edition:
 Knowledge Graphs
-[<…6682>,60,:€]
-(40) 40
-<span itemprop="ratingValue" class="hidden">5</span>
-information (can be in any format)
-50/ 73
-FOAF
-</rdf:Property>
-72 / 73
-55 / 73
-and object resources.
-Map,
-(41) 41
-rdfs:Class
-• [Wor14, Sections 4–7] (RDF Primer)
-2 / 73
-<rdfs:range rdf:resource="http://...#Literal"/>
-As before, but using a non-proprietary format (e.g.,
-9.2
-SPARQL Queries
-Dublin Core
-26 / 73
-7 / 73
-All the above, plus use open standards (RDF & Co.) to
-§  by binding the symbols, subgraphs of the RDF graph are
-• [WZRH14, Chapters 1, 2] (Linked Data, RDF(S), Vocabularies)
-11 / 73
-14 / 73
-http://www.w3.org/TR/rdf11-primer/
-Goal: Knowledge Integration
-9.49
-9.34
-FOAF (Friend-of-a-Friend) Vocabulary
-selected
-Subproperties
-Inferencing
-Provide useful information about new terms
-:£ 33
-9.55
-before using!
-dbterm:populationUrban "1364422" ;
-58 / 73
-Part II: Vocabularies & Ontologies, RDFS, Linked Open Data
-Examples (dbpedia:The_Glass_Palace)
-Returns: [<…409X>,33,:£]
-3 / 73
-41 / 73
-Represent
-9.50
-9.44
-73 / 73
-Supplemental
-9.43
-Dublin Core
-22 / 73
-More authoritative vocabularies
-humanity
-Label & Comment
-23 / 73
-(<http://…/isbn/000651409X> rdf:type #Fiction)
-with rdfs defined as http://www.w3.org/2000/01/rdf-schema#
-61 / 73
-(205) 205
-Human-Readable Content
-• [Yu14, Chapter 4] (RDFS)
-dbpedia:Amsterdam
-https://pieterheyvaert.com/blog/2019/12/27/kg-pkmn/
-W3C Recommendation
-SPARQL Queries
-Hausenblas.
-<http://dbpedia.org/resource/The_Glass_Palace>
-owl:sameAs <http://sws.geonames.org/2759793> ;
-http://www.w3.org/2000/01/rdf-schema#
-§  the pattern contains unbound symbols
-Classes
-are necessary
-online streams
-Linked Data: Evolving the Web into a Global Data Space.
-9.35
+71 / 73
+9.1
+57 / 73
 9.72
+9.2
+25 / 73
+}  The fundamental idea: use graph patterns
+rdfs:label "The Glass Palace"@en ,
+LOD Datasets: https://lod-cloud.net/
+§  interlink the DBpedia dataset with other datasets on the Web
+9.44
+before using!
+Future……
+9.52
+Returns: [<…409X>,33,:£],  [<…409X>,50,:€],
+9.21
+https://www.microsoft.com/en-us/research/uploads/prod/2018/01/1802_aaai-tutorial_precision-med.pdf
+dbterm:longd "4" ;
+http://en.wikipedia/…/The_Glass_Palace
+36 / 73
+• The members of a class are known as instances of the class
+a:author a:author
+42 / 73
+<http://dbpedia.org/resource/Amsterdam>
+35 / 73
+CSV instead of excel)
+Notes and Further Reading
+9.65
+(180) 180 Courtesy of Richard Cyganiak and Anja Jentzsch
+44 / 73
+9.24
+dbterm:longm "53" ;
+P rdf:type rdf:Property
+connections in a social network.
+//concordiauniversity.on.worldcat.org/oclc/871683907.
+Returns: [<…409X>,33,:£]
+9.67
+"Le Palais des miroirs est un roman..."@fr ;
+22 / 73
+@prefix dbterm  <http://dbpedia.org/property/>.
+SmallMediumEnterprise, we could describe it as [HB11]:
+9.48
+67 / 73
+• [WZRH14, Chapters 1, 2] (Linked Data, RDF(S), Vocabularies)
+Reuse vocabularies whenever possible
+resources
+(40) 40
+48
+1 / 73
+}  The goal of SPARQL (Query Language for RDF)
+own mistakes
+26 / 73
+Defining a subclass
+10 / 73
+FOAF
+9.11
+9.66
+62 / 73
+68 / 73
+dbterm:website <http://www.amsterdam.nl> ;
+§  “if such and such triples are in the graph, add this and this”
+making up your own schema
+Range
+2 / 73
+<div itemscope itemtype="http://schema.org/Review">
+W3C Recommendation
+(197) 197
+Morgan & Claypool, 2011.
+(76) 76
+schema:ratingValue "5" ;
+All the above, plus use open standards (RDF & Co.) to
+Knowledge Graphs from Text, https://kgtutorial.github.io/
+By convention, always provide:
+Some “helper” constructs
+65 / 73
+[HB11] Tom Heath and Christian Bizer.
+Label & Comment
+Artificial Intelligence:
+§  if there is such a selection, the query returns the bound
+References II
+• RDF provides “a way to make statements about resources” (IRIs)
+//concordiauniversity.on.worldcat.org/oclc/704257552.
+of the HCLS IG at W3C
+https://concordiauniversity.on.worldcat.org/oclc/871683907
+rdfs:seeAlso a property that links a resource to another for more
+(179) 179 Courtesy of Richard Cyganiak and Anja Jentzsch
+Semantics
 40 / 73
+entailment rules:
+70 / 73
+RDFS Summary
+9.7
+<is a friend of> <type> <Property>
+31 / 73
+http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/
+<http://sws.geonames.org/2759793>
+• Properties are also resources (named with URIs)
+RDFS Utility Vocabulary
+Returns: [<…409X>,50,:€],  [<…6682>,60,:€]
+9.12
+FILTER(?currency == :€) }
+9.20
+Two major principles:
+Used together with RDF
+→ Worksheet #8: “Domain & Range”
+and object resources.
+owl:sameAs <http://dbpedia.org/resource/Amsterdam>
+Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.
+1 Reuse of vocabularies
+55 / 73
+To define that P (a resource) is a property, write:
+24 / 73
+Inferencing
+Subproperties
+construction
+rdfs:Class
+Domain
+P rdfs:range C
+9.18
+§  the pattern contains unbound symbols
+Web of Data
+WHERE {?isbn a:price ?x. ?x rdf:value ?price. ?x p:currency ?currency.}
+Manning, 2014.
+<http://...isbn/000651409X> rdf:type ex:Novel
+All the above, plus link your data to other people’s data
+12 / 73
+This states that any resource that has a given property is an instance
+Query and Update
+of data
+context beyond
+To define that C (a resource) is an RDFS class, write:
+51 / 73
+60/ 73
+datasets
+16 / 73
+Defining a Property
+p:currency rdf:value
+32 / 73
+SPARQL Queries
+[Yu14] Liyang Yu.
+http://www.w3.org/2000/01/rdf-schema#
+9.33
+(172) 172
+9.13
+rdfs:domain :Fiction;
+9.57
+holds” (ie, return the uncles)
+§  do that recursively until the graph does not change
+geo:inCountry <http://www.geonames.org/countries/#NL> ;
+rdfs:range  rdfs:Literal.
+...
+9.45
+Defining a Subproperty
+to provide context
+Dublin Core
+46 / 73
+https:
+wgs84_pos:lat "52.3666667" ;
+Outline
+SELECT ?isbn ?price ?currency # note: not ?x!
+→ Worksheet #8: “Linked Data”
+owl:sameAs <http://sws.geonames.org/2759793> ;
+Subclasses
+3 Example: schema.org
+→ Worksheet #8: “Are we there yet?”
+[Wor14] World Wide Web Consortium (W3C).
+Domain and Range
+§  done, partially, by the “Linking Open Drug Data” task force
+41 / 73
+...
+humanity
+43 / 73
+§  by binding the symbols, subgraphs of the RDF graph are
+52 / 73
+COMP 6721, Winter 2022
+...
+9.51
+<rdfs:domain rdf:resource="#Fiction"/>
+https://concordiauniversity.on.worldcat.org/oclc/704257552
+9.38
+In Turtle, rdf:type can be abbreviated as a
+RDF 1.1 Primer.
+P1 rdfs:subPropertyOf P2
+a foaf:Person ;
+class(es).
+(177) 177 Courtesy of Richard Cyganiak and Anja Jentzsch
+9.47
+Vocabularies
+Label & Comment
+dbpedia:Amsterdam
+Data in various formats
+9.61
+What is a knowledge graph – Pokémon edition:
+→ Worksheet #8: “Creating Instances”
+<http://dbpedia.org/resource/The_Glass_Palace>
+vvv rdf:type xxx .
+(206) 206
+9.56
+Properties
+Note
+Vocabularies
+→ Worksheet #8: “Properties”
+9.10
+write:
+Core Vocabularies
+Turtle
+system
+34 / 73
+Query
+9.69
+9.68
+9.9
+§ we want to avoid the silo effects
+which there is an x such that (x parent a) and (b brother x)
+37 / 73
+Examples (dbpedia:The_Glass_Palace)
+64 / 73
+9.15
+Goal: Knowledge Integration
+Yih, Machine Reading for Precision Medicine,
+selected
+9.59
+References I
+9 / 73
+<rdfs:range rdf:resource="http://...#Literal"/>
+9.42
+Applications
+• RDFS provides semantics about what the IRIs stand for
+(203) 203
+Returns:  [[<..09X>,33,:£,<…Palace>], … , [<..6682>,78,:$, ]]
+[Her] Ivan Herman.
+§  extract structured (“infobox”) information from Wikipedia
+C1 rdfs:subClassOf C2
+}  Eg, “bio” related datasets
+4 Knowledge Bases & Linked Open Data
+Reading Material
+§  remember the importance of data!
+Linked Data: Structured Data on the Web.
+9.3
+Instances
+Google’s Knowledge Graph
+Introduction
+https://kgtutorial.github.io/
+}  In RDF/XML:
+9.60
+FOAF (Friend-of-a-Friend) Vocabulary
+9.27
+foaf:name "Rene␣Witte" ;
+To define a class C as the domain of a property P, write:
+//concordiauniversity.on.worldcat.org/oclc/897466408.
+• [Yu14, Chapter 4] (RDFS)
+Provide useful information about new terms
+9.55
+Hausenblas.
+http://www.w3.org/TR/rdf11-primer/
+9.36
+Lecture 9
+dbterm:officialName "Amsterdam" ;
+[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael
+identify things, so that people could point at your stuff
+abbreviation)
+of one (or more) class(es).
+Vocabularies
+(Schemas aka Vocabularies aka Ontologies aka. . . )
+§  provide a query endpoint to the dataset
+(79) 79
+27 / 73
+15 / 73
+To define that C1 (a class) is a subclass of C2 (a class), write:
+• Includes slides by Ivan Herman, W3C [Her]
+Classes
+(173) 173
+→ Worksheet #8: “N-Triples” & “Your first Vocabulary”
+<is father of> <subPropertyOf> <is parent of>
+rdfs:comment a short (one paragraph) description
+Summary
+
+(182) 182
+Model people and their
+Properties are used to define relations between subject resources
+(175) 175
+(207) 207
+• Includes slides from Jay Pujara & Sameer Singh, Mining
+Like inheritance for classes, we can have inheritance for properties:
+28 / 73
+• “RDF Vocabulary Description Language 1.0: RDF Schema” (RDFS
+}  is not in the original RDF data…
+• [Wor14, Sections 4–7] (RDF Primer)
+“Bridges”
+18 / 73
+schema:name "Oscars 2012: The Artist, review" ;
+rdf:type    rdf:Property;
+RDF Schema
+</rdf:Property>
+Property
+:$ 78
+9.28
+9.4
+(171) 171
+9.34
+#Fiction
+(<http://…/isbn/000651409X> rdf:type #Fiction)
+• Again, you’ll get used to it. . .
+9.14
+http://…isbn/2020386682 http://…isbn/000651409X
+1.0)
+53 / 73
+ex:Novel rdf:type rdfs:Class
+Summary
+9.40
+(71) 71
+Linked Data: Evolving the Web into a Global Data Space.
+38 / 73
+11 / 73
+Application Architecture
+<#RW>
+To define that P1 (a property) is a subproperty of P2 (a property),
+29 / 73
+9.23
+excel instead of an image scan)
+69 / 73
+RDFS Summary
+17 / 73
+}  In practice, more complex queries into the RDF data
+Common
+schema:description "The Artist, an utterly beguiling…" ;
+}  In Turtle:
+63 / 73
+dbterm:longs "32" ;
+59 / 73
+w:isbn
+<span itemprop="ratingValue" class="hidden">5</span>
+20/ 73
+As before, but using a non-proprietary format (e.g.,
+66 / 73
+rdf:type
+7 / 73
+"Le Palais des miroirs"@fr ;
+}  The RDF Semantics document has a list of (33)
+are necessary
+To define a class C as the range of a property P, write:
+]
+§  (these are all special URI-s, we just use the namespace
+...
+The W3C “Layer Cake”
