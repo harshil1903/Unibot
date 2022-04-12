@@ -30,7 +30,7 @@ focu:Course
 	a rdfs:Class;
 	rdfs:subClassOf  dbr:Course_\(education\);
 	rdfs:label "Unique identifier for a course"@en;
-	rdfs:comment "An abbreviated course displicine and course number which combined uniquely identifies any university course within that academic institution."@en.
+	rdfs:comment "A university course."@en.
 
 focu:courseTaken
 	a rdf:property ;
@@ -80,6 +80,13 @@ focu:catalog
 	rdfs:label "Course number"@en;
 	rdfs:comment "An integer number which uniquely identifies a course within a particular discipline."@en.
 
+focu:courseName
+	a rdf:Property;
+	rdfs:domain <course>;
+	rdfs:range xsd:string;
+	rdfs:label "Course Name"@en;
+	rdfs:comment "An abbreviated course subject and course catalog which combined uniquely identifies any university course within that academic institution."@en.
+
 focu:credits
 	a rdf:Property;
 	rdfs:domain <course>;
@@ -122,3 +129,16 @@ focu:offeredAt
 	rdfs:label "Offered At"@en;
 	rdfs:comment "A university course is offered at the associated university."@en.
 
+focu:topicSource
+	a rdf:Property;
+	rdfs:domain foaf:topic;
+	rdfs:range xsd:string;
+	rdfs:label "Topic Source"@en;
+	rdfs:comment "To describe whether a topic is from lecture slides or worksheet"@en.
+
+focu:term
+	a rdf:Property;
+	rdfs:domain focu:Record;
+	rdfs:range xsd:string;
+	rdfs:label "Term"@en;
+	rdfs:comment "To describe term for a particular record"@en.

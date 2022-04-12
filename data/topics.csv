@@ -1,0 +1,1057 @@
+CourseID,LectureID,Source,Topic,TopicLink
+40355,1,SLIDES,Weizenbaum,http://dbpedia.org/resource/Joseph_Weizenbaum
+40355,1,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40355,1,SLIDES,UIMA,http://dbpedia.org/resource/UIMA
+40355,1,SLIDES,Resource Description Framework RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,1,SLIDES,IBM,http://dbpedia.org/resource/IBM
+40355,1,SLIDES,Leverage,http://dbpedia.org/resource/Leverage_(TV_series)
+40355,1,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,1,SLIDES,Lucene,http://dbpedia.org/resource/Apache_Lucene
+40355,1,SLIDES,Solr,http://dbpedia.org/resource/Apache_Solr
+40355,1,SLIDES,Mona Lisa,http://dbpedia.org/resource/Mona_Lisa
+40355,1,SLIDES,Amazon,http://dbpedia.org/resource/Amazon_rainforest
+40355,1,SLIDES,MIT,http://dbpedia.org/resource/Massachusetts_Institute_of_Technology
+40355,1,SLIDES,Sheffield,http://dbpedia.org/resource/University_of_Sheffield
+40355,1,SLIDES,Alexa,http://dbpedia.org/resource/Amazon_Alexa
+40355,1,SLIDES,Tay,http://dbpedia.org/resource/River_Tay
+40355,1,SLIDES,Open Data,http://dbpedia.org/resource/Linked_data
+40355,1,SLIDES,rdf,http://dbpedia.org/resource/Resource_Description_Framework
+40355,1,SLIDES,Stanford,http://dbpedia.org/resource/Stanford_University
+40355,1,SLIDES,Cortana,http://dbpedia.org/resource/Cortana
+40355,1,SLIDES,Linked,http://dbpedia.org/resource/Linked_data
+40355,1,SLIDES,Siri,http://dbpedia.org/resource/Siri
+40355,1,SLIDES,Jeopardy,http://dbpedia.org/resource/Jeopardy!
+40355,1,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40355,1,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,2,SLIDES,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,2,SLIDES,Java,http://dbpedia.org/resource/Java_virtual_machine
+40355,2,SLIDES,PHP,http://dbpedia.org/resource/PHP
+40355,2,SLIDES,Lennon,http://dbpedia.org/resource/John_Lennon
+40355,2,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,2,SLIDES,SKOS,http://dbpedia.org/resource/Simple_Knowledge_Organization_System
+40355,2,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,2,SLIDES,auteur,http://dbpedia.org/resource/Auteur
+40355,2,SLIDES,Harper Collins,http://dbpedia.org/resource/HarperCollins
+40355,2,SLIDES,N,http://dbpedia.org/resource/N-Triples
+40355,2,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40355,2,SLIDES,AI Winter,http://dbpedia.org/resource/AI_winter
+40355,2,SLIDES,YouTube,http://dbpedia.org/resource/YouTube
+40355,2,SLIDES,World Wide Consortium,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,2,SLIDES,A12,http://dbpedia.org/resource/Nissan_A_engine
+40355,2,SLIDES,titre,http://dbpedia.org/resource/Le_Titre
+40355,2,SLIDES,RN10,http://dbpedia.org/resource/Route_nationale_10
+40355,2,SLIDES,Lisa,http://dbpedia.org/resource/Apple_Lisa
+40355,2,SLIDES,Mona,http://dbpedia.org/resource/Mona_Lisa
+40355,2,SLIDES,TBox,http://dbpedia.org/resource/Tbox
+40355,2,SLIDES,predicate,http://dbpedia.org/resource/SQL
+40355,2,SLIDES,miroirs,http://dbpedia.org/resource/Miroirs
+40355,2,SLIDES,Oracle Spatial,http://dbpedia.org/resource/Oracle_Spatial_and_Graph
+40355,2,SLIDES,Machine,http://dbpedia.org/resource/Machine_learning
+40355,2,SLIDES,Knowledge Navigator,http://dbpedia.org/resource/Knowledge_Navigator
+40355,2,SLIDES,rdf,http://dbpedia.org/resource/Resource_Description_Framework
+40355,2,SLIDES,Stuart Russell,http://dbpedia.org/resource/Stuart_J._Russell
+40355,2,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40355,2,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40355,2,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,2,SLIDES,Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40355,2,SLIDES,WordNet,http://dbpedia.org/resource/WordNet
+40355,2,SLIDES,Google,http://dbpedia.org/resource/Google
+40355,2,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40355,2,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,2,SLIDES,Hanover,http://dbpedia.org/resource/Hanover
+40355,2,SLIDES,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,2,SLIDES,RDFa,http://dbpedia.org/resource/RDFa
+40355,2,SLIDES,Facebook,http://dbpedia.org/resource/Facebook
+40355,2,SLIDES,Graph,http://dbpedia.org/resource/Knowledge_Graph
+40355,2,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,2,SLIDES,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,2,SLIDES,Data Integration,http://dbpedia.org/resource/Data_integration
+40355,2,SLIDES,Liverpool,http://dbpedia.org/resource/Liverpool
+40355,2,SLIDES,XML,http://dbpedia.org/resource/XML
+40355,2,SLIDES,Semantic,http://dbpedia.org/resource/Semantic_network
+40355,3,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,3,SLIDES,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,3,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,3,SLIDES,Dublin Core,http://dbpedia.org/resource/Dublin_Core
+40355,3,SLIDES,TED,http://dbpedia.org/resource/MOS_Technology_TED
+40355,3,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,3,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40355,3,SLIDES,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,3,SLIDES,Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40355,3,SLIDES,Internationalized Resource Identifier,http://dbpedia.org/resource/Internationalized_Resource_Identifier
+40355,3,SLIDES,Unicode,http://dbpedia.org/resource/Unicode
+40355,3,SLIDES,RDFa,http://dbpedia.org/resource/RDFa
+40355,3,SLIDES,Json,http://dbpedia.org/resource/JSON
+40355,3,SLIDES,XML,http://dbpedia.org/resource/XML
+40355,3,SLIDES,library,http://dbpedia.org/resource/Library
+40355,3,SLIDES,Pokémon,http://dbpedia.org/resource/Pokémon
+40355,3,SLIDES,Schema,http://dbpedia.org/resource/RDF_Schema
+40355,3,SLIDES,Dewey Decimal Classification,http://dbpedia.org/resource/Dewey_Decimal_Classification
+40355,3,SLIDES,Leverage,http://dbpedia.org/resource/Leverage_(TV_series)
+40355,3,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40355,3,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40355,3,SLIDES,SKOS,http://dbpedia.org/resource/Simple_Knowledge_Organization_System
+40355,3,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,3,SLIDES,David Wood,http://dbpedia.org/resource/Straitjacket_Fits
+40355,3,SLIDES,Luke,http://dbpedia.org/resource/Gospel_of_Luke
+40355,3,SLIDES,rdf,http://dbpedia.org/resource/Resource_Description_Framework
+40355,3,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40355,3,SLIDES,Data,http://dbpedia.org/resource/Linked_data
+40355,3,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40355,3,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,3,SLIDES,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,3,SLIDES,Layer Cake,http://dbpedia.org/resource/Layer_cake
+40355,4,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,4,SLIDES,Data,http://dbpedia.org/resource/Data_integration
+40355,4,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,4,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,4,SLIDES,Springer,http://dbpedia.org/resource/Springer_Publishing
+40355,4,SLIDES,The Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40355,4,SLIDES,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,4,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40355,4,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40355,4,SLIDES,rdf,http://dbpedia.org/resource/Resource_Description_Framework
+40355,4,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40355,4,SLIDES,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,4,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,4,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,4,SLIDES,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,4,SLIDES,Dieter Fensel,http://dbpedia.org/resource/Dieter_Fensel
+40355,4,SLIDES,James,http://dbpedia.org/resource/Epistle_of_James
+40355,4,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,4,SLIDES,HTTP,http://dbpedia.org/resource/Hypertext_Transfer_Protocol
+40355,4,SLIDES,Mona Lisa,http://dbpedia.org/resource/Mona_Lisa
+40355,4,SLIDES,Apache,http://dbpedia.org/resource/Apache_HTTP_Server
+40355,4,SLIDES,Jena,http://dbpedia.org/resource/Jena
+40355,4,SLIDES,Amsterdam,http://dbpedia.org/resource/Amsterdam
+40355,4,SLIDES,Fuseki,http://dbpedia.org/resource/Fuseki
+40355,4,SLIDES,National Cancer Institute,http://dbpedia.org/resource/National_Cancer_Institute
+40355,4,SLIDES,BioPAX,http://dbpedia.org/resource/BioPAX
+40355,4,SLIDES,biological pathway,http://dbpedia.org/resource/Biological_pathway
+40355,4,SLIDES,OWL2,http://dbpedia.org/resource/Web_Ontology_Language
+40355,4,SLIDES,N,http://dbpedia.org/resource/N-Triples
+40355,4,SLIDES,Ontology,http://dbpedia.org/resource/Ontology_language
+40355,4,SLIDES,Gene,http://dbpedia.org/resource/Gene_ontology
+40355,4,SLIDES,Amazon AWS,http://dbpedia.org/resource/Amazon_Web_Services
+40355,4,SLIDES,Neptune,http://dbpedia.org/resource/Neptune
+40355,4,SLIDES,XML,http://dbpedia.org/resource/XML
+40355,4,SLIDES,David Wood,http://dbpedia.org/resource/Straitjacket_Fits
+40355,4,SLIDES,Luke,http://dbpedia.org/resource/Gospel_of_Luke
+40355,4,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40355,4,SLIDES,Open Biomedical Foundry,http://dbpedia.org/resource/OBO_Foundry
+40355,4,SLIDES,SOAP,http://dbpedia.org/resource/SOAP
+40355,4,SLIDES,Semantic,http://dbpedia.org/resource/Semantic_Web
+40355,5,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,5,SLIDES,Springer,http://dbpedia.org/resource/Springer_Publishing
+40355,5,SLIDES,Open Graph,http://dbpedia.org/resource/Facebook_Platform
+40355,5,SLIDES,Tim Berners Lee,http://dbpedia.org/resource/Tim_Berners-Lee
+40355,5,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,5,SLIDES,Sebastian,http://dbpedia.org/resource/Saint_Sebastian
+40355,5,SLIDES,Hellmann,http://dbpedia.org/resource/Gustav_Hellmann
+40355,5,SLIDES,Milan,http://dbpedia.org/resource/Milan
+40355,5,SLIDES,Linked Data,http://dbpedia.org/resource/Linked_data
+40355,5,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,5,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40355,5,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40355,5,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40355,5,SLIDES,Amsterdam,http://dbpedia.org/resource/Amsterdam
+40355,5,SLIDES,HTML,http://dbpedia.org/resource/HTML
+40355,5,SLIDES,OPE,http://dbpedia.org/resource/Ope
+40355,5,SLIDES,Facebook,http://dbpedia.org/resource/Facebook
+40355,5,SLIDES,RDFa,http://dbpedia.org/resource/RDFa
+40355,5,SLIDES,TED,http://dbpedia.org/resource/MOS_Technology_TED
+40355,5,SLIDES,Dieter Fensel,http://dbpedia.org/resource/Dieter_Fensel
+40355,5,SLIDES,James,"http://dbpedia.org/resource/James,_son_of_Zebedee"
+40355,5,SLIDES,HTTP,http://dbpedia.org/resource/Hypertext_Transfer_Protocol
+40355,5,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,5,SLIDES,Arity,http://dbpedia.org/resource/Arity
+40355,5,SLIDES,RT,http://dbpedia.org/resource/Reverse_transcriptase
+40355,5,SLIDES,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,5,SLIDES,Design,http://dbpedia.org/resource/Design_Issues
+40355,5,SLIDES,Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40355,5,SLIDES,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,5,SLIDES,Canada,http://dbpedia.org/resource/Canada
+40355,5,SLIDES,Eötvös Loránd University,http://dbpedia.org/resource/Eötvös_Loránd_University
+40355,5,SLIDES,Budapest,http://dbpedia.org/resource/Budapest
+40355,5,SLIDES,David Wood,http://dbpedia.org/resource/Straitjacket_Fits
+40355,5,SLIDES,Luke,http://dbpedia.org/resource/Gospel_of_Luke
+40355,5,SLIDES,Google,http://dbpedia.org/resource/Google
+40355,5,SLIDES,Knowledge,http://dbpedia.org/resource/Knowledge_Graph
+40355,5,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40355,5,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,5,SLIDES,Publishing,http://dbpedia.org/resource/Data_publishing
+40355,5,SLIDES,Metaweb,http://dbpedia.org/resource/Metaweb
+40355,5,SLIDES,SQL,http://dbpedia.org/resource/SQL
+40355,5,SLIDES,Semantic,http://dbpedia.org/resource/Semantic_Web
+40355,5,SLIDES,Layer Cake,http://dbpedia.org/resource/Layer_cake
+40355,6,SLIDES,Christopher,http://dbpedia.org/resource/Christopher_Tolkien
+40355,6,SLIDES,Prabhakar Raghavan,http://dbpedia.org/resource/Prabhakar_Raghavan
+40355,6,SLIDES,qi,http://dbpedia.org/resource/Qi
+40355,6,SLIDES,Schütze,http://dbpedia.org/resource/Schütze
+40355,6,SLIDES,Doug Turnbull,http://dbpedia.org/resource/Doug_Turnbull
+40355,6,SLIDES,tf,http://dbpedia.org/resource/Tf–idf
+40355,6,SLIDES,Amazon,http://dbpedia.org/resource/Amazon_rainforest
+40355,6,SLIDES,Netflix Prize,http://dbpedia.org/resource/Netflix_Prize
+40355,6,SLIDES,idf,http://dbpedia.org/resource/Tf–idf
+40355,6,SLIDES,Non,http://dbpedia.org/resource/Non-binary_gender
+40355,6,SLIDES,Hamlet,http://dbpedia.org/resource/Hamlet
+40355,6,SLIDES,Othello,http://dbpedia.org/resource/Othello
+40355,6,SLIDES,Macbeth,http://dbpedia.org/resource/Macbeth
+40355,6,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,6,SLIDES,Vector Space Model,http://dbpedia.org/resource/Vector_space_model
+40355,6,SLIDES,Cambridge University,http://dbpedia.org/resource/Cambridge_University_Press
+40355,6,SLIDES,Caesar,http://dbpedia.org/resource/Julius_Caesar
+40355,6,SLIDES,Press,http://dbpedia.org/resource/Cambridge_University_Press
+40355,6,SLIDES,F,http://dbpedia.org/resource/Precision_and_recall
+40355,6,SLIDES,Mary,http://dbpedia.org/resource/Mary_Shelley
+40355,7,SLIDES,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40355,7,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40355,7,SLIDES,Paradise,http://dbpedia.org/resource/Paradise_Papers
+40355,7,SLIDES,Media,http://dbpedia.org/resource/O'Reilly_Media
+40355,7,SLIDES,Split,http://dbpedia.org/resource/Split_album
+40355,7,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40355,7,SLIDES,Netflix,http://dbpedia.org/resource/Netflix
+40355,7,SLIDES,means,http://dbpedia.org/resource/K-means_clustering
+40355,7,SLIDES,Guantanamo Bay,http://dbpedia.org/resource/Guantanamo_Bay_detention_camp
+40355,7,SLIDES,CIA,http://dbpedia.org/resource/Central_Intelligence_Agency
+40355,7,SLIDES,Luanda,http://dbpedia.org/resource/Luanda
+40355,7,SLIDES,Chabacano,http://dbpedia.org/resource/Chavacano
+40355,7,SLIDES,Creative Commons,http://dbpedia.org/resource/Creative_Commons
+40355,7,SLIDES,Arthur,http://dbpedia.org/resource/King_Arthur
+40355,7,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,7,SLIDES,Information,http://dbpedia.org/resource/Information_extraction
+40355,7,SLIDES,James Pustejovsky,http://dbpedia.org/resource/James_Pustejovsky
+40355,7,SLIDES,FN,http://dbpedia.org/resource/Karyotype
+40355,7,SLIDES,Manhattan,http://dbpedia.org/resource/New_York_City
+40355,7,SLIDES,Alison,http://dbpedia.org/resource/Alison_DiLaurentis
+40355,7,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40355,7,SLIDES,scikit,http://dbpedia.org/resource/Scikit-learn
+40355,7,SLIDES,BSD License,http://dbpedia.org/resource/BSD_licenses
+40355,7,SLIDES,Time,http://dbpedia.org/resource/Time_complexity
+40355,7,SLIDES,Facebook,http://dbpedia.org/resource/Facebook
+40355,7,SLIDES,Cambridge Analytica,http://dbpedia.org/resource/Cambridge_Analytica
+40355,7,SLIDES,Enron,http://dbpedia.org/resource/Enron
+40355,8,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,8,SLIDES,Google,http://dbpedia.org/resource/Google
+40355,8,SLIDES,NLTK,http://dbpedia.org/resource/Natural_Language_Toolkit
+40355,8,SLIDES,Assistant,http://dbpedia.org/resource/Google_Assistant
+40355,8,SLIDES,Alexa,http://dbpedia.org/resource/Amazon_Alexa
+40355,8,SLIDES,Siri,http://dbpedia.org/resource/Siri
+40355,8,SLIDES,Loyola College,http://dbpedia.org/resource/Loyola_University_Maryland
+40355,8,SLIDES,Artificial Intelligence Markup Language,http://dbpedia.org/resource/AIML
+40355,8,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,8,SLIDES,Chatbot,http://dbpedia.org/resource/Chatbot
+40355,8,SLIDES,AIML,http://dbpedia.org/resource/AIML
+40355,8,SLIDES,Sony,http://dbpedia.org/resource/Sony
+40355,8,SLIDES,Resident Evil,http://dbpedia.org/resource/Resident_Evil
+40355,8,SLIDES,RDF,http://dbpedia.org/resource/XML
+40355,8,SLIDES,World Wide,http://dbpedia.org/resource/World_Wide_Web
+40355,8,SLIDES,Automata,http://dbpedia.org/resource/Automata_theory
+40355,8,SLIDES,Facebook,http://dbpedia.org/resource/Facebook_Messenger
+40355,8,SLIDES,Search,http://dbpedia.org/resource/Google_Search
+40355,8,SLIDES,Montreal,http://dbpedia.org/resource/Montreal
+40355,8,SLIDES,Quebec,http://dbpedia.org/resource/Quebec
+40355,8,SLIDES,A.L.I.C.E.,http://dbpedia.org/resource/Artificial_Linguistic_Internet_Computer_Entity
+40355,8,SLIDES,HBO,http://dbpedia.org/resource/HBO
+40355,8,SLIDES,Westworld,http://dbpedia.org/resource/Westworld
+40355,8,SLIDES,automaton,http://dbpedia.org/resource/Finite-state_machine
+40355,8,SLIDES,Dialog,http://dbpedia.org/resource/ProQuest_Dialog
+40355,8,SLIDES,Smart,http://dbpedia.org/resource/Smart_device
+40355,8,SLIDES,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,8,SLIDES,Cole Howard,http://dbpedia.org/resource/Cole_Howard
+40355,8,SLIDES,Max,http://dbpedia.org/resource/Max_Fleischer
+40355,8,SLIDES,Open,http://dbpedia.org/resource/Open_standard
+40355,8,SLIDES,Stuart Russell,http://dbpedia.org/resource/Stuart_J._Russell
+40355,8,SLIDES,Split,http://dbpedia.org/resource/Split_album
+40355,8,SLIDES,tf,http://dbpedia.org/resource/Tf–idf
+40355,8,SLIDES,fMLP,http://dbpedia.org/resource/N-Formylmethionine-leucyl-phenylalanine
+40355,8,SLIDES,Jeopardy,http://dbpedia.org/resource/Jeopardy!
+40355,8,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,8,SLIDES,RN10,http://dbpedia.org/resource/Route_nationale_10
+40355,8,SLIDES,Stanford,http://dbpedia.org/resource/Stanford_University
+40355,8,SLIDES,Disney,http://dbpedia.org/resource/The_Walt_Disney_Company
+40355,8,SLIDES,Zootopia,http://dbpedia.org/resource/Zootopia
+40355,8,SLIDES,Activision,http://dbpedia.org/resource/Activision
+40355,8,SLIDES,Speaktoit,http://dbpedia.org/resource/Dialogflow
+40355,8,SLIDES,Adjective,http://dbpedia.org/resource/Adjective
+40355,8,SLIDES,Adverb,http://dbpedia.org/resource/Adverb
+40355,8,SLIDES,Trichoderma,http://dbpedia.org/resource/Trichoderma
+40355,8,SLIDES,idf,http://dbpedia.org/resource/Tf–idf
+40355,9,SLIDES,lemma,http://dbpedia.org/resource/Headword
+40355,9,SLIDES,Determiner,http://dbpedia.org/resource/Determiner
+40355,9,SLIDES,spaCy,http://dbpedia.org/resource/SpaCy
+40355,9,SLIDES,Bracketing,http://dbpedia.org/resource/Bracketing
+40355,9,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40355,9,SLIDES,UIMA,http://dbpedia.org/resource/UIMA
+40355,9,SLIDES,Apache,http://dbpedia.org/resource/Apache_HTTP_Server
+40355,9,SLIDES,Sheffield,http://dbpedia.org/resource/University_of_Sheffield
+40355,9,SLIDES,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,9,SLIDES,S,http://dbpedia.org/resource/Glutathione_S-transferase
+40355,9,SLIDES,Brill,http://dbpedia.org/resource/Brill_Publishers
+40355,9,SLIDES,Roman Catholic Church,http://dbpedia.org/resource/Catholic_Church
+40355,9,SLIDES,Eastern Orthodox,http://dbpedia.org/resource/Eastern_Orthodox_Church
+40355,9,SLIDES,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,9,SLIDES,Microsoft,http://dbpedia.org/resource/Microsoft
+40355,9,SLIDES,Named Entity Recognition,http://dbpedia.org/resource/Named-entity_recognition
+40355,9,SLIDES,Support Vector,http://dbpedia.org/resource/Support-vector_machine
+40355,9,SLIDES,Software Foundation,http://dbpedia.org/resource/The_Apache_Software_Foundation
+40355,9,SLIDES,PubMed,http://dbpedia.org/resource/PubMed
+40355,9,SLIDES,Caribbean Series,http://dbpedia.org/resource/Caribbean_Series
+40355,9,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40355,9,SLIDES,Cole Howard,http://dbpedia.org/resource/Cole_Howard
+40355,9,SLIDES,Max,http://dbpedia.org/resource/Max_Fleischer
+40355,9,SLIDES,Tumor Board,http://dbpedia.org/resource/Tumor_board_review
+40355,9,SLIDES,KB,http://dbpedia.org/resource/Kilobyte
+40355,9,SLIDES,POS,http://dbpedia.org/resource/Brown_Corpus
+40355,9,SLIDES,Lemmatization,http://dbpedia.org/resource/Lemmatisation
+40355,9,SLIDES,Natural Language Processing,http://dbpedia.org/resource/Natural_language_processing
+40355,9,SLIDES,Python,http://dbpedia.org/resource/Monty_Python
+40355,9,SLIDES,Toolkit,http://dbpedia.org/resource/Natural_Language_Toolkit
+40355,9,SLIDES,Creative Commons,http://dbpedia.org/resource/Creative_Commons_license
+40355,9,SLIDES,Treebank,http://dbpedia.org/resource/Treebank
+40355,9,SLIDES,NLTK,http://dbpedia.org/resource/Natural_Language_Toolkit
+40355,9,SLIDES,Stanford,http://dbpedia.org/resource/Stanford_University
+40355,9,SLIDES,OpenNLP,http://dbpedia.org/resource/Apache_OpenNLP
+40355,9,SLIDES,JAPE,http://dbpedia.org/resource/Computational_humor
+40355,9,SLIDES,Lucene,http://dbpedia.org/resource/Apache_Lucene
+40355,9,SLIDES,Snowball,http://dbpedia.org/resource/Simpson_family
+40355,9,SLIDES,Mexico,http://dbpedia.org/resource/Mexico
+40355,9,SLIDES,LGPL,http://dbpedia.org/resource/GNU_Lesser_General_Public_License
+40355,9,SLIDES,James Pustejovsky,http://dbpedia.org/resource/James_Pustejovsky
+40355,9,SLIDES,Keras,http://dbpedia.org/resource/Keras
+40355,9,SLIDES,TensorFlow,http://dbpedia.org/resource/TensorFlow
+40355,9,SLIDES,PyTorch,http://dbpedia.org/resource/PyTorch
+40355,9,SLIDES,Hidden Markov Models,http://dbpedia.org/resource/Part-of-speech_tagging
+40355,9,SLIDES,Daniel Jurafsky,http://dbpedia.org/resource/Daniel_Jurafsky
+40355,9,SLIDES,HTML,http://dbpedia.org/resource/HTML
+40355,9,SLIDES,XML,http://dbpedia.org/resource/XML
+40355,9,SLIDES,PDF,http://dbpedia.org/resource/PDF
+40355,9,SLIDES,EGFR,http://dbpedia.org/resource/Epidermal_growth_factor_receptor
+40355,9,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,9,SLIDES,Denver,http://dbpedia.org/resource/Denver
+40355,10,SLIDES,Perceptron,http://dbpedia.org/resource/Perceptron
+40355,10,SLIDES,Word2vec,http://dbpedia.org/resource/Word2vec
+40355,10,SLIDES,Pima,http://dbpedia.org/resource/Pima_people
+40355,10,SLIDES,Unsupervised,http://dbpedia.org/resource/Unsupervised_learning
+40355,10,SLIDES,Word Vectors,http://dbpedia.org/resource/Word_embedding
+40355,10,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40355,10,SLIDES,Google,http://dbpedia.org/resource/Google
+40355,10,SLIDES,TensorFlow,http://dbpedia.org/resource/TensorFlow
+40355,10,SLIDES,Seymour Papert,http://dbpedia.org/resource/Seymour_Papert
+40355,10,SLIDES,MIT Press,http://dbpedia.org/resource/MIT_Press
+40355,10,SLIDES,Harry Potter,http://dbpedia.org/resource/Harry_Potter
+40355,10,SLIDES,Cole Howard,http://dbpedia.org/resource/Cole_Howard
+40355,10,SLIDES,Max,http://dbpedia.org/resource/Max_Fleischer
+40355,10,SLIDES,XOR,http://dbpedia.org/resource/Exclusive_or
+40355,10,SLIDES,News,http://dbpedia.org/resource/Google_News
+40355,10,SLIDES,Facebook,http://dbpedia.org/resource/Facebook
+40355,10,SLIDES,Louis Pasteur,http://dbpedia.org/resource/Louis_Pasteur
+40355,10,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40355,10,SLIDES,Microsoft,http://dbpedia.org/resource/Microsoft
+40355,10,SLIDES,Chatbot,http://dbpedia.org/resource/Chatbot
+40355,10,SLIDES,Germany,http://dbpedia.org/resource/Germany
+40355,10,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,10,SLIDES,France,http://dbpedia.org/resource/France
+40355,10,SLIDES,New York,http://dbpedia.org/resource/New_York_City
+40355,10,SLIDES,Elvis,http://dbpedia.org/resource/Elvis_Presley
+40355,11,SLIDES,CNN,http://dbpedia.org/resource/Convolutional_neural_network
+40355,11,SLIDES,covariance,http://dbpedia.org/resource/Covariance
+40355,11,SLIDES,Keras,http://dbpedia.org/resource/Keras
+40355,11,SLIDES,Charles,http://dbpedia.org/resource/Charles_II_of_England
+40355,11,SLIDES,Augustus,http://dbpedia.org/resource/Augustus
+40355,11,SLIDES,Milverton,http://dbpedia.org/resource/Leamington_Spa
+40355,11,SLIDES,Covariate,http://dbpedia.org/resource/Dependent_and_independent_variables
+40355,11,SLIDES,Convolution,http://dbpedia.org/resource/Convolution
+40355,11,SLIDES,Jeremy Brett,http://dbpedia.org/resource/Jeremy_Brett
+40355,11,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40355,11,SLIDES,Cole Howard,http://dbpedia.org/resource/Cole_Howard
+40355,11,SLIDES,Max,http://dbpedia.org/resource/Max_Fleischer
+40355,11,SLIDES,Arthur Conan Doyle,http://dbpedia.org/resource/Arthur_Conan_Doyle
+40355,11,SLIDES,Neuron,http://dbpedia.org/resource/Neuron
+40355,11,SLIDES,Convolutional Neural Networks,http://dbpedia.org/resource/Convolutional_neural_network
+40355,11,SLIDES,Word Vectors,http://dbpedia.org/resource/Word_embedding
+40355,11,SLIDES,RGB,http://dbpedia.org/resource/RGB_color_model
+40355,11,SLIDES,Perceptron,http://dbpedia.org/resource/Perceptron
+40355,11,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40355,11,SLIDES,Grayscale,http://dbpedia.org/resource/Grayscale
+40353,1,SLIDES,Jeopardy,http://dbpedia.org/resource/Jeopardy!
+40353,1,SLIDES,Ken Jennings,http://dbpedia.org/resource/Ken_Jennings
+40353,1,SLIDES,RET,http://dbpedia.org/resource/RET_proto-oncogene
+40353,1,SLIDES,Deep Blue,http://dbpedia.org/resource/List_of_minor_DC_Comics_characters
+40353,1,SLIDES,Alan Turing,http://dbpedia.org/resource/Alan_Turing
+40353,1,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,1,SLIDES,Kasparov,http://dbpedia.org/resource/Garry_Kasparov
+40353,1,SLIDES,IBM,http://dbpedia.org/resource/IBM
+40353,1,SLIDES,Test,http://dbpedia.org/resource/Test_cricket
+40353,1,SLIDES,ALPAC,http://dbpedia.org/resource/ALPAC
+40353,1,SLIDES,Spell,http://dbpedia.org/resource/Spell_checker
+40353,1,SLIDES,Weizenbaum,http://dbpedia.org/resource/Joseph_Weizenbaum
+40353,1,SLIDES,CAPTCHA,http://dbpedia.org/resource/CAPTCHA
+40353,1,SLIDES,Rich,http://dbpedia.org/resource/Alexander_Rich
+40353,1,SLIDES,Papert,http://dbpedia.org/resource/Seymour_Papert
+40353,1,SLIDES,Kurzweil,http://dbpedia.org/resource/Ray_Kurzweil
+40353,1,SLIDES,Winograd,http://dbpedia.org/resource/Terry_Winograd
+40353,1,SLIDES,SHRDLU,http://dbpedia.org/resource/SHRDLU
+40353,1,SLIDES,OCR,http://dbpedia.org/resource/Optical_character_recognition
+40353,1,SLIDES,Mitchell Kapor,http://dbpedia.org/resource/Mitch_Kapor
+40353,1,SLIDES,Lotus Development,http://dbpedia.org/resource/Lotus_Software
+40353,1,SLIDES,Core Duo,http://dbpedia.org/resource/Intel_Core
+40353,1,SLIDES,Fritz,http://dbpedia.org/resource/Fritz_(chess)
+40353,1,SLIDES,Kramnik,http://dbpedia.org/resource/Vladimir_Kramnik
+40353,1,SLIDES,Ray,http://dbpedia.org/resource/Ray_Kurzweil
+40353,1,SLIDES,Natural Language Processing NLP,http://dbpedia.org/resource/Natural_language_processing
+40353,1,SLIDES,Brad Rutter,http://dbpedia.org/resource/Brad_Rutter
+40353,1,SLIDES,Joseph,http://dbpedia.org/resource/Joseph_Smith
+40353,1,SLIDES,AlphaGo,http://dbpedia.org/resource/AlphaGo
+40353,2,SLIDES,Heuristic,http://dbpedia.org/resource/Heuristic
+40353,2,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,2,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40353,2,SLIDES,amnesia,http://dbpedia.org/resource/Amnesia
+40353,2,SLIDES,DFS,http://dbpedia.org/resource/Depth-first_search
+40353,2,SLIDES,Manhattan,http://dbpedia.org/resource/Taxicab_geometry
+40353,2,SLIDES,Iterative,http://dbpedia.org/resource/Iterative_deepening_depth-first_search
+40353,2,SLIDES,Search,http://dbpedia.org/resource/Search_algorithm
+40353,2,SLIDES,Priority,http://dbpedia.org/resource/Priority_queue
+40353,2,SLIDES,Concordia,http://dbpedia.org/resource/Concordia_University
+40353,2,SLIDES,A *,http://dbpedia.org/resource/A*_search_algorithm
+40353,2,SLIDES,Focus,http://dbpedia.org/resource/Ford_Focus
+40353,2,SLIDES,Hamming,http://dbpedia.org/resource/Hamming_distance
+40353,2,SLIDES,Rich,http://dbpedia.org/resource/Rich_Robinson
+40353,2,SLIDES,McGraw Hill,http://dbpedia.org/resource/McGraw-Hill_Education
+40353,2,SLIDES,Sam Loyd,http://dbpedia.org/resource/Sam_Loyd
+40353,3,SLIDES,AlphaZero,http://dbpedia.org/resource/AlphaZero
+40353,3,SLIDES,Backgammon,http://dbpedia.org/resource/Backgammon
+40353,3,SLIDES,Monopoly,http://dbpedia.org/resource/Monopoly
+40353,3,SLIDES,Murakami,http://dbpedia.org/resource/Haruki_Murakami
+40353,3,SLIDES,Chinook,http://dbpedia.org/resource/Boeing_CH-47_Chinook
+40353,3,SLIDES,Expectiminimax,http://dbpedia.org/resource/Expectiminimax
+40353,3,SLIDES,CPU,http://dbpedia.org/resource/Central_processing_unit
+40353,3,SLIDES,AlphaGo Zero,http://dbpedia.org/resource/AlphaGo_Zero
+40353,3,SLIDES,Lee Sedol,http://dbpedia.org/resource/Lee_Sedol
+40353,3,SLIDES,Stratego,http://dbpedia.org/resource/Stratego
+40353,3,SLIDES,Othello Reversi,http://dbpedia.org/resource/Reversi
+40353,3,SLIDES,Kasparov,http://dbpedia.org/resource/Garry_Kasparov
+40353,3,SLIDES,Heuristic,http://dbpedia.org/resource/Heuristic
+40353,3,SLIDES,minimax,http://dbpedia.org/resource/Minimax
+40353,3,SLIDES,Google,http://dbpedia.org/resource/Google
+40353,3,SLIDES,Ke Jie,http://dbpedia.org/resource/Ke_Jie
+40353,3,SLIDES,Tinsley,http://dbpedia.org/resource/Darnall
+40353,3,SLIDES,Monte Carlo,http://dbpedia.org/resource/Monte_Carlo_method
+40353,3,SLIDES,VLSI,http://dbpedia.org/resource/Very_Large_Scale_Integration
+40353,3,SLIDES,dice,http://dbpedia.org/resource/Dice
+40353,3,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40353,3,SLIDES,RISC,http://dbpedia.org/resource/Reduced_instruction_set_computer
+40353,3,SLIDES,Prisoner,http://dbpedia.org/resource/The_Prisoner
+40353,3,SLIDES,Exhaustive,http://dbpedia.org/resource/Brute-force_search
+40353,4,SLIDES,Arthur,http://dbpedia.org/resource/King_Arthur
+40353,4,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40353,4,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40353,4,SLIDES,E3,http://dbpedia.org/resource/Euclidean_space
+40353,4,SLIDES,Bayesian,http://dbpedia.org/resource/Bayesian_probability
+40353,4,SLIDES,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40353,4,SLIDES,Montreal,http://dbpedia.org/resource/Montreal
+40353,4,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,4,SLIDES,MNIST,http://dbpedia.org/resource/MNIST_database
+40353,4,SLIDES,Toothache,http://dbpedia.org/resource/Toothache
+40353,4,SLIDES,Hum,http://dbpedia.org/resource/Humming
+40353,4,SLIDES,Chain,http://dbpedia.org/resource/Chain_rule
+40353,4,SLIDES,Speech,http://dbpedia.org/resource/Speech_recognition
+40353,4,SLIDES,meningitis,http://dbpedia.org/resource/Meningitis
+40353,5,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40353,5,SLIDES,Simon,http://dbpedia.org/resource/Herbert_A._Simon
+40353,5,SLIDES,entropy,http://dbpedia.org/resource/Entropy
+40353,5,SLIDES,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40353,5,SLIDES,Shannon,http://dbpedia.org/resource/Claude_Shannon
+40353,5,SLIDES,k,http://dbpedia.org/resource/K-means_clustering
+40353,5,SLIDES,Russell,http://dbpedia.org/resource/Bertrand_Russell
+40353,5,SLIDES,ID3,http://dbpedia.org/resource/ID3_algorithm
+40353,5,SLIDES,Natural Language Processing,http://dbpedia.org/resource/Natural_language_processing
+40353,5,SLIDES,Extreme,http://dbpedia.org/resource/Dimension_Films
+40353,5,SLIDES,Alison,http://dbpedia.org/resource/Alison_DiLaurentis
+40353,5,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,5,SLIDES,Extrapolate,http://dbpedia.org/resource/Extrapolation
+40353,5,SLIDES,Type II,http://dbpedia.org/resource/Type_I_and_type_II_errors
+40353,5,SLIDES,John Snow,http://dbpedia.org/resource/John_Snow
+40353,5,SLIDES,London,http://dbpedia.org/resource/London
+40353,5,SLIDES,Red Square,http://dbpedia.org/resource/Red_Square
+40353,5,SLIDES,C4.5,http://dbpedia.org/resource/C4.5_algorithm
+40353,5,SLIDES,Thai,http://dbpedia.org/resource/Thai_language
+40353,5,SLIDES,Tom Mitchell,http://dbpedia.org/resource/Tom_M._Mitchell
+40353,5,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40353,5,SLIDES,means,http://dbpedia.org/resource/K-means_clustering
+40353,5,SLIDES,Entropy,http://dbpedia.org/resource/Entropy
+40353,6,SLIDES,Simon,http://dbpedia.org/resource/Herbert_A._Simon
+40353,6,SLIDES,Alison,http://dbpedia.org/resource/Alison_DiLaurentis
+40353,6,SLIDES,XOR,http://dbpedia.org/resource/Exclusive_or
+40353,6,SLIDES,Backpropagation,http://dbpedia.org/resource/Backpropagation
+40353,6,SLIDES,sign function,http://dbpedia.org/resource/Sign_function
+40353,6,SLIDES,Papert,http://dbpedia.org/resource/Seymour_Papert
+40353,6,SLIDES,wThe,http://dbpedia.org/resource/WTHE
+40353,6,SLIDES,thea,http://dbpedia.org/resource/Thea_Queen
+40353,6,SLIDES,Perceptron,http://dbpedia.org/resource/Perceptron
+40353,6,SLIDES,neuron,http://dbpedia.org/resource/Artificial_neuron
+40353,7,SLIDES,Toronto,http://dbpedia.org/resource/Toronto
+40353,7,SLIDES,Hinton Geoff,http://dbpedia.org/resource/Geoffrey_Hinton
+40353,7,SLIDES,GPU,http://dbpedia.org/resource/Graphics_processing_unit
+40353,7,SLIDES,edge,http://dbpedia.org/resource/Edge_detection
+40353,7,SLIDES,Geoffrey,http://dbpedia.org/resource/Geoffrey_of_Monmouth
+40353,7,SLIDES,kernel,http://dbpedia.org/resource/Kernel_method
+40353,7,SLIDES,Google,http://dbpedia.org/resource/Google
+40353,7,SLIDES,Inception,http://dbpedia.org/resource/Inception
+40353,7,SLIDES,Yoshua Bengio,http://dbpedia.org/resource/Yoshua_Bengio
+40353,7,SLIDES,Academic Press,http://dbpedia.org/resource/Academic_Press
+40353,7,SLIDES,Montreal,http://dbpedia.org/resource/Montreal
+40353,7,SLIDES,Natural Language Processing,http://dbpedia.org/resource/Natural_language_processing
+40353,7,SLIDES,Yann LeCun,http://dbpedia.org/resource/Yann_LeCun
+40353,7,SLIDES,Backpropagation,http://dbpedia.org/resource/Backpropagation
+40353,7,SLIDES,ImageNet,http://dbpedia.org/resource/ImageNet
+40353,7,SLIDES,CNN,http://dbpedia.org/resource/Convolutional_neural_network
+40353,7,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,7,SLIDES,Edmonton,http://dbpedia.org/resource/Edmonton
+40353,7,SLIDES,Sutton,http://dbpedia.org/resource/London_Borough_of_Sutton
+40353,7,SLIDES,Max,http://dbpedia.org/resource/Max_Cavalera
+40353,7,SLIDES,Skype,http://dbpedia.org/resource/Skype
+40353,7,SLIDES,Canada,http://dbpedia.org/resource/Canada
+40353,7,SLIDES,NaN,http://dbpedia.org/resource/NaN
+40353,7,SLIDES,Ng,http://dbpedia.org/resource/Andrew_Ng
+40353,8,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,8,SLIDES,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40353,8,SLIDES,Java,http://dbpedia.org/resource/Java_virtual_machine
+40353,8,SLIDES,PHP,http://dbpedia.org/resource/PHP
+40353,8,SLIDES,Data Integration,http://dbpedia.org/resource/Data_integration
+40353,8,SLIDES,Lisa,http://dbpedia.org/resource/Apple_Lisa
+40353,8,SLIDES,TED,http://dbpedia.org/resource/MOS_Technology_TED
+40353,8,SLIDES,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,8,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40353,8,SLIDES,gp41,http://dbpedia.org/resource/Gp41
+40353,8,SLIDES,auteur,http://dbpedia.org/resource/Auteur
+40353,8,SLIDES,Harper Collins,http://dbpedia.org/resource/HarperCollins
+40353,8,SLIDES,N,http://dbpedia.org/resource/N-Triples
+40353,8,SLIDES,Description Logic,http://dbpedia.org/resource/Description_logic
+40353,8,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40353,8,SLIDES,Winter,http://dbpedia.org/resource/AI_winter
+40353,8,SLIDES,World Wide Consortium,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40353,8,SLIDES,MAPK1,http://dbpedia.org/resource/MAPK1
+40353,8,SLIDES,A12,http://dbpedia.org/resource/Nissan_A_engine
+40353,8,SLIDES,Knowledge Graph,http://dbpedia.org/resource/Knowledge_Graph
+40353,8,SLIDES,titre,http://dbpedia.org/resource/Le_Titre
+40353,8,SLIDES,Mona,http://dbpedia.org/resource/Mona_Lisa
+40353,8,SLIDES,Leonardo,http://dbpedia.org/resource/Leonardo_da_Vinci
+40353,8,SLIDES,predicate,http://dbpedia.org/resource/SQL
+40353,8,SLIDES,miroirs,http://dbpedia.org/resource/Miroirs
+40353,8,SLIDES,Oracle Spatial,http://dbpedia.org/resource/Oracle_Spatial_and_Graph
+40353,8,SLIDES,Linked Open,http://dbpedia.org/resource/Linked_data
+40353,8,SLIDES,Tumor Board,http://dbpedia.org/resource/Tumor_board_review
+40353,8,SLIDES,KB,http://dbpedia.org/resource/Kilobyte
+40353,8,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40353,8,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40353,8,SLIDES,Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40353,8,SLIDES,MAPK3,http://dbpedia.org/resource/MAPK3
+40353,8,SLIDES,Google,http://dbpedia.org/resource/Google
+40353,8,SLIDES,Reading,http://dbpedia.org/resource/Reading
+40353,8,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40353,8,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40353,8,SLIDES,EGFR,http://dbpedia.org/resource/Epidermal_growth_factor_receptor
+40353,8,SLIDES,Hanover,http://dbpedia.org/resource/Hanover
+40353,8,SLIDES,Facebook,http://dbpedia.org/resource/Facebook
+40353,8,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40353,8,SLIDES,RDFa,http://dbpedia.org/resource/RDFa
+40353,8,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40353,8,SLIDES,Wikidata,http://dbpedia.org/resource/Wikidata
+40353,8,SLIDES,XML,http://dbpedia.org/resource/XML
+40353,9,SLIDES,RDFS,http://dbpedia.org/resource/RDF_Schema
+40353,9,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40353,9,SLIDES,Linked Open Data,http://dbpedia.org/resource/Linked_data
+40353,9,SLIDES,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40353,9,SLIDES,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,9,SLIDES,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40353,9,SLIDES,Web,http://dbpedia.org/resource/Semantic_Web
+40353,9,SLIDES,Amsterdam,http://dbpedia.org/resource/Amsterdam
+40353,9,SLIDES,Glass Palace,http://dbpedia.org/resource/The_Glass_Palace
+40353,9,SLIDES,Schema,http://dbpedia.org/resource/RDF_Schema
+40353,9,SLIDES,SPARQL,http://dbpedia.org/resource/SPARQL
+40353,9,SLIDES,Berlin,http://dbpedia.org/resource/Berlin
+40353,9,SLIDES,Heidelberg,http://dbpedia.org/resource/Heidelberg
+40353,9,SLIDES,rdfs,http://dbpedia.org/resource/RDF_Schema
+40353,9,SLIDES,rdf,http://dbpedia.org/resource/Resource_Description_Framework
+40353,9,SLIDES,Pokémon,http://dbpedia.org/resource/Pokémon
+40353,9,SLIDES,Reading,http://dbpedia.org/resource/Reading
+40353,9,SLIDES,David Wood,http://dbpedia.org/resource/Straitjacket_Fits
+40353,9,SLIDES,Luke,http://dbpedia.org/resource/Gospel_of_Luke
+40353,9,SLIDES,Herman,http://dbpedia.org/resource/Edward_S._Herman
+40353,9,SLIDES,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40353,9,SLIDES,N,http://dbpedia.org/resource/N-Triples
+40353,9,SLIDES,Layer Cake,http://dbpedia.org/resource/Layer_cake
+40353,10,SLIDES,Citizen Kane,http://dbpedia.org/resource/Citizen_Kane
+40353,10,SLIDES,Paris,http://dbpedia.org/resource/Paris
+40353,10,SLIDES,Mary,http://dbpedia.org/resource/Mary_Shelley
+40353,10,SLIDES,Feature,http://dbpedia.org/resource/Feature_(machine_learning)
+40353,10,SLIDES,Montreal,http://dbpedia.org/resource/Montreal
+40353,10,SLIDES,kk,http://dbpedia.org/resource/Imperial_and_Royal
+40353,10,SLIDES,zoophyte,http://dbpedia.org/resource/Zoophyte
+40353,10,SLIDES,Shanghai International Film Festival,http://dbpedia.org/resource/2010_Shanghai_International_Film_Festival
+40353,10,SLIDES,Michael Bublé,http://dbpedia.org/resource/Michael_Bublé
+40353,10,SLIDES,Shannon,http://dbpedia.org/resource/Claude_Shannon
+40353,10,SLIDES,IBM,http://dbpedia.org/resource/IBM
+40353,10,SLIDES,Dow Jones,http://dbpedia.org/resource/Dow_Jones_Industrial_Average
+40353,10,SLIDES,Nile,http://dbpedia.org/resource/Nile
+40353,10,SLIDES,Jackson,http://dbpedia.org/resource/Michael_Jackson
+40353,10,SLIDES,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40353,10,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40353,10,SLIDES,European Central Bank,http://dbpedia.org/resource/European_Central_Bank
+40353,10,SLIDES,Frankfurt,http://dbpedia.org/resource/Frankfurt
+40353,11,SLIDES,cosine,http://dbpedia.org/resource/Trigonometric_functions
+40353,11,SLIDES,NLTK,http://dbpedia.org/resource/Natural_Language_Toolkit
+40353,11,SLIDES,Python,http://dbpedia.org/resource/Monty_Python
+40353,11,SLIDES,Stanford,http://dbpedia.org/resource/Stanford_University
+40353,11,SLIDES,tf,http://dbpedia.org/resource/Tf–idf
+40353,11,SLIDES,Schütze,http://dbpedia.org/resource/Schütze
+40353,11,SLIDES,UIMA,http://dbpedia.org/resource/UIMA
+40353,11,SLIDES,Euclidean,http://dbpedia.org/resource/Euclidean_distance
+40353,11,SLIDES,Brill,http://dbpedia.org/resource/Brill_Publishers
+40353,11,SLIDES,Apache Software Foundation,http://dbpedia.org/resource/The_Apache_Software_Foundation
+40353,11,SLIDES,Manning,http://dbpedia.org/resource/Manning_Publications
+40353,11,SLIDES,Christopher,http://dbpedia.org/resource/Christopher_Tolkien
+40353,11,SLIDES,Prabhakar Raghavan,http://dbpedia.org/resource/Prabhakar_Raghavan
+40353,11,SLIDES,Sheffield,http://dbpedia.org/resource/Sheffield
+40353,11,SLIDES,Hamlet,http://dbpedia.org/resource/Hamlet
+40353,11,SLIDES,Othello,http://dbpedia.org/resource/Othello
+40353,11,SLIDES,Macbeth,http://dbpedia.org/resource/Macbeth
+40353,11,SLIDES,Machine Learning,http://dbpedia.org/resource/Machine_learning
+40353,11,SLIDES,Cole Howard,http://dbpedia.org/resource/Cole_Howard
+40353,11,SLIDES,Max,http://dbpedia.org/resource/Max_Fleischer
+40353,11,SLIDES,algorithm,http://dbpedia.org/resource/Algorithm
+40353,11,SLIDES,Lemmatization,http://dbpedia.org/resource/Lemmatisation
+40353,11,SLIDES,Coreference,http://dbpedia.org/resource/Coreference
+40353,11,SLIDES,Mary,http://dbpedia.org/resource/Mary_Shelley
+40353,11,SLIDES,Vector Space Model,http://dbpedia.org/resource/Vector_space_model
+40353,11,SLIDES,JAPE,http://dbpedia.org/resource/Computational_humor
+40353,11,SLIDES,Cambridge University,http://dbpedia.org/resource/Cambridge_University_Press
+40353,11,SLIDES,Caesar,http://dbpedia.org/resource/Julius_Caesar
+40353,11,SLIDES,LGPL,http://dbpedia.org/resource/GNU_Lesser_General_Public_License
+40353,11,SLIDES,fMLP,http://dbpedia.org/resource/N-Formylmethionine-leucyl-phenylalanine
+40353,11,SLIDES,Cosine,http://dbpedia.org/resource/Cosine_similarity
+40353,11,SLIDES,PDF,http://dbpedia.org/resource/PDF
+40353,11,SLIDES,idf,http://dbpedia.org/resource/Tf–idf
+40353,11,SLIDES,Keras,http://dbpedia.org/resource/Keras
+40353,11,SLIDES,TensorFlow,http://dbpedia.org/resource/TensorFlow
+40353,11,SLIDES,PyTorch,http://dbpedia.org/resource/PyTorch
+40353,11,SLIDES,lemma,http://dbpedia.org/resource/Headword
+40353,11,SLIDES,POS,http://dbpedia.org/resource/Brown_Corpus
+40353,11,SLIDES,HTML,http://dbpedia.org/resource/HTML
+40353,11,SLIDES,XML,http://dbpedia.org/resource/XML
+40353,11,SLIDES,IBM,http://dbpedia.org/resource/IBM
+40353,11,SLIDES,Trichoderma,http://dbpedia.org/resource/Trichoderma
+40353,11,SLIDES,Cleopatra,http://dbpedia.org/resource/Cleopatra
+40353,12,SLIDES,Google Books,http://dbpedia.org/resource/Google_Search
+40353,12,SLIDES,CNN,http://dbpedia.org/resource/Convolutional_neural_network
+40353,12,SLIDES,furry,http://dbpedia.org/resource/Furry_fandom
+40353,12,SLIDES,News,http://dbpedia.org/resource/Google_News
+40353,12,SLIDES,dog,http://dbpedia.org/resource/Dog
+40353,12,SLIDES,Yoshua Bengio,http://dbpedia.org/resource/Yoshua_Bengio
+40353,12,SLIDES,Natural Language Processing,http://dbpedia.org/resource/Natural_language_processing
+40353,12,SLIDES,Ng,http://dbpedia.org/resource/Andrew_Ng
+40355,2,WORKSHEET,McGill University,http://dbpedia.org/resource/McGill_University
+40355,2,WORKSHEET,Facebook,http://dbpedia.org/resource/Facebook
+40355,2,WORKSHEET,LinkedIn,http://dbpedia.org/resource/LinkedIn
+40355,2,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,2,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,2,WORKSHEET,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,2,WORKSHEET,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,2,WORKSHEET,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,2,WORKSHEET,predicate,http://dbpedia.org/resource/SQL
+40355,2,WORKSHEET,Montreal,http://dbpedia.org/resource/Montreal
+40355,2,WORKSHEET,HTTP,http://dbpedia.org/resource/HTTP_303
+40355,2,WORKSHEET,Resource Description Framework,http://dbpedia.org/resource/Resource_Description_Framework
+40355,3,WORKSHEET,N,http://dbpedia.org/resource/N-Triples
+40355,3,WORKSHEET,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,3,WORKSHEET,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,3,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,4,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,4,WORKSHEET,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,4,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,4,WORKSHEET,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,4,WORKSHEET,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,4,WORKSHEET,Montreal,http://dbpedia.org/resource/Montreal
+40355,4,WORKSHEET,RDF Schema,http://dbpedia.org/resource/RDF_Schema
+40355,4,WORKSHEET,Yangtze,http://dbpedia.org/resource/Yangtze
+40355,4,WORKSHEET,Nile,http://dbpedia.org/resource/Nile
+40355,4,WORKSHEET,University,http://dbpedia.org/resource/Main_Page
+40355,4,WORKSHEET,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,5,WORKSHEET,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,5,WORKSHEET,Facebook,http://dbpedia.org/resource/Facebook
+40355,5,WORKSHEET,Open Graph,http://dbpedia.org/resource/Facebook_Platform
+40355,5,WORKSHEET,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,5,WORKSHEET,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,5,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,5,WORKSHEET,W3C,http://dbpedia.org/resource/World_Wide_Web_Consortium
+40355,5,WORKSHEET,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,5,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,5,WORKSHEET,OpenCalais,http://dbpedia.org/resource/Calais_(Reuters_product)
+40355,5,WORKSHEET,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,5,WORKSHEET,Meat Loaf,http://dbpedia.org/resource/Meat_Loaf
+40355,5,WORKSHEET,Spotlight,http://dbpedia.org/resource/DBpedia
+40355,5,WORKSHEET,Paris Hilton,http://dbpedia.org/resource/Paris_Hilton
+40355,5,WORKSHEET,Google,http://dbpedia.org/resource/Google
+40355,6,WORKSHEET,tf,http://dbpedia.org/resource/Tf–idf
+40355,6,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,7,WORKSHEET,algorithm,http://dbpedia.org/resource/Algorithm
+40355,7,WORKSHEET,FTP,http://dbpedia.org/resource/File_Transfer_Protocol
+40355,7,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,8,WORKSHEET,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,8,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,8,WORKSHEET,Chatbot,http://dbpedia.org/resource/Chatbot
+40355,8,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,8,WORKSHEET,University,http://dbpedia.org/resource/Main_Page
+40355,8,WORKSHEET,McGill,http://dbpedia.org/resource/McGill_University
+40355,8,WORKSHEET,algorithm,http://dbpedia.org/resource/Algorithm
+40355,8,WORKSHEET,Steve Jobs,http://dbpedia.org/resource/Steve_Jobs
+40355,9,WORKSHEET,Named Entity Recognition,http://dbpedia.org/resource/Named-entity_recognition
+40355,9,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,9,WORKSHEET,POS,http://dbpedia.org/resource/Brown_Corpus
+40355,9,WORKSHEET,spaCy,http://dbpedia.org/resource/SpaCy
+40355,9,WORKSHEET,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,9,WORKSHEET,Waterloo,http://dbpedia.org/resource/Battle_of_Waterloo
+40355,10,WORKSHEET,AI Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,10,WORKSHEET,Japan,http://dbpedia.org/resource/Japan
+40355,10,WORKSHEET,Perceptron,http://dbpedia.org/resource/Perceptron
+40355,11,WORKSHEET,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,11,WORKSHEET,CNN,http://dbpedia.org/resource/Convolutional_neural_network
+40353,2,WORKSHEET,algorithm,http://dbpedia.org/resource/Algorithm
+40353,2,WORKSHEET,DFS,http://dbpedia.org/resource/Depth-first_search
+40353,2,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,3,WORKSHEET,algorithm,http://dbpedia.org/resource/Algorithm
+40353,3,WORKSHEET,Nim,http://dbpedia.org/resource/Nim
+40353,3,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,3,WORKSHEET,Heuristic,http://dbpedia.org/resource/Heuristic
+40353,4,WORKSHEET,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,4,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,4,WORKSHEET,Bayes Classifier,http://dbpedia.org/resource/Bayes_classifier
+40353,5,WORKSHEET,F Measure,http://dbpedia.org/resource/F1_score
+40353,5,WORKSHEET,Roulette,http://dbpedia.org/resource/Roulette
+40353,5,WORKSHEET,Entropy,http://dbpedia.org/resource/Entropy
+40353,5,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,6,WORKSHEET,XOR,http://dbpedia.org/resource/Exclusive_or
+40353,6,WORKSHEET,Perceptron,http://dbpedia.org/resource/Perceptron
+40353,6,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,7,WORKSHEET,sigmoid function,http://dbpedia.org/resource/Sigmoid_function
+40353,7,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,7,WORKSHEET,Autoencoder,http://dbpedia.org/resource/Autoencoder
+40353,8,WORKSHEET,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,8,WORKSHEET,Facebook,http://dbpedia.org/resource/Facebook
+40353,8,WORKSHEET,LinkedIn,http://dbpedia.org/resource/LinkedIn
+40353,8,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40353,8,WORKSHEET,RDF Resource Description Framework,http://dbpedia.org/resource/Resource_Description_Framework
+40353,8,WORKSHEET,Knowledge Graph,http://dbpedia.org/resource/Knowledge_Graph
+40353,8,WORKSHEET,University,http://dbpedia.org/resource/Main_Page
+40353,8,WORKSHEET,McGill,http://dbpedia.org/resource/McGill_University
+40353,8,WORKSHEET,predicate,http://dbpedia.org/resource/SQL
+40353,8,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,8,WORKSHEET,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40353,8,WORKSHEET,Montreal,http://dbpedia.org/resource/Montreal
+40353,9,WORKSHEET,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40353,9,WORKSHEET,Concordia University,http://dbpedia.org/resource/Main_Page
+40353,9,WORKSHEET,N,http://dbpedia.org/resource/N-Triples
+40353,9,WORKSHEET,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40353,9,WORKSHEET,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,9,WORKSHEET,Wikidata,http://dbpedia.org/resource/Wikidata
+40353,9,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,9,WORKSHEET,Montreal,http://dbpedia.org/resource/Montreal
+40353,9,WORKSHEET,Quebec,http://dbpedia.org/resource/Quebec
+40353,9,WORKSHEET,Canada,http://dbpedia.org/resource/Canada
+40353,9,WORKSHEET,SPARQL,http://dbpedia.org/resource/SPARQL
+40353,9,WORKSHEET,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,9,WORKSHEET,Google Assistant,http://dbpedia.org/resource/Google_Assistant
+40353,10,WORKSHEET,Word Sense Disambiguation,http://dbpedia.org/resource/Word-sense_disambiguation
+40353,10,WORKSHEET,Potomac,http://dbpedia.org/resource/Potomac_River
+40353,10,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,10,WORKSHEET,Chicago,http://dbpedia.org/resource/Chicago
+40353,10,WORKSHEET,POS,http://dbpedia.org/resource/Brown_Corpus
+40353,11,WORKSHEET,tf idf,http://dbpedia.org/resource/Tf–idf
+40353,11,WORKSHEET,Python,http://dbpedia.org/resource/Pythonidae
+40353,11,WORKSHEET,Concordia,http://dbpedia.org/resource/Concordia_University
+40353,11,WORKSHEET,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40355,1,LAB,Linux,http://dbpedia.org/resource/Linux
+40355,1,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,1,LAB,GitHub,http://dbpedia.org/resource/GitHub
+40355,1,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,2,LAB,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,2,LAB,JSON LD,http://dbpedia.org/resource/JSON-LD
+40355,2,LAB,XML,http://dbpedia.org/resource/XML
+40355,2,LAB,Schema RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,2,LAB,Java,http://dbpedia.org/resource/Java_virtual_machine
+40355,2,LAB,Apache,http://dbpedia.org/resource/Apache_HTTP_Server
+40355,2,LAB,Jena,http://dbpedia.org/resource/Apache_Jena
+40355,2,LAB,Python,http://dbpedia.org/resource/Pythonidae
+40355,2,LAB,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,2,LAB,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,2,LAB,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,2,LAB,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,2,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,2,LAB,XOR,http://dbpedia.org/resource/Bitwise_operation
+40355,2,LAB,g1g1,http://dbpedia.org/resource/One_Laptop_per_Child
+40355,2,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,2,LAB,University,http://dbpedia.org/resource/Main_Page
+40355,3,LAB,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,3,LAB,Web Ontology Language,http://dbpedia.org/resource/Web_Ontology_Language
+40355,3,LAB,RDFS,http://dbpedia.org/resource/RDF_Schema
+40355,3,LAB,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40355,3,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,3,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,3,LAB,University,http://dbpedia.org/resource/Main_Page
+40355,3,LAB,Montreal,http://dbpedia.org/resource/Montreal
+40355,4,LAB,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,4,LAB,Moodle,http://dbpedia.org/resource/Moodle
+40355,4,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,4,LAB,Berlin,http://dbpedia.org/resource/Berlin
+40355,4,LAB,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,4,LAB,Siri,http://dbpedia.org/resource/Siri
+40355,4,LAB,Alexa,http://dbpedia.org/resource/Amazon_Alexa
+40355,4,LAB,Canada,http://dbpedia.org/resource/Canada
+40355,4,LAB,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,4,LAB,Alma,http://dbpedia.org/resource/Alma_Mahler
+40355,4,LAB,Apache,http://dbpedia.org/resource/Apache_HTTP_Server
+40355,4,LAB,Fuseki fuseki,http://dbpedia.org/resource/Fuseki
+40355,4,LAB,chmod,http://dbpedia.org/resource/Chmod
+40355,4,LAB,JDK,http://dbpedia.org/resource/Java_Development_Kit
+40355,4,LAB,Jena,http://dbpedia.org/resource/Apache_Jena
+40355,4,LAB,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40355,4,LAB,Smart,http://dbpedia.org/resource/Smart_device
+40355,5,LAB,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,5,LAB,Linux,http://dbpedia.org/resource/Linux
+40355,5,LAB,Windows,http://dbpedia.org/resource/Microsoft_Windows
+40355,5,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40355,5,LAB,Canada,http://dbpedia.org/resource/Canada
+40355,5,LAB,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,5,LAB,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,5,LAB,Apache,http://dbpedia.org/resource/Apache_HTTP_Server
+40355,5,LAB,Fuseki,http://dbpedia.org/resource/Fuseki
+40355,5,LAB,Moodle,http://dbpedia.org/resource/Moodle
+40355,5,LAB,Open Data,http://dbpedia.org/resource/Linked_data
+40355,5,LAB,Pablo Picasso,http://dbpedia.org/resource/Pablo_Picasso
+40355,5,LAB,rdfs,http://dbpedia.org/resource/RDF_Schema
+40355,5,LAB,NextProt,http://dbpedia.org/resource/NeXtProt
+40355,5,LAB,JSON,http://dbpedia.org/resource/JSON
+40355,5,LAB,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40355,5,LAB,Paris Hilton,http://dbpedia.org/resource/Paris_Hilton
+40355,5,LAB,Docker,http://dbpedia.org/resource/Stevedore
+40355,5,LAB,Quebec,http://dbpedia.org/resource/Quebec
+40355,5,LAB,Loyola College,http://dbpedia.org/resource/Loyola_University_Maryland
+40355,5,LAB,Sir George Williams,http://dbpedia.org/resource/Concordia_University
+40355,6,LAB,scikit learn,http://dbpedia.org/resource/Scikit-learn
+40355,6,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,6,LAB,Wikidata,http://dbpedia.org/resource/Wikidata
+40355,6,LAB,NumPy,http://dbpedia.org/resource/NumPy
+40355,6,LAB,MovieLens,http://dbpedia.org/resource/MovieLens
+40355,6,LAB,Toy Story,http://dbpedia.org/resource/Toy_Story_2
+40355,6,LAB,Lego,http://dbpedia.org/resource/Lego
+40355,7,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,7,LAB,tf,http://dbpedia.org/resource/Tf–idf
+40355,7,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40355,7,LAB,Moodle,http://dbpedia.org/resource/Moodle
+40355,7,LAB,MovieLens,http://dbpedia.org/resource/MovieLens
+40355,7,LAB,TF IDF,http://dbpedia.org/resource/Tf–idf
+40355,7,LAB,Scikit,http://dbpedia.org/resource/Scikit-learn
+40355,7,LAB,Google,http://dbpedia.org/resource/Google
+40355,7,LAB,Usenet,http://dbpedia.org/resource/Usenet
+40355,7,LAB,NLP,http://dbpedia.org/resource/Natural_language_processing
+40355,7,LAB,NuBus,http://dbpedia.org/resource/NuBus
+40355,7,LAB,Lucene,http://dbpedia.org/resource/Apache_Lucene
+40355,7,LAB,Elasticsearch,http://dbpedia.org/resource/Elasticsearch
+40355,7,LAB,Solr,http://dbpedia.org/resource/Apache_Solr
+40355,8,LAB,algorithm,http://dbpedia.org/resource/Algorithm
+40355,8,LAB,TF IDF,http://dbpedia.org/resource/Tf–idf
+40355,8,LAB,scikit learn,http://dbpedia.org/resource/Scikit-learn
+40355,8,LAB,Moodle,http://dbpedia.org/resource/Moodle
+40355,9,LAB,AIML Artificial Intelligence Markup Language,http://dbpedia.org/resource/AIML
+40355,9,LAB,Intelligent,http://dbpedia.org/resource/Artificial_intelligence
+40355,9,LAB,Applied,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40355,9,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,9,LAB,Amazon Lex,http://dbpedia.org/resource/Amazon_Lex
+40355,9,LAB,Google,http://dbpedia.org/resource/Google
+40355,9,LAB,Skype,http://dbpedia.org/resource/Skype
+40355,9,LAB,Twitter,http://dbpedia.org/resource/Twitter
+40355,9,LAB,Facebook Messenger,http://dbpedia.org/resource/Facebook_Messenger
+40355,9,LAB,Rasa,http://dbpedia.org/resource/Saint_Jonas'_Festival
+40355,9,LAB,Chatterbot,http://dbpedia.org/resource/Chatbot
+40355,9,LAB,Numpy,http://dbpedia.org/resource/NumPy
+40355,9,LAB,OEM,http://dbpedia.org/resource/Original_equipment_manufacturer
+40355,9,LAB,Whirlpool,http://dbpedia.org/resource/Whirlpool
+40355,9,LAB,Kitchen,http://dbpedia.org/resource/KitchenAid
+40355,9,LAB,Blender,http://dbpedia.org/resource/Blender
+40355,9,LAB,Kitchenaid,http://dbpedia.org/resource/KitchenAid
+40355,9,LAB,algorithm,http://dbpedia.org/resource/Algorithm
+40355,9,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,9,LAB,McGill,http://dbpedia.org/resource/McGill_University
+40355,9,LAB,tf,http://dbpedia.org/resource/Tf–idf
+40355,9,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40355,9,LAB,Orinoco,http://dbpedia.org/resource/Orinoco
+40355,9,LAB,Canada,http://dbpedia.org/resource/Canada
+40355,10,LAB,spaCy,http://dbpedia.org/resource/SpaCy
+40355,10,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,10,LAB,Rasa,http://dbpedia.org/resource/Saint_Jonas'_Festival
+40355,10,LAB,Amazon,http://dbpedia.org/resource/Amazons
+40355,10,LAB,Natural Language Processing,http://dbpedia.org/resource/Natural_language_processing
+40355,10,LAB,UIMA,http://dbpedia.org/resource/UIMA
+40355,10,LAB,NLTK,http://dbpedia.org/resource/Natural_Language_Toolkit
+40355,10,LAB,POS,http://dbpedia.org/resource/Brown_Corpus
+40355,10,LAB,Chicago,http://dbpedia.org/resource/Chicago
+40355,10,LAB,Krypton,http://dbpedia.org/resource/Krypton
+40355,10,LAB,Kal El,http://dbpedia.org/resource/Superman
+40355,10,LAB,Smallville,http://dbpedia.org/resource/Smallville
+40355,10,LAB,Martha Kent,http://dbpedia.org/resource/Jonathan_and_Martha_Kent
+40355,10,LAB,Clark Superman,http://dbpedia.org/resource/Superman
+40355,10,LAB,Metropolis,http://dbpedia.org/resource/Metropolis
+40355,10,LAB,Daily Planet,http://dbpedia.org/resource/Daily_Planet
+40355,10,LAB,Lois Lane,http://dbpedia.org/resource/Lois_Lane
+40355,10,LAB,Jimmy Olsen,http://dbpedia.org/resource/Jimmy_Olsen
+40355,10,LAB,Perry White,http://dbpedia.org/resource/Perry_White
+40355,10,LAB,Lex Luthor,http://dbpedia.org/resource/Lex_Luthor
+40355,10,LAB,Governor,http://dbpedia.org/resource/Governor
+40355,10,LAB,Named Entity Recognition,http://dbpedia.org/resource/Named-entity_recognition
+40355,10,LAB,Google,http://dbpedia.org/resource/Google
+40355,10,LAB,tf,http://dbpedia.org/resource/Tf–idf
+40355,10,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40355,10,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40355,10,LAB,McGill,http://dbpedia.org/resource/McGill_University
+40355,10,LAB,sklearn,http://dbpedia.org/resource/Scikit-learn
+40355,10,LAB,Matplotlib,http://dbpedia.org/resource/Matplotlib
+40355,10,LAB,SPARQL,http://dbpedia.org/resource/SPARQL
+40355,10,LAB,WhatsApp,http://dbpedia.org/resource/WhatsApp
+40355,10,LAB,SpaCy,http://dbpedia.org/resource/SpaCy
+40355,10,LAB,Tensorflow,http://dbpedia.org/resource/TensorFlow
+40355,10,LAB,API,http://dbpedia.org/resource/Application_programming_interface
+40355,10,LAB,Fuseki,http://dbpedia.org/resource/Fuseki
+40355,11,LAB,spaCy,http://dbpedia.org/resource/SpaCy
+40355,11,LAB,Concordia University,http://dbpedia.org/resource/Main_Page
+40355,11,LAB,Montreal,http://dbpedia.org/resource/Montreal
+40355,11,LAB,Quebec,http://dbpedia.org/resource/Quebec
+40355,11,LAB,Canada,http://dbpedia.org/resource/Canada
+40355,11,LAB,Loyola College,http://dbpedia.org/resource/Loyola_University_Maryland
+40355,11,LAB,Sir George Williams,http://dbpedia.org/resource/Concordia_University
+40355,11,LAB,McGill,http://dbpedia.org/resource/McGill_University
+40355,11,LAB,Downtown,http://dbpedia.org/resource/Downtown_Montreal
+40355,11,LAB,Notre Dame de - Grâce,http://dbpedia.org/resource/Our_Lady_of_Graces
+40355,11,LAB,POS,http://dbpedia.org/resource/Brown_Corpus
+40355,11,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40355,11,LAB,Perceptron,http://dbpedia.org/resource/Perceptron
+40355,11,LAB,scikit learn,http://dbpedia.org/resource/Scikit-learn
+40355,11,LAB,XOR,http://dbpedia.org/resource/Exclusive_or
+40355,11,LAB,tf,http://dbpedia.org/resource/Tf–idf
+40355,11,LAB,k,http://dbpedia.org/resource/K-means_clustering
+40355,11,LAB,Gensim,http://dbpedia.org/resource/Gensim
+40355,11,LAB,Keras,http://dbpedia.org/resource/Keras
+40355,11,LAB,TensorFlow,http://dbpedia.org/resource/TensorFlow
+40355,11,LAB,Rasa,http://dbpedia.org/resource/Saint_Jonas'_Festival
+40353,1,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40353,1,LAB,Anaconda,http://dbpedia.org/resource/Anaconda
+40353,1,LAB,IDE,http://dbpedia.org/resource/Integrated_development_environment
+40353,1,LAB,Java,http://dbpedia.org/resource/Java_virtual_machine
+40353,1,LAB,Unix,http://dbpedia.org/resource/Unix
+40353,1,LAB,Windows,http://dbpedia.org/resource/Microsoft_Windows
+40353,1,LAB,Git,http://dbpedia.org/resource/Git
+40353,1,LAB,Clang,http://dbpedia.org/resource/Clang
+40353,1,LAB,rhombus,http://dbpedia.org/resource/Rhombus
+40353,1,LAB,algorithm,http://dbpedia.org/resource/Algorithm
+40353,1,LAB,Berkeley,http://dbpedia.org/resource/George_Berkeley
+40353,1,LAB,Stanford,http://dbpedia.org/resource/Stanford_University
+40353,1,LAB,Bowl,http://dbpedia.org/resource/Berkeley_Bowl
+40353,1,LAB,Safari,http://dbpedia.org/resource/Safari_Books_Online
+40353,1,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40353,1,LAB,UC,http://dbpedia.org/resource/University_of_California
+40353,1,LAB,Pacman,http://dbpedia.org/resource/Arch_Linux
+40353,1,LAB,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,2,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,2,LAB,Frisbee,http://dbpedia.org/resource/Frisbee
+40353,3,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,4,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,4,LAB,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40353,4,LAB,kami,http://dbpedia.org/resource/Kami
+40353,4,LAB,Google,http://dbpedia.org/resource/Google
+40353,4,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40353,4,LAB,Classifier,http://dbpedia.org/resource/Bayes_classifier
+40353,5,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,5,LAB,scikit sklearn learn,http://dbpedia.org/resource/Scikit-learn
+40353,5,LAB,Naïve Bayes,http://dbpedia.org/resource/Naive_Bayes_classifier
+40353,5,LAB,Iris,http://dbpedia.org/resource/Iris_subg._Iris
+40353,5,LAB,Forillon National Park,http://dbpedia.org/resource/Forillon_National_Park
+40353,5,LAB,Canada,http://dbpedia.org/resource/Canada
+40353,5,LAB,Quebec,http://dbpedia.org/resource/Quebec
+40353,5,LAB,Creative Commons,http://dbpedia.org/resource/Creative_Commons_license
+40353,6,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,6,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40353,6,LAB,Alison,http://dbpedia.org/resource/Alison_DiLaurentis
+40353,6,LAB,Simon,http://dbpedia.org/resource/Herbert_A._Simon
+40353,6,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40353,6,LAB,Perceptron,http://dbpedia.org/resource/Perceptron
+40353,6,LAB,XOR,http://dbpedia.org/resource/Exclusive_or
+40353,6,LAB,Sigmoid,http://dbpedia.org/resource/Sigmoid_function
+40353,6,LAB,MNIST,http://dbpedia.org/resource/MNIST_database
+40353,6,LAB,learn,http://dbpedia.org/resource/Scikit-learn
+40353,6,LAB,algorithm,http://dbpedia.org/resource/Algorithm
+40353,7,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,7,LAB,PyTorch,http://dbpedia.org/resource/PyTorch
+40353,7,LAB,convolutional neural,http://dbpedia.org/resource/Convolutional_neural_network
+40353,7,LAB,MNIST,http://dbpedia.org/resource/MNIST_database
+40353,7,LAB,Python,http://dbpedia.org/resource/Pythonidae
+40353,7,LAB,CNN,http://dbpedia.org/resource/Convolutional_neural_network
+40353,7,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40353,8,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,8,LAB,RDF,http://dbpedia.org/resource/Resource_Description_Framework
+40353,8,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,8,LAB,JSON LD,http://dbpedia.org/resource/JSON-LD
+40353,8,LAB,XML,http://dbpedia.org/resource/XML
+40353,8,LAB,Schema RDFS,http://dbpedia.org/resource/RDF_Schema
+40353,8,LAB,Java,http://dbpedia.org/resource/Java_virtual_machine
+40353,8,LAB,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40353,8,LAB,rdfs,http://dbpedia.org/resource/RDF_Schema
+40353,8,LAB,Python,http://dbpedia.org/resource/Pythonidae
+40353,8,LAB,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40353,8,LAB,g1g1,http://dbpedia.org/resource/One_Laptop_per_Child
+40353,8,LAB,Concordia University,http://dbpedia.org/resource/Main_Page
+40353,9,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,9,LAB,RDF Schema RDFS,http://dbpedia.org/resource/RDF_Schema
+40353,9,LAB,Concordia,http://dbpedia.org/resource/Concordia_University
+40353,9,LAB,FOAF,http://dbpedia.org/resource/FOAF_(ontology)
+40353,9,LAB,DBpedia,http://dbpedia.org/resource/DBpedia
+40353,9,LAB,University,http://dbpedia.org/resource/Main_Page
+40353,9,LAB,Montreal,http://dbpedia.org/resource/Montreal
+40353,9,LAB,AI,http://dbpedia.org/resource/Artificial_intelligence
+40353,9,LAB,Quebec,http://dbpedia.org/resource/Quebec
+40353,9,LAB,Loyola College,http://dbpedia.org/resource/Loyola_University_Maryland
+40353,9,LAB,URI,http://dbpedia.org/resource/Uniform_Resource_Identifier
+40353,9,LAB,Alexa,http://dbpedia.org/resource/Amazon_Alexa
+40353,9,LAB,Siri,http://dbpedia.org/resource/Siri
+40353,9,LAB,Spotlight,http://dbpedia.org/resource/DBpedia
+40353,9,LAB,SPARQL,http://dbpedia.org/resource/SPARQL
+40353,10,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,10,LAB,spaCy,http://dbpedia.org/resource/SpaCy
+40353,10,LAB,Chicago,http://dbpedia.org/resource/Chicago
+40353,10,LAB,Krypton,http://dbpedia.org/resource/Krypton
+40353,10,LAB,Kal El,http://dbpedia.org/resource/Superman
+40353,10,LAB,Smallville,http://dbpedia.org/resource/Smallville
+40353,10,LAB,Martha Kent,http://dbpedia.org/resource/Jonathan_and_Martha_Kent
+40353,10,LAB,Clark,http://dbpedia.org/resource/Superman
+40353,10,LAB,Metropolis,http://dbpedia.org/resource/Metropolis
+40353,10,LAB,Superman,http://dbpedia.org/resource/Superman
+40353,10,LAB,Lois Lane,http://dbpedia.org/resource/Lois_Lane
+40353,10,LAB,Daily Planet,http://dbpedia.org/resource/Daily_Planet
+40353,10,LAB,Jimmy Olsen,http://dbpedia.org/resource/Jimmy_Olsen
+40353,10,LAB,Perry White,http://dbpedia.org/resource/Perry_White
+40353,10,LAB,Lex Luthor,http://dbpedia.org/resource/Lex_Luthor
+40353,10,LAB,Governor,http://dbpedia.org/resource/Governor
+40353,11,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,11,LAB,VSM,http://dbpedia.org/resource/Vishisht_Seva_Medal
+40353,11,LAB,Python,http://dbpedia.org/resource/Pythonidae
+40353,11,LAB,tf,http://dbpedia.org/resource/Tf–idf
+40353,11,LAB,scikit,http://dbpedia.org/resource/Scikit-learn
+40353,11,LAB,Named Entity Recognition,http://dbpedia.org/resource/Named-entity_recognition
+40353,11,LAB,Google,http://dbpedia.org/resource/Google
+40353,12,LAB,Applied Artificial Intelligence,http://dbpedia.org/resource/Applied_Artificial_Intelligence
+40353,12,LAB,Python,http://dbpedia.org/resource/Monty_Python
+40353,12,LAB,Shakespeare,http://dbpedia.org/resource/William_Shakespeare
+40353,12,LAB,Sonnet,http://dbpedia.org/resource/Sonnet_2
+40353,12,LAB,PyTorch,http://dbpedia.org/resource/PyTorch
+40353,12,LAB,YAML,http://dbpedia.org/resource/YAML
+40353,12,LAB,Argus,http://dbpedia.org/resource/Argus_Panoptes
+40353,12,LAB,Google Translate,http://dbpedia.org/resource/Google_Translate
