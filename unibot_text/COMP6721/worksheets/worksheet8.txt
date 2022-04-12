@@ -1,0 +1,61 @@
+
+1. Assume Joe has a photo of him published under http://facebook.me/joe.png (not a real URL). How can
+DBpedia:
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+Domain & Range. We now have to add domain and range restrictions for our property to avoid problems like the
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+homepage:
+comes from Wikipedia (“Concordia University, commonly referred to as Concordia, is a public comprehensive research
+1.
+and object for:
+. . .
+Worksheet #8: Knowledge Graphs & Intelligent Agents, Part II
+?s geo:long "-73.578003"^^xsd:float . }
+Are these syntactically legal triples? (Spoiler alert: yes, we could write each of them using perfectly fine RDF URIs.)
+FOAF. A widely used vocabulary for describing people and their (social) networks is Friend-of-a-Friend (FOAF),Ï
+}
+@prefix ex: <http://example.org/> .
+2.
+N-Triples. Quick refresher: Using the N-Triples serialization format, write an RDF triple describing Concordia’s
+<student> <handed in by> <assignment> .
+Note: use the same ex: namespace for the new subclass as before for Student.
+Linked Data. How is Concordia University in the DBpedia knowledge graph linked to Wikidata? Find the propertyÏ
+https://dbpedia.org/sparql/
+which you’ve seen before:
+WHERE { ?s geo:lat "45.497002"^^xsd:float .
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+Creating Instances. Now add another triple stating that Jane (ex:jane#me) is of type ex:Student:
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+<LS-210> <teaches> <COMP472/6721> .
+following prefix definitions and define Student as part of the ex namespace (ex:Student):
+So what exactly is wrong here?
+ones shown above. For the domain of our studiesAt property, we only permit ex:Student resources and for the
+WHERE {
+Properties. We now define a property, studiesAt, so that we can indicate at which university a student is studying.
+(Note: properties should also have labels & comments, but we omit this here for brevity.)
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+SPARQL. Your first SPARQL query: What can you find in DBpedia with: (use the public SPARQL endpoint atÏ
+for the namespace):
+https://dbpedia.org/sparql/):
+a question like “What is Concordia University?”: You’ll typically see a definition as part of the answer that often
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
+http://dbpedia.org/resource/Concordia_University
+<http://dbpedia.org/resource/Concordia University>
+you add this information to the knowledge graph using FOAF (hint: look up the vocabulary using the prefix
+university located in Montreal, Quebec, Canada...”). Write a SPARQL query that retrieves this information from
+SELECT ?s
+Write the triple defining studiesAt as a property (use the ex: namespace as before):
+Are we there yet? Ok, let’s look at these three triples (written in pseudocode for brevity):
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT ?desc
+2. Again using FOAF, model that Jane is 22 years old:
+To achieve this translation from question to query automatically, the AI needs an additional natural language
+URL above):
+COMP6721 Worksheet: Knowledge Graphs II Winter 2022
+processing (NLP) layer, which we’ll cover later in this course.
+Subclasses. For now at least, every Student is a Person (sorry, robots!). Define this fact as a triple (use foaf:Person
+<professor> <is a> <slide> .
+range, we only admit ex:University resources. Write the two triples:
+Your first Vocabulary. Define the fact that Student is a class (as opposed to an instance, like Jane). Use the
+Your own AI Agent. Consider the output of a commercial AI, for example the Google Assistant, when you askÏ
+Add the triple:

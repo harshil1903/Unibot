@@ -1,0 +1,31 @@
+
+Assume that we use the following convolution filter with a stride of 2 (no padding):
+1. Average pooling:
+input height
+map of Task 1 above, if we use the following strategies:
+None,
+"same", meaning the size of the kernel is the same as the input, padded with zeros):
+output shape =
+Task 3. What will be the output of a pooling layer with a size of 2× 2 and a stride of 1, on the activation
+(4 × 4 × 3 + 1) × 10 = 490 weights (parameters to train).
+Task 2. The task here is to understand the structure of the CNN (shown on the first page) we
+neural network (CNN):
+What will be the size of the activation map?
+,
+Compute again the output tensor shape using the formula above:
+How many weights do we have to train?
+What will be the resulting activation map?
+How do we obtain the output shape of this layer? The general formula you can use is (for padding =
+COMP474/6741 Worksheet: Introduction to Deep Learning Winter 2022
+(
+Task 1. Consider the following matrix that represents an image. This image will be fed into a convolutional
+)
+Now compute the output tensor shape of the first convolution layer using the formula above:
+input width
+Worksheet #10: Introduction to Deep Learning
+,filters
+COMP474/6741 Intelligent Systems (Winter 2022)
+In the second convolution layer, we want to apply 20 filters of size 3×3 and a depth of 10.
+stride
+are building: Our first convolution layer has 10 filters, each sized 4×4×3 (kernel size = (4,4)), thus
+2. Max pooling:

@@ -1,0 +1,53 @@
+
+property and object for:
+for the DBpedia knowledge graph?
+Task 8. Using a FILTER, find all universities and colleges in Montreal that have more than 10000 studentsÏ
+ex:Professor that is 2. a subclass of foaf:Person (you can use namespace abbreviations for foaf, rdf
+Task 1. Quick refresher: Write two RDF Schema triples in Turtle format that 1. define a new class
+Together with the triples above, a system can infer another triple. What is this triple and where does it
+1.
+Task 9. If you ask Eliza, “Is the Yangtze river longer than the Nile River?”, you’ll get a passive-aggressiveÏ
+each value to a variable and add a FILTER to check if one is bigger than the other.
+. . .
+answer like “I’ll ask the questions, if you don’t mind!”. Can you do better by writing a SPARQL ASK query
+?s geo:long "-73.578003"^^xsd:float . }
+}
+2.
+and rdfs):
+Bonus task: sort the output by the number of students (you’ll need an ORDER BY clause).
+Task 3. How is Concordia University in the DBpedia knowledge graph linked to Wikidata? Find theÏ
+https://dbpedia.org/sparql/
+come from?
+FILTER
+ASK
+WHERE { ?s geo:lat "45.497002"^^xsd:float .
+COMP474/6741 Worksheet: Knowledge Base Queries with SPARQL Winter 2022
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT . . .
+Task 7. Ok, something a bit more challenging: Create a query that prints out the names and optionallyÏ
+WHERE {
+Hint: the URIs for the two rivers are dbr:Yangtze and dbr:Nile. Find the property for the length, bind
+Hint: the subject URI is given and you need variables for the predicate and the object.
+{
+the homepages of all universities and colleges located in Montreal:
+Task 2. Add another triple stating that ex:Rene is a ex:Professor:
+<http://dbpedia.org/resource/Concordia_University>
+SELECT ?o
+<http://dbpedia.org/resource/Concordia University>
+Note that we started using prefix abbreviations, similar to Turtle.
+http://dbpedia.org/resource/Concordia_University
+(dbo:numberOfStudents):
+PREFIX dbo: <http://dbpedia.org/ontology/>
+Hint: you can start from Concordia’s URI and look for the right values to put into the query pattern.
+PREFIX dbr: <http://dbpedia.org/resource/>
+Worksheet #3: Knowledge Base Queries with SPARQL
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+Task 6. Now find all predicates and objects that have dbr:Concordia University as the subject :Ï
+SELECT ?uname ?uhomepage
+Task 4. Your first SPARQL query: What can you find in DBpedia withÏ
+COMP474/6741 Intelligent Systems (Winter 2022)
+<http://dbpedia.org/property/address> ?o
+SELECT ?uni ?num
+DESCRIBE ?s
+Task 5. Let’s try out DESCRIBE: Can you explain the result fromÏ
+You can run this query using DBpedia’s public SPARQL endpoint at https://dbpedia.org/sparql/.

@@ -1,0 +1,52 @@
+
+Task 9. Find an article online, let’s say from the always trustworthy Mtl Blog.3 Look at the HTMLÏ
+Inspect the entities that were linked to DBpedia. Are they correct?
+https://www.mtlblog.com
+2https://www.imdb.com
+Now try running the same article through W3C’s RDFa 1.1 Distiller and Parser at https://www.w3.
+SELECT DISTINCT ?property
+2. Find the corresponding vocabulary definition URL online:
+SELECT ?city ?cityname
+. . .
+were detected and go to the “RDF view”: what ID is given to Concordia in this knowledge graph?
+properties that were declared in a graph?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+What’s a major difference between the two graphs? And what is the technical reason for it?
+You previously found the URI for Concordia in Wikidata. Now, try to write a SPARQL query that
+COMP474/6741 Worksheet: Knowledge Base Design & Applications Winter 2022
+Task 8. Using Google’s Structured Data Testing Tools,1 examine your favorite movie on IMDB.2Ï
+https://www.dbpedia-spotlight.org/demo/
+1. Find some vocabulary terms that are used to model the movie information:
+}
+https://query.wikidata.org/
+Task 3. Find the URI for Meat Loaf (the musician, not the dish) in both DBpedia and Wikidata.Ï
+Task 4. Wikidata also has a public SPARQL query interface, located at https://query.wikidata.org/.Ï
+Task 5. Create a competency question and a corresponding SPARQL query for our FOCU university
+document, for example the first part of the Wikipedia article on Concordia. Look at the entities that
+SELECT . . .
+https://www.imdb.com
+Task 2. Now for something slightly different: Can you write a SPARQL query that selects all the
+metadata of a graph.
+WHERE {
+org/2012/pyRdfa/. Choose Turtle format and compare the triples linking the article using Facebook’s
+entities.
+Task 1. Quick refresher: How do you select all triples in a graph using SPARQL?
+https://permid.org/onecalaisViewer
+https://search.google.com/structured-data/testing-tool
+documents was Thompson Reuter’s OpenCalais, which has since been spun out and re-branded as
+3https://www.mtlblog.com
+This is an example for a query that’s useful during knowledge base development, to show or test the
+example:
+Testing query:
+https://www.w3.org/2012/pyRdfa/
+Worksheet #4: Knowledge Base Design & Applications
+COMP474/6741 Intelligent Systems (Winter 2022)
+returns the city (URI, name) for Concordia from Wikidata:
+Refinitif Intelligent Tagging : Try out the online demo at https://permid.org/onecalaisViewer on a
+analyzing a test document with some ambiguities, e.g, “Paris Hilton went to the Hilton in Paris.”
+Task 6. An early, well-known commercial service for semantic annotation of textual (mostly news)Ï
+source in your browser and find the META tags. Identify entries used by Facebook’s Open Graph Protocol.
+1https://search.google.com/structured-data/testing-tool
+Task 7. Go to the DBpedia Spotlight online demo at https://www.dbpedia-spotlight.org/demo/. TryÏ
+Hint: There is another tool at the top of the page, Entity Search, where you can cross-check your
+OGP.

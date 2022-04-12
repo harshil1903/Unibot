@@ -1,0 +1,626 @@
+
+Too much (textual) information
+https://spacy.io/usage/processing-pipelines
+Note: real tagsets have from 45 (Penn Treebank) to 146 tags (C7).
+(TITLE)+
+She yelled “It’s right here!” but I kept looking for a sentence boundary
+Morphological Variants
+• often, sentences end with “.”, “!”, or “?”
+Development Frameworks
+“. . .announced today by the U.S. The. . .
+Pros&Cons
+And of course add your own components (here at the end):
+[’tagger’, ’parser’, ’ner’, ’print_info’]
+Rule-based approach for finding NPs
+https://www.youtube.com/watch?v=_RIBf01nxI0
+Natural Language Processing in Action.
+9.19
+Correct sentence boundary is important
+Sentence Splitting
+Copyright 2019 by Manning Publications Co., [LHH19]
+Language dependent code
+• Includes slides from Matthew Honnibal & Ines Montani, An introduction to
+https://pypi.org/project/spacy-entity-linker/
+Determiner describes the particular reference of a noun
+(
+• Keras/TensorFlow, PyTorch etc.
+information rage)
+pre-trained ML models
+• Can be achieved with rule-based algorithms, usually based on suffix-stripping
+uploads/prod/2018/01/1802_aaai-tutorial_precision-med.pdf
+nlp = spacy.load("en_core_web_sm", disable=["parser"])
+The deletion mutation on exon-19 of EGFR gene was present in 16
+9.30
+To rule or not to rule...
+https://web.stanford.edu/~jurafsky/slp3/.
+Organism Examples
+Person patterns, as well as
+army, arm → arm
+Example
+Introduction
+Strategy
+What can we do with chunks?
+9.27
+Natural Language Processing (NLP)
+and resources of an NLP system
+As well as resources for concrete tasks and languages:
+(MOD-ingredients MOD)
+9.60
+Consistent tokenization is important for all later processing steps
+Priority Pattern
+2 (GENUS) (STRAINKEYWORD)? (STRAIN)
+If two → what do we do with John’s house?
+NP Chunker
+9.1
+Persons with Titles
+Example: Scientific Literature Mining
+• Sentences can be nested (e.g., within quotes)
+print(token.text, token.pos_, token.tag_)
+• Rules are “brittle”, they do not generalize well
+• Advantages:
+POS-Tagging.
+• Hidden Markov Models (HMMs)
+POS tags & dependencies
+• Theory: Special kind of finite-state machine with input and output tape
+• Lexicons, WordNets
+Preposition expresses spatial or time relationships
+Tagging
+Pipelines in spaCy
+So far, we splitted texts into tokens and sentences and performed some
+• Of course, some tasks are still complex R&D problems
+9.62
+Producing a full parse tree often fails due to grammatical inaccuracies, novel words,
+Lemmatization reduce words to their lemma
+Existing Resources
+Excerpts from PubMed journal PMID:14592457
+9.47
+Syntax: Chunking and Parsing
+Department of Computer Science
+Results in the common perception of Information Overload (or even
+)
+Parsing is hard due to many kinds of ambiguities:
+Current Trends
+Tokenization
+print(ent.text, ent.start_char, ent.end_char, ent.label_)
+all_linked_entities=doc._.linkedEntities
+Example for a detected Person
+Many (open source) tools and resources are available:
+Example: Tumor Board KB Curation
+Named Entity Recognition
+• What company created product Y that is doomed to fail?
+if len(doc) < 10:
+9.5
+print("This is a pretty short document.")
+PMID: 456
+coli and purified by GSH–agarose affinity chromatography. Mutant
+chunk.root.head.text)
+PubMed
+• although the last name in the
+→ Worksheet #8: Task 8
+and Software Engineering
+9.52
+POS tags), ANNIE now runs a sequence of JAPE-Transducers to detect Named
+Frameworks: integration architectures for combining and controlling all components
+spaCy,
+is induced by
+• less errors than in stemming
+Using all the information obtained in the previous steps (Tokens, Gazetteer lookups,
+// a number is any combination of digits
+Example Tokenisation Rules
+NLP Applications
+Rule-based: write rules (regular expressions, transducers) that capture as many
+Tagging algorithm that processes texts using learned parameters.
+9.12
+Entity Linking
+https://concordiauniversity.on.worldcat.org/oclc/801812987
+Stemming vs. Lemmatization
+• Rules can be developed quickly: good for proof-of-concept/demo,
+a lexicon
+https://catalog.ldc.upenn.edu/LDC2013T19
+Speech and Language Processing.
+Two important frameworks are:
+Organism Entity Detection
+COMP 474/6741, Winter 2022
+How to find a new kind of Named Entity (NE)?
+morphological analysis.
+POS-Tagging
+doc = nlp("This is a sentence.")
+Text is split into basic units called Tokens:
+9.18
+import spacy
+I went to G.T.You?
+• But a ML approach requires significant effort for creating training data, as well
+Example Pipeline
+Part-of-Speech (POS)
+He ate spaghetti with tomato sauce.
+Text Mining Applications
+Sentence Splitting (a.k.a. Sentence Segmentation)
+9.41
+various sources (files, DBs, email, . . .)
+• What to do with hyphens?
+as effort for feature engineering, training, evaluation, etc.
+Gefitinib can treat tumors w. EGFR-L858E mutation
+Some difficult examples for sentence splitting
+spaCy provides an API for linking entities to a knowledge base, but (currently) no
+9.54
+• [LHH19, Chapter 11] (Information extraction)
+nlp.add_pipe(my_component, name="My new component", last=True)
+2 Natural Language Processing (NLP)
+that of the wild type.
+#OUTPUT:
+• Rules are language-dependent
+Escherichia
+doc = nlp(u"Let's go to N.Y.!")
+Protein property activity
+Impact Expression increase
+)?
+27 million abstracts
+Notes and Further Reading
+Part-of-Speech (POS) Tagging
+Knowledge Worker DocumentsNLP Pipeline
+chunkers
+9.14
+Required
+[Naderi, Nona (2011) Automated Extraction of Protein Mutation Impacts from the Biomedical
+• etc.
+4 Notes and Further Reading
+• Errors in low-level components can multiply when running downstream
+• Machine Learning Algorithms
+bootstrapping a ML corpus, easy (unambiguous) patterns
+def my_component(doc):
+• Grammar files and Language models
+[JM] Daniel Jurafsky and James H. Martin.
+Tokenization
+from SpacyEntityLinker import EntityLinker
+• typically indicates changes in case, gender, number, tense, etc.
+9.10
+9.4
+"pipeline": ["tagger", "parser", "ner"]
+• But humans did not scale so well. . .
+print(nlp.pipe_names)
+E.g., database vs. data-base vs. data base
+9.61
+Outline
+Hard (or annoying) cases:
+https://universaldependencies.org/u/pos/
+PP-Attachement which NP takes the PP? Compare:
+doc = nlp.make_doc("This is a sentence")
+Need to load a language model to start, e.g., for English:
+Summary
+An NLP system requires a large amount of infrastructure work:
+9.22
+Tagsets
+Organizations, Dates, Addresses, . . .
+((FIRSTNAME | FIRSTNAMEAMBIG
+9.15
+9.65
+Architecture 2.0
+• Which organism is this protein coming from?
+1 Introduction
+Physical Quantity 3fold
+• identifies the lemma (root form), which is an actual word
+This is a pretty short document.
+Silvester the day celebrated on 31 December (Roman Catholic Church) or 2 January (Eastern Orthodox Churches)
+• Disadvantages:
+Morphology
+Development Frameworks
+• Transformation-based Taggers (e.g., the Brill tagger)
+3 (SPECIES) (STRAINKEYWORD) (STRAIN)
+• We now have electronic books, documents, web pages, emails, blogs, news,
+9.20
+9.37
+We can now start a syntactic analysis of a sentence using:
+9.63
+Slides Credit
+He ate spaghetti with a fork.
+#numbers#
+Algorithms used in POS-Tagging
+Summary
+Fortunately, you don’t have to start from scratch
+9.38
+genus︷ ︸︸ ︷
+Information Overload
+Language Technology (LT)
+Retrieval (IR)
+(Aspergillus)
+21
+→ Worksheet #8: Task 5
+Morphological Analysis
+https://concordiauniversity.on.worldcat.org/oclc/1102387045.
+https://www.refinitiv.com/perspectives/ai- digitalization/four- ways- to- apply- nlp- in- financial- services/
+Language Models
+“MR. X”, “3.14”, “Y Corp.”, . . .
+anyway.
+9.66
+nlp.add_pipe(entityLinker, last=True, name="entityLinker")
+• Numerous NLP libraries: NLTK (Python), Stanford CoreNLP, OpenNLP. . .
+(not shown)
+Detects sentence units. Easy case:
+Reading Material
+Emericella
+(HEAD (NN) . . .)
+See https://spacy.io/usage/processing-pipelines
+Mining Health Documents
+Priority: 35
+• There are different tagsets used by different tools
+Chunking vs. Parsing
+Part-of-Speech (POS) Tagging (II)
+am I?,” “Am I alive?” flittered across the screen.
+for token in doc:
+Q15K-W37R and mutant Q15R-W37R showed comparable activ-
+https://concordiauniversity.on.worldcat.org/oclc/1102387045
+print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
+Typical approach in text mining: deal with the complexity of language by applying
+one of its inflected forms. This requires a morphological analysis, which in turn
+())
+9.58
+Concordia University
+• Some parts of spaCy work language-independent
+Entities (NE)s.
+Text Mining in Science
+Machine Reading
+• Is “John’s” in John’s sick one token or two?
+(SPACE_SEPARATOR) >SpaceToken;kind=space;
+• space tokens
+Rule: PersonTitle
+“Show me all protein mutations that impacted the protein property affinity”
+PMID: 123
+Two general solutions:
+Coreference Resolution Engines, Summarizers, . . .
+Hence, chunking and partial parsing are more commonly used.
+9.25
+Finding Organisms: Rule matching
+• Often reduces different words to the same stem, e.g.,
+old genus name︷ ︸︸ ︷
+. . . glutathione S-transferase (GST) fusion proteins in Escherichia
+#returns all entities in the whole document
+Stemming and Lemmatization
+(PERSONENDING)?
+Text Mining
+Loading a model defines the pipeline to be used in its metadata:
+Which entities are detected?
+If one → problems in parsing (where’s the verb?)
+9.56
+Pipelines in spaCy (contd.)
+https://en.wikipedia.org/wiki/Sentence_boundary_disambiguation
+• Still a long way to go to an understanding of natural language. . .
+https://concordiauniversity.on.worldcat.org/oclc/801812987.
+Unfortunately, even tokenization can be difficult:
+1 (FULLNAME) (STRAINKEYWORD)? (STRAIN) (STRAINKEYWORD)?
+entityLinker = EntityLinker()
+…
+Pipelines
+Libraries
+"DECIMAL_DIGIT_NUMBER"+ >Token;kind=number;
+for ent in doc.ents:
+Parsers, Classifiers, Noun Phrase Chunkers, Lemmatizers, Entity Taggers,
+SMAD3 to form
+normalization.
+concerns)
+for many languages
+Producing POS Annotations
+nlp = spacy.load("en_core_web_sm")
+René Witte
+Third Edition draft, Jan 12, 2022.
+Introduction
+The part-of-speech tags are: [’DET’, ’AUX’, ’DET’, ’NOUN’, ’PUNCT’]
+• Semantics is more important (we need to distinguish an army and an arm!)
+pre-trained models.
+• many additional rules for other
+Knowledge
+Literature. Masters thesis, Concordia University. https://spectrum.library.concordia.ca/35931/]
+Derivative Works 3.0 United States License [http://creativecommons.org/licenses/by-nc-nd/3.0/us/].
+doc = nlp("Apple is looking at buying U.K. startup for $1 billion")
+General Architecture for Text Engineering (GATE)
+Noun refers to entities like people, places, things or ideas
+for many downstream analysis tasks:
+https://www.tm-town.com/natural-language-processing#golden_rules
+for chunk in doc.noun_chunks:
+one?
+https://spacy.io/usage/spacy-101#architecture
+example is not in any list, it can be
+print("The part-of-speech tags are:", [token.pos_ for token in doc])
+Transducer-based NE Detection
+Words are changed through a morphological process called inflection:
+9.32
+Parsing producing a parse tree for a sentence using a parser, a grammar, and
+information obtained from POS-tags with
+Two main approaches to normalization:
+stocks, stockings → stock
+• spaCy has a built-in explanation method:
+9.24
+languages
+9.48
+Chunking and Parsing
+9.9
+Stemming vs. Lemmatization, Part II
+Adverb describes a verb, an adjective or another adverb
+Gazetteer lookup information
+• But many steps require language-specific data, such as rules or pre-trained ML
+29
+1995 at University of Sheffield, UK
+• Various integrations (e.g, CoreNLP has GATE wrapper, Python bindings)
+Writing a spaCy component
+• needs a manually tagged corpus for machine learning
+Text Analytics for Health (Microsoft Developer)
+Entity Detection: Finding Persons
+Named Entity Recognition
+• Practice: Unlike using regular expressions matching only the text, we match a
+sent._.linkedEntities.pretty_print()
+{Token.category == DT}|
+https://spacy.io/
+Organism Escherichia coli
+patients, while the L858E point mutation on exon-21 was noted in 10.
+Language Models
+Pipelines
+Base
+4 (GENUS) ("(")(GENUS)(")") (SPECIES) (STRAINKEYWORD)? (STRAIN) (STRAINKEYWORD)?
+Text Mining
+(NP (DET MOD HEAD))
+Goal: “normalize” words
+• [JM, Chapter 14] (Dependency Parsing)
+From Natural Language Processing with Python, by Steven Bird, Ewan Klein and Edward Loper, Copyright 2019 the authors. It is distributed with the Natural Language Toolkit [http://nltk.org/], Version 3.0, under the terms of the Creative Commons Attribution-Noncommercial-No
+intermediate processing steps to acquire more and more structure. Next stop:
+Finite-state Transducers
+examples (supervised learning)
+Query Interface (https://www.semanticsoftware.info/omm-query)
+found based on its POS tag and an
+• Evaluation Metrics
+Example Output
+Pirates of the Caribbean Series of fantasy adventure films
+• GATE (General Architecture for Text Engineering), under development since
+Where are we now?
+(Orange: Mutation, Red: Enzyme, Blue: Organism, Violet: Impact expression,
+Impact Mutant Q15K-W37R and mutant Q15R-W37R showed. . .
+• spaCy uses the Universal Dependency Scheme
+XLl-Blue︸ ︷︷ ︸
+9.59
+Stemming reduce words to a base form
+documents (automation, knowledge discovery)
+Purple: Protein property, Green: Physical quantity)
+Copyright 2011, 2019 The Apache Software Foundation, https://uima.apache.org/d/ruta- current/tools.ruta.book.html
+the Brill tagger
+Understanding POS Tags
+#https://www.wikidata.org/wiki/Q194318 194318
+nidulans︸ ︷︷ ︸
+• Cloud APIs are another option (convenient, but added cost and confidentiality
+Reading
+• Increasing use of Deep Learning tools/frameworks for NLP
+• Decision Trees
+print(chunk.text, chunk.root.text, chunk.root.dep_,
+doc = nlp("Autonomous cars shift insurance liability toward manufacturers")
+• what to do with “C++”, “A/C”, “:-)”, “. . .”?
+#whitespace#
+print("After tokenization, this doc has {} tokens.".format(len(doc)))
+Mark Sentence Boundaries
+Example GATE Pipeline
+| INITIALS2)
+models
+Commonly used in Information Retrieval:
+https://spectrum.library.concordia.ca/35931/
+• Component implementations for standard tasks, like Tokenizers, Sentence
+• UIMA (Unstructured Information Management Architecture), developed by IBM;
+(UPPER)
+Adjective describes the properties of nouns or pronouns
+(MOD (MOD-ingredients)
+Applications
+Mining Health Documents
+Pipeline Step: Named Entity (NE) Detection
+(https://universaldependencies.org/u/pos/)
+Companies, Locations, Patents, Organisms, . . ..
+(NP) chunks are very useful in finding named entities (NEs), e.g., Persons,
+What is a word?
+Grammar Excerpt
+9.53
+Manning Publications Co., 2019.
+Grounding to a Knowledge Base
+NP Bracketing plastic cat food can cover
+POS-Tagging generally requires:
+• Prototyping a basic system demo can be done “in hours”
+A simple “info” component
+• [PS12, Chapter 6] (Annotation and Adjudication)
+• more complex than stemming, slower
+Architecture 1.0
+All patients were treated with gefitinib and showed a partial response.
+• Advantages: simple & fast
+learning algorithm; and a
+• requires additional language-dependent resources
+a word in the language! Lemmatization find the actual root of a word, but requires
+Text Mining in Science
+9.17
+9.46
+• GATE comes with the Hepple tagger for English, which is a modified version of
+https://www.microsoft.com/en-us/research/uploads/prod/2018/01/1802_aaai-tutorial_precision-med.pdf
+9.11
+9.57
+species︷︸︸︷
+A tagset defines the tags to assign to words. Main POS classes are:
+• Standard algorithm for English: the Porter stemmer
+Verb Groups (VGs) within a sentence
+nlp.add_pipe(my_component, name="print_info", last=True)
+(CONTROL) >SpaceToken;kind=control;
+But additional methods are needed for finding relations:
+for name, proc in nlp.pipeline:
+• Who invented X?
+• difficult when a “.” do not indicate an EOS:
+{Token.category == PRP}|
+References
+• POS-Taggers maximize probabilites of tags within a sentence
+In NLP, we generally use Finite-state Transducers (FSTs) for processing rules.
+9.31
+Sentence Splitting
+5 (GENUS) (SPECIES) (SUBSPECIES) (STRAIN)?
+chats, memos, research papers, . . .
+Both frameworks are open source (GATE: LGPL, UIMA: Apache)
+Verb describes actions, activities and states
+The author wrote “’I don’t think it’s conscious.’ Turing said.”
+Text Mining Applications
+print([token.text for token in doc])
+Adds over one million every year
+• Annotation handling (stand-off markup)
+Parse trees can help in determining these relationships
+Named Entity Recognition in spaCy
+BRENDA (BRaunschweig ENzyme DAtabase)
+Lemmatization
+Lecture 9
+• While stemming is good enough for Information Retrieval, Text Mining often
+Pipeline Step: Tokenization
+• example car → cars, give → gives, gave, given
+Chunking finding syntactic constituents like Noun Phrases (NPs) or
+Language Technology (LT)
+variations as possible, with as few false positives as possible
+9.3
+an increase in activity 3fold over that of the wild type.
+Fundamentals
+#https://www.wikidata.org/wiki/Q12525597 12525597
+(PREFIX)*
+Part-of-Speech (POS) Tagging
+• number tokens
+Building a text mining system
+requires lemmatization
+doc = proc(doc)
+SMAD3/4
+9.29
+NLP Pipeline in GATE
+Constituent-based Parse Tree vs. Dependency Parsing
+• Document handling, in various formats (plain text, HTML, XML, PDF, . . .), from
+[JM], Figure 14.1→ Worksheet #8: Task 6
+typically requires a lexicon.
+9.16
+After tokenization, this doc has 5 tokens.
+• . . . all of it immediately accessible, thanks to databases and Information
+DocumentsKnowledge Worker
+bad tokenization, wrong sentence splits, errors in POS tagging, . . .
+Summary: spaCy Architecture
+Lemmatization is the process of deriving the base form, or lemma, of a word from
+Pipeline Step: POS Tagging
+See some experimental development code using Wikidata at
+Splitters, Part-of-Speech (POS) Taggers, Finite-State Transducers, Full
+9.42
+species︷ ︸︸ ︷
+9.21
+NLP Tools: programs performing a single task, like classifiers, parsers, or NP
+9.36
+What we are looking for?
+> noun, proper singular
+token.shape_, token.is_alpha, token.is_stop)
+9.64
+• Most Parsers work on individual sentences
+https://www.refinitiv.com/perspectives/ai-digitalization/four-ways-to-apply-nlp-in-financial-services/
+Example GATE Pipeline
+https://spacy.io/usage/spacy- 101#architecture
+9.33
+9.45
+→ Worksheet #8: Task 3
+spacy.explain("NNP")
+3 Text Mining Applications
+doc = nlp(u"Apple is looking at buying U.K. startup")
+• ML solutions generally perform better (more robust with respect to variations)
+A statistical POS Tagger scans tokens and assigns POS Tags.
+Requirements
+• Depends on the model and its training data
+I stared dumbfounded on as things like “How did I get here?,” “Where
+23
+coli
+Processing a text will then apply each component in the pipeline in turn:
+Entity Models
+Noun Phrase Chunking
+for sent in doc.sents:
+POS-Tagging assigns a part-of-speech-tag (POS tag) to each Token.
+9.28
+Parsing “I prefer the morning flight through Denver.”
+9.39
+Entity Linking
+woman from St. Bernard St. on the Gulf of Mexico.
+Pronoun word that can take the place of a noun
+Example: Scientific Literature Mining
+open-sourced in 2007 (Apache project)
+Machine learning: train a machine learning model, using manually annotated
+[PS12] James Pustejovsky and Amber Stubbs.
+https://github.com/explosion/talks/blob/master/2017-08-28_spaCy-101.pdf
+[LHH19] Hobson Lane, Cole Howard, and Hannes Max Hapke.
+Example: Scientific
+• An estimated 80–85% of all data stored in databases are natural language texts
+9.23
+Developing Rules
+VDR+ binds to
+organism mention
+So you want to build a Text Mining system. . .
+additional first name/last name rule
+Stemming
+9.40
+A black cat plays. . . → A/DT black/JJ cat/NN plays/VB. . .
+strain︷ ︸︸ ︷
+There is a multitude of approaches, commonly used are:
+Mutation Q15K/W37R,Q15R/W37R
+Working with pipelines
+Training phase where a manually annotated corpus is processed by a machine
+Parsing Challenges
+{Token.category == RB}
+→ Worksheet #8: Task 4
+→ Worksheet #8: Task 1
+Unstructured Information Management Architecture (UIMA)
+See https://en.wikipedia.org/wiki/Sentence_boundary_disambiguation
+O’Reilly, 2012.
+Performance is generally good (around 96%) when staying in the same domain.
+• Support Vector Machines (SVM)
+9.2
+Major Frameworks
+Output
+Literature Mining
+Chunking and Parsing
+https://uima.apache.org/d/ruta-current/tools.ruta.book.html
+I live in the U.S. but I commute to work in Mexico on S.V. Australis for a
+POS Tagging Algorithms
+9.49
+POS Tagging in spaCy
+9.34
+Morphology
+JUN expression
+(https://catalog.ldc.upenn.edu/LDC2013T19)
+→ Worksheet #8: Task 2
+• we can detect common abbreviations (“U.S.”), but what if a sentence ends with
+9.55
+• E.g., spaCy trained on the OntoNotes-5.0 corpus
+• Many businesses are still not aware of the potentials in analyzing their
+Natural Language Annotation for Machine Learning.
+Resources: for various languages, like lexicons, wordnets, grammars, or
+Two new abstracts every minute
+• Stemming for other languages: Lucene and Snowball stemmer have rule files
+Chunking vs. Parsing, Round 2
+Main difference: stemming just finds any base form, which doesn’t even need to be
+Text Mining Biomedical Literature for Protein Mutations
+return doc
+https://www.semanticsoftware.info/omm-query
+:person --> ...
+doc = nlp("I watched the Pirates of the Carribean last silvester")
+ity for NAD and NADP with an increase in activity nearly 3fold over
+We can now look at the grammar rules that found this person.
+→ Worksheet #8: Task 7
+9.44
+9.50
+You can disable components you don’t need:
+Supplemental
+https://web.stanford.edu/~jurafsky/slp3/
+9.43
+NLP Development
+graph, formed by the tokens, POS tags, dependency information, etc.
+Enzyme glutathione S-transferase (GST)
+Finding Syntactic Structures
+for token in doc:
+Example output
+NLP Libraries: collection of algorithms and resources for various tasks and
+• word tokens
+A JAPE grammar rule combines
+NLP
+Example NLP Pipeline
+• relies on different word order probabilities
+Reading for Precision Medicine, https://www.microsoft.com/en-us/research/
+Notes and Further
+• We have mature tools&resources to build robust, scalable systems now
+• . . .
+• Includes slides from Hoifung Poon, Chris Quirk & Scott Wen-Tau Yih, Machine
+9.35
+Note: this is not parsing!
+• Can create words that do not exist in the language, e.g., computers → comput
+NP Chunking in spaCy

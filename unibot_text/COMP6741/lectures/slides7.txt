@@ -1,0 +1,534 @@
+
+Inquiry, . . .
+• No clear evidence that any other clustering algorithm performs better in general
+To find the nearest centroïd:
+Partition-based Clustering
+• for DTs: pruning level
+• average these for overall performance
+7.22
+• F1-score = 2·Precision·RecallPrecision+Recall (harmonic mean)
+7.16
+https://www.thestar.com/news/paradise-papers/2019/01/29/canada-revenue-agency-launches-100-audits-after-paradise-papers-leak.html
+http://www.cognub.com/index.php/cognitive-platform/
+experience E with respect to some class of tasks
+7.14
+Some Machine Learning Techniques
+Standard Methodology
+4 Measure performance with the validation set, and adjust hyper-parameters to
+Evaluation Metrics
+• Each vector X is a list of (attribute, value) pairs.
+Testing: Find the k data points nearest (e.g., Euclidian distance) to the new
+2 ·
+• Precision = TP/(TP + FP)
+• Our subclass inference in RDFS also falls into this category.
+k-Means: Pros & Cons
+k-Means Clustering
+Decision Trees
+Example
+Model predicts. . .
+but irrelevant to the problem.
+Introduction
+Inductive Learning
+• [PS12, Chapter 8] (Testing and Evaluation)
+• Validation set (20%)
+Positive True Positive (TP) False Positive (FP)
+Classifications &
+• Conclusion is one hypothetical (most probable) explanation for the premises
+→ considered linear for practical purposes
+• Note: given n-dimensional vectors, we are using n − 1 dimensions for the similarity
+experience E.”
+What are Clusters?
+Classification of Data
+• t number of iterations
+Alike 4.0 International license, https://creativecommons.org/licenses/by- sa/4.0/legalcode
+• Combined Precision & Recall (harmonic mean)
+Reinforcement Learning
+7.65
+Feature Vectors
+In 1959, Arthur Samuel first proposed the concept
+• Distance can be computed with different metrics, e.g.,
+Evaluation of a ML Model
+Department of Computer Science
+big-data-analytics-house-of-cards-and-future-of-television-creation-consumption/
+improve performance
+Confusion Matrix
+7.12
+Machine Learning for Intelligent Systems
+Note: in this simple form, kNN has no training effort, but large testing effort
+F-Measure
+T and performance measure P if its performance
+Types of logical inference
+• k number of clusters
+7.2
+• Sensitive to outliers
+Error Types
+• Depending on ML algorithm, the training set can be further split into:
+Metrics
+2 Divide collection into training, validation and test set
+k-fold Cross-Validation
+• Extreme case: “rote learning”
+Learn from experience
+and Software Engineering
+• Two examples have the same feature-value pairs, but different outputs
+Vector Space Model
+Regression with kNN
+7.48
+• Rather, we group similar documents together
+7.39
+7.47
+centroïds as the average of the cluster.
+sample
+Clustering Documents
+Watch out for:
+7.57
+2 Abduction
+• Paradise Papers (13.4 million confidential papers regarding offshore
+Deduction
+• We construct a general explanation based on specific cases
+7.10
+• Given pairs (X , f (X )) (the training set – the data points)
+Introduction, Clustering, Classification, Regression, Evaluation
+https://concordiauniversity.on.worldcat.org/oclc/801812987
+examples
+• Converges very fast
+Re-assign data points to closest new centroïds
+https://commons.wikimedia.org/wiki/File:KnnClassification.svg
+• train on 9 of these, test on the 10th
+k-Means: Sensitivity to Initial Seeds
+tf = 1 + log(tft,d ) (1)
+• Wikileaks – often releases millions of documents
+What about cat vs. dog?
+1 All men are mortal.
+7.1
+7.46
+7.66
+Voltaire: “It is better to risk saving a guilty man than to condemn an innocent one.”
+COMP 474/6741, Winter 2022
+• Information retrieval tasks
+7.36
+• Examples are given (positive and/or negative) to train a system in a
+• Testing error is high
+Classification with kNN
+Parameters used to set up the ML
+Compute new centroïds
+No one knows the correct clusters!
+Process
+3 Classifications & Predictions
+Application Example
+function f(X) where f(X) is the desired output
+Lecture 7
+and the final for the predicted value
+7.51
+British series House of Cards based on an analysis of its customers’ data
+7.5
+AI Learns to Park
+From datascience.com, https://towardsdatascience.com/cat- dog- or- elon- musk- 145658489730
+d =
+History
+7.7
+Copyright by Chabacano (https://commons.wikimedia.org/wiki/File:Overfitting.svg) license under the Creative Commons Attribution-Share
+• From A⇒ B and B, we conclude A
+Training: only store feature vectors + class labels
+7.32
+• Intelligence arise from having a large number of simple computational units
+Evaluation Methodology
+Notes and Further Reading
+3 When all data points have been assigned, recalculate the positions of the k
+Required
+Evaluation
+• Assign the class of the closest neighbor to the new sample
+• Given two vectors, we can compute a similarity coefficient between them
+k-Nearest-Neighbor (kNN) Classification
+• Not sound. . . but may be most likely explanation for B
+• Note that this algorithm cannot extrapolate
+q = (q1,q2, . . . ,qn)
+• for DTs: features to split
+K-means (MacQueen, 1967) is a partitional clustering algorithm:
+1 Pick k points from the dataset (usually at random).
+√∑|v|
+• There is no way to fit a linear
+kNN Regression
+meaningless regularities in the data
+i=1 d i
+Euclidean distance or Manhattan distance
+• Simple, easy to understand and implement
+1 in reality: disease⇒ symptoms
+Inference
+Math with Words
+Outline
+i=1
+• Complicated boundaries overfit the
+• Use a confusion matrix (contingency table)
+7.62
+7.19
+“A computer program is said to learn from
+[MG17] Andreas C Müller and Sarah Guido.
+• Find a function f that fits the training set well
+Positive Negative
+ML Types
+to its simplicity and efficiency
+that are particular to the training data
+7.33
+• Accuracy = (TP + TN)/(TP + TN + FP + FN)
+• Often used as a first exploratory step in data analysis
+Training vs. testing data
+1 Collect a large set of examples (all with correct classifications)
+Evaluation of Classifiers
+Noisy Data
+investments)
+https://www.youtube.com/watch?v=5I3Ei69I40s
+too simple decision boundary
+2
+Summary
+7.9
+• Also called parallel distributed processing or connectionist systems
+Hyper-Parameters
+kNN Classification: General case
+Example (2/5)
+• they are too tuned to the particular
+Machine Learning
+7.68
+2 patient complains about some symptoms. . . doctor concludes a disease
+• Input data are represented by a vector of features, X
+Partition data points to closest centroïds
+called inductive bias (eg. prefer “smoother” functions)
+are.
+Machine Learning Evaluation
+Reading Material
+Introduction to Machine Learning with Python.
+7.30
+7.6
+• Training error is low
+(pi − qi )2
+• % of instances of the test set the algorithm correctly classifies
+4 Repeat Steps 2 and 3 until none of the data instances change group
+Learning from examples
+Overfitting
+• So that given a new X , you can predict its f (X ) value
+(or changes stay below a given convergence limit ∆).
+7.17
+2 Clustering Documents
+4 Machine Learning Evaluation
+Concordia University
+2 All CS students on vacation are smart.
+• Assign the value of this point (e.g., price, rating, ...) to the new instance
+Accuracy
+Process
+• Despite weaknesses, k-means is still one of the most popular algorithms, due
+• Overfitting/Underfitting
+Assign the average of their values to the new point
+(so-called lazy learning)
+Find the k nearest existing data points
+7.50
+k-Means
+• Conclusion about all members of a class from the examination of only a few
+5 Notes and Further Reading
+https://towardsdatascience.com/cat-dog-or-elon-musk-145658489730
+7.24https://opensemanticsearch.org
+• Remember, we do not “classify” documents (like in “spam vs. ham”)
+• Given m vectors in an n-dimensional space, ~x1, . . . , ~xm ∈ Rn
+7.67
+Copyright 2007–2019, scikit-learn developers (BSD License), https://scikit- learn.org/stable/auto_examples/model_selection/plot_learning_curve.html
+decision boundary so that the
+7.34
+• Classification tasks
+These points represent our initial group centroïds.
+aka Natural Deduction
+https://concordiauniversity.on.worldcat.org/oclc/801812987.
+History
+• Guantanamo Bay Files, TPP Agreements, CIA Documents, German BND-NSA
+Intelligent Systems for Investigative Journalism
+• Used in medicine. . .
+• Ranked retrieval tasks
+• Generally, there is no right or wrong answer to what the clusters in a dataset
+• They do not generalize well to the
+Algorithm
+Motivation
+7.53
+7.25
+7.18
+kNN Regression: General Case
+Copyright by Walber (https://commons.wikimedia.org/wiki/File:Precisionrecall.svg), licensed under the Creative
+René Witte
+7.63
+• Recall = TP/(TP + FN)
+Introduction
+k-Means & Outliers
+2 Socrates is a man.
+Clustering Documents
+In Supervised Learning, we train a system using data with known labels.
+• Given a new instance X you have never seen, you must find an estimate of the
+Precision, recall etc. are defined slightly differently
+• distance d between 2 points p, q
+https://www.youtube.com/watch?v=VMp6pq6_QjI
+Evaluation Metrics
+Unsupervised Learning
+Overfitting
+kNN Algorithm
+• Each example can be interpreted as a point in a n-dimensional feature space,
+Netflix: Predict Success of Original Content
+7.28
+Error Analysis
+7.58
+• User defines k , the number of clusters
+• for ANNs: # of hidden layers, # of
+dft
+https://www.youtube.com/watch?v=X9ZES-fsxgU
+Methodology
+→ Worksheet #6: Task 4
+Machine Learning:
+Automated Reasoning
+In 2013, Netflix decided to commission two seasons of the U.S. remake of the
+enough features)
+• Actual training set (80%)
+• We can also underfit data, i.e. use
+General machine learning process
+7.60
+2 John does not walk straight.
+• repeat 10 times, resulting in 10 different performance results
+• Enron email dataset – ca. 500,000 emails from management
+Neural Networks
+• Ex: X =[nose:big, teeth:big, eyes:big, moustache:no]
+Cross-Validation
+https://opensemanticsearch.org
+• Compute the distance of the unknown sample to all existing samples
+7.23
+• [MG17, Chapters 2, 3, 5] (kNN, k-Means, Evaluation)
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+• e.g., Naïve Bayes Classifier
+• Not sound
+Clustering Techniques
+[from: Alison Cawsey: The Essence of AI (1997)]
+• Some relevant attributes are not taken into account in the data set
+• kNN classification becomes a voting algorithm
+• Different results on same dataset, based on initial (random) centroïds
+7.54
+idf = log
+7.59
+Supervised Learning
+• for ANNs: weights
+Motivation
+• Training error is high
+Example (5/5)
+• Example:
+new data
+7.8
+With arbitrary k
+• when one class is more important than the others
+model, e.g.:
+Example (1/5)
+Reading
+ML Evaluation
+(“convict the innocent!”)
+• Luanda Leaks (715,000 emails, charts, contracts, audits, etc.)
+• Each attribute has a fixed, finite number of possible values
+√√√√ n∑
+2 Assign each data point ~xi to the nearest centroïd.
+k-Means Clustering
+• False positive classification: Type I error
+training data at hand
+7.43
+Example: Animal Classification
+• the more, the better
+• Some values of features are incorrect or missing (ex. errors in the data
+• Extrapolate from the training set to make accurate predictions about future
+Classifications & Predictions
+3 from 1 ∧ 2 ⇒ All CS students are smart.
+Underfitting
+classification (or regression) task
+7.49
+Commonly used
+• We conclude from the general case to a specific example of the general case
+7.40
+at tasks in T, as measured by P, improves with
+• Facebook internal documents leaks (Cambridge Analytica scandal, 7000
+• Find the nearest existing data point to a new sample as before
+With k = 1
+• A cluster is a collection of data items which are “similar” between them, and
+Features
+7.52
+• where to assign a data point ~x?
+Regression with kNN
+https://commons.wikimedia.org/wiki/File:Precisionrecall.svg
+Important realization: not all errors are created equal!
+Abductive Reasoning
+• A mathematical model to portray an n-dimensional space
+7.56
+• Where did the learner go wrong ?
+7.31
+features are there, we may find
+• Use only discriminating features as questions in a big if-then-else tree
+Error Analysis
+Machine Learning Primer
+Example (4/5)
+NB: Deep Learning ≈ Neural Networks “on steroids”
+(“free the guilty!”)
+• You run your classifier on a data set of unseen examples (that you did not use
+• If a large number of irrelevant
+• there is never enough training data
+Copyright Antti Ajanki (https://commons.wikimedia.org/wiki/File:KnnClassification.svg), “KnnClassification”,
+References
+• From A∧C⇒ B and A∧D⇒ B, we conclude A⇒B
+• Model is not expressive enough (not
+→ Worksheet #6: Task 2
+O’Reilly, 2017.
+cos(~q , ~d ) =
+• n number of data points
+What kind of errors can we make?
+• Data points (here: documents) in individual clusters can be further analyzed,
+1 Drunk people do not walk straight.
+kNN Classification
+k-Means Clustering Illustrated
+Classification Algorithms
+possibly with different methods
+Negative False Negative (FN) True Negative (TN)
+DO NOT LOOK AT THE TEST SET
+https://creativecommons.org/licenses/by-sa/3.0/legalcode
+https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
+https://concordiauniversity.on.worldcat.org/oclc/960211579.
+AI, ML, DL
+• Noisy Data
+3 from 1 ∧ 2 ⇒ John is drunk.
+• for NB: value of delta for
+Unlabeled Data
+for training) for which you know the correct classification (“gold standard”)
+1 All CS students in COMP 474 are smart.
+5 Performance not good enough? ⇒ 3
+member of the class.
+Commons Attribution-Share Alike 4.0 International license
+7.42
+∑|v|
+Underfitting
+Pros
+• Choice of k is dependent on data set
+Euclidean distance
+Copyright 2017 by O’Reilly Media, Inc., [MG17]
+Process of deriving new facts from a set of premises
+7.29
+Mind the evaluation task
+• a.k.a. Undertraining
+7.45
+data (a.k.a. overtraining)
+7.21
+7.41
+Application Example
+training examples are well separated
+Primer
+https://www.youtube.com/watch?v=85fZcK5EpnA
+1 Machine Learning Primer
+• How do you know if what you learned is correct?
+where n is the number of attributes (features)
+7.55
+Evaluation Methodology
+ML Types
+In Unsupervised Learning, we have only unlabeled data and train a system without
+→ Worksheet #6: Task 3
+• so testing data is precious as well
+Clustering
+i=1 qi · di√∑|v|
+• The organization of unlabeled data into similarity groups, called clusters
+Note: choosing one function over another beyond just looking at the training set is
+Common issues
+3 Induction
+• Efficient: Time complexity O(t · k · n), with
+Intro to ML
+p = (p1,p2, . . . ,pn)
+• Split data into training (80%) and testing (20%) sets
+canada-revenue-agency-launches-100-audits-after-paradise-papers-leak.html
+• User needs to choose k (usually not known)
+→ Worksheet #6: Task 5
+[PS12] James Pustejovsky and Amber Stubbs.
+Regression
+3 from 1 ∧ 2 ⇒ Socrates is mortal.
+7.4
+Learning Curve
+• Comparing different clustering algorithms is a difficult task:
+Machine Learning at Netflix
+7.64
+Repeat until clusters stabilize
+7.27
+documents)
+• From A⇒ B and A, we conclude that B
+Euclidian Distance
+Plot evaluation metric vs. size of training set
+https://creativecommons.org/licenses/by- sa/4.0/legalcode
+1 Deduction
+• but after a while, not much improvement. . .
+Abduction
+until you arrived at Step 6.
+https://commons.wikimedia.org/wiki/File:Overfitting.svg
+Reality says. . .
+• [PS12, Chapter 7] (ML Training)
+https://concordiauniversity.on.worldcat.org/oclc/960211579
+Forecasting or predicting a value: e.g., house price, movie rating, temperature at noon, ...
+smoothing
+acquisition)
+• split data into 10 equal parts
+• Entities are described by vectors with n coordinates in a real space Rn
+7.35
+value. Resulting class is decided by majority vote.
+Basic values learned by the ML
+Predictions
+Document Clustering Example: Analyzing NSF Research Grants
+7.37
+• Most work in ML
+• False negative classification: Type II error
+for:
+https://informationstrategyrsm.wordpress.com/2014/10/19/
+Cross-Validation
+• Conclusion follows necessary from the premises.
+7.20
+Probabilistic Methods
+where ~x has the smallest distance
+O’Reilly, 2012.
+N
+7.15
+guidance from an expected output.
+nodes per layer. . .
+Labeled Data
+6 Measure performance with the test set
+https://www.thestar.com/news/paradise-papers/2019/01/29/
+Organize large, unstructured document collections:
+→ Worksheet #6: Task 1
+Example (3/5)
+Machine Learning Categories
+Classification with kNN
+7.3
+7.38
+probabilities
+“dissimilar” to data items in other clusters.
+7.44
+• Cosine of the angle between two vectors reflects their degree of similarity
+https://informationstrategyrsm.wordpress.com/2014/10/19/big-data-analytics-house-of-cards-and-future-of-television-creation-consumption/
+• a possible metric is the
+Data Scarcity
+7.11
+7.61
+Natural Language Annotation for Machine Learning.
+Recall & Precision
+Parameters
+Cons
+Inductive Reasoning
+3 Apply learning algorithm to training set to learn the parameters
+Induction
+• Information extraction tasks
+i=1 q i
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html
+Some Words on Training. . .
+7.26
+Supplemental
+• assign the same class as the majority of the k closest neighbors to the new
+(3)
+• But, can be seen as hypothesis construction or generalisation
+• for NB: prior & conditional
+• The number of attributes is fixed (positive, finite)
+‘Re-use’ different parts of the training data for testing. E.g., 10-fold cross-validation:
+• → for all k clusters, choose the one
+• when all classes are equally important and represented
+licensed under https://creativecommons.org/licenses/by- sa/3.0/legalcode
+2D-vectors, k=3: Initialize random centroïds
+(2)
+Inductive Learning Framework
+This is a so-called (binary) confusion matrix
+Notes and Further
+7.13

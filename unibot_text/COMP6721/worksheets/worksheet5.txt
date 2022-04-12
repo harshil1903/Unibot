@@ -1,0 +1,75 @@
+
+Step 3. Now we calculate the error terms for the hidden layer:
+wij ← wij + ∆wij , where ∆wij = −ηδjxi
+one and has its own weight (here w3). Weight changes ∆wi now take the input value xi into account. We
+#2
+• w24 = w24 + ∆w24 =
+• ∆Θ5 =
+
+Worksheet #5: Neural Networks
+• Θ5 = Θ5 + ∆Θ5 =
+• ∆w14 =
+starting from the output neuronO5: δ5 = O5(1−O5)×(O5−T5) =
+0 0 0
+j
+weights: ∆wi = η(T −O)xi
+of 0 and a learning rate η = 0.2. The weights
+• ∆w24 =
+with a hidden layer (the weights have been initialized randomly):
+1, if ~x · ~w ≥ threshold
+0 1 1
+∑
+Step 4. Now we can update our weights using
+• δ3 = O3(1−O3)δ5w35 =
+• w45 = w45 + ∆w45 =
+k∈outputs
+Neural Network for XOR. To learn a non-linearly separable function like XOR, we’ll use a neural network
+∑
+0, otherwise
+Alan
+Apply the generalized delta rule for updating the
+wjixj
+Student w1 w2 w3 w4 f(~x) ok?
+• δ4 = O4(1−O4)δ5w45 =
+Data w1 w2 w3 f(~x) ok?
+COMP6721 Worksheet: Neural Networks Winter 2022
+
+j wjixj)
+wkhδk
+• ∆w45 =
+And finally update the weights (wij ← wij + ∆wij):
+x1 x2 x1 XOR x2
+• w14 = w14 + ∆w14 =
+{
+COMP 6721 Applied Artificial Intelligence (Winter 2022)
+Assume we use the sign function with a threshold
+(our learning rate). T is the expected output and O the output produced by the perceptron. Remember to
+Here, we assume a constant learning rate η = 0.1:
+#4
+=
+(use a threshold of 0.55):
+Perceptron Learning. Ok, so for the first training example, the perceptron did not produce the right
+#1 0.75 0.5 -0.6
+
+O3 = O4 = O5 =
+only update weights for active connections (i.e., with non-zero input):
+1 1 0
+δk ← g′(xk)× Errk = Ok(1−Ok)× (Ok − Tk)
+#3
+Delta Rule. In the generalized delta rule for training the perceptron, we add a bias input that is always
+Perceptron. Calculate your first neuron activation for the Perceptron (only 100 billion−1 more to go!):
+δh ← g′(xh)× Errh = Ok(1−Ok)×
+are initialized randomly as shown in the table.
+1
+For the two neurons (3), (4) in the hidden layer:
+Oi = sigmoid
+Alison
+output. To learn the correct result, it has to adjust the weights: ∆w = η(T −O), where we set η = 0.05
+Richard 0.2 0.2 0.2 0.2
+1 + e−(
+Step 2. The next step is to calculate the error
+want the perceptron to learn the two-dimensional data shown on the right:
+Step 1. Compute the output for the three neurons O3, O4 and O5 for the input (x1 = 1, x2 = 1):
+Activation function:
+f(~x) =
+1 0 1

@@ -1,0 +1,57 @@
+
+your knowledge graph, filling in variables with the values extracted from the question.
+1 Where is Concordia? Location
+McGill?. Note that you can now extract the subject of the sentence, e.g., to plug it into a SPARQL
+able to answer them?
+Worksheet #7: Intelligent Agents
+dia”, . . . :
+Task 3. Suppose we want to use an existing set of 1000 questions for training a ML classifier. If we
+Task 2. Write a regular expression that matches different variations of naming https://www.wikidata.
+use tf-idf vectors to represent each question, how many dimensions will the vectors have (make a rough
+COMP474/6741 Worksheet: Intelligent Agents Winter 2022
+. . .
+3 What city is McGill in? Location
+name stored in the (English) label field for the subject (e.g., “Steve Jobs”).
+}
+Task 7. Now apply the kNN classification algorithm on the new question below to classify its
+# Question a b Class
+Who 1
+Task 5. Using the online parser at https://corenlp.run/, create a parse tree for the sentence What isÏ
+(none) 0
+query.
+language question: The first dimension a encodes the first occurrence of a question word (see table
+1. For new students (not currently registered at Concordia):
+SELECT . . .
+Task 8. For the questions in Task 1 above, which of the chatbot techniques covered so far would be
+WHERE {
+Task 4. Ok, here is an (extremely simplified) idea of creating 2D feature vectors out of a natural
+Test it at https://regex101.com/
+2 Who was Steve Jobs? Definition
+What 2
+https://regex101.com/
+estimate)?
+5 What is McGill?
+Task 6. Now define a SPARQL template that can obtain information about a person from DBpedia.Ï
+Contains? Value
+PREFIX dbr: <http://dbpedia.org/resource/>
+2. For current students (already enrolled at Concordia):
+4. Q2a:
+5. Q2b:
+•
+6. Q2c:
+i=1(pi − qi)2:
+2. Q1b:
+COMP474/6741 Intelligent Systems (Winter 2022)
+org/wiki/Q326342: “Concordia”, “Concordia U.”, “CU”, “Concordia University”, “Université Concor-
+https://corenlp.run/
+Where 3
+1. Q1a:
+below) and the second dimension b the number of Capital Letters in the sentence:
+# Question a b d-Q1 d-Q2 d-Q3 d-Q4 Class?
+type, according to the training data from Task 4. Use k = 3 and the Euclidian distance d(~p, ~q) =√∑n
+Task 1. What kind of question would you expect a Concordia Chatbot to be able to handle?
+https://www.wikidata.org/wiki/Q326342
+You can now match the new question with a corresponding SPARQL template to obtain a query for
+3. Q1c:
+4 What is NLP? Definition
+To keep it simple, assume that the name extracted via NLP from the question is the identical to the full

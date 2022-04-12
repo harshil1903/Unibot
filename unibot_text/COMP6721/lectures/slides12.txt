@@ -1,0 +1,427 @@
+
+Input word
+Words in different
+(i.e. translations)
+Deep Learning in the News (2013)
+Context +2 the 0 1 0 0 0 0 0 0 0 ……
+ Networks with loops in them, allowing information to persist.
+should have similar vector representations
+15
+s”
+“disabled”)
+a3
+connections are
+input
+ e.g., A word at position n can influence a word/decision at
+ho
+ Convolutional Networks (CNNs)
+6
+Word History through Embeddings
+“b
+2 brown furry chases the cat
+vector[queen] ~ vector[king]  - vector[man] + vector[woman]
+Slide from Yoshua Bengio, 2015 4
+x6
+COMP 6721: AI
+17
+2. One hidden layer and
+word -2
+C: size of context (eg 4)
+0.17 0.40 0.60 0.25 0.26 0.50 0.35 0.37 0.30 0.55 …
+decision/output
+ Output sequence: words in the target language
+word, guess one of
+ Idea:
+ predict rather than count
+context (brown furry chases
+languages but with
+n
+ decision/output from the past can influence current
+https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b4638
+21 22 23 24 25 ...
+1 Context +2 the 0 1 0 0 0 0 0 0 0 …
+representation
+are represented by
+Question Answering
+layer 3
+output layer 43.7550 46.0750 43.1300 46.5950 44.8300 46.8250 47.2600 46.8500 45.8400 43.2200 …
+OR
+13
+“one hot vectors” is the same
+ba
+3 furry cat the mouse chases
+to output the input
+ Then, we throw it away ! (yes, we do!)
+layer
+changes in word meaning
+ The network is trained
+3844
+ i.e., word embeddings
+1 2 3 4 5 ...
+ Binary vector
+for each context word
+16 17 18 19 20 ...
+ Speech Recognition & Machine Translation (2010+)
+39
+Input: an image + a natural language question
+// (that nicely add up to 1)
+are represented as 1-hot vectors, so only the weights of the word that has
+ Image Recognition & Computer Vision (2012+)
+ Similar words such as python and ruby
+37
+Recurrent Neural Networks
+of
+y1 y2 y3 y4 y5 y6 y7 y8 y9 y10
+(input)
+ use unsupervised texts from the Web
+19
+position n+t
+of input units (learn
+Turn dot product into probabilities
+Stages of NLU
+2. Skip-gram: given a
+40
+ aka. word representations
+22
+compressed
+Word2Vec models
+the word
+Project 300 dimensions down into 2
+ Visual Question Answering
+12
+2. So we can use the contexts to guess the word (or vice-versa).
+// target = 1 hot
+.
+ i.e. learn the identity
+~30 million books, 1850-1990, Google Books data
+o
+ However, similarity/distance between all
+N (size of embeddings)
+=
+ The output is conditioned on both image and textual inputs.
+softmax(y_i) 0.0085 0.0868 0.0046 0.1459 0.0250 0.1837 0.2837 0.1883 0.0686 0.0050 … 1.0000
+31 32 33 34 35 ...
+0.70 0.13 0.14 0.60 0.16 0.17 0.60 0.19 0.20 0.21 …
+se
+Machine Translation (NMT) )
+e-
+Embedding for
+ Use as training set readily available texts, so no need for
+f
+of the target
+ W is a VxN matrix…
+ob
+42
+Word Embeddings
+6 the mouse the house inside
+output layer 43.7550 46.0750 43.1300 46.5950 44.8300 46.8250 47.2600 46.8500 45.8400 43.2200 … sum
+“t
+Uses a shallow neural network
+1. CBOW:  given
+ Feed forward average of hidden neurons and do
+layer 1
+(i.e. number of neurons in the hidden layer)
+x1
+=.
+Assume context words are
+ Video to Text Descriptions
+output
+impose constraints:
+41
+i.e. the encoded x
+Word2Vec – Input to the Network
+Feedforward input
+ty
+ Weight Matrix W between input & hidden
+ Word embeddings:
+the input word, not for all elements of W. Remember that the input words
+The brown furry cat chases the mouse inside the house.
+ <after a bit of math>, we get:
+ cat/orange/train/python… to have dissimilar representations
+vector[Rome] ~ vector[Madrid] – vector[Spain] + vector[Italy]
+2
+Embedding
+for zoo
+Output: natural language answer
+30
+ A RNN is used to encode the sentence.
+25
+ Trivial… unless, we
+t1 t2 t3 t4 t5 t6 t7 t8 t9 t10
+remember, we did all this to get embeddings...
+O-T 0.0085 0.0868 0.0046 0.1459 0.0250 0.1837 -0.7163 0.1883 0.0686 0.0050 …
+1 Context +1 cat 1 0 0 0 0 0 0 0 0 …
+the input to be fed to the next layer
+instance 1 Context -2 the 0 1 0 0 0 0 0 0 0 ...
+ Iterate feedforward/ backprop until error is minimized
+almost...
+26
+ Length = | vocab |
+0.12 0.50 0.14 0.15 0.50 0.30 0.18 0.20 0.20 0.21 …
+fo
+ct
+η: learning rate
+update only the wij for the inputs where x1 =1
+1
+(output)
+company it keeps” – J. R. Firth
+The weight updates are ONLY done on the "rows" of W that correspond to
+Deep Learning for NLP
+input layer
+ RNNs + word embeddings
+ …
+...
+45
+instance 1 Context -1 brown 0 0 0 0 0 1 0 0 0 ...
+18
+http://www.claudiobellei.com/2018/01/06/backprop-word2vec/ 21
+layer 2
+Matrix W’
+26 27 28 29 30 ...
+… P
+Multilingual Word Embeddings
+ili
+36
+ As of July 2017, uses an RNN + word embeddings (called Neural
+x5
+10
+// a vector of probabilities
+ Popular embedding method
+Word2Vec – Weights W
+goal: predict the probability of
+…
+4 cat chases mouse inside the
+ Train a classifier on a binary prediction task:
+7
+ W’ is a NxV matrix…
+n”
+ Recurrent Neural Networks (RNNs)
+ur
+ry
+ John’s cat/kitty purrs.
+ We would like:
+many slides from:  Y. Bengio, A. Ng and Y. LeCun
+“A word is known by the
+Autoencoder
+To
+ Represent each word by a vector of fixed dimensions
+average of dot products
+T= target 0 0 0 0 0 0 1 0 0 0 …
+ Neural network structures
+similar vectors
+ Instead of counting how often each word w occurs near
+ Very fast to train
+representation)
+ Dialogue Systems
+To Predict
+x2
+ and only keep W’, these are your word embeddings!
+ro
+vector[swimming] ~ vector[swam]  - vector[walked] + vector[walking]
+Backprop error
+ance
+ The cat/kitty/dog hunts for mice.
+Word2vec Models
+Pr
+
+banana
+Picture from (Antol et al., 2015) 43
+ …
+“c
+ Weight Matrix W’ between hidden & output layer
+ Like a point in n-dimensional space
+ Adjust W’ and W using backpropagation
+2. Word Embeddings
+V = size of vocabulary
+ Image Captioning
+3. Deep Learning for NLP
+those in +/- 2 word window
+V
+at
+1. Introduction
+Word2Vec – FeedForward next data
+16
+History of AI
+ Is w likely to show up near “cat"?
+Results
+Visual Question Answering
+instance 1 Context +1 cat 0 0 0 0 0 0 0 0 1 ...
+ Code available on the web
+e^y_i 1.01E+19 1.02E+20 5.38E+18 1.72E+20 2.95E+19 2.17E+20 3.35E+20 2.22E+20 8.09E+19 5.89E+18 … 1.180E+21
+ See: https://code.google.com/archive/p/word2vec/
+1 Context +2 chases 0 0 0 1 0 0 0 0 0
+on
+11
+ cat/kitty/dog ... to have similar representations
+31
+1. Similar words should have similar contexts (surrounding words)
+N = size of the embedding that we want
+3
+ Input sequence: words in a source sentence
+ Natural Language Processing (2014+)
+function.
+N (nb of nodes in hidden layer, i.e. size of the embedding)
+word +1
+24 25 26 27 28 …
+Inst
+… … … … … … … … … … …
+Word2Vec- Get the embeddings
+B
+weight only of the context word since its previous weights lead to an error.
+Instance Context
+ Constrain layer 2 to be
+word -1
+x4
+41 42 43 44 45 ...
+sparse (i.e. many
+http://visualqa.csail.mit.edu/
+(furry) in the
+"apricot"
+46 47 48 49 50 ...
+training set ...
+(eg, n= 50 to 300)
+t
+Machine Translation
+Image Captioning: Better than humans?
+Cool Applications
+http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/ 46
+ https://code.google.com/archive/p/word2vec
+ CNNs + RNNs + word embeddings
+
+14
+Artificial Intelligence:
+ Nb of units in layer 2 < nb
+translation, language modelling, ….
+28
+http://deeplearning.cs.toronto.edu/i2t
+https://visualdialog.org/
+h1 h2 h3 h4 h5
+Backpropagate errors to adjust W and W’
+A
+“
+or
+http://ahogrammer.com/2017/03/22/why-is-word-embeddings-important-for-natural-language-processing/
+Visual Question Answering
+its surrounding word
+for airplane
+ve
+ Recursive Neural Networks
+ In the end, we do not actually care about this task
+New (compressed) representation of
+ But we will take the learned weights as the word embeddings
+ Google Translate
+a "1" are updated.  This makes intuitive sense, as we want to update the
+http://rohanvarma.me/Word2Vec/
+2 Context +1 chases 0 0 0 0 0 0 0 0 1 …
+w
+Word2Vec – Weights W’
+32
+3. One output layer.
+ However, this does not represent word meaning ;-(
+ [0, 0, 0, 1, 0, 0, 0, . . .]
+http://www.stokastik.in/understanding-word-vectors-and-word2vec/
+t”
+Word2Vec: CBOW Model
+dot product with matrix W’
+d
+Train embeddings on old books to study
+1 the brown cat chases furry
+”
+3. Train an ANN to guess a word given its context (or vice-versa)
+2 Context -2 brown 0 0 0 0 0 1 0 0 0 …
+// to turn the vector above into
+Compute Error of output layer
+ca
+remember the training set:
+1 Context -1 brown 0 0 0 0 0 1 0 0 0 …
+5 chases the inside the mouse
+training set
+ To model sequences of decisions, such as machine
+instance 1 Context +2 chases 0 0 0 0 1 0 0 0 0 ...
+ After many iterations of feedforward, backpropagation on the entire
+Conversational Agents
+Image Captioning (deep vision + deep NLP)
+23
+1. One input layer
+0.42 0.43 0.44 0.45 0.46 0.47 0.48 0.49 0.50 0.30 …
+x3
+Predict
+Deep learning models for  NLP use:
+ 1 in the position of the word id, the rest are 0
+he
+Word2vec
+38
+Deep Learning for NLP
+y
+with only 3 layers:
+Output of hi is just the dot product
+2. Then take the average
+Deep Learning in the News (2012-2014)
+Used in Machine Translation
+Today
+ Trained on Google News dataset (about 100 billion words).
+2 Context -1 furry 0 0 0 0 1 0 0 0 0 …
++1
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+https://code.google.com/archive/p/word2vec/
+0.32 0.33 0.34 0.38 0.36 0.37 0.25 0.55 0.56 0.41 …
+ Initially random but modified via backprop
+ Traditional approach: “one hot vector”
+C
+27
+C = size of context (2 words before + 2 after)
+Note: there is no activation function.
+-
+ A CNN is used to encode the image.
+context words, guess
+ Basic Idea:
+Slide from Yoshua Bengio, 2015 5
+hand-labeled supervision !
+36 37 38 39 40 ...
+h1 h2 h3 h4 h5 ...
+a1
+Demo Website
+... ... ... ... ... ...
+Word2Vec has 2 models:
+N
+6 7 8 9 10 ...
+bi
+ab
+ Vector representation of words
+the).
+// use softmax function
+ To do NLP with neural networks, words need to be represented
+a target word (cat) given a
+r
+Word2Vec – Creating the Data Set
+29http://www.stokastik.in/understanding-word-vectors-and-word2vec/
+ The classifier will be built!
+“f
+Context
+word +2
+O= output 0.0085 0.0868 0.0046 0.1459 0.0250 0.1837 0.2837 0.1883 0.0686 0.0050 …
+ The brown furry cat/kitty/dog  is eating.
+The brown furry cat chases the mouse
+Major Breakthroughs
+as vectors
+https://vsubhashini.github.io/s2vt.html
+1. Motivation
+similar meanings
+24
+34
+1. Calculate the output of each of the N hidden nodes
+1 Context -2 the 0 1 0 0 0 0 0 0 0 …
+Many Types of Neural Networks
+source: Luger (2005)
+20
+a2
+lit
+11 12 13 14 15 ...
+I’m not leaving ‘till I get my embeddings!
+35
+https://translate.google.ca/
+9
+33
+Word2Vec – Feedforward
+ha
+47

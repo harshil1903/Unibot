@@ -1,0 +1,941 @@
+
+Decision Boundaries of
+Slide 74
+Feature 2 > t3
+ i.e., perform tasks that were not explicitly programmed
+…
+15
+ Once the feature is selected for
+ they are too tuned to the
+Slide 35
+t2
+Slide 72
+ If value is Full… we need more tests
+ Testing error is high
+ We are not given the (X, f(X)) pairs
+ They do not generalize well to
+examination of only a few member of the class.
+ “It is better to risk saving a guilty man than to condemn an
+ ex: Naïve Bayes Classifier
+ Intelligence arise from having a large number of simple
+ In other words… always favor the simplest answer
+separated
+ Neural networks
+http://www.cognub.com/index.php/cognitive-platform/
+6
+80
+case.
+Slide 29
+0.6885(0)
+ Note: choosing one function over another beyond just looking at the
+ Can out-perform human experts in many problems
+a
+(that should have
+ Algorithm is sensitive to outliers
+ Conclusion is one hypothetical (most probable)
+2i
+X1
+17
+successor C4.5
+Black
+Slide 30
+the tree
+ Simple
+Features (X) Output f(X)
+for the chosen feature are in a different set
+51
+ You must find an estimate of the function f(X)  where f(X) is
+Decision Trees
+Example
+Sensitivity to initial seeds
+1. Introduction to ML (contd.)
+→ high entropy
+ i.e. X is given, but not f(X)
+64
+95
+outbreak in the 1850s.
+ Split the examples so that those with different values
+ 0log0 is 0
+Inductive Learning
+simplicity and efficiency
+FROM: Nina Mishra HP Labs
+1. Deduction
+ Not sound… but may be most likely explanation for B
+ If value is French… all output= No
+ Some values of features are incorrect or missing (ex. errors in
+ Medical Diagnostics
+n
+ Use only discriminating features as questions in a big if-then-else
+21gain(type) 
+Slide 53
+Slide 4
+outlier
+67
+F1?
+average of the cluster
+Feature 2 > t1
+ always pick the next attribute to
+ Shape and color are the most discriminating
+ patient complains about some symptoms… doctor concludes a disease
+ Not sound
+Works
+Slide 62
+Slide 31
+
+13
+X2: Alan Yes Yes Yes No Yes
+82
+Confusion Matrix
+Ockham’s Razor Principle
+Slide 57
+log
+ X = <color, length>
+ Repeat for each child node until
+X5 1 7 1 ?
+ Price: price range ($, $$, $$$)
+ Training error is low
+S2
+Entropy (or information content)
+2. Decision Trees
+48
+ Noisy Input:
+Recall=
+87
+b)(a
+ But is it the best decision tree we can build?
+outcome xi of that variable
+
+84
+Remember this slide?
+Evaluation: the F-measure
+ search the space of all decision
+training examples are well
+node
+ Learning = crucial characteristic of an intelligent
+Choosing the Best Feature (con't)
+ Attribute pat (Patron) has the highest gain, so root of the
+called clusters.
+partition data points to closest centroïd
+n Shape
+… …
+ run k experiments, each time you test on 1/k of the data, and train on the rest
+90
+ No teacher involved / Goal: find regularities among the Xs (clustering)
+→ Worksheet #4 (“Information Gain”)
+hand
+actually labeling them
+Which Tree is Best?
+1(0.918)
+Slide 46
+Slide 86
+39
+100
+ With small k and t, linear performance on practical
+ Ex: X = [nose:big, teeth:big, eyes:big, moustache:no]
+Slide 12
+56
+re-assign data points to new closest centroïds
+ Model is not expressive
+a1 a2 a3 Output
+37
+3. Apply learning algorithm to training set
+Deduction
+ let β2 = a/b
+ Fri/Sat: true on Fridays and Saturdays
+  Russell & Norvig: Sections 18.3, 18.4
+ Type: kind of restaurant (French, Italian, Thai, Burger)
+A Better Decision Tree
+2. Abduction
+Guess Who?
+ Some relevant attributes are not taken into account in the data
+Slide 51
+ Top-down construction of the decision tree
+19
+)p(x)logp(xH(X) i
+1log
+ Recommender systems (eg. Netflix)
+Note: attribute == feature
+4
+ In Reinforcement learning
+0.6885  (0)
+75
+ Pattern Recognition (eg. Handwriting recognition)
+ Without a f(X), you can't really identify/label a
+Slide 37
+Slide 77
+ Input data are represented by a vector of features, X
+Choosing the Next Attribute
+
+Slide 89
+Example 2: The Restaurant
+outcomes xi
+0.31150.6885-1  Shape)|H(S - H(S)  )gain(Shape
+F2?
+ Noisy input
+40
+Slide 81
+Slide 16
+22
+Smaller trees are better
+instance is in class C True Positive
+Slide 25
+Slide 88
+No one knows the correct clusters!
+ Inference: process of deriving new facts
+
+ Developed by Shannon in the 1940s
+1i
+En
+hard?
+ Each attribute has a fixed, finite number of possible values
+c3
+12
+Why use k-means?
+ Patron:
+❌ ❌ ❌ ❌
+These points represent initial group centroïds.
+TP+FN
+ Entropy (or information content)
+n Big: 1+ 1- n Small: 1+ 1-
+ Each vector can be visually represented in an n-dimensional
+Slide 83
+ v
+ Reservation: reservation made
+ Can be seen as learning a function
+All CS students are smart.
+99 - )p(x)logp(xH(X) 22
+Slide 10
+n Circle: 2+ 1-    n Square: 0+ 1-
+2H x
+11,0Hblue)  Color |H(S
+wr: weight of R wp: weight of P a = 1/wr b= 1/wp
+ information theory
+86
+ Partition them into regions of high density
+big nose big teeth big eyes no moustache f(X) = not person
+http://www.rulequest.com/Personal/
+?
+✔ ❌ ❌ ✔
+exp1: train test
+ Conclusion follows necessary from the premises.
+ A weighted combination of precision and recall
+been assigned)
+length
+Some Intuition
+C4 0 1 3 94 2 0  100
+the new data
+Slide 17
+4. Measure performance with the test set
+correct class
+Why -p(x)·log2(p(x))
+ Let’s assume we pick Color for the root…
+TP
+baWHM
+ The locations indicated that cases were
+example of the general case
+ where to assign a data point
+ if R = 50%    P = 50% M = 50%
+
+Slide 56
+
+2H(S) 22 
+
+bits 0.08
+Slide 65
+81
+Big Red Circle -
+Slide 78
+RV) with 2 possible outcomes,
+Slide 43
+Some Words on Training
+K-means
+innocent one.” (Voltaire)
+42
+ Where did the learner go wrong ?
+Slide 87
+0x
+ Cluster/group the features of the test data into a
+From A C∧   ⇒ B and A D ∧  ⇒ B, we conclude A⇒B
+Types of Machine Learning
+ inductive bias = making a choice beyond what the training
+ One of the most widely used learning methods in
+ i.e., the attribute that will result in the smallest
+Noisy Input
+X2 1 6 0 ?
+ Comparing different clustering algorithms
+ If you have no idea about the answer (e.g. 50/50 split)
+particular training data at
+Logical Inference
+location of cholera on a map during an
+ k number of clusters
+Slide 27
+predictions about future examples
+information gain
+Slide 9
+99log
+possible values of this attribute,
+41
+69
+Metrics, revisited
+(A) Two natural clusters                                      (B) k-means clusters
+ Look for features that are very good indicators of the
+all examples associated with a
+ f(X) = function to tell if X represents a human face or not
+Info on last year’s students to determine if a student will get an ‘A’ this year
+ Let X be a discrete random variable (RV) with i possible
+0  gain(Size)
+5. Repeat steps 2-4, with the 10 different portions
+class F7?
+ Clustering algorithm
+K-means: Summary
+from a set of premises
+ Given a new instance X you have never seen
+ measures the amount of information in a RV
+decision boundary so that the
+ Discovering Genetic Causes of Diseases
+ Used in medicine…
+2
+55
+(A) Undesirable clusters
+climbing search where heuristic is
+ In all types of learning… watch out for:
+❌ ❌ ❌ ✔
+co
+30
+1H x
+TP+TN+FP+FN
+… which is called the F-measure
+Pb
+25
+ Overfitting/underfitting the training data
+Slide 79
+21
+Back to the Restaurant
+ when β = 1, precision & recall have same importance
+k-means Clustering
+class F4?
+(depends on the application, e.g., spam filtering)
+F4? F5? F6? F7?
+
+What is Clustering
+X1 1 0 0 ?
+26
+A First Decision Tree
+0 1 2 3 4 5
+ Strengths:
+Slide 97
+ If value is Italian… we need more tests
+
+exp2: train test train
+i2i )p(x)logp(xH(X)
+Slide 7
+meaningless regularities in the data that are particular to the
+or)values(Col  v
+ Too many to list here!
+X6: Simon No Yes Yes Yes No
+1
+S
+Evaluation: A Single Value Measure
+C5 0 0 3 2 92 3  100
+
+initial 3 centroïds (ex. at random)
+Rb
+Overfitting
+Slide 40
+number of groups
+A Small Example (4)
+Slide 38
+ If value is Thai… we need more tests
+ Learning heuristics for game playing
+ We can also underfit data, i.e.
+Xx
+ Examples are given (positive and/or negative) to train a
+ Most used strategy: information theory
+ Let Values(A)  = the set of values that attribute A can take
+n Color
+general
+Slide 21
+0.541bits...
+ 
+Color
+ can be seen as searching the space
+ Bar: comfortable bar for waiting
+Slide 39
+ML: Decision Trees
+op
+smallest distance
+18
+ Weighted External Path Length
+ If value is Some… all outputs=Yes
+0H x
+0.31150.6885-1  Color)|H(S - H(S)  )gain(Color
+Feature 1
+In reality, the instance is…
+96
+36
+β
+salmon
+ Very well-know algorithm is ID3 (Quinlan, 1987) and its
+X5: Gail Yes No Yes Yes Yes
+ ex: 10-fold cross validation
+ If value is None… all outputs=No
+Slide 34
+ if R = 100%  P = 10% M = 55% (not fair)
+information gain
+...)gain(price ...gain(rain) ...gain(res)
+R)P(β
+71
+C1 C2 C3 C4 C5 C6 … Total
+Slide 75
+Slide 19
+empty tree
+10
+ We construct a general explanation based on a specific
+ i.e. the smallest tree on average
+
+ take harmonic mean
+ when all classes are equally important and represented
+ Complicated boundaries
+p = (p1, p2, ....,pn)
+ 
+3. When all data points have been assigned,
+
+Cross-validation
+ Efficient: Time complexity O(t·k·n)
+big nose big teeth big eyes no moustache not given
+Slide 15
+Slide 69
+7
+2H x
+R
+A Small Example (2)
+of all possible decision trees
+or)Values(Col of v each for
+ From A ⇒ B and B, we conclude A
+children nodes, one for each
+ In Supervised learning
+All men are mortal.
+tree should be attribute Patrons
+ Simplest, but most successful form of learning algorithm
+ Represent each instance as a vector <a1, a2, a3,…, an>
+small nose big teeth small eyes moustache f(X) = ?
+trees on average
+1. Collect a large set of examples (all with correct classifications)
+Slide 28
+x?
+(information gain)
+Slide 64
+ For all k clusters, chose the
+
+(FP)
+bass
+HM is high only when both P&R are high
+ …
+
+78
+ Size of training set
+node in the tree
+Big Red Circle +
+ in reality… disease ⇒ symptoms
+and assign these subsets of the
+[Ockham, 1324]
+ 11 branches instead of 21
+Slide 94
+Slide 54
+ Ex:
+Slide 36
+Slide 33
+X5
+ 
+...gain(alt) ...gain(bar) ...gain(fri) ...gain(hun)
+ External Path Length
+0- x
+  In Unsupervised learning
+Slide 82
+3Shape)|H(S
+77
+5
+52
+Slide 11
+Unsupervised Learning
+C2 0 93 3 4 0 0  100
+is a difficult task.
+Slide 52
+93
+ the average length of the message needed to transmit an
+X4: Jeff No Yes No Yes No
+Types of Learning
+2log
+ Conclusion about all members of a class from the
+ Extrapolate from the training set to make accurate
+3Color)|H(S
+ Types of logical inference:
+attribute A (for each value v from Values(A) )
+Size? or
+...gain(est)
+True Negative
+q = (q1, q2, ....,qn)
+ Inductive bias: prefer shorter
+Applications of Decision Trees
+C6 0 0 5 0 10 85  100
+Slide 95
+ Raining: raining outside
+→ Worksheet #4 (k-Means Clustering)
+29
+Historic Application of Clustering
+ Training error is high
+Feature 1 > t2
+if R = 50% and P = 50%    HM = 50%
+Euclidean Distance
+Slide 18
+P(head)
+tr
+the most popular algorithms, due to its
+Slide 93
+ Number of leaves
+Slide 5
+ Measure how “predictable” a RV is...
+ If you already have a good idea about the answer (e.g. 90/10 split)
+ Oh… I’m out of space
+ Detecting credit card fraud
+2Hred)  Color |H(S
+attributes (i.e. highest information gain)
+
+What’s the size of a tree?
+Output f(X)
+sea bass salmon
+ There is no way to fit a linear
+Drinks? ‘A’ this year?
+ But we get a reward when our learned f(X) is right, and we try to maximize the reward
+ Decision Trees
+Student ‘A’ last
+
+X1: Richard Yes Yes No Yes No
+Slide 32
+Slide 92
+60
+ do recursively for subtrees
+edges
+ But, can be seen as  hypothesis construction or generalisation
+ hungry:
+X3
+ Patrons: how many people are present (none, some, full)
+ We conclude from the general case to a specific
+(root of the tree)
+small nose small teeth small eyes no moustache f(X) = person
+Clustering Techniques
+50
+Outliers
+ Training data:
+C3 0 1 94 2 1 2  100
+C1 94 3 0 0 3 0  100
+ β represents the relative importance of precision
+feature space
+Next Feature…
+ when β < 1, recall is favored
+ Notion of entropy (information content)
+ Could be errors in the data or special data
+ when one class is more important and the others
+→ Worksheet #4 (Information Content)
+16
+46
+in class C Is not in class C
+68
+Slide 50
+ Computer vision (eg. Object recognition)
+
+ Idea: not all paths are equally important/likely
+65
+79
+Slide 1
+92
+Slide 90
+ Goal: learn whether one should wait for a table
+11
+that correctly fits the training data
+source: Alison Cawsey: The Essence of AI (1997).
+ Recall, Precision & F-measure
+98
+31
+Example: The Coin Flip
+ We are given a training set of (X, f(X)) pairs
+1,
+class class
+→ Worksheet #4 (Entropy)
+set
+ If value is No… all output= No
+74
+ Recursive selection of the “best feature” to use at the current
+43
+bits 0
+3
+ A cluster is a collection of data items which are “similar”
+ Type:
+✔ ❌ ✔ ✔
+ but after a while, not much improvement…
+1H  )p(x)logp(xtoss) coin H(fair
+Applications
+t1t3
+2. Assign each data point xnto the nearest centroïd.
+ in effect, steepest ascent hill-
+ a possible metric is the
+ t number of iterations
+(TN)
+classifies
+Shape?
+ Data mining
+ Log 0 = -∞
+ Height of the tree
+expected size of the subtrees rooted at its
+sea bass
+Big Blue Circle -
+possible value of the selected
+ So that given a new X, you can predict its f(X) value
+children
+ 4 tests instead of 9
+ WaitEstimate: estimated wait by host (0-10 mins, 10-30, 30-60, >60)
+ 
+use too simple decision
+class class class class class class class class
+ Size is the least discriminating attribute (i.e.
+4
+The Restaurant Example
+source: Tom Mitchell, Machine Learning (1997)
+Special data structures
+clustered arounds certain intersections
+(TP)
+Slide 2
+Weakness of k-means
+& k-means Clustering
+computational units
+ Represent test instances on a n dimensional space
+62
+ Find a function that fits the training set well
+"discriminating power"
+i2i 
+bluered
+F3?
+ Most work in ML
+ Easy to understand and implement
+(B=1)
+Slide 80
+boundary
+split the data based on its
+where there were polluted wells – thus
+Slide 22
+Slide 98
+Slide 68
+ Accuracy
+tree
+1
+ take weighted harmonic mean
+ Supervised learning
+ = learning from examples
+→ low entropy
+values(A)  v
+ the more, the better
+Slide 44
+Error Analysis
+
+ Let Sv = the set of examples in the data set which have value v for
+14
+A Learning Curve
+Artificial Intelligence:
+Slide 71
+system in a classification (or regression) task
+ If value is Burger… we need more tests
+entropy of a fair coin toss (the
+y
+Accuracy=
+ Despite weaknesses, k-means is still one of
+ If value is Italian… all output= No
+classes assigned by the learner
+ than you average the results
+ User selects how many clusters they want… (the value of k)
+decision regions
+outputs
+judgments in new situations
+28
+ distance between 2 pts
+ Use a confusion matrix / contingency table
+Slide 73
+8
+exp3: train test train
+the desired output
+All CS students on vacation are smart.
+1 2 3 4 5 6 7 8 9 10
+re-compute new centroïds
+Model says…
+X4
+ X = features of a face (ex. small nose, big teeth, …)
+ John Snow, a London physician plotted the
+44
+Socrates is a man.
+between them, and “dissimilar” to data items in other
+ The organization of unlabeled data into similarity groups
+4log
+RPβ
+Slide 47
+and improve their performance the more tasks they
+ Constructs algorithms that learn from data
+ From A  B and A, we conclude that B
+Slide 23
+bit 1
+ % of instances of the test set the algorithm correctly
+ Discriminate between these groups without
+node are classified
+1)PR(βF 2
+c1
+ Fast, simple, and traceable
+ measured in bits
+Slide 20
+split a given set of examples
+ average uncertainty of a RV
+ If value is French… we need more tests
+ Speech Recognition / Synthesis
+ Type I error (FP) might be worse than Type II error (FN)
+Note: by definition,
+ Each vector X is a list of (attribute, value) pairs.
+3. Evaluation (contd.)
+     P1bR
+training data but irrelevant to the problem.
+clusters.
+Entropy
+points with very different characteristics
+“It is vain to do more than can be done
+c2 c3
+ for only 2 outcomes x1 and x2, then 1 ≥ H(X) ≥ 0
+32
+https://medium.com/machine-learning-for-humans/neural-networks-deep-learning-cdad8aeae49b
+Real ML applications typically require hundreds, thousands or millions of examples
+class F5?
+b
+each with a probability of 1/2
+Feature 2
+Socrates is mortal.
+ generalize from given experiences and are able to make
+H(S)
+ n number of data points
+ Goal: maximize the nb of right answers
+H(S) Color) gain(S, 
+A Small Example (1)
+if R = 100% and P = 10%   HM = 18.2%
+Underfitting
+lo
+attribute
+Drunk people do not walk straight.
+0.3115  )gain(Shape
+88
+clustering algorithm performs better in
+i
+n Size
+Euclidean distance
+instances change group.
+ Compute the centroïd of each region as the
+result, place these features (as questions) in nodes of
+ cannot take mean of P&R
+John does not walk straight.
+X2
+A Small Example (5)
+and recall
+class
+smallest information gain)
+ Not all errors are equal
+ Two examples have the same feature-value pairs, but different
+TP+TN
+Essential Information Theory
+ We are given a training set of (X, f(X)) pairs
+ User needs to specify k
+agent
+3. Induction
+enough (not enough features)
+fair coin -> high entropy
+70
+Techniques in ML
+ aka Natural Deduction
+4,
+23
+Slide 8
+X3 8 0 1 ?
+F2? F3?
+ Do this for every leaf and add up the numbers
+practice
+ID3 uses Maximum Information-Gain:
+6. Average the results of the 10 experiments
+ Probabilistic Methods
+one where x has the
+Slide 55
+Clustering
+Intro to AI
+H(S) 22 
+hair?
+the current node, generate
+ how?
+All CS students in COMP 6721 are smart.
+38
+
+Size
+54
+test instance
+Example (in 2-D… i.e. 2 features)
+Other possible decision
+
+ So hungry is more discriminating (only 1 new branch)…
+1 - )p(x)logp(xH(X) 22
+ Rigged coin:
+instance is NOT in class C False Negative
+ Given  pairs (X,f(X)) (the training set – the data points)
+ No clear evidence that any other
+→ Worksheet #4 (Decision Tree)
+❌ ❌ ❌
+X3: Alison No No Yes No No
+Today
+exposing both the problem and the solution.
+ type:
+97
+space
+ The "discriminating power" of an attribute A given a data set S
+source: Mitchell (1997)
+ So first separate according to either color or shape
+0.918
+X
+(FN)
+c2
+Slide 96
+4. Repeat Steps 2 and 3 until none of the data
+Slide 48
+overfit the data
+4. Unsupervised Learning: k-means Clustering
+0.3115  )gain(Color
+feature to split a given set of examples
+Abduction
+multiplied beyond necessity.“
+accomplish
+The key problem is choosing which
+27
+r
+→ Worksheet #4 (F-Measure)
+-
+2)H(S 222
+year?
+53
+2. Divide collection into two disjoint sets:  training (90%) and test (10% = 1/k)
+ Testing error is high
+ The number of attributes is fixed (positive, finite)
+ K-fold cross-validation
+89
+Slide 6
+ If a large number of irrelevant features are there, we may find
+0log
+Slide 67
+85
+Possible decision
+83
+2HM
+t1
+Slide 42
+ ML
+1βWHM 2
+A)|H(SH(S)A) gain(S,
+examples to the appropriate child
+rigged coin -> low entropy
+average of data points in the cluster
+ The key problem is choosing which feature to
+Slide 84
+ Natural Language Processing (eg. Spam filtering)
+ Extreme case: “rote learning”
+problems
+ Repeat the same process with another feature
+
+94
+class F6?
+
+False Positive
+trees
+the data acquisition)
+(or entropy reduction)
+Slide 41
+
+0
+ But you can:
+57
+ So patron  may lead to shorter tree…
+ Attributes
+Small Red Square -
+ Hungry: whether one is hungry
+P
+ID3 / C4.5 Algorithm
+explanation for the premises
+A Small Example (3)
+ Learn without labeled examples
+instances contain
+ For only data where patron = Full
+ To find the nearest
+2222 
+ where n is the number of attributes
+Size Color Shape Output
+John is drunk.
+Precision =
+Induction
+2log
+ Also called parallel distributed processing or connectionist systems
+n Red: 2+ 1-  n Blue: 0+ 1-
+ Each example can be interpreted as a point in a n-dimensional
+1. Place k points into the space (ex. at random).
+t1 Feature 2
+ Choose the attribute that has the largest
+  Unsupervised learning
+34
+ This type of assumption is called inductive bias
+ i.e., data points that are far away from others
+ Partition the examples using the
+20
+TP+FP
+76
+??
+ If value is Yes… we need more tests
+Slide 14
+boundary
+PR 1)(β
+ Alternate: another suitable restaurant nearby
+Slide 60
+
+Slide 76
+35
+ We are only given the Xs - not the corresponding f(X)
+Slide 85
+9
+ Longest path in the tree from the root to a leaf
+small nose small teeth small eyes no moustache not given
+Intuitively…
+ Fair coin:
+ Start at leaf, go up to the root and count the number of
+X4 6 1 0 ?
+training set is called inductive bias (eg. prefer "smoother" functions)
+ Ex:
+source: Norvig (2003)
+ Information Retrieval (eg. Image search)
+
+Slide 70
+Slide 26
+Inductive Learning Framework
+What is Machine Learning?
+Small Red Circle +
+centroïd…
+33
+ How?  … many algorithms (ex. k-means)
+
+21gain(pat)
+2,
+recalculate the positions of the K centroïds as the
+(B) Ideal clusters
+ when β > 1, precision is favored
+with less… Entities  should not be
+47
+ii qpd
+complete tree
+v SH x
+Slide 13
+Values(Color) = {red,blue}
+ Use the training data to computed a weighted sum
+Finding the Best Tree

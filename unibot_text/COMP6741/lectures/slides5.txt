@@ -1,0 +1,577 @@
+
+5.44
+(147) 147
+5.1
+Available as machine-readable structured data (e.g.,
+https://en.wikipedia.org/wiki/Wikidata
+https://concordiauniversity.on.worldcat.org/oclc/853679890.
+Technically, a link is a triple where
+TBL at TED on “The year open data went worldwide” (2010)
+5.27
+5.30
+rr:column "Year" ;
+5.54
+Schema
+[Yu14] Liyang Yu.
+4 Include links to other URIs, so that they can discover more things.
+5.60
+Budapest</span>
+The LOD Cloud
+rr:refPredicateObjectMap [
+Google's Knowledge Graph
+§  interlink the DBpedia dataset with other datasets on the Web
+NLP Pipeline
+(179) 179 Courtesy of Richard Cyganiak and Anja Jentzsch
+• Community-constructed (e.g., Freebase, Wikidata)
+<a rel="foaf:schoolHomepage schema:alumniOf"
+(178) 178 Courtesy of Richard Cyganiak and Anja Jentzsch
+5.11
+(177) 177 Courtesy of Richard Cyganiak and Anja Jentzsch
+3 Knowlege Base Applications
+....
+[DFH11] John Domingue, Dieter Fensel, and James A. Hendler, editors.
+A Developer’s Guide to the Semantic Web.
+schema:alumniOf     <http://www.elte.hu> ;
+5.76
+→ Worksheet #4: Task 4
+5.45
+graphs, started in 2007
+Linked Open Data (LOD)
+Data in various formats
+5.58
+Q3: Which professors teach at university X?
+→ Worksheet #4: Task 8
+5.17
+→
+Creating links on the instance level (IRIs):
+rr:column "Homepage" ;
+https://www.w3.org/TR/shacl/
+Which [CE1] [OPE] [CE2]?
+5.52
+Example
+“Bridges”
+Introduction
+§  a database governed by the schema
+DBpedia Spotlight: Disambiguation
+5.48
+Knowledge Base Design
+To create a knowledge base in
+5.37
+Types of Links
+5.63
+rr:column "Name"
+a:name
+if necessary
+5.72
+international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+vocabularies
+(162) 162
+• Turn web page into graph object
+dbterm:officialName "Amsterdam" ;
+}  “Export” does not necessarily mean physical
+https://concordiauniversity.on.worldcat.org/oclc/897466408.
+5.36
+5.32
+Instance Level
+5.20
+5.67
+Springer-Verlag Berlin Heidelberg, 2nd edition, 2014.
+...
+R2RML
+These mostly follow a single pattern
+Department of Computer Science
+Common “Graph”
+(no specific semantics)
+Linked Data Publishing Options and Workflows
+Q2: Which topics are covered by a course C?
+5.2
+</a>, ...
+(e.g., ex:Student rdfs:subClassOf foaf:Person)
+<span property="dc:title">Eötvös Loránd University of
+• [Yu14, Chapter 11.2] (Facebook’s Open Graph Protocol)
+wgs84_pos:long "4.8833333";
+the efficient computation of the tree architecture ..."
+a owl:Restriction ;
+description, images, videos, music,
+Competency Questions: Examples
+and Software Engineering
+open license
+https://concordiauniversity.on.worldcat.org/oclc/769756125
+Two graphs can also be linked on the schema level:
+5.55
+5.46
+rdfs:seeAlso Just a reference, makes no claim about the IRIs being identical
+SELECT DISTINCT ?eats
+Linked Data: Structured Data on the Web.
+]
+vocabulary or knowledge base
+• It must be possible to answer the questions when the knowledge base has
+Format &
+The Linked Open Data Initiative
+...
+rr:predicateObjectMap [
+Wikidata
+RDB-s
+• Learned from the Wikipedia pages including the links (for multiple languages)
+Entity Linking
+http://andrea-index.blogspot.com/2015/06/wikipedia-dbpedia-wikidata.html
+property, I = individual, NM = numeric modifier, PE = property expression, QM = quantity modifier)
+to provide context
+Creating Links
+DBpedia: Part of Watson’s brain
+Linking Documents and
+5.62
+Knowledge Base Design & Applications
+5.51
+§  for very large databases a “duplication” would not be an option
+Publishing Options and
+5.5
+What’s a “link”?
+] ;
+GRDDL)
+Some possible competency questions for a university knowledge graph:
+(118) 118
+COMP 474/6741, Winter 2022
+https://www.youtube.com/watch?v=3YcZ3Zqk0a8
+• Using the context of a word/phrase
+engines)
+ID Name Homepage
+Wikidata: Wiki principle applied to structured data
+→ Worksheet #4: Tasks 1, 2
+https://www.lod-cloud.net/
+}  DBpedia is a community effort to
+(https://www.w3.org/TR/shacl/), see [HHDF20] for an example.
+• [Yu14, Chapter 3.3] (RDFa)
+rr:predicate a:title ;
+design for a specific application
+being identical (it is symmetric and transitive)
+Freebase
+Data represented in abstract format
+Knowledge Base Construction
+wgs84_pos:lat "52.3666667" ;
+Some History
+4 Extend existing vocabularies
+5.15
+5.29
+http://ogp.me/ns#
+Linked Open Data
+• the predicate and/or object are in a different graph (namespace)
+in Knowledge Extraction Workflows.
+(175) 175
+• the subject IRI is in one graph (namespace) and
+Knowledge Base
+Notes and Further Reading
+5.41
+6 Publish your knowledge
+Q4: What are the prerequisites for a given course C?
+Required
+<meta property="og:description" content="How much does culture influence creative thinking?" />
+Queries Review
+Structured Data on the Web
+4 Notes and Further Reading
+5.50
+Triple
+Competency Question: Patterns
+5.81
+Lecture 5
+RDF
+Learning SPARQL: Querying and Updating with SPARQL 1.1.
+• [Yu14, Chapter 12] (Wikidata)
+Photo credit “mayhem”, Flickr
+Facebook is the consumer (instead of search
+5.71
+Cham, 2020. Springer International Publishing.
+Outline
+guidelines
+= temporal element, spa. = spatial element; CE = class expression, OPE = object property expression, DP = datatype
+Common
+Summary
+Manipulate
+5.13
+Major Points
+Idea
+https://www.w3.org/DesignIssues/LinkedData.html
+Linked Data Design Issues
+rr:predicate a:name
+[Her] Ivan Herman.
+Q1: Which courses are offered at University X?
+2 Use HTTP URIs so that people can look up those names.
+}  Set links among the data items from different
+https://concordiauniversity.on.worldcat.org/oclc/704257552
+https://link.springer.com/chapter/10.1007/978-3-030-59833-4_1
+5.3
+}  Most of the data on the Web is, in fact, in RDB-s
+Origin
+<meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/
+Slides Credit
+rr:tableName "Book_Table" ;
+a:title
+rr:parent "ID”
+Summary
+Photo credit “shetladd”, Flickr
+A 2012 paper reports a 85.1% accuracy for English (with 7.4% missing links)
+5.84
+• Using owl:equivalentClass and owl:equivalentProperty
+<http://sws.geonames.org/2759793>
+been constructed
+Construction
+...
+§  done, partially, by the “Linking Open Drug Data” task force
+(e.g., Canada in DBpedia and Wikidata)
+5.14
+5.80
+dbterm:website <http://www.amsterdam.nl> ;
+rr:predicate a:year ;
+WHERE {
+§ we want to avoid the silo effects
+];
+Reading Material
+https://doi.org/10.1145/2506182.2506198
+§  remember the importance of data!
+• Start with a set of questions to guide the design of the vocabulary and data
+5.77
+Available on the web (whatever format), but with an
+Courtesy of Richard Cyganiak and Anja Jentzsch
+owl:sameAs <http://dbpedia.org/resource/Amsterdam>
+@prefix dbterm  <http://dbpedia.org/property/>.
+§  an R2RML instance
+…
+Approach
+rr:termtype rr:BlankNode ;
+<http://www.elte.hu>
+5.10
+Concordia University
+…
+Publishing Options and Workflows
+}
+Select. . . where
+Linked Open Data (LOD)
+https://link.springer.com/chapter/10.1007/978-3-319-07443-6_50
+etc.
+}  An R2RML processor has access to:
+(165) 165
+The New DBpedia Release Cycle: Increasing Agility and Efficiency
+(LOD)
+Linked Data Design Issues
+dbterm:longm "53" ;
+a:year
+excel instead of an image scan)
+RDF Data and Web Pages?
+(182) 182
+→ Worksheet #4: Task 9
+References I
+• [HB11, WZRH14] (Books on Linked Data)
+owl:onProperty awo:eats;
+<Person>
+Copyright 2014 by Manning Publications Co., [WZRH14]
+→ Worksheet #4: Task 7
+dbterm:location dbpedia:Amsterdam ;
+§  extract structured (“infobox”) information from Wikipedia
+• These competency questions can be seen as a requirements specification for a
+→ Worksheet #4: Task 5
+5.47
+rr:predicate a:homepage ;
+Relationship Link: points to other objects related to a given one (e.g., from a person
+• Similar idea to schema.org, except now
+• Includes slides by Ivan Herman, W3C [Her]
+https://concordiauniversity.on.worldcat.org/oclc/871683907.
+experiments
+René Witte
+5.68
+See https://www.researchgate.net/publication/338424817_Dataset_of_ontology_
+LOD-compliant format:
+and the user
+foaf:schoolHomePage <http://www.elte.hu> ;
+<Book>
+Select
+CSV instead of excel)
+Google’s Knowledge Graph
+5.33
+5.66
+In Semantic Systems. In the Era of Knowledge Graphs, pages 1–18,
+https://concordiauniversity.on.worldcat.org/oclc/897466408
+First proposed by Tim Berners-Lee in 2006
+@prefix dbpedia <http://dbpedia.org/resource/>.
+http://dbpedia.org/resource/Tree_(data structure) http://dbpedia.org/resource/Tree
+DBpedia
+Examples
+Handbook of Semantic Web Technologies.
+The “four rules”
+5.21
+Q5: Which universities offer courses that cover topic T ?
+Applications
+https://concordiauniversity.on.worldcat.org/oclc/871683907
+5.78
+identify things, so that people could point at your stuff
+FILTER(?eats != owl:Nothing)
+(174) 174
+5.24
+?eats rdfs:subClassOf awo:plant, [
+DBpedia Spotlight
+owl:sameAs <http://rdf.freebase.com/ns/...> ;
+Morgan & Claypool, 2011.
+Linked Data: Design Issues
+5.43
+• [Yu14, Chapter 9] (Linked Open Data)
+5.8
+Open Graph Protocol
+(176) 176 Courtesy of Richard Cyganiak and Anja Jentzsch
+Freebase, DBpedia &
+}  … and produces an RDF graph
+Workflows
+geo:inCountry <http://www.geonames.org/countries/#NL> ;
+<meta property="og:title" content="When Great Minds Don’t Think Alike" />
+(171) 171
+• Using vocabularies, e.g., skos:broadMatch or skos:narrowMatch
+rr:joinCondition
+schema:worksFor     <http://www.w3.org/W3C#data> ;
+(172) 172
+• [HHDF20] (DBpedia Release Cycle)
+<http://www.ivan-herman.net/foaf#me>
+Data on the Web
+(181) 181 Courtesy of Richard Cyganiak and Anja Jentzsch
+The Linked Open Data Initiative
+<html>
+Stand Alone
+Web of Data
+https://link.springer.com/chapter/10.1007/978-3-030-59833-4_1.
+Knowledge Management Architecture 3.0
+Copyright 2011 by Springer-Verlag Berlin Heidelberg, [DFH11]
+5.75
+The W3C “Layer Cake”
+1 Linked Open Data (LOD)
+5.59
+Extracting Structured Data
+[HHDF20] Marvin Hofer, Sebastian Hellmann, Milan Dojchinovski, and Johannes
+• [Yu14, Chapter 8] (DBpedia)
+(164) 164
+(RDFa, microdata, microformats,
+5.73
+(161) 161
+§  provide a query endpoint to the dataset
+Knowlege Base
+id_xyz Ghosh, Amitav http://www.amitavghosh.com
+Reading
+O’Reilly, 2nd edition, 2013.
+• Added to meta-tags in HTML page
+• However, Spotlight is a stable, easy-to-install tool and useful for first
+<div about="http://www.ivan-herman.net/foaf#me" ... >
+(173) 173
+rr:column "Title"
+The Glass Palace
+dbterm:longs "32" ;
+dbterm:areaTotalKm "219" ;
+}  Goal: “expose” datasets on the Web
+Relational Databases and
+Knowledge BaseKnowledge Worker
+Improving Efficiency and Accuracy in Multilingual Entity Extraction,
+• Simple vocabulary for title,
+Query and Update
+5.64
+5.7
+Applications
+The LOD Initiative
+of the HCLS IG at W3C
+• Shutdown in 2016...
+RDB
+datasets
+§  systems may provide SQL “bridges” to make queries on the fly
+5.57
+3 When someone looks up a URI, provide useful information, using the standards
+• These have been largely removed, most likely due to privacy concerns
+• Vocabulary at http://ogp.me/ns#
+• Exported from other data sources (e.g., MusicBrainz)
+]
+• (Semi-)Automatically constructed (e.g., DBpedia, BabelNet)
+“The New DBpedia Release Cycle: Increasing Agility and Efficiency in Knowledge Extraction Workflows” [HHDF20]
+Expose,
+Approaches
+1 Make your data “5-star”
+}  Eg, “bio” related datasets
+Tutorial on Semantic Web Technologies.
+<http://dbpedia.org/resource/Amsterdam>
+Verify using a SPARQL query:
+https://concordiauniversity.on.worldcat.org/oclc/704257552.
+DBpedia
+rr:parentTriplesMap <Person> ;
+5.12
+Identity Link: points to the same object or concept in another knowledge graph
+There is also a separate standard, the Shapes Constraint Language (SHACL)
+(e.g., IRI is a foaf:Person) or between vocabulary terms
+<meta property="og:type" content="article" />
+[DuC13] Bob DuCharme.
+(163) 163
+5.9
+"The proposed approach takes advantage of both
+http://…isbn/000651409X
+
+Facebook’s Open Graph Protocol
+dc:title "Eötvös Loránd University of Budapest" .
+Relational Databases and RDF
+]
+using vocabularies e.g., skos:exactMatch, foaf:knows
+Tables
+All the above, plus link your data to other people’s data
+knowledge graphs
+5 Link your data to other
+5.6
+LOD Datasets: https://www.lod-cloud.net/
+• Facebook provided public graph search functionality from 2013–2019
+href="http://www.elte.hu/">
+Processors can switch automatically from one to the other…
+https://www.youtube.com/watch?v=mmQl6VGvX-c
+• Still helpful to have an idea of possible use cases
+Springer, 2011.
+• Modern approaches for disambiguation use word embeddings (discussed later
+5.19
+http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/.
+Linking Documents and Knowledge Graphs
+Facebook's Open Graph Protocol
+dc:title "World Wide Web Consortium (W3C)”
+5.40
+(120) 120
+rr:objectMap [
+DBpedia Release Cycle
+competency_questions_to_SPARQL-OWL_queries_translations
+CQ Archetypes (PA = Predicate Arity, RT = Relation Type, M = Modifier, DE = Domain-independent Element; obj. =
+a:author
+Vocabularies
+5.82
+Structured Data on the Web
+2 Create URIs following the
+in the course), with better performance
+Testing Competency Questions
+Knowledge Base Construction
+}  Data integration on the Web must provide access to
+Freebase, DBpedia & Wikidata
+5.39
+5.74
+• If the user was logged in, add information to user’s profile
+Copyright 2011 by Morgan & Claypool, [HB11]
+https://www.dbpedia-spotlight.org/
+Spotlight uses a statistical model for disambiguation
+Competency Questions
+triples
+2000
+Schema Level
+• ...but data was donated to Wikidata
+5.49
+The LOD Cloud
+dbterm:longd "4" ;
+Query
+Browser
+foaf:   http://xmlns.com/foaf/0.1/"
+Example: African Wildlife Ontology (AWO)
+rr:tableName "Person_Table" ;
+References II
+5.22
+}  Result of export is a “logical” view of the RDB content
+rr:child "Author" ;
+object property relation, data. = datatype property relation, num. = numeric modifier, quan. = quantitative modifier, tem.
+3 Select appropriate
+Processing
+Vocabulary Link: between data and their vocabulary term
+§  an RDB schema
+[HB11] Tom Heath and Christian Bizer.
+5.25
+dbpedia:ABN_AMRO
+(159) 159
+(180) 180 Courtesy of Richard Cyganiak and Anja Jentzsch
+• Startup Metaweb bought by Google in 2010
+owl:sameAs Most widely used, but makes strong assumptions about both IRIs
+How to create your own URIs
+<p>I graduated as mathematician at the
+<http://www.w3.org/W3C#data>
+http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/
+international/when-great-minds-dont-think-alike.html" />
+→ Worksheet #4: Task 3
+Knowlege Base Applications
+• One of the first major public knowledge
+rr:termtype "IRI"
+Manning, 2014.
+owl:someValuesFrom awo:animal
+Documents
+• Provide rich information when pages are “shared”
+Page with OGP annotations
+Worksheet #4: Task 6
+5.83
+Relational Databases and RDF
+5.53
+Linked Data: Design Issues II
+Note
+Knowledge Graphs
+5.23
+(40) 40
+5.69
+Competency Questions
+rr:subjectMap [
+(145) 145
+Competency question awo_6 “Which plants eat animals?”
+Towards Competency Question-Driven Ontology Authoring, https://link.springer.com/chapter/10.1007/978- 3- 319- 07443- 6_50
+Copyright 2013 by O’Reilly Media, [DuC13]
+Map,
+Ghosh, Amitav http://www.amitavghosh.com
+(41) 41
+graph on the web
+As before, but using a non-proprietary format (e.g.,
+Instance
+5.26
+Publishing Options and Workflows
+5.16
+1 Use URIs as names for things.
+All the above, plus use open standards (RDF & Co.) to
+Queries Review
+to the city they live in)
+Another approach: SHACL
+rr:predicate a:author ;
+5.56
+Linking Documents and Knowledge Graphs
+<meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/
+Frey.
+• Encourage inter-connection of knowledge
+(166) 166
+Inferencing
+• Using rdfs:subClassOf and rdfs:subPropertyOf
+].
+• Not using full RDF
+2 Knowledge Base Construction
+<body prefix="schema: http://schema.org/
+dbterm:populationUrban "1364422" ;
+0006511409X id_xyz The Glass Palace id_qpr 2000
+}  Proven technology, huge systems, many vendors…
+5.79
+Discussion
+Facebook Graph Search
+5.4
+5.38
+Supplemental
+rr:template "http://...isbn/{ISBN}" ;
+Some History
+https://concordiauniversity.on.worldcat.org/oclc/769756125.
+5.28
+5.65
+Wikidata: Data Model
+Design Method
+5.70
+] .
+5.42
+conversion
+(119) 119
+Used together with the “Like” button
+https://concordiauniversity.on.worldcat.org/oclc/853679890
+(160) 160
+https://www.researchgate.net/publication/338424817_Dataset_of_ontology_competency_questions_to_SPARQL-OWL_queries_translations
+dbpedia:Amsterdam
+[WZRH14] David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas.
+Unlike (relational) databases, knowledge bases do not have a rigid, pre-defined
+5.18
+owl:sameAs <http://sws.geonames.org/2759793> ;
+a:homepage
+ISBN Author Title Publisher Year
+Notes and Further
+See https://developers.facebook.com/docs/sharing/webmasters/
+Linked Data: Evolving the Web into a Global Data Space.
+Freebase, DBpedia & Wikidata
+https://developers.facebook.com/docs/sharing/webmasters/
+(RDF, SPARQL).
+• When clicked, Facebook creates a connection in its graph between the page
