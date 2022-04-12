@@ -1,27 +1,26 @@
-PREFIX unidata: <http://uni.io/data#> 
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX dcmitype: <http://purl.org/dc/dcmitype/> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX uni: <http://uni.io/schema#> 
-PREFIX dbo: <http://dbpedia.org/ontology/> 
-PREFIX dbr: <http://dbpedia.org/resource/> 
-PREFIX un: <http://www.w3.org/2007/ont/unit#>
+PREFIX dcterm: <http://purl.org/dc/terms/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX fd: <http://foodable.co/ns/>
+PREFIX fo: <http://purl.org/ontology/fo/>
+PREFIX fc: <http://www.freeclass.eu/freeclass_v1#>
+PREFIX ex: <http://example.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix foaf: <http://xmlns.com/foaf/0.1/> 
+prefix focu: <http://focu.io/schema#> 
+prefix dbo: <http://www.dbpedia.org/ontology/>
+prefix dbr: <http://www.dbpedia.org/resource/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix dcterms: <http://purl.org/dc/terms/> 
+prefix dcmitype: <http://purl.org/dc/dcmitype/> 
+SELECT ?subjects
+WHERE {
+?subjects a focu:Course.
+ ?subjects focu:subject "COMP".
+} 
 
-# Question 7
-# Does [subject][number] and [subject][number] cover similar topic?
-# Does COMP 6741 and comp 6721 cover similar topic?
-ASK
-{
-  	?course1 dcmitype:subject "COMP" .
-    ?course1 dcmitype:identifier "6741" .
-    ?course1 uni:topic ?topic1 .
-    ?lecture1 dcterms:isPartOf ?course1 .
-    ?lecture1  uni:topic ?topic3 .
-    ?course2 dcmitype:subject "COMP" .
-    ?course2 dcmitype:identifier "6721" .
-    ?course2 uni:topic ?topic2 .
-    ?lecture2 dcterms:isPartOf ?course2 .
-    ?lecture1  uni:topic ?topic4 .
-    FILTER(?topic1 = ?topic2 || ?topic3 = ?topic4 ) .
-}
+
+
