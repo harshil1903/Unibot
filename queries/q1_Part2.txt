@@ -1,0 +1,28 @@
+PREFIX fo: <http://purl.org/ontology/fo/>
+PREFIX fc: <http://www.freeclass.eu/freeclass_v1#>
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix focu: <http://focu.io/schema#>
+prefix dbo: <http://www.dbpedia.org/ontology/>
+prefix dbr: <http://www.dbpedia.org/resource/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix dcmitype: <http://purl.org/dc/dcmitype/>
+
+SELECT ?topic ?uri ?source ?lectureNum
+WHERE {
+?sub a focu:Course.
+?sub focu:subject "COMP" .
+?sub focu:catalog "6741".
+?lecture dcterms:isPartOf ?sub.
+?lecture dcmitype:identifier ?lectureNum.
+?lecture foaf:topic ?topicid.
+?topicid rdfs:label ?topic.
+?topicid rdfs:seeAlso ?uri.
+?topicid focu:topicSource ?source
+}
+LIMIT 50
