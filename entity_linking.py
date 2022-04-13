@@ -19,7 +19,6 @@ def generate_topics(courseID, lectureID, filePath, src):
             line = file.readline()
             if not line:
                 break
-            #print("Line{}: {}".format(count, line.strip()))
             count = count + 1
             data += line.strip()
 
