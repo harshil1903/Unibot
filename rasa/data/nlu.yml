@@ -1,0 +1,264 @@
+version: "3.1"
+
+nlu:
+  - intent: about_person_competency
+    examples: |
+      - What is [Joe](person) competent(topic) in?
+      - What is [Arihant](person) competent(topic) in?
+      - What is [Kate](person) competent(topic) in?
+      - What is [Harry](person) competent(topic) in?
+      - Tell me about competency(topic) of Arihant(person)?
+      - Tell me about competencies(topic) of Arihant(person)?
+      - Tell me about competencies(topic) of Joe(person)?
+      - Tell me about skills(topic) of [Joe](person)?
+      - Do you know [What is [Arihant](person) competent(topic) in?
+
+
+
+  - intent: about_lecture_course_topic
+    examples: |
+      - Which [lecture](lecture) of [Comp6741](course) covers [knowledge graph](topic)?
+      - Which [lecture](lecture) of [Comp6741](course) covers [machine learning]?
+      - Which [lecture](lecture) of [Comp6741](course) covers [knowledge_graph](topic)?
+      - Which [lecture](lecture) of [Comp6741](course) covers [machine_learning]?
+      - Which [lecture](lecture) of [Comp6741](course) covers [Knowledge Graph](topic)?
+      - Which [lecture](lecture) of [Comp6741](course) covers [Machine Learning](topic)?
+      - In Which [lecture](lecture) of [Comp6741](course) [Machine Learning](topic) is covered?
+      - In Which [lecture](lecture) of [Comp6741](course) [machine learning](topic) is covered?
+      - In Which [lecture](lecture) of [Comp6741](course) [knowledge graph](topic) is covered?
+      - In Which [lecture](lecture) of [Comp6741](course) [Knowledge Graph](topic) is covered?
+      
+
+  - intent: about_topic_covered_course
+    examples: |
+      - Which [topics](topic) are covered in [Comp6741](course)?
+      - Which [topics](topic) are covered in [COMP6721](course)?
+      - Which [topics](topic) are covered in [COMP6741](course)?
+      - Which [topics](topic) are covered in [Comp6741](course)?
+      - Give me list of [topics](topics) covered in [COMP6741](course)?
+      - Give me list of [topics](topics) covered in [COMP6721](course)?
+    
+
+  - intent: about_similar_topic_courses
+    examples: |
+      - Does [ACCO230&ACCO350](course) cover similar topic?
+      - Does [COMP6741&COMP6721](course) cover similar topic?
+      - What similar topic does [COMP6741&COMP6721](course) have?
+      - What similar topic does [COMP6741&COMP6721](course) covers?
+
+
+  - intent: about_students_taken_course
+    examples: |
+      - How many students have taken [COMP6721](course) courses?
+      - How many students have taken [COMP6741](course) courses?
+      - Give me list students who have taken [COMP6741](course) courses?
+      - How many students are there in [COMP6741](course) courses?
+
+
+
+
+  - intent: about_department_courses
+    examples: |
+      - What courses does the [CSSE](department) department offer ?
+      - What courses does the [COMP](department) department offer?
+      - What courses does the [SOEN](department) department offer?
+      - What courses does [BCEE](department) department offer ?
+      - What courses does [BCEE](department) offer?
+      - Which [COMP](department) courses are taught at Concordia(university)?
+      - Which [SOEN](department) courses are taught at Concordia(university)?
+      - Which [BCEE](department) courses are taught at Concordia(university)?
+
+
+
+  - intent: about_grade
+    examples: |
+      - What are [grades](grade) of [Arihant](person)?
+      - How did [Joe](person) did in exams(grade)?
+      - Give me report(grade) of [Arihant](person)?
+      - What are [grades](grade) of [Brendon](person)?
+      - How did [Brendon](person) did in exams(grade)?
+      - Give me report(grade) of [Brendon](person)?
+
+
+
+  - intent: about_information
+    examples: |
+      - Where can I get more information about [Comp6721](course)?
+      - Where can I get more information about [COMP6721](course)?
+      - Where can I read more information about [COMP6721](course)?
+      - Where can I read more information about [Comp6721](course)?
+      - Tell me more about [Comp6721](course)?
+      - Tell me more about [COMP6721](course)?
+      
+
+  - intent: about_course
+    examples: |
+      - What is [Comp 6721](course) about?
+      - What is [COMP 6741](course) about?
+      - What is [Comp6721](course) about?
+      - What is [COMP6741](course) about?
+      - What is [Comp 474](course) about?
+      - What is [COMP 474](course) about?
+      - What is [Comp474](course) about?
+      - What is [COMP474](course) about?
+      
+      
+
+  - intent: about_number_of_courses_offered
+    examples: |
+      - How many courses does the university [Concordia University](university) offer?
+      - How many courses does the university [Concordia University](university) offer ?
+      - How many courses does the university [Concordia University](university) offer
+      - How many courses does [Concordia University](university) offer?
+      - How many courses does [Concordia University](university) offer ?
+      - How many courses does [Concordia University](university) offer
+      - How many courses does the [Concordia University](university) offer?
+      - How many courses does the [Concordia University](university) offer ?
+      - How many courses does the [Concordia University](university) offer
+      - How many courses does [Concordia University](university) have?
+      - How many courses does [Concordia University](university) have ?
+      - How many courses does [Concordia University](university) have
+      - How many courses does [Concordia University](university) give?
+      - How many courses does [Concordia University](university) give ?
+      - How many courses does [Concordia University](university) give
+      - How many courses does [Concordia University](university) teach?
+      - How many courses does [Concordia University](university) teach ?
+      - How many courses does [Concordia University](university) teach
+      - How many courses in [Concordia University](university)?
+      - How many courses in [Concordia University](university) ?
+      - How many courses in [Concordia University](university)
+
+
+
+  - intent: about_course_teaches_topic
+    examples: |
+      - Which courses teach [Computer science](topic)?
+      - Which courses at [Concordia](university) teach [parsing](topic)
+      - Which courses at [Concordia](university) teach [Ontology](topic)?
+      - Which courses at [Concordia](university) teach [JSON](topic)?
+      - Which courses at [Concordia](university) teach [Machine learning](topic)?
+      - Which courses at [Concordia](university) teaches [deep learning](topic)?
+      - Which course at [Concordia](university) teaches [Artificial Intelligence](topic)?
+      - Which courses at [Concordia](university) teach [DBpedia](topic)?
+      - What courses at [Concordia](university) teach about [compiler](topic)
+      - What courses at [Concordia](university) teach [Intelligent agent](topic)?
+      - What courses at [Concordia](university) teach [XML](topic)?
+      - What course at [Concordia](university) teaches [knowledge graph](topic)?
+      - What course at [Concordia](university) teaches [Computer science](topic)
+      - What course teaches [RDF Schema](topic)?
+      - What course teaches [ELIZA](topic)?
+      - Which courses covers [Expert Systems](topic)?
+      - Which courses covers [AI](topic)?
+
+
+
+  - intent: about_event
+    examples: |
+      - Which topics are covered in [Lab#2](event) of [COMP6741](course)?
+      - Which topics are covered in [LAB#2](event) of [COMP6741](course)?
+      - Which topics are covered in [Lab #2](event) of [COMP 6741](course)?
+      - Which topics are covered in [LAB #22](event) of [COMP 6721](course)?
+      - Which topics are covered in [Worksheet#21](event) of [COMP6721](course)?
+      - Which topics are covered in [Worksheet #2](event) of [COMP 474](course)?
+      - Which topics are covered in [WORKSHEET#2](event) of [COMP474](course)?
+      - Which topics are covered in [WORKSHEET #2](event) of [COMP6741](course)?
+      - Which topics are covered in [Lecture#2](event) of [COMP 6721](course)?
+      - Which topics are covered in [Lecture #12](event) of [COMP474](course)?
+      - Which topics are covered in [LECTURE#22](event) of [COMP 474](course)?
+      - Which topics are covered in [LECTURE #2](event) of [COMP6741](course)?
+      - Which topics are covered in [Lecture#2](event) of [COMP 6721](course)?
+      - Which topics are covered in [Lecture #2](event) of [COMP 6721](course)?
+      - Which topics are covered in [Lecture#2](event) of [COMP6721](course)?
+      
+     
+
+
+
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?

@@ -1,0 +1,91 @@
+version: "3.1"
+
+stories:
+
+  - story: get num uni courses
+    steps:
+      - intent: about_number_of_courses_offered
+      - action: action_number_of_courses_offered
+
+  - story: get num uni topics
+    steps:
+      - intent: about_course_teaches_topic
+      - action: action_course_teach_topic
+
+  - story: get comp person
+    steps:
+      - intent: about_person_competency
+      - action: action_person_competency
+
+  - story: get info
+    steps:
+      - intent: about_information
+      - action: action_information
+
+  - story: get department courses
+    steps:
+      - intent: about_department_courses
+      - action: action_department_courses
+
+  - story: get topic covered course
+    steps:
+    - intent: about_topic_covered_course
+    - action: action_topic_covered_course
+
+  - story: get lecture topic courses
+    steps:
+      - intent: about_lecture_course_topic
+      - action: action_lecture_course_topic
+
+  - story: get similar topic courses
+    steps:
+      - intent: about_similar_topic_courses
+      - action: action_similar_topic_courses
+
+  - story: get students courses
+    steps:
+    - intent: about_students_taken_course
+    - action: action_students_taken_course
+
+  - story: get grades
+    steps:
+      - intent: about_grade
+      - action: action_grade
+
+  - story: get about
+    steps:
+      - intent: about_course
+      - action: action_course
+
+
+  - story: get event
+    steps:
+      - intent: about_event
+      - action: action_event
+
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
