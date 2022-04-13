@@ -1,3 +1,5 @@
+import random
+
 from rdflib import Graph, RDFS, URIRef, Literal
 from rdflib.namespace import RDF, DCTERMS, FOAF, Namespace, NamespaceManager, XSD
 import pandas as pd
@@ -26,13 +28,14 @@ concordia_university = URIRef('https://dbpedia.org/resource/Concordia_University
 course_data = pd.read_csv('data/dataset.csv', encoding='cp1252')
 lecture_data = pd.read_csv('data/lecture_data.csv')
 content_data = pd.read_csv('data/content_data.csv')
+topic_data = pd.read_csv('data/topics.csv', encoding='cp1252')
 
 cd = course_data.values.tolist()
 counter = 0
 coursewise_topics = {}
 
 skiplist = ["Please see Graduate Calendar" , "Please see GRAD Calendar", "Please see UGRD Calendar",
-            "*VRD*", "*BNR*"]
+            "*VRD*", "*BNR*", ""]
 
 
 #Process csv data and add it to graph
@@ -83,6 +86,7 @@ for line in cd:
     g.add((_course, RDFS.label, Literal(course_title)))
     g.add((_course, from_n3('focu:subject', nsm=nsm), Literal(course_subject)))
     g.add((_course, from_n3('focu:catalog', nsm=nsm), Literal(course_number)))
+    g.add((_course, from_n3('focu:courseName', nsm=nsm), Literal(course_subject + course_number)))
     g.add((_course, from_n3('focu:credits', nsm=nsm), Literal(course_credit, datatype=XSD.integer)))
     g.add((_course, from_n3('focu:offeredAt', nsm=nsm), concordia_university))
     g.add((_course, RDFS.comment, Literal(course_description)))
@@ -120,7 +124,24 @@ for line in cd:
         g.add((_lecture_id, FOAF.topic, Literal(lecture_topic)))
         g.add((_lecture_id, DCTERMS.isPartOf, _course))
 
+
+        #Topics related to each lecture
+        lecture_topics = topic_data[(topic_data['CourseID'] == course_id) & (topic_data['LectureID'] == lecture_number)].values.tolist()
+        c = 0
+        for lecture_topic in lecture_topics:
+            _topic_id = from_n3('ex:lecture_topic_' + course_subject + str(course_number) + "_Lec" + str(lecture_number) + "_" + str(c),nsm=nsm)
+            c += 1
+            topic_source = lecture_topic[2]
+            topic_name = lecture_topic[3]
+            topic_link = lecture_topic[4]
+            g.add((_lecture_id, FOAF.topic, _topic_id))
+            g.add((_topic_id, RDFS.label, Literal(topic_name)))
+            g.add((_topic_id, RDFS.seeAlso, URIRef(topic_link)))
+            g.add((_topic_id, from_n3('focu:topicSource', nsm=nsm), Literal(topic_source)))
+
+
         #Content of lecture
+        #content[3] contains file location
         lecture_contents = content_data[(content_data['CourseId'] == course_id) & (content_data['Identifier'] == lecture_number)].values.tolist()
         cnt = 0
         for content in lecture_contents:
@@ -140,17 +161,19 @@ for line in cd:
 
 #Add student info
 students = StudentData.getStudents()
+#students = pd.read_csv("data/students.csv")
 
 for student in students:
     _student = from_n3('ex:' + str(student[0]), nsm=nsm)
     g.add((_student, RDF.type, from_n3('focu:Student', nsm=nsm)))
-    #g.add((_student, FOAF.name, Literal(student[1] + " " + student[2])))
+    g.add((_student, FOAF.name, Literal(student[1] + " " + student[2])))
     g.add((_student, from_n3('focu:firstName', nsm=nsm), Literal(student[1])))
     g.add((_student, from_n3('focu:lastName', nsm=nsm), Literal(student[2])))
     g.add((_student, FOAF.mbox, Literal(student[3])))
 
-    for c in student[4]:
-        g.add((_student, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
+    #REMOVE COURSESTAKEN
+    # for c in student[4]:
+    #     g.add((_student, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(c), nsm=nsm)))
 
     rc = 0
     for crs in student[5]:
@@ -158,6 +181,9 @@ for student in students:
         g.add((_student, from_n3('focu:hasRecord', nsm=nsm), _record))
         g.add((_record, from_n3('focu:courseTaken', nsm=nsm), from_n3('ex:' + str(crs[0]), nsm=nsm)))
         g.add((_record, from_n3('focu:grade', nsm=nsm), Literal(crs[1])))
+        #ADD TERM IN THE RECORDS
+        term = random.choice(["FALL_2020", "WINTER_2021", "SUMMER_2021", "FALL_2021", "WINTER_2022"])
+        g.add((_record,from_n3('focu:term', nsm=nsm) , Literal(term)))
         rc += 1
 
     for coursesTaken in student[4]:
