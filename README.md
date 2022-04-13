@@ -16,3 +16,7 @@ Knowledge Base: knowledge_base_n3.nt	and 	knowledge_base_ttl.ttl
 Queries and their result: present in /queries 
 
 Report: COMP_6741_Project1_Report.pdf
+
+
+
+Link for PDF files : https://drive.google.com/drive/folders/1HoXhhEsbtooOx4Ql2PldIITCJiTFatvb?usp=sharing
