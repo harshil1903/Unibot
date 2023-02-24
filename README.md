@@ -1,5 +1,6 @@
-# COMP-6741
-Project for COMP 6741
+# Unibot
+
+Aimed at answering textual queries using trained RASA model
 
 
 
